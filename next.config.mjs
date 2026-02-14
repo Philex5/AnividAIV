@@ -2,10 +2,17 @@
 import bundleAnalyzer from "@next/bundle-analyzer";
 import createNextIntlPlugin from "next-intl/plugin";
 import { createMDX } from "fumadocs-mdx/next";
-import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
 
-// Initialize Cloudflare context for development
-initOpenNextCloudflareForDev();
+const isCloudflareDevEnv =
+  process.env.NODE_ENV === "development" &&
+  (process.env.CF_PAGES === "1" ||
+    process.env.WORKERS_CI === "1" ||
+    process.env.OPENNEXT_CLOUDFLARE === "1");
+
+if (isCloudflareDevEnv) {
+  const { initOpenNextCloudflareForDev } = await import("@opennextjs/cloudflare");
+  initOpenNextCloudflareForDev();
+}
 
 const withMDX = createMDX();
 
