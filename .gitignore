@@ -1,0 +1,88 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+/backups
+.backup
+.temp/
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development
+.env.production
+
+# vercel
+.vercel
+.tmp
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+Makefile
+.wrangler
+wrangler.toml
+supabase
+.*next
+.dev.vars*
+.source
+database-backups/__drizzle_migrations.csv
+database-backups/affiliates.csv
+database-backups/apikeys.csv
+database-backups/categories.csv
+database-backups/character_chats.csv
+database-backups/character_generations.csv
+database-backups/character_remixs.csv
+database-backups/characters.csv
+database-backups/chat_quotas.csv
+database-backups/chat_sessions.csv
+database-backups/chat_usage_logs.csv
+database-backups/credits.csv
+database-backups/email_campaign_recipients.csv
+database-backups/email_campaigns.csv
+database-backups/email_logs.csv
+database-backups/email_subscriptions.csv
+database-backups/email_templates.csv
+database-backups/feedbacks.csv
+database-backups/generation_images.csv
+database-backups/generation_videos.csv
+database-backups/generations.csv
+database-backups/operation_costs.csv
+database-backups/orders.csv
+database-backups/posts.csv
+database-backups/seedream_affiliates.csv
+database-backups/seedream_apikeys.csv
+database-backups/seedream_categories.csv
+database-backups/seedream_credits.csv
+database-backups/seedream_feedbacks.csv
+database-backups/seedream_images.csv
+database-backups/seedream_orders.csv
+database-backups/seedream_posts.csv
+database-backups/seedream_tasks.csv
+database-backups/seedream_users.csv
+database-backups/subscription_logs.csv
+database-backups/subscriptions.csv
+database-backups/user_interactions.csv
+database-backups/users.csv
