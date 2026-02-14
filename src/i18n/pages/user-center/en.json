@@ -1,0 +1,95 @@
+{
+  "title": "User Center",
+  "user_info": {
+    "current_credits": "Current Credits",
+    "recharge": "Recharge",
+    "pro_member_tooltip": "AnividAI Member",
+    "free_member_tooltip": "Free User"
+  },
+  "tabs": {
+    "my_credits": "My MCs",
+    "my_subscription": "My Subscription",
+    "my_orders": "My Orders",
+    "danger_zone": "Danger Zone"
+  },
+  "credits": {
+    "title": "My Credits",
+    "summary_tip": "Balance: {balance} | Earned: {totalEarned} | Used: {totalUsed}",
+    "expiring_tip": "{expiringCredits} credits expiring at {expiringAt}",
+    "no_expiring_tip": "No credits expiring soon",
+    "recharge": "Get more  [MC] ",
+    "no_credits": "No credit records found",
+    "table": {
+      "trans_no": "Transaction No.",
+      "trans_type": "Type",
+      "credits": "Credits",
+      "created_at": "Created At",
+      "expired_at": "Expires At"
+    },
+    "trans_types": {
+      "new_user": "New User Bonus",
+      "order_pay_one_time": "One-time Purchase",
+      "order_pay_subscription": "Subscription (Monthly Credits)",
+      "system_add": "System Add",
+      "ping": "API Usage",
+      "chat": "Chat Usage",
+      "chat_refund": "Chat Refund",
+      "oc_generation": "OC Generation",
+      "image_generation": "Image Generation",
+      "image_generation_refund": "Image Generation Refund",
+      "video_generation": "Video Generation",
+      "video_generation_refund": "Video Generation Refund"
+    }
+  },
+  "subscription": {
+    "no_subscription": "You haven't subscribed yet",
+    "start_subscription": "Start Subscription",
+    "current_plan": "Current Plan",
+    "next_billing": "Next Billing",
+    "cancel_subscription": "Cancel",
+    "cancel_confirm": "Are you sure you want to cancel? Current period will remain active.",
+    "cancel_dialog": {
+      "title": "Cancel {plan} Subscription",
+      "description": "Please review the details before confirming cancellation",
+      "current_plan": "Current Plan",
+      "period_end": "Active Until",
+      "cancel_notice": {
+        "title": "Cancellation Policy",
+        "continue_access": "You will continue to have access to all premium features until {date}",
+        "no_refund": "No refunds will be issued for cancellations",
+        "manual_refund": "For refund requests, please contact customer service"
+      },
+      "impact_section": {
+        "title": "After Cancellation",
+        "active_until": "Access until: {date}",
+        "no_renewal": "No automatic renewal",
+        "features_disabled": "Premium features will be disabled after expiry"
+      },
+      "buttons": {
+        "keep": "Keep Subscription",
+        "confirm": "Confirm Cancellation",
+        "processing": "Processing..."
+      }
+    }
+  },
+  "orders": {
+    "title": "My Orders",
+    "order_no": "Order No.",
+    "product_name": "Product",
+    "amount": "Amount",
+    "status": "Status",
+    "created_at": "Created At",
+    "view_details": "View Details",
+    "no_orders": "No orders found",
+    "monthly_credits_label": "{credits} / month",
+    "monthly_credits_hint": "Issued monthly · 30 days validity"
+  },
+  "danger_zone": {
+    "title": "Danger Zone",
+    "warning": "The following operations are irreversible, please be careful",
+    "delete_account": "Delete My Account",
+    "delete_warning": "Deleting your account will permanently remove all your data",
+    "confirm_email": "Please enter your email to confirm",
+    "final_confirm": "I understand this action cannot be undone"
+  }
+}

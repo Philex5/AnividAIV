@@ -1,0 +1,160 @@
+# 社交与社区 API 测试
+# Social & Community APIs
+# 相关文档: docs/2-implementation/api/community.md, artworks.md, characters.md, chat.md
+
+@import common.http
+
+###############################################################################
+# 社区作品 (Community Artworks)
+###############################################################################
+
+### 获取社区作品列表
+GET {{apiUrl}}/community/artworks?page=1&limit=20&type=all&sort=latest
+
+### 获取作品详情
+GET {{apiUrl}}/community/artworks/{{artworkUuid}}
+
+### 点赞作品
+POST {{apiUrl}}/community/artworks/{{artworkUuid}}/like
+
+### 取消点赞
+DELETE {{apiUrl}}/community/artworks/{{artworkUuid}}/like
+
+### 收藏作品
+POST {{apiUrl}}/community/artworks/{{artworkUuid}}/favorite
+
+### 取消收藏
+DELETE {{apiUrl}}/community/artworks/{{artworkUuid}}/favorite
+
+### 修改作品可见性
+PUT {{apiUrl}}/community/artworks/{{artworkUuid}}/visibility
+Content-Type: application/json
+
+{
+  "visibility": "public"
+}
+
+###############################################################################
+# 作品管理 (Artworks Management)
+###############################################################################
+
+### 获取用户作品列表
+GET {{apiUrl}}/artworks?page=1&limit=20&type=all
+
+###############################################################################
+# 角色资源 (Character Resources)
+###############################################################################
+
+### 获取角色头像
+GET {{apiUrl}}/characters/{{characterUuid}}/avatar
+
+### 获取角色立绘
+GET {{apiUrl}}/characters/{{characterUuid}}/profile
+
+### 获取角色创作历史
+GET {{apiUrl}}/characters/{{characterUuid}}/creations?page=1&limit=20
+
+### 获取相似角色推荐
+GET {{apiUrl}}/characters/{{characterUuid}}/recommendations?limit=10
+
+### 批量获取角色头像
+POST {{apiUrl}}/characters/avatars/batch
+Content-Type: application/json
+
+{
+  "character_uuids": ["{{characterUuid}}", "another-uuid"]
+}
+
+### 批量获取角色立绘
+POST {{apiUrl}}/characters/profiles/batch
+Content-Type: application/json
+
+{
+  "character_uuids": ["{{characterUuid}}", "another-uuid"]
+}
+
+###############################################################################
+# 聊天 (Chat)
+###############################################################################
+
+### 获取聊天配置
+GET {{apiUrl}}/chat/config
+
+### 获取聊天配额
+GET {{apiUrl}}/chat/quota
+
+### 获取会话列表
+GET {{apiUrl}}/chat/sessions?page=1&limit=20
+
+### 创建聊天会话
+POST {{apiUrl}}/chat/sessions/create
+Content-Type: application/json
+
+{
+  "character_uuid": "{{characterUuid}}"
+}
+
+### 获取会话历史
+GET {{apiUrl}}/chat/history?session_uuid={{sessionUuid}}&page=1&limit=50
+
+### 发送聊天消息
+POST {{apiUrl}}/chat/send-message
+Content-Type: application/json
+
+{
+  "session_uuid": "{{sessionUuid}}",
+  "message": "Hello! How are you?"
+}
+
+### 清空会话消息
+POST {{apiUrl}}/chat/sessions/{{sessionUuid}}/clear
+
+### 重置聊天配额
+POST {{apiUrl}}/chat/quota/reset
+Authorization: Bearer {{cronToken}}
+
+### 配额重置健康检查
+GET {{apiUrl}}/chat/quota/reset
+Authorization: Bearer {{cronToken}}
+
+###############################################################################
+# 评论系统 (Comment System)
+###############################################################################
+
+@commentUuid = 52718e27-5d51-469a-9e32-05442562879d
+
+### 获取评论列表
+GET {{apiUrl}}/comments?art_id={{artworkUuid}}&art_type=image&page=1&limit=20
+
+### 发表一级评论
+POST {{apiUrl}}/comments
+Content-Type: application/json
+
+{
+  "art_id": "{{artworkUuid}}",
+  "art_type": "image",
+  "content": "This is a great artwork!"
+}
+
+### 回复评论
+POST {{apiUrl}}/comments
+Content-Type: application/json
+
+{
+  "art_id": "{{artworkUuid}}",
+  "art_type": "image",
+  "content": "I agree with you!",
+  "parent_uuid": "{{commentUuid}}"
+}
+
+### 获取子评论
+GET {{apiUrl}}/comments/{{commentUuid}}/replies?page=1&limit=50
+
+### 点赞评论
+POST {{apiUrl}}/comments/{{commentUuid}}/like
+
+### 取消点赞评论
+DELETE {{apiUrl}}/comments/{{commentUuid}}/like
+
+### 删除评论
+DELETE {{apiUrl}}/comments/{{commentUuid}}

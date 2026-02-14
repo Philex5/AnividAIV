@@ -1,0 +1,88 @@
+{
+  "pageTitles": {
+    "/oc-maker": {
+      "en": "OC Maker"
+    },
+    "/oc-maker/[theme]": {
+      "en": "OC Maker"
+    },
+    "/ai-anime-generator": {
+      "en": "AI Anime Generator"
+    },
+    "/ai-anime-video-generator": {
+      "en": "AI Anime Video Generator"
+    },
+    "/posts": {
+      "en": "Posts"
+    },
+    "/posts/[slug]": {
+      "en": "Post"
+    },
+    "/showcase": {
+      "en": "Showcase"
+    },
+    "/pricing": {
+      "en": "Pricing"
+    },
+    "/characters/[id]": {
+      "en": "Character"
+    },
+    "/my-orders": {
+      "en": "My Orders"
+    },
+    "/my-invites": {
+      "en": "My Invites"
+    },
+    "/my-credits": {
+      "en": "My Credits"
+    },
+    "/admin": {
+      "en": "Admin"
+    },
+    "/community": {
+      "en": "Community"
+    },
+    "/home": {
+      "en": "Home"
+    },
+    "/chat": {
+      "en": "Chat"
+    },
+    "/ai-action-figure-generator": {
+      "en": "AI Action Figure Generator"
+    },
+    "/user-center": {
+      "en": "User Center"
+    },
+    "/ai-sticker-generator": {
+      "en": "AI Sticker Generator"
+    },
+    "/anime-character-generator": {
+      "en": "Anime Character Generator"
+    },
+    "/worlds": {
+      "en": "Worlds"
+    },
+    "/my-creations": {
+      "en": "My Creations"
+    },
+    "/roadmap": {
+      "en": "RoadMap"
+    },
+    "/models/z-image": {
+      "en": "Z-Image"
+    },
+    "/models/wan-2-5": {
+      "en": "Wan 2.5 "
+    },
+    "/models/nano-banana": {
+      "en": "Nano Banana"
+    },
+    "/changelog": {
+      "en": "ChangeLog"
+    },
+    "/models/kling-3-0": {
+      "en": "Kling 3.0"
+    }
+  }
+}

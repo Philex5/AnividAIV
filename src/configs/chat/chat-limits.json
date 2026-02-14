@@ -1,0 +1,50 @@
+{
+  "free": {
+    "context_window_size": 10,
+    "max_tokens_per_round": 512,
+    "max_total_tokens": 2000,
+    "max_message_length": 2000,
+    "credits_per_message": 1,
+    "available_models": ["base"],
+    "model_permissions": {
+      "base": true,
+      "premium": false
+    }
+  },
+  "basic": {
+    "context_window_size": 30,
+    "max_tokens_per_round": 1024,
+    "max_total_tokens": 6000,
+    "max_message_length": 3000,
+    "credits_per_message": 1,
+    "available_models": ["base", "premium"],
+    "model_permissions": {
+      "base": true,
+      "premium": true
+    }
+  },
+  "plus": {
+    "context_window_size": 60,
+    "max_tokens_per_round": 2048,
+    "max_total_tokens": 15000,
+    "max_message_length": 4000,
+    "credits_per_message": 1,
+    "available_models": ["base", "premium"],
+    "model_permissions": {
+      "base": true,
+      "premium": true
+    }
+  },
+  "pro": {
+    "context_window_size": 120,
+    "max_tokens_per_round": 4096,
+    "max_total_tokens": 32000,
+    "max_message_length": 5000,
+    "credits_per_message": 1,
+    "available_models": ["base", "premium"],
+    "model_permissions": {
+      "base": true,
+      "premium": true
+    }
+  }
+}

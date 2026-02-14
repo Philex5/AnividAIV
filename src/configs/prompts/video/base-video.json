@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "description": "Base template for anime-style video generation",
+  "language": "en",
+  "templates": {
+    "camera_motion_template": "Camera motion is {camera_motion}",
+    "quality_enhancement": "anime cinematic, high quality, detailed lighting, vivid colors",
+    "character_prompt": "The character image is in last {oc_count} image, both character and background in the same style"
+  },
+  "prompt_structure": {
+    "integration_order": [
+      "user_prompt",
+      "camera_motion",
+      "character_prompt",
+      "style_prompt",
+      "quality_enhancement"
+    ],
+    "separator": ". ",
+    "add_quality_terms": true
+  },
+  "settings": {
+    "sanitize_prompt": true,
+    "max_length": 2000
+  }
+}

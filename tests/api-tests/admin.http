@@ -1,0 +1,143 @@
+# 管理后台 API 测试
+# Admin APIs
+# 相关文档: docs/2-implementation/api/admin.md, admin-file-transfer.md
+# 注意: 需要管理员权限才能访问这些 API
+
+@import common.http
+
+###############################################################################
+# 用户分析 (User Analytics)
+###############################################################################
+
+### 获取用户分析
+GET {{apiUrl}}/admin/analytics/users
+
+###############################################################################
+# 生成管理 (Generation Management)
+###############################################################################
+
+### 获取生成任务列表
+GET {{apiUrl}}/admin/generations?page=1&limit=50
+
+### 获取生成任务分析
+GET {{apiUrl}}/admin/analytics/generations
+
+###############################################################################
+# 收入统计 (Revenue Analytics)
+###############################################################################
+
+### 获取总收入
+GET {{apiUrl}}/admin/analytics/revenue/total
+
+### 获取当月收入
+GET {{apiUrl}}/admin/analytics/revenue/month
+
+### 获取收入趋势
+GET {{apiUrl}}/admin/analytics/revenue/trend?months=6
+
+### 获取订单统计
+GET {{apiUrl}}/admin/analytics/orders/count
+
+### 获取产品订单分布
+GET {{apiUrl}}/admin/analytics/orders/by-product
+
+### 获取月度列表
+GET {{apiUrl}}/admin/analytics/months
+
+### 获取月度明细
+GET {{apiUrl}}/admin/analytics/month-detail?year=2025&month=11
+
+###############################################################################
+# 成本管理 (Cost Management)
+###############################################################################
+
+### 获取总成本
+GET {{apiUrl}}/admin/analytics/costs/total
+
+### 获取当月成本
+GET {{apiUrl}}/admin/analytics/costs/current
+
+### 获取指定月成本
+GET {{apiUrl}}/admin/analytics/costs/month?year=2025&month=11
+
+### 获取成本记录列表
+GET {{apiUrl}}/admin/costs?page=1&limit=50
+
+### 添加成本记录
+POST {{apiUrl}}/admin/costs
+Content-Type: application/json
+
+{
+  "category": "api_cost",
+  "amount": 10.50,
+  "description": "OpenAI API usage for November",
+  "cost_date": "2025-11-12"
+}
+
+### 更新成本记录
+PUT {{apiUrl}}/admin/costs/{{costId}}
+Content-Type: application/json
+
+{
+  "amount": 12.00,
+  "description": "Updated OpenAI API cost"
+}
+
+### 删除成本记录
+DELETE {{apiUrl}}/admin/costs/{{costId}}
+
+###############################################################################
+# 订阅管理 (Subscription Management)
+###############################################################################
+
+### 获取订阅列表
+GET {{apiUrl}}/admin/subscriptions?page=1&limit=50
+
+###############################################################################
+# 日志管理 (Logs Management)
+###############################################################################
+
+### 获取失败日志列表
+GET {{apiUrl}}/admin/logs/failures?page=1&limit=50
+
+###############################################################################
+# 文件转存 (File Transfer)
+###############################################################################
+
+### 获取待转存文件列表
+GET {{apiUrl}}/admin/file-transfer/pending-list?page=1&limit=50
+
+### 批量触发转存
+POST {{apiUrl}}/admin/file-transfer/trigger-all
+Content-Type: application/json
+
+{}
+
+### 触发单个转存
+POST {{apiUrl}}/admin/file-transfer/trigger-one/{{generationUuid}}
+Content-Type: application/json
+
+{}
+
+### 触发图片处理
+POST {{apiUrl}}/admin/image-processing/trigger
+Content-Type: application/json
+
+{
+  "generation_uuid": "{{generationUuid}}"
+}
+
+###############################################################################
+# 收入趋势 (Revenue Trend)
+###############################################################################
+
+### 获取收入趋势
+GET {{apiUrl}}/admin/revenue/trend?start=2025-01-01T00:00:00.000Z
+
+###############################################################################
+# 聊天配额初始化 (Init Chat Quota)
+###############################################################################
+
+### 初始化聊天配额
+POST {{apiUrl}}/admin/init-chat-quota
+Authorization: Bearer {{adminToken}}

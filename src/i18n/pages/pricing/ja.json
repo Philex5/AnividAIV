@@ -1,0 +1,515 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "料金プラン",
+    "title": "AnividAIのプランをお選びください",
+    "description": "あなたにぴったりのAnividAIプランを見つけましょう。アップグレードすれば、いつでも高度な機能を利用できます。",
+    "toggle": {
+      "monthly": "月額プラン",
+      "yearly": "年額プラン",
+      "save": "20%割引"
+    },
+    "groups": [
+      {
+        "name": "free",
+        "title": "無料プラン",
+        "description": "AIアニメ生成で始める"
+      },
+      {
+        "name": "monthly",
+        "title": "月額プラン",
+        "is_featured": true
+      },
+      {
+        "name": "yearly",
+        "title": "年額プラン",
+        "label": "20%割引"
+      },
+      {
+        "name": "enterprise",
+        "title": "エンタープライズ",
+        "description": "大規模チーム・スタジオ向け"
+      },
+      {
+        "name": "mc_packs",
+        "title": "Meow Coinパック",
+        "description": "より多くのMeow Coinが必要ですか？いつでも購入可能"
+      }
+    ],
+    "mc_packs_section": {
+      "title": "より多くのMeow Coinが必要ですか？",
+      "subtitle": "Meow Coinパックをいつでも購入 - 従量課金制。固定レート: [MC]あたり$0.006（パックの[MC]は無期限）",
+      "note": ""
+    },
+    "mc_payg": {
+      "title": "従量課金制",
+      "description": "カスタム金額 - 柔軟な購入"
+    },
+    "mc_fixed": {
+      "title": "おすすめパック",
+      "description": "人気のパックから選択"
+    },
+    "credits_display": {
+      "for_new_user": "新規ユーザー向け（30日間有効）",
+      "includes": "内容：",
+      "per_month": "/月（30日間有効）",
+      "total": "合計：",
+      "per_year": "/年",
+      "monthly_valid": "/月（30日間有効）",
+      "monthly_chat_messages": "月間チャットメッセージ",
+      "billed_annually": "年額一括払い",
+      "current_plan": "現在のプラン",
+      "included": "プランに含まれています",
+      "mc_rate": "[MC]レート"
+    },
+    "items": [
+      {
+        "title": "基本",
+        "description": "ライトユーザー向け",
+        "label": "",
+        "price": "$9.9",
+        "unit": "/月",
+        "features_title": "無料プランのすべての機能に加え",
+        "features": [
+          "1,800 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大250枚の画像または25本の動画",
+          "チェックイン＆シェアで700 [MC]获得可能",
+          "オリジナルキャラクター無制限",
+          "20ワールド",
+          "月间500通のチャット額度＆高度な機能（ベータ版）",
+          "非公開/公開切り替え",
+          "動画の透かしなし",
+          "標準サポート"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_basic_monthly",
+        "product_name": "AnividAI Basic Monthly",
+        "amount": 990,
+        "currency": "USD",
+        "credits": 1800,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.0055
+      },
+      {
+        "title": "基本",
+        "description": "ライトユーザー向け",
+        "label": "",
+        "price": "$95",
+        "unit": "/年",
+        "price_per_month": "$7.9/月",
+        "features_title": "無料プランのすべての機能に加え",
+        "features": [
+          "1,800 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大250枚の画像または25本の動画",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター20体",
+          "5ワールド",
+          "月間500通のチャット額度＆高度な機能（ベータ版）",
+          "非公開/公開切り替え",
+          "動画の透かしなし",
+          "標準サポート"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "year",
+        "product_id": "anividai_basic_yearly",
+        "product_name": "AnividAI Basic Yearly",
+        "amount": 9500,
+        "currency": "USD",
+        "credits": 21600,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.0045
+      },
+      {
+        "title": "プラス",
+        "description": "アクティブユーザー向け",
+        "label": "最も人気",
+        "price": "$29.9",
+        "unit": "/月",
+        "features_title": "基本プランのすべての機能に加え",
+        "features": [
+          "6,000 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大670枚の画像または67本の動画",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター100体",
+          "20ワールド",
+          "月間3,000回のチャット枠＆高度な機能（ベータ版）",
+          "優先サポート",
+          "ベータ版機能に早期アクセス"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": true,
+        "interval": "month",
+        "product_id": "anividai_plus_monthly",
+        "product_name": "AnividAI Plus Monthly",
+        "amount": 2990,
+        "currency": "USD",
+        "credits": 6000,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.005
+      },
+      {
+        "title": "プラス",
+        "description": "アクティブユーザー向け",
+        "label": "最も人気",
+        "price": "$287",
+        "unit": "/年",
+        "price_per_month": "$23.9/月",
+        "features_title": "基本プランのすべての機能に加え",
+        "features": [
+          "6,000 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大670枚の画像または67本の動画",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター100体",
+          "20ワールド",
+          "月間3,000回のチャット枠＆高度な機能（ベータ版）",
+          "優先サポート",
+          "ベータ版機能に早期アクセス"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": true,
+        "interval": "year",
+        "product_id": "anividai_plus_yearly",
+        "product_name": "AnividAI Plus Yearly",
+        "amount": 28700,
+        "currency": "USD",
+        "credits": 72000,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.004
+      },
+      {
+        "title": "プロ",
+        "description": "プロユーザー向け",
+        "label": "最もお得",
+        "price": "$49.9",
+        "unit": "/月",
+        "features_title": "プラスプランのすべての機能に加え",
+        "features": [
+          "11,000 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大1170枚の画像または117本の動画",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター＆ワールド無制限",
+          "無制限のチャット枠＆高度な機能（ベータ版）",
+          "優先サポート",
+          "すべての新機能への早期アクセス"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_pro_monthly",
+        "product_name": "AnividAI Pro Monthly",
+        "amount": 4990,
+        "currency": "USD",
+        "credits": 11000,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.0045
+      },
+      {
+        "title": "プロ",
+        "description": "プロユーザー向け",
+        "label": "最もお得",
+        "price": "$479",
+        "unit": "/年",
+        "price_per_month": "$39.9/月",
+        "features_title": "プラスプランのすべての機能に加え",
+        "features": [
+          "11,000 [MC] /月（30日間有効）",
+          "最新SOTAモデルへのアクセス (Veo 3.1, Sora 2.0 Pro, Nano-Banana Pro)",
+          "最大1170枚の画像または117本の動画",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター＆ワールド無制限",
+          "無制限のチャット枠＆高度な機能（ベータ版）",
+          "優先サポート",
+          "すべての新機能への早期アクセス"
+        ],
+        "button": {
+          "title": "今すぐ購読",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "year",
+        "product_id": "anividai_pro_yearly",
+        "product_name": "AnividAI Pro Yearly",
+        "amount": 47900,
+        "currency": "USD",
+        "credits": 132000,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.0036
+      },
+      {
+        "title": "無料",
+        "description": "始めるのに最適",
+        "price": "$0",
+        "features_title": "機能一覧",
+        "features": [
+          "全コア機能アクセス",
+          "100 ウェルカム [MC]（30日間有効）",
+          "チェックイン＆シェアで700 [MC]獲得可能",
+          "オリジナルキャラクター10体",
+          "3ワールド",
+          "結果は公開必須",
+          "動画の透かしあり",
+          "標準AIモデルのみ",
+          "月間100回のチャット枠＆基本機能（ベータ版）"
+        ],
+        "button": {
+          "title": "今すぐ登録",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "one-time",
+        "product_id": "free",
+        "product_name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "group": "free",
+        "credits": 100
+      },
+      {
+        "title": "エンタープライズ",
+        "description": "大規模チーム・スタジオ向け",
+        "label": "",
+        "price": "カスタム",
+        "unit": "",
+        "features_title": "スタジオに最適:",
+        "features": [
+          "すべてのリソースが無制限",
+          "カスタムAPIアクセス",
+          "専任サポート",
+          "SLA保証"
+        ],
+        "button": {
+          "title": "お問い合わせ",
+          "url": "mailto:support@anividai.com",
+          "icon": "RiMailSendLine"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_enterprise",
+        "product_name": "AnividAI Enterprise",
+        "amount": 0,
+        "currency": "USD",
+        "group": "enterprise"
+      }
+    ],
+    "mc_payg_items": [
+      {
+        "title": "従量課金制",
+        "credits": "カスタム [MC]",
+        "price": "",
+        "amount": 0,
+        "currency": "USD",
+        "product_id": "anividai_mc_payg",
+        "product_name": "AnividAI Meow Coin (Pay as you go)",
+        "credits_value": 0,
+        "interval": "one-time",
+        "is_featured": false,
+        "is_custom": true,
+        "custom_input_label": "Meow Coin 量",
+        "custom_placeholder": "MC量を入力",
+        "custom_unit": "[MC]",
+        "custom_price_prefix": "$",
+        "custom_price_suffix": "",
+        "custom_rate": 0.0065,
+        "button": {
+          "title": "今すぐ購入",
+          "icon": "RiCoinFill"
+        }
+      }
+    ],
+    "mc_fixed_items": [
+      {
+        "title": "Meow Pack スモール",
+        "credits": "1000 [MC]",
+        "price": "$6.5",
+        "amount": 650,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_small",
+        "product_name": "AnividAI Meow Pack Small",
+        "credits_value": 1000,
+        "interval": "one-time",
+        "button": {
+          "title": "今すぐ購入",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.0065
+      },
+      {
+        "title": "Meow Pack ミディアム",
+        "credits": "5000 [MC]",
+        "price": "$30",
+        "label": "人気",
+        "amount": 3000,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_medium",
+        "product_name": "AnividAI Meow Pack Medium",
+        "credits_value": 5000,
+        "interval": "one-time",
+        "is_featured": true,
+        "button": {
+          "title": "今すぐ購入",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.006
+      },
+      {
+        "title": "Meow Pack ラージ",
+        "credits": "11000 [MC]",
+        "price": "$60",
+        "label": "最高の価値",
+        "amount": 6000,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_large",
+        "product_name": "AnividAI Meow Pack Large",
+        "credits_value": 11000,
+        "interval": "one-time",
+        "is_featured": true,
+        "button": {
+          "title": "今すぐ購入",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.0055
+      }
+    ],
+    "features_comparison": {
+      "title": "機能比較",
+      "subtitle": "ニーズに合ったプランを選択",
+      "headers": [
+        "機能",
+        "無料",
+        "基本",
+        "プラス",
+        "プロ"
+      ],
+      "rows": [
+        {
+          "feature": "月間 [MC] (Meow Coin)",
+          "free": "100 (新規)",
+          "basic": "1,800 [MC]",
+          "plus": "6,000 [MC]",
+          "pro": "11,000 [MC]"
+        },
+        {
+          "feature": "オリジナルキャラクター",
+          "free": "10体",
+          "basic": "無制限",
+          "plus": "無制限",
+          "pro": "無制限"
+        },
+        {
+          "feature": "ワールド数",
+          "free": "3",
+          "basic": "20",
+          "plus": "無制限",
+          "pro": "無制限"
+        },
+        {
+          "feature": "月間チャット枠",
+          "free": "100回",
+          "basic": "500回",
+          "plus": "3,000回",
+          "pro": "無制限"
+        },
+        {
+          "feature": "MCレート",
+          "free": "-",
+          "basic": "$0.0055/[MC]",
+          "plus": "$0.0050/[MC]",
+          "pro": "$0.0045/[MC]"
+        },
+        {
+          "feature": "結果の可視性",
+          "free": "公開のみ",
+          "basic": "非公開/公開",
+          "plus": "非公開/公開",
+          "pro": "非公開/公開"
+        },
+        {
+          "feature": "動画の透かし",
+          "free": "あり",
+          "basic": "なし",
+          "plus": "なし",
+          "pro": "なし"
+        },
+        {
+          "feature": "最新SOTAモデル (Veo 3.1, Sora 2.0 Pro等)",
+          "free": "標準のみ",
+          "basic": "フルアクセス",
+          "plus": "フルアクセス",
+          "pro": "フルアクセス"
+        },
+        {
+          "feature": "ベータ機能アクセス",
+          "free": "-",
+          "basic": "-",
+          "plus": "可能",
+          "pro": "可能"
+        },
+        {
+          "feature": "サポート",
+          "free": "コミュニティ",
+          "basic": "標準",
+          "plus": "優先対応",
+          "pro": "優先対応"
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "items": [
+        {
+          "question": "[MC]（Meow Coin）とは何ですか？",
+          "answer": "[MC]は、AI生成に使用される当プラットフォームのクレジットです。購読による[MC]は30日間有効ですが、パックで購入した[MC]は無期限です。"
+        },
+        {
+          "question": "新規ユーザーにはどのような特典がありますか？",
+          "answer": "新規ユーザーは、登録時に 100 [MC]のウェルカムボーナスを受け取ることができます。"
+        },
+        {
+          "question": "無料で[MC]を獲得する方法はありますか？",
+          "answer": "毎日のチェックイン（基本10 [MC]、ボーナスあり）やSNS共有（1日1回10 [MC]）を通じて獲得できます。"
+        },
+        {
+          "question": "購読をキャンセルできますか？",
+          "answer": "はい、いつでもキャンセル可能です。現在の請求期間終了まで特典を利用できます。"
+        },
+        {
+          "question": "返金ポリシーについて教えてください。",
+          "answer": "月額プランは返金不可です。年額プランは、未有効化の月数に応じた返金をサポートしており、有効化済みの月は返金対象外です。現在有効な月は請求期間の終了まで利用できます。サポートまでご連絡ください。"
+        },
+        {
+          "question": "未使用の[MC]はどうなりますか？",
+          "answer": "購読[MC]は30日後に失効しますが、Meow Packの[MC]は無期限です。両方をお持ちの場合は、購読[MC]が優先的に消費されます。"
+        }
+      ]
+    }
+  }
+}

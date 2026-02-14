@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "AnividAI Roadmap",
+    "subtitle": "Unveiling the future of AI-powered anime art creation."
+  },
+  "periods": {
+    "completed": "Available Now",
+    "in_progress": "Developing",
+    "planned": "Coming Soon"
+  },
+  "items": {
+    "anime_gen": {
+      "title": "AI Anime Generator",
+      "desc": "Advanced text-to-image engine specifically optimized for anime aesthetics."
+    },
+    "video_gen": {
+      "title": "AI Video Generator",
+      "desc": "Bring your characters to life with stunning cinematic animations."
+    },
+    "oc_maker": {
+      "title": "OC Maker & Management",
+      "desc": "Complete system for creating and managing your original characters."
+    },
+    "oc_chat": {
+      "title": "Real-time OC Chat",
+      "desc": "Deep, context-aware conversations with your own characters."
+    },
+    "story_world": {
+      "title": "Story World",
+      "desc": "Create and explore immersive persistent worlds for your characters to inhabit."
+    },
+    "story_gen": {
+      "title": "AI Story Generator",
+      "desc": "Craft complex narratives and character lore with neural assistance."
+    },
+    "expanding_studio_tools": {
+      "title": "Expanding Studio Tools",
+      "desc": "Introducing more creative applications and production tools.",
+      "status": "In Progress"
+    },
+    "character_voice": {
+      "title": "Neural Character Voice",
+      "desc": "Giving your characters a soul with multi-emotional voice synthesis."
+    },
+    "story_board": {
+      "title": "AI Story Board",
+      "desc": "Assistant for comic artists and animators to draft key frames instantly."
+    },
+    "kaleidoscope": {
+      "title": "AI Kaleidoscope",
+      "desc": "A vibrant ecosystem exploring the infinite possibilities of AI in anime."
+    }
+  }
+}

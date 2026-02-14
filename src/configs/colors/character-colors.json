@@ -1,0 +1,38 @@
+{
+  "hair_colors": [
+    { "key": "hair_black", "code": "#1a1a1a" },
+    { "key": "hair_dark_brown", "code": "#3e2723" },
+    { "key": "hair_brown", "code": "#8b4513" },
+    { "key": "hair_light_brown", "code": "#a0522d" },
+    { "key": "hair_blonde", "code": "#ffd700" },
+    { "key": "hair_light_blonde", "code": "#fff8dc" },
+    { "key": "hair_red", "code": "#dc143c" },
+    { "key": "hair_auburn", "code": "#a52a2a" },
+    { "key": "hair_orange", "code": "#ff8c00" },
+    { "key": "hair_silver", "code": "#c0c0c0" },
+    { "key": "hair_white", "code": "#f5f5f5" },
+    { "key": "hair_gray", "code": "#808080" },
+    { "key": "hair_pink", "code": "#ffc0cb" },
+    { "key": "hair_blue", "code": "#4169e1" },
+    { "key": "hair_green", "code": "#228b22" },
+    { "key": "hair_purple", "code": "#8a2be2" }
+  ],
+  "eye_colors": [
+    { "key": "eye_brown", "code": "#8b4513" },
+    { "key": "eye_dark_brown", "code": "#654321" },
+    { "key": "eye_blue", "code": "#4169e1" },
+    { "key": "eye_light_blue", "code": "#87ceeb" },
+    { "key": "eye_green", "code": "#228b22" },
+    { "key": "eye_light_green", "code": "#90ee90" },
+    { "key": "eye_hazel", "code": "#8e7618" },
+    { "key": "eye_gray", "code": "#708090" },
+    { "key": "eye_black", "code": "#2f2f2f" },
+    { "key": "eye_amber", "code": "#ffbf00" },
+    { "key": "eye_violet", "code": "#8a2be2" },
+    { "key": "eye_red", "code": "#dc143c" },
+    { "key": "eye_pink", "code": "#ffc0cb" },
+    { "key": "eye_gold", "code": "#ffd700" },
+    { "key": "eye_silver", "code": "#c0c0c0" },
+    { "key": "eye_white", "code": "#f8f8ff" }
+  ]
+}

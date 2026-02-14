@@ -1,0 +1,898 @@
+:root {
+  /* ===== 设计令牌系统 Design Tokens ===== */
+
+  /* 主色调 - 温暖金橙系动漫风格（微调饱和度提升品质感） */
+  --color-warm-orange: #ff9500; /* 温暖橙 - 主色调，微降饱和度 */
+  --color-vibrant-orange: #ff6b35; /* 活力橙 - 强调色 */
+  --color-golden-yellow: #ffc107; /* 金黄色 - 次要色 */
+  --color-mascot-pink: #c07895; /* 吉祥物粉 - 强调色 */
+  --color-nature-green: #4caf50; /* 自然绿 - 平衡色 */
+
+  /* 背景色彩 */
+  --color-deep-space: #1a1a2e; /* 深空背景 */
+  --color-paper-white: #fefefe; /* 纸张白 */
+  --color-mist-gray: #f5f7fa; /* 雾灰色 */
+  --color-warm-cream: #fff8e1; /* 温暖奶色 */
+
+  /* 中性色系 - 增强层级感 */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-500: #64748b;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  /* 功能色彩 */
+  --color-success: #4caf50; /* 成功绿 */
+  --color-warning: #ffc107; /* 警告橙 */
+  --color-error: #f44336; /* 错误红 */
+  --color-info: #2196f3; /* 信息蓝 */
+
+  /* 高端辅助色 - 提升品质感 */
+  --color-premium-gold: #f59e0b; /* 高级金 - VIP等高端功能 */
+  --color-accent-deep: #0f172a; /* 深色强调 */
+
+  /* Oklch色域 - 更宽色域覆盖 */
+  --color-foreground-light: oklch(0.1469 0.0041 49.2499);
+  --color-muted-light: oklch(0.5517 0.0438 325.89);
+  --color-border-light: oklch(0.9197 0.014 325.89);
+
+  /* 暗色模式增强对比度 */
+  --color-muted-dark: oklch(0.7118 0.0329 325.89);
+
+  /* 渐变定义 */
+  --gradient-warm: linear-gradient(
+    135deg,
+    var(--color-warm-orange),
+    var(--color-golden-yellow)
+  );
+  --gradient-sunset: linear-gradient(
+    45deg,
+    var(--color-mascot-pink),
+    var(--color-warm-orange)
+  );
+  --gradient-nature: radial-gradient(
+    circle,
+    var(--color-nature-green),
+    var(--color-warm-orange)
+  );
+
+  /* 高级感设计元素 */
+  /* Glassmorphism System 2.0 */
+  --glass-bg: rgba(255, 254, 250, 0.9); /* 更高的不透明度，增强奶油感 */
+  --glass-bg-dark: rgba(18, 21, 28, 0.85); /* 深色模式下也保持一定的不透明度 */
+  --glass-border: 1px solid rgba(255, 149, 0, 0.08); /* 极淡的边框 */
+  --glass-border-dark: 1px solid rgba(255, 255, 255, 0.08);
+  --glass-blur: 12px; /* 减弱模糊感，使其更轻微 */
+  --border-subtle: 1px solid rgba(0, 0, 0, 0.05);
+  --border-subtle-dark: 1px solid rgba(255, 255, 255, 0.08);
+  --overlay-gradient: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.03));
+
+  /* 运动与动画参数 */
+  --motion-duration-xs: 0.15s;
+  --motion-duration-sm: 0.2s;
+  --motion-duration-md: 0.3s;
+  --motion-duration-lg: 0.5s;
+  --motion-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --motion-ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* 圆角系统 - 调优为更精致的小圆角 */
+  --radius-sm: 0.25rem; /* 4px */
+  --radius-md: 0.375rem; /* 6px */
+  --radius-lg: 0.5rem; /* 8px */
+  --radius-xl: 0.75rem; /* 12px */
+  --radius-2xl: 1rem; /* 16px */
+  --radius-full: 9999px; /* Pill */
+
+  /* 间距系统 - 基于 4px 基础单位 */
+  --spacing-0: 0;
+  --spacing-1: 0.25rem; /* 4px */
+  --spacing-2: 0.5rem; /* 8px */
+  --spacing-3: 0.75rem; /* 12px */
+  --spacing-4: 1rem; /* 16px */
+  --spacing-5: 1.25rem; /* 20px */
+  --spacing-6: 1.5rem; /* 24px */
+  --spacing-8: 2rem; /* 32px */
+  --spacing-10: 2.5rem; /* 40px */
+  --spacing-12: 3rem; /* 48px */
+  --spacing-16: 4rem; /* 64px */
+  --spacing-20: 5rem; /* 80px */
+
+  /* 阴影系统 - 增强视觉层次感，使用多层阴影叠加 */
+  --shadow-xs: 0 1px 2px 0 oklch(0% 0 0 / 0.05);
+  --shadow-sm:
+    0 1px 3px 0 oklch(0% 0 0 / 0.1), 0 1px 2px -1px oklch(0% 0 0 / 0.1);
+  --shadow-md:
+    0 4px 8px -2px oklch(0% 0 0 / 0.1), 0 2px 4px -2px oklch(0% 0 0 / 0.06);
+  --shadow-lg:
+    0 10px 25px -5px oklch(0% 0 0 / 0.12), 0 4px 10px -2px oklch(0% 0 0 / 0.08);
+  --shadow-xl:
+    0 20px 35px -8px oklch(0% 0 0 / 0.18), 0 8px 15px -5px oklch(0% 0 0 / 0.12);
+  --shadow-2xl:
+    0 25px 60px -15px oklch(0% 0 0 / 0.3), 0 10px 25px -8px oklch(0% 0 0 / 0.2);
+
+  /* 字体族 */
+  --font-display:
+    "Inter Display", "Inter", "PingFang SC", "苹方-简", "Hiragino Sans GB",
+    "Microsoft YaHei", "Source Han Sans SC", "Noto Sans SC", sans-serif;
+  --font-sans:
+    "Inter", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "PingFang SC",
+    "苹方-简", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC",
+    "Noto Sans SC", sans-serif;
+  --font-serif: "Georgia", "Times New Roman", "STSong", serif;
+  --font-mono:
+    "JetBrains Mono", "Fira Code", "SF Mono", "Monaco", "Cascadia Code",
+    "Roboto Mono", "Courier New", monospace;
+
+  /* 字重系统 - 增强层级对比 */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* 字体间距 - 精确控制 */
+  --tracking-tighter: -0.04em;
+  --tracking-tight: -0.02em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.01em;
+  --tracking-wider: 0.025em;
+  --tracking-widest: 0.05em;
+
+  /* 间距系统 */
+  --spacing-unit: 0.25rem;
+
+  /* ===== 系统色彩映射 ===== */
+  --background: var(--color-paper-white);
+  --foreground: var(--color-foreground-light);
+  --card: var(--color-paper-white);
+  --card-foreground: var(--color-foreground-light);
+  --popover: #fffdf5; /* 偏奶油暖色 */
+  --popover-foreground: var(--color-foreground-light);
+  --primary: var(--color-warm-orange);
+  --primary-foreground: var(--color-paper-white);
+  --secondary: var(--color-golden-yellow);
+  --secondary-foreground: var(--color-foreground-light);
+  --muted: var(--color-mist-gray);
+  --muted-foreground: var(--color-muted-light);
+  --accent: var(--color-mascot-pink);
+  --accent-foreground: var(--color-paper-white);
+  --destructive: var(--color-error);
+  --destructive-foreground: var(--color-paper-white);
+  --border: var(--color-border-light);
+  --input: var(--color-border-light);
+  --ring: var(--color-warm-orange);
+  --chart-1: var(--color-warm-orange);
+  --chart-2: var(--color-golden-yellow);
+  --chart-3: var(--color-mascot-pink);
+  --chart-4: var(--color-nature-green);
+  --chart-5: var(--color-success);
+  --sidebar: var(--color-mist-gray);
+  --sidebar-foreground: var(--color-foreground-light);
+  --sidebar-primary: var(--color-warm-orange);
+  --sidebar-primary-foreground: var(--color-paper-white);
+  --sidebar-accent: var(--color-paper-white);
+  --sidebar-accent-foreground: var(--color-foreground-light);
+  --sidebar-border: var(--color-border-light);
+  --sidebar-ring: var(--color-warm-orange);
+
+  /* 间距系统 */
+  --spacing-unit: 0.25rem;
+}
+
+.dark {
+  /* 暗色模式 - 极致通透水晶方案 (Crystal Glass Style) */
+  --background: #0b0e14; /* 接近纯黑但保留深靛青底色，极大提升对比度 */
+  --foreground: #ffffff;
+
+  /* 极致通透玻璃：使用极低透明度但极高模糊 */
+  /* Glassmorphism 2.0 Dark Mode Overrides */
+  --glass-bg: var(--glass-bg-dark); /* Use the dark glass value in dark mode */
+  --glass-border: var(--glass-border-dark); /* Use dark border */
+
+  /* 增强发光感的主色 */
+  --primary: #ffb347;
+
+  --card: #12151c;
+  --card-foreground: #ffffff;
+  --popover: #12151c;
+  --popover-foreground: #ffffff;
+  --muted: #1a1f2b;
+  --muted-foreground: #a1a1aa;
+  --border: rgba(255, 255, 255, 0.1);
+  --sidebar: #0b0e14;
+  --sidebar-accent: rgba(255, 179, 71, 0.2);
+  --sidebar-accent-foreground: #ffb347;
+}
+
+@theme inline {
+  /* 颜色变量映射 */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* 字体映射 */
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-serif);
+
+  /* 圆角映射 */
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-2xl: var(--radius-2xl);
+
+  /* 阴影映射 */
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+
+  /* 自定义渐变背景映射 */
+  --gradient-linear-to-r: linear-gradient(
+    to right,
+    var(--background),
+    var(--muted)
+  );
+  --gradient-warm-orange: linear-gradient(
+    135deg,
+    var(--color-warm-orange),
+    var(--color-golden-yellow)
+  );
+  --gradient-sunset: linear-gradient(
+    45deg,
+    var(--color-mascot-pink),
+    var(--color-warm-orange)
+  );
+  --gradient-nature: radial-gradient(
+    circle,
+    var(--color-nature-green),
+    var(--color-warm-orange)
+  );
+}
+
+/* ===== 全局过渡优化 ===== */
+*,
+*::before,
+*::after {
+  /* 平滑过渡 - 仅应用关键属性，提升性能 */
+  transition-property: background-color, color, border-color, opacity;
+  transition-duration: var(--motion-duration-sm);
+  transition-timing-function: var(--motion-ease-out);
+}
+
+/* 排除特定元素不受全局过渡影响 */
+.animate-blink,
+.animate-dialogue-appear,
+.animate-slide-in-from-left,
+.animate-fade-in {
+  transition: none;
+}
+
+body {
+  letter-spacing: var(--tracking-normal);
+}
+
+/* ===== 可访问性支持 ===== */
+/* 支持用户减少动画偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* 支持系统主题偏好 */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    color-scheme: dark;
+  }
+}
+
+/* 字体大小层级系统 - 优化排版 */
+.text-hero {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  line-height: 1.1;
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--font-weight-bold);
+}
+
+.text-display-xl {
+  font-size: 3.5rem;
+  line-height: 1.1;
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--font-weight-bold);
+}
+
+.text-display-lg {
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-display-md {
+  font-size: 2.25rem;
+  line-height: 1.2;
+  letter-spacing: var(--tracking-tight);
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-display-sm {
+  font-size: 1.875rem;
+  line-height: 1.3;
+  font-weight: var(--font-weight-semibold);
+}
+
+.text-body-xl {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  font-weight: var(--font-weight-normal);
+}
+
+.text-body-lg {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  font-weight: var(--font-weight-normal);
+}
+
+.text-body {
+  font-size: 1rem;
+  line-height: 1.6;
+  font-weight: var(--font-weight-normal);
+}
+
+.text-body-sm {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: var(--font-weight-normal);
+}
+
+.text-caption {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: var(--tracking-wide);
+  font-weight: var(--font-weight-normal);
+}
+
+/* 字体族工具类 */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* 中英文混排优化 */
+.text-mixed {
+  font-feature-settings: "kern" 1;
+  text-rendering: optimizeLegibility;
+  hanging-punctuation: allow-end;
+}
+
+.text-mixed code,
+.text-mixed .en-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* 动漫风格字体类 */
+.font-anime {
+  font-family: "Kalam", cursive;
+}
+
+/* ===== 动画系统 Animation System ===== */
+
+/* 微交互动画 - 仅保留必要的交互反馈 */
+@keyframes anime-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+@keyframes anime-bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* 卡片微交互 - 优化性能 */
+@keyframes card-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* 标题动画 */
+@keyframes slide-in-from-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    opacity: 1;
+  }
+  51%,
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 对话框动画 */
+@keyframes dialogue-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* 渐入动画 */
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ===== 动画工具类 - 微交互优化 ===== */
+.animate-slide-in-from-left {
+  animation: slide-in-from-left var(--motion-duration-lg) var(--motion-ease-out);
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+.animate-dialogue-appear {
+  animation: dialogue-appear var(--motion-duration-md) var(--motion-ease-out)
+    forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in var(--motion-duration-md) var(--motion-ease-out);
+}
+
+/* Hover 时触发的微交互动画 */
+@media (hover: hover) and (pointer: fine) {
+  .hover-float:hover {
+    animation: card-float 0.3s var(--motion-ease-out) forwards;
+  }
+
+  .hover-pulse:hover {
+    animation: anime-pulse 0.4s var(--motion-ease-out);
+  }
+
+  .hover-bounce:hover {
+    animation: anime-bounce 0.6s var(--motion-ease-out);
+  }
+}
+
+/* ===== 响应式设计 ===== */
+@media (max-width: 768px) {
+  /* 移动端字体缩放优化 */
+  .text-hero {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+
+  .text-display-xl {
+    font-size: 2.5rem;
+  }
+
+  .text-display-lg {
+    font-size: 2rem;
+  }
+
+  .text-display-md {
+    font-size: 1.75rem;
+  }
+
+  /* 移动端装饰元素优化 */
+  .sidebar-decoration-base {
+    opacity: 0.04;
+    transform: scale(0.7);
+  }
+
+  /* 移动端头部装饰隐藏 */
+  .header-decoration {
+    display: none;
+  }
+
+  /* 移动端导航项目间距优化 */
+  .sidebar-nav-mobile {
+    padding: var(--spacing-2) var(--spacing-3);
+    margin: var(--spacing-1) 0;
+  }
+}
+
+/* ===== 装饰元素系统 - 精简优化 ===== */
+.sidebar-decoration-base {
+  position: absolute;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.06;
+  transition: opacity var(--motion-duration-md) var(--motion-ease-out);
+}
+
+/* hover时微妙增强 */
+.sidebar-container:hover .sidebar-decoration-base {
+  opacity: 0.12;
+}
+
+/* 确保侧边栏内容在装饰之上 */
+.sidebar-content-layer {
+  position: relative;
+  z-index: 10;
+  background: transparent;
+}
+
+/* 装饰背景图案 - 性能优化 */
+.sidebar-decoration-pattern {
+  /* Background pattern removed - using R2/CDN resources */
+  background-size: 20px 20px;
+  background-position: 85% 20%;
+  background-repeat: repeat;
+  opacity: 0.05;
+}
+
+/* ===== 动漫风格按钮增强效果 ===== */
+.anime-button {
+  position: relative;
+  overflow: hidden;
+  /* 可访问性增强 - 焦点指示器 */
+  transition: transform var(--motion-duration-sm) var(--motion-ease-out);
+}
+
+.anime-button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, var(--color-warm-orange) 20%, transparent),
+    transparent
+  );
+  transition: left var(--motion-duration-lg) var(--motion-ease-out);
+}
+
+/* 鼠标悬停效果 */
+.anime-button:hover::before {
+  left: 100%;
+}
+
+.anime-button:hover {
+  transform: translateY(-2px);
+}
+
+/* 可访问性增强 - 焦点可见性 */
+.anime-button:focus-visible {
+  outline: 2px solid var(--color-warm-orange);
+  outline-offset: 2px;
+}
+
+/* 高对比度模式支持 */
+@media (prefers-contrast: high) {
+  .anime-button {
+    border: 2px solid currentColor;
+  }
+
+  .sidebar-decoration-base {
+    opacity: 0.03;
+  }
+}
+
+/* ===== 高级感设计工具类 ===== */
+
+/* 玻璃态效果 */
+.glass-card {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  border: var(--glass-border);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 新增：通用玻璃面板类 (Header/Sidebar/Feedback) */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur));
+  border: var(--glass-border);
+}
+
+.dark .glass-card {
+  background: var(--glass-bg-dark);
+  border: var(--glass-border-dark);
+}
+
+.dark .glass-panel {
+  background: var(--glass-bg-dark);
+  border: var(--glass-border-dark);
+}
+
+/* 生成器页面氛围背景 */
+.generator-ambient {
+  position: relative;
+  overflow: hidden;
+}
+
+.generator-ambient::before,
+.generator-ambient::after {
+  content: "";
+  position: absolute;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.22;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.generator-ambient::before {
+  top: -6rem;
+  right: -7rem;
+  background: var(--gradient-sunset);
+}
+
+.generator-ambient::after {
+  bottom: -7rem;
+  left: -6rem;
+  background: var(--gradient-warm);
+  opacity: 0.18;
+}
+
+.dark .generator-ambient::before {
+  opacity: 0.16;
+}
+
+.dark .generator-ambient::after {
+  opacity: 0.12;
+}
+
+.generator-ambient__content {
+  position: relative;
+  z-index: 1;
+}
+
+/* 精致边框 */
+.border-refined {
+  border: var(--border-subtle);
+}
+
+.dark .border-refined {
+  border: var(--border-subtle-dark);
+}
+
+/* 渐变叠加 */
+.overlay-gradient {
+  position: relative;
+}
+
+.overlay-gradient::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--overlay-gradient);
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* 微妙的卡片悬浮效果 */
+.card-refined {
+  background: var(--color-paper-white);
+  border-radius: var(--radius-lg);
+  border: var(--border-subtle);
+  box-shadow: var(--shadow-md);
+  transition: all var(--motion-duration-md) var(--motion-ease-out);
+}
+
+.card-refined:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-2px);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.dark .card-refined {
+  background: var(--card);
+  border: var(--border-subtle-dark);
+}
+
+.dark .card-refined:hover {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* VIP/高级功能标识 */
+.premium-badge {
+  background: linear-gradient(
+    135deg,
+    var(--color-premium-gold),
+    var(--color-golden-yellow)
+  );
+  color: var(--color-accent-deep);
+  font-weight: var(--font-weight-semibold);
+  padding: var(--spacing-1) var(--spacing-3);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  font-size: 0.75rem;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+}
+
+/* 深色强调文本 */
+.text-emphasis {
+  color: var(--color-accent-deep);
+  font-weight: var(--font-weight-semibold);
+}
+
+.dark .text-emphasis {
+  color: var(--color-paper-white);
+}
+
+/* ===== Toast 通知优化 - 更精致小巧 ===== */
+.toaster group {
+  /* 优化 toast 容器样式 */
+}
+
+.toast-body {
+  /* 使用主题配色 */
+  background: var(--popover);
+  color: var(--popover-foreground);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: var(--shadow-md);
+  font-size: 14px;
+  padding: 12px 16px;
+  min-height: 40px;
+  /* 移除按钮样式 */
+  padding-right: 16px;
+}
+
+/* Toast 成功状态 */
+[data-sonner-toast][data-type="success"] {
+  border-left: 3px solid var(--color-success);
+}
+
+[data-sonner-toast][data-type="error"] {
+  border-left: 3px solid var(--color-error);
+}
+
+[data-sonner-toast][data-type="warning"] {
+  border-left: 3px solid var(--color-warning);
+}
+
+[data-sonner-toast][data-type="info"] {
+  border-left: 3px solid var(--color-info);
+}
+
+/* Toast 描述文本 */
+.toast-description {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+/* 标题文本 */
+[data-sonner-toast] [data-title] {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+/* 隐藏关闭按钮 */
+[data-sonner-toast] button[data-close-button] {
+  display: none !important;
+}
+
+/* 优化动画 */
+[data-sonner-toast] {
+  animation: toast-slide-in 0.2s var(--motion-ease-out);
+}
+
+@keyframes toast-slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Toast 图标优化 */
+[data-sonner-toast] svg {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+/* 暗色模式适配 */
+.dark [data-sonner-toast][data-type="success"] {
+  border-left-color: var(--color-success);
+}
+
+.dark [data-sonner-toast][data-type="error"] {
+  border-left-color: var(--color-error);
+}
+
+/* 移动端优化 */
+@media (max-width: 640px) {
+  .toast-body {
+    font-size: 13px;
+    padding: 10px 14px;
+    min-height: 36px;
+  }
+
+  [data-sonner-toast] svg {
+    width: 16px;
+    height: 16px;
+  }
+}

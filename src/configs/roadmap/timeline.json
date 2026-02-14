@@ -1,0 +1,291 @@
+{
+  "version": "1.1.0",
+  "hero": {
+    "title": {
+      "en": "AnividAI Roadmap",
+      "ja": "AnividAI ロードマップ"
+    },
+    "subtitle": {
+      "en": "Unveiling the future of AI-powered anime art creation studio.",
+      "ja": "AIを駆使したアニメアート制作スタジオの未来を解き明かす。"
+    }
+  },
+  "status_labels": {
+    "completed": {
+      "en": "Available Now",
+      "ja": "現在利用可能"
+    },
+    "in_progress": {
+      "en": "Developing",
+      "ja": "開発中"
+    },
+    "planned": {
+      "en": "Coming Soon",
+      "ja": "近日公開"
+    }
+  },
+  "timeline": [
+    {
+      "period": "2025 Q4",
+      "status": "completed",
+      "phase_name": {
+        "en": "Phase 1: The Studio Foundation",
+        "ja": "フェーズ 1: スタジオ基盤"
+      },
+      "items": [
+        {
+          "id": "anime_gen",
+          "cover_url": "/imgs/roadmap/core_anime.webp",
+          "title": {
+            "en": "Anime Generator",
+            "ja": "アニメジェネレーター"
+          },
+          "desc": {
+            "en": "Powerful text/image-to-image tool with various styles.",
+            "ja": "多彩なスタイルを備えた強力な文生図・図生図ツール。"
+          }
+        },
+        {
+          "id": "video_gen",
+          "cover_url": "/imgs/roadmap/core_video.webp",
+          "title": {
+            "en": "Anime Video Generator",
+            "ja": "アニメビデオジェネレーター"
+          },
+          "desc": {
+            "en": "Image-to-video tool with preset styles and camera controls.",
+            "ja": "プリセットスタイルとカメラ制御を備えた図生ビデオツール。"
+          }
+        },
+        {
+          "id": "character_studio",
+          "cover_url": "/imgs/roadmap/core_oc.webp",
+          "badge": "Beta",
+          "title": {
+            "en": "Character Studio",
+            "ja": "キャラクタースタジオ"
+          },
+          "desc": {
+            "en": "Create detailed character settings as logical anchors for the platform.",
+            "ja": "プラットフォームの論理アンカーとして詳細なキャラクター設定を作成。"
+          }
+        },
+        {
+          "id": "worlds",
+          "cover_url": "/imgs/roadmap/2026_world.webp",
+          "badge": "Beta",
+          "title": {
+            "en": "Worlds",
+            "ja": "ワールド"
+          },
+          "desc": {
+            "en": "Immersive world settings providing atmosphere and references.",
+            "ja": "没入感のある世界設定で、雰囲気やリファレンスを提供。"
+          }
+        },
+        {
+          "id": "oc_chat",
+          "cover_url": "/imgs/roadmap/core_chat.webp",
+          "badge": "Beta",
+          "title": {
+            "en": "Chat with Character",
+            "ja": "キャラクターとチャット"
+          },
+          "desc": {
+            "en": "Deep, context-aware conversations with your own characters.",
+            "ja": "自分だけのキャラクターとの、文脈を理解した深い対話。"
+          }
+        },
+        {
+          "id": "tools_pack_1",
+          "cover_url": "/imgs/roadmap/2026_apps.webp",
+          "title": {
+            "en": "Tools Pack 1",
+            "ja": "ツールパック 1"
+          },
+          "desc": {
+            "en": "Action Figure Generator and Sticker Generator.",
+            "ja": "フィギュアジェネレーターとステッカー（絵文字）ジェネレーター。"
+          }
+        }
+      ]
+    },
+    {
+      "period": "2026 Q1 - Q2",
+      "status": "in-progress",
+      "phase_name": {
+        "en": "Phase 2: Storytelling & Production",
+        "ja": "フェーズ 2: ストーリーテリングと制作"
+      },
+      "items": [
+        {
+          "id": "community_foundation",
+          "cover_url": "/imgs/roadmap/core_anime.webp",
+          "status": "completed",
+          "title": {
+            "en": "Community Foundation",
+            "ja": "コミュニティ基盤"
+          },
+          "desc": {
+            "en": "Like, Favorite, and Comment on creations.",
+            "ja": "作品へのいいね、お気に入り、コメント機能。"
+          }
+        },
+        {
+          "id": "story_lab",
+          "cover_url": "/imgs/roadmap/2026_story.webp",
+          "title": {
+            "en": "Story Lab",
+            "ja": "ストーリーラボ"
+          },
+          "desc": {
+            "en": "Script management and AI scene breakdown for production.",
+            "ja": "脚本管理と制作のためのAIシーン分解。"
+          }
+        },
+        {
+          "id": "manga_studio",
+          "cover_url": "/imgs/roadmap/2026_board.webp",
+          "title": {
+            "en": "Manga Studio",
+            "ja": "マンガスタジオ"
+          },
+          "desc": {
+            "en": "Auto-generate multi-panel manga with smart typesetting.",
+            "ja": "スマートな組版によるマルチパネル漫画の自動生成。"
+          }
+        },
+        {
+          "id": "cinematic_video",
+          "cover_url": "/imgs/roadmap/core_video.webp",
+          "title": {
+            "en": "Cinematic Video Engine",
+            "ja": "シネマティックビデオエンジン"
+          },
+          "desc": {
+            "en": "Story-to-video batch generation and montage maker.",
+            "ja": "ストーリーからビデオへの一括生成とモンタージュメーカー。"
+          }
+        },
+        {
+          "id": "consistency_suite",
+          "cover_url": "/imgs/roadmap/core_oc.webp",
+          "title": {
+            "en": "Consistency Suite",
+            "ja": "コンシステンシースイート"
+          },
+          "desc": {
+            "en": "Character reference sheets and scene asset management.",
+            "ja": "キャラクター設定資料集とシーンアセット管理。"
+          }
+        },
+        {
+          "id": "nana_gallery",
+          "cover_url": "/imgs/roadmap/future_kaleidoscope.webp",
+          "title": {
+            "en": "Nana Banana Gallery",
+            "ja": "ナナバナナギャラリー"
+          },
+          "desc": {
+            "en": "Enhanced inspiration library with one-click style application.",
+            "ja": "ワンクリックでスタイルを適用できる強化されたインスピレーションライブラリ。"
+          }
+        }
+      ]
+    },
+    {
+      "period": "2026 Q3",
+      "status": "planned",
+      "phase_name": {
+        "en": "Phase 3: Community & Gamification",
+        "ja": "フェーズ 3: コミュニティとゲーム化"
+      },
+      "items": [
+        {
+          "id": "follow_feed",
+          "cover_url": "/imgs/roadmap/core_chat.webp",
+          "title": {
+            "en": "Follow & Feed System",
+            "ja": "フォロー＆フィードシステム"
+          },
+          "desc": {
+            "en": "Stay connected with favorite creators and personalized feeds.",
+            "ja": "お気に入りのクリエイターやパーソナライズされたフィードでつながりを維持。"
+          }
+        },
+        {
+          "id": "gamification",
+          "cover_url": "/imgs/roadmap/2026_apps.webp",
+          "title": {
+            "en": "Gamification & Badges",
+            "ja": "ゲーム化とバッジ"
+          },
+          "desc": {
+            "en": "Achievements and badges system to reward active creators.",
+            "ja": "アクティブなクリエイターに報いるための実績とバッジシステム。"
+          }
+        },
+        {
+          "id": "challenges",
+          "cover_url": "/imgs/roadmap/2026_story.webp",
+          "title": {
+            "en": "Weekly Challenges",
+            "ja": "ウィークリーチャレンジ"
+          },
+          "desc": {
+            "en": "Official themed creation events with community voting.",
+            "ja": "コミュニティ投票による公式テーマ制作イベント。"
+          }
+        },
+        {
+          "id": "unified_world",
+          "cover_url": "/imgs/roadmap/2026_world.webp",
+          "title": {
+            "en": "Unified World Settings",
+            "ja": "統合ワールド設定"
+          },
+          "desc": {
+            "en": "Lightweight style and atmosphere preset packages.",
+            "ja": "軽量なスタイルと雰囲気のプリセットパッケージ。"
+          }
+        }
+      ]
+    },
+    {
+      "period": "2026 Q4+",
+      "status": "planned",
+      "phase_name": {
+        "en": "Phase 4: Creator Marketplace",
+        "ja": "フェーズ 4: クリエイターマーケットプレイス"
+      },
+      "items": [
+        {
+          "id": "asset_store",
+          "cover_url": "/imgs/roadmap/future_kaleidoscope.webp",
+          "title": {
+            "en": "Asset Store",
+            "ja": "アセットストア"
+          },
+          "desc": {
+            "en": "Marketplace for prompt templates, worlds, and OC designs.",
+            "ja": "プロンプトテンプレート、ワールド、OCデザインのマーケットプレイス。"
+          }
+        },
+        {
+          "id": "co_creation",
+          "cover_url": "/imgs/roadmap/2026_board.webp",
+          "title": {
+            "en": "Co-creation",
+            "ja": "共同制作"
+          },
+          "desc": {
+            "en": "Remix mechanism and collaborative storytelling tools.",
+            "ja": "リミックスメカニズムと共同ストーリーテリングツール。"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+

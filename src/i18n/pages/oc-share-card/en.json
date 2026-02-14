@@ -1,0 +1,22 @@
+{
+  "labels": {
+    "world": "World",
+    "gender": "Gender",
+    "species": "Species",
+    "age": "Age",
+    "role": "Role",
+    "skills": "Skills",
+    "personality": "Personality",
+    "biography": "Biography",
+    "rarity": "Rarity",
+    "world_empty": "Unassigned"
+  },
+  "stats": {
+    "strength": "Strength",
+    "intelligence": "Intelligence",
+    "agility": "Agility",
+    "stamina": "Stamina",
+    "luck": "Luck",
+    "charm": "Charm"
+  }
+}

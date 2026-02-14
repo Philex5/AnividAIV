@@ -1,0 +1,122 @@
+{
+  "metadata": {
+    "title": "Art Prompt Generator |Free AI Art Inspiration Tool |AnividAI",
+    "description": "Generate creative AI art prompts instantly with our Art Prompt Generator. Break through creative blocks with playful random combinations to generate.",
+    "keywords": ""
+  },
+  "hero": {
+    "eyebrow": "Creative Tools · AnividAI",
+    "title": "AI Art Prompt Generator",
+    "subtitle": "The ultimate Art Prompt Generator for anime lovers and AI artists. Break through creative blocks with joyful random prompt combinations engineered for AI anime models.",
+    "description": "Experience the most intuitive Art Prompt Generator on the web. Spin the slot machine, lock ideas you love, and send the final prompt directly into our AI Anime Generator for high-quality results.",
+    "cta_button": "Start Generating Now",
+    "secondary_cta": "Learn How It Works"
+  },
+  "tool": {
+    "title": "Art Prompt Generator Playground",
+    "description": "Our Art Prompt Generator allows you to combine subjects, actions, scenes, and styles like a slot machine. Lock any column to refine your next spin.",
+    "generate_button": "Generate Inspiration",
+    "generating": "Generating...",
+    "lock_tooltip": "Lock this dimension",
+    "unlock_tooltip": "Unlock to regenerate",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "unlock_notice": "Unlock at least one column in the Art Prompt Generator to spin something new.",
+    "dimensions": {
+      "subject": "Character Subject",
+      "action": "Dynamic Action",
+      "setting": "Environment Setting",
+      "style": "Artistic Style",
+      "modifier": "Vibe Modifier"
+    },
+    "copy_prompt": "Copy Art Prompt",
+    "copy_success": "Art prompt copied to clipboard!",
+    "copy_failed": "Failed to copy art prompt",
+    "use_in_generator": "Use in AI Generator",
+    "empty_state": "Tap Generate to spin the Art Prompt Generator slot machine and spark your creativity."
+  },
+  "generated_prompt": {
+    "title": "Generated AI Art Prompt",
+    "subtitle": "Your AI-ready prompt updates in real-time as each slot in the Art Prompt Generator stops rolling.",
+    "placeholder": "Spin the slots to craft your first masterpiece with our Art Prompt Generator.",
+    "copied": "Art prompt copied!",
+    "use_button": "Use in AI Generator"
+  },
+  "showcase": {
+    "title": "Art Prompt Generator Gallery",
+    "description": "Explore creative prompt combinations created with our Art Prompt Generator and see their stunning AI-generated results.",
+    "copy_button": "Copy Prompt",
+    "copied": "Copied!",
+    "copy_failed": "Failed to copy prompt",
+    "use_in_generator_button": "Generate Same",
+    "cta_text": "Ready to create your own unique prompts using our Art Prompt Generator?",
+    "cta_button": "Try Art Prompt Generator"
+  },
+  "introduction": {
+    "tagline": "The Industry-Leading Art Prompt Generator",
+    "title": "What is the AnividAI Art Prompt Generator?",
+    "description": "The AnividAI Art Prompt Generator is a playful yet powerful tool that smashes together surprising art ingredients for AI anime generation. As a specialized art prompt generator, it is designed for creators who need a spark of chaos before polishing their final prompts. Our Art Prompt Generator features a curated vocabulary specifically tuned for high-fidelity anime-inspired imagery, providing a direct bridge into professional AI Anime Generators. Whether you are an experienced prompt engineer or a beginner, this tool helps you explore the vast possibilities of AI art."
+  },
+  "how_to_use": {
+    "title": "How to Use the Art Prompt Generator",
+    "steps": [
+      {
+        "title": "Spin the Art Prompt Generator",
+        "description": "Simply press the Generate button to roll all creative dimensions with weighted randomness for unique results every time."
+      },
+      {
+        "title": "Lock Your Favorites",
+        "description": "Freeze the words and styles you love within the tool, then respin only the remaining slots to refine your creative combination into a perfect prompt."
+      },
+      {
+        "title": "Create with AI",
+        "description": "Copy your final creation from the Art Prompt Generator or jump directly into the AnividAI Anime Generator with our optimized preset-free mode for instant rendering."
+      }
+    ]
+  },
+  "benefits": {
+    "eyebrow": "Why It Matters",
+    "title": "Why Artists Choose Our Art Prompt Generator",
+    "items": [
+      {
+        "title": "Break Creative Blocks Instantly",
+        "description": "The Art Prompt Generator helps you instantly surface unexpected subjects and scenes, allowing you to stop staring at a blank screen and start creating again. It is the perfect cure for artist's block."
+      },
+      {
+        "title": "Master the Art of Prompt Engineering",
+        "description": "Our Art Prompt Generator shows new users how effective AI prompts are structured without needing a long tutorial, making prompt engineering accessible to everyone in the community."
+      },
+      {
+        "title": "Streamlined Creative Workflow",
+        "description": "The Art Prompt Generator funnels your ideas straight into professional AI anime workflows, eliminating the friction of copy-pasting between different tools and saving you valuable time."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Answers",
+    "title": "Art Prompt Generator FAQ",
+    "items": [
+      {
+        "question": "What is the primary purpose of this Art Prompt Generator?",
+        "answer": "The AnividAI Art Prompt Generator is designed to randomly mix curated subjects, actions, settings, and styles so you can explore playful and professional concepts for AI art and anime generation. It helps users discover new artistic directions they might not have thought of on their own."
+      },
+      {
+        "question": "Can I use prompts from this Art Prompt Generator elsewhere?",
+        "answer": "Yes, absolutely! You can copy any prompt generated by our Art Prompt Generator to use with any AI tool like Midjourney or Stable Diffusion, or click the button to open it directly in our integrated AI Anime Generator."
+      },
+      {
+        "question": "Is the Art Prompt Generator free to use?",
+        "answer": "Yes, the Art Prompt Generator is a completely free creative playground for all users. You can generate as many prompts as you want without spending any credits. Credits are only required when you decide to render the actual images using our AI models."
+      },
+      {
+        "question": "How does this Art Prompt Generator help with anime art?",
+        "answer": "Our Art Prompt Generator uses a massive database of terms specifically selected for anime styles, characters, and aesthetics, ensuring that the prompts generated are highly effective for anime-focused AI models and produce high-quality visual results."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to Try the Best Art Prompt Generator?",
+    "description": "Start generating unique AI art prompts today with our free Art Prompt Generator and bring your most imaginative creative visions to life in seconds.",
+    "primary_button": "Try Art Prompt Generator Now"
+  }
+}

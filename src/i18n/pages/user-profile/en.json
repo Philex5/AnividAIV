@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "User Profile | AnividAI",
+    "description": "View characters, worlds, and artworks"
+  },
+  "hero": {
+    "stats_characters": "Characters",
+    "stats_worlds": "Worlds",
+    "stats_artworks": "Artworks"
+  },
+  "buttons": {
+    "set_background": "Set Background",
+    "update_profile": "Update Profile"
+  },
+  "sections": {
+    "characters": "Characters",
+    "worlds": "Worlds",
+    "artworks": "Artworks",
+    "message_board": "Message Board"
+  },
+  "empty": {
+    "characters": "No characters yet",
+    "worlds": "No worlds yet",
+    "artworks": "No artworks yet"
+  },
+  "profile_form": {
+    "title": "Update Profile",
+    "display_name_label": "Display Name",
+    "display_name_placeholder": "Enter your display name",
+    "avatar_label": "Avatar",
+    "gender_label": "Gender",
+    "gender_placeholder": "Select gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_other": "Other",
+    "bio_label": "Bio",
+    "bio_placeholder": "Tell people about yourself",
+    "save": "Save",
+    "cancel": "Cancel",
+    "success": "Profile updated"
+  },
+  "background_form": {
+    "title": "Set Background",
+    "save": "Save Background",
+    "cancel": "Cancel",
+    "success": "Background updated"
+  },
+  "errors": {
+    "update_failed": "Failed to update profile"
+  },
+  "reference": {
+    "error-format": "Unsupported image format",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-upload": "Upload failed, please try again",
+    "error-auth": "Please log in to upload images",
+    "error-filename": "Invalid file name"
+  },
+  "menu": {
+    "profile": "Profile"
+  }
+}

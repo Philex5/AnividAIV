@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "title": "Nano Banana (Gemini 2.5 Flash Image) AI Generator | AnividAI",
+    "description": "Create stunning images with Google's Gemini 2.5 Flash Image. Advanced AI with character consistency, multi-image fusion, and editing capabilities.",
+    "keywords": "Nano Banana, Gemini 2.5 Flash Image, Google AI image generator, character consistency, multi-image fusion, AI image tool, image editing AI"
+  },
+  "Introduce": {
+    "tagline": "Gemini 2.5 Flash Image (Nano Banana) on AnividAI | Google's Most Advanced AI",
+    "title": "What is Nano Banana (Gemini 2.5 Flash Image)?",
+    "description": "Nano Banana (officially Gemini 2.5 Flash Image) is Google's state-of-the-art AI image generation and editing model. It combines Gemini's advanced reasoning capabilities with world knowledge to create detailed, playful, realistic, or whimsical images. Key innovations include character consistency across multiple generations, multi-image fusion for complex compositions, and conversational inputs for natural creative refinement. Built by Google DeepMind, this model represents a significant advancement in AI-powered creativity."
+  },
+  "benefits": {
+    "title": "Why Choose Nano Banana (Gemini 2.5 Flash Image)?",
+    "subtitle": "Experience Google's state-of-the-art AI for image generation and editing",
+    "items": [
+      {
+        "title": "Character Consistency",
+        "description": "Maintain the appearance of characters or objects across multiple prompts and generations. Place the same character into different environments, showcase products from multiple angles, or generate consistent brand assets.",
+        "icon": "users"
+      },
+      {
+        "title": "Multi-Image Fusion",
+        "description": "Combine multiple input images into a single composition. Put objects into scenes, restyle rooms with color schemes or textures, and fuse images with natural language prompts.",
+        "icon": "layers"
+      },
+      {
+        "title": "World Knowledge",
+        "description": "Generate images that follow real-world logic thanks to Gemini's advanced reasoning. The model understands context, relationships, and factual information for more intelligent creations.",
+        "icon": "globe"
+      },
+      {
+        "title": "Conversational Inputs",
+        "description": "Use everyday language while creating images. Keep the conversation going to refine what the model generates through natural dialogue and iterative feedback.",
+        "icon": "message-square"
+      },
+      {
+        "title": "Prompt-Based Editing",
+        "description": "Make targeted transformations with natural language. Blur backgrounds, remove objects, alter poses, add color to black and white photos, or apply complex edits with simple text commands.",
+        "icon": "wand-2"
+      },
+      {
+        "title": "Google DeepMind Powered",
+        "description": "Built by Google DeepMind with advanced AI infrastructure. Every image includes SynthID watermark for transparent AI-generated content identification.",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Generate with Gemini 2.5 Flash Image in 3 Steps",
+    "subtitle": "Transform your creative vision with Google's most advanced AI image model",
+    "steps": [
+      {
+        "title": "Describe Your Vision",
+        "description": "Use conversational language to describe your desired artwork. Nano Banana understands natural prompts with deep context awareness."
+      },
+      {
+        "title": "Add References (Optional)",
+        "description": "Upload one or multiple reference images to guide the AI. Use multi-image fusion to combine elements or maintain character consistency."
+      },
+      {
+        "title": "Generate & Refine",
+        "description": "Click generate and iterate through conversational refinement. Edit specific areas with natural language commands until perfect."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Nano Banana (Gemini 2.5 Flash Image)",
+    "items": [
+      {
+        "question": "What is Nano Banana (Gemini 2.5 Flash Image)?",
+        "answer": "Nano Banana is the codename for Gemini 2.5 Flash Image, Google's state-of-the-art AI image generation and editing model. Built by Google DeepMind, it combines Gemini's advanced reasoning with world knowledge to create and edit images with unprecedented control and quality."
+      },
+      {
+        "question": "What makes Nano Banana different from other AI image generators?",
+        "answer": "Nano Banana excels in three key areas: (1) Character consistency across generations, (2) Multi-image fusion for complex compositions, and (3) World knowledge integration for intelligent creations. It also supports conversational inputs for natural creative refinement and prompt-based local editing."
+      },
+      {
+        "question": "How much does Nano Banana cost to use?",
+        "answer": "Nano Banana uses AnividAI's credit system. New users receive free credits to start, and additional credits can be earned through daily sign-ins and sharing creations. This makes professional AI art accessible without requiring credit cards for initial trials."
+      },
+      {
+        "question": "Can Nano Banana maintain character consistency?",
+        "answer": "Yes! Character consistency is one of Nano Banana's standout features. You can place the same character in different environments, showcase products from multiple angles, and generate consistent brand assets across multiple generations while preserving appearance and style."
+      },
+      {
+        "question": "Does Nano Banana support editing existing images?",
+        "answer": "Absolutely. Nano Banana supports prompt-based image editing for targeted transformations. You can blur backgrounds, remove objects, alter poses, add color to black and white photos, or make precise local edits using natural language commands."
+      },
+      {
+        "question": "What is multi-image fusion?",
+        "answer": "Multi-image fusion allows Nano Banana to understand and merge multiple input images into a single composition. You can combine objects, scenes, styles, and textures to create complex images that blend elements from multiple sources."
+      },
+      {
+        "question": "Can I use Nano Banana for commercial projects?",
+        "answer": "Yes, artwork created with Nano Banana can be used for commercial purposes, social media, merchandise, and personal projects. You retain full rights to your generated images. All AI-generated images include SynthID watermark for transparent content identification."
+      },
+      {
+        "question": "What aspect ratios does Nano Banana support?",
+        "answer": "Nano Banana supports a wide range of aspect ratios including 1:1 (square), 2:3 (portrait), 3:2 (landscape), 3:4, 4:3, 4:5, 5:4, 16:9, 9:16, and 21:9 (ultra-wide)."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Start Creating with Gemini 2.5 Flash Image",
+    "subtitle": "Experience Google's state-of-the-art AI image generation. Character consistency, multi-image fusion, and world knowledge in one powerful tool.",
+    "button_primary": "Start Creating with Nano Banana"
+  },
+  "generator_title": "Generate Images with Nano Banana",
+  "credits": "Credits",
+  "images": "images",
+  "generate": "Generate",
+  "generating": "Generating...",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Your Images",
+    "description": "Enter description, select style parameters, or click example images below to start generating"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "ratio": "Ratio",
+    "count": "Count",
+    "piece": " image"
+  },
+  "prompt": {
+    "label": "Describe your image",
+    "placeholder": "Example: A serene landscape with rolling hills and a golden sunset, a modern city skyline at night, or a product showcase with clean lighting",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing..."
+  },
+  "parameters": {
+    "character": "Character",
+    "style": "Style",
+    "loading_characters": "Loading characters...",
+    "action": "Action",
+    "scene": "Scene",
+    "outfit": "Outfit",
+    "aspect-ratio": "Aspect Ratio",
+    "batch-size": "Number of Images",
+    "model": "AI Model",
+    "advanced": "Advanced Settings",
+    "guidance-scale": "Guidance Scale",
+    "num-inference-steps": "Inference Steps",
+    "seed": "Seed",
+    "random-seed": "Random Seed",
+    "generate-seed": "Generate New Seed",
+    "select": "Select",
+    "title": "Generation Parameters",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "subscriptionTooltip": "Private visibility is available for subscription members. Upgrade to unlock."
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Your generation task is in the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Images",
+      "description": "AI is creating your images. This may take up to 30 seconds per image."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your images are ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine the current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Your generation will continue in the background."
+  },
+  "completed-results": {
+    "title": "Your Generated Images",
+    "empty": {
+      "title": "No Generated Images",
+      "description": "You haven't generated any images yet. Try creating your first image!"
+    },
+    "copy-parameters": "Copy Parameters",
+    "download-all": "Download All",
+    "filters": {
+      "all-styles": "All Styles"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "most-liked": "Most Liked"
+    }
+  },
+  "result-image": {
+    "error": "Failed to load image",
+    "view": "View"
+  },
+  "image_detail": {
+    "title": "Artwork Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "make_public": "Show in Community",
+      "make_private": "Make Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt"
+    },
+    "actions": {
+      "download": "Download Image",
+      "reuse": "Reuse",
+      "download_error": "Failed to download image",
+      "as_reference": "As Reference"
+    },
+    "meta": {
+      "aspect_ratio": "Aspect Ratio",
+      "style": "Style",
+      "scene": "Scene",
+      "outfit": "Outfit",
+      "seed": "Seed",
+      "created_at": "Created At"
+    },
+    "variants": {
+      "title": "Variants"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Preparing this artwork for reuse...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No artwork selected",
+      "description": "Choose an image from your gallery to view details."
+    },
+    "loading": "Loading artwork details...",
+    "error": "Failed to load artwork details"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed",
+    "canceled": "Canceled"
+  },
+  "errors": {
+    "prompt-required": "Please enter a description for your image",
+    "insufficient-credits": "You don't have enough credits to generate this many images",
+    "generation-failed": "Failed to start generation. Please try again.",
+    "network-error": "Network error. Please check your connection and try again.",
+    "config-load-failed": "Failed to load configuration",
+    "image-not-found": "Image not found",
+    "no-permission": "You don't have permission to access this image",
+    "load-image-failed": "Failed to load image data",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again."
+  },
+  "auth_required": {
+    "reuse_params": "Please log in to use reference images or reuse generation parameters. Your current settings will be preserved.",
+    "ref_image": "Please log in to use reference images for generation."
+  },
+  "ratios": {
+    "square": {
+      "name": "Square (1:1)",
+      "description": "Perfect square format for profile pictures"
+    },
+    "portrait": {
+      "name": "Portrait (2:3)",
+      "description": "Vertical format ideal for character portraits"
+    },
+    "widescreen": {
+      "name": "Widescreen (16:9)",
+      "description": "Wide format perfect for landscapes and wallpapers"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "Aspect Ratio",
+    "selected": "Selected"
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  }
+}

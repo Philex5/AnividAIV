@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-22",
+  "config_type": "action",
+  "items": [
+    {
+      "uuid": "action-running-001",
+      "name": "running",
+      "key": "running",
+      "i18n_name_key": "actions.running.name",
+      "thumbnail_url": "",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "action-sitting-001",
+      "name": "sitting",
+      "key": "sitting",
+      "i18n_name_key": "actions.sitting.name",
+      "thumbnail_url": "",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "action-standing-001",
+      "name": "standing",
+      "key": "standing",
+      "i18n_name_key": "actions.standing.name",
+      "thumbnail_url": "",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "action-jumping-001",
+      "name": "jumping",
+      "key": "jumping",
+      "i18n_name_key": "actions.jumping.name",
+      "thumbnail_url": "",
+      "sort_order": 4,
+      "status": "active"
+    },
+    {
+      "uuid": "action-dancing-001",
+      "name": "dancing",
+      "key": "dancing",
+      "i18n_name_key": "actions.dancing.name",
+      "thumbnail_url": "",
+      "sort_order": 5,
+      "status": "active"
+    },
+    {
+      "uuid": "action-fighting-001",
+      "name": "fighting",
+      "key": "fighting",
+      "i18n_name_key": "actions.fighting.name",
+      "thumbnail_url": "",
+      "sort_order": 6,
+      "status": "active"
+    }
+  ]
+}

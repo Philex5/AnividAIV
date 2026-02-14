@@ -1,0 +1,3 @@
+{
+  "prompt": "Create a cinematic anime-style illustration of a major life event. Character visual profile: {characterInfo}. Timeline stage: {timelinePeriod}. Event title: {eventTitle}. Event description: {eventContent}. Composition guidance: {compositionGuidance}. Focus on storytelling through action, environment, and relationships; do not default to a centered protagonist layout. If any in-scene text appears, use {locale}. Never render character names, labels, captions, UI text, or watermarks on the image. The reference image defines character appearance consistency only."
+}

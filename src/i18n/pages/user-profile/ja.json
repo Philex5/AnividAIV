@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "title": "ユーザープロフィール | AnividAI",
+    "description": "キャラクター、世界観、作品を見る"
+  },
+  "hero": {
+    "stats_characters": "キャラクター",
+    "stats_worlds": "世界観",
+    "stats_artworks": "作品"
+  },
+  "buttons": {
+    "set_background": "背景を設定",
+    "update_profile": "プロフィールを更新"
+  },
+  "sections": {
+    "characters": "キャラクター",
+    "worlds": "世界観",
+    "artworks": "作品",
+    "message_board": "掲示板"
+  },
+  "empty": {
+    "characters": "まだキャラクターがいません",
+    "worlds": "まだ世界観がありません",
+    "artworks": "まだ作品がありません"
+  },
+  "profile_form": {
+    "title": "プロフィールを更新",
+    "display_name_label": "表示名",
+    "display_name_placeholder": "表示名を入力してください",
+    "avatar_label": "アバター",
+    "gender_label": "性別",
+    "gender_placeholder": "性別を選択",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "gender_other": "その他",
+    "bio_label": "自己紹介",
+    "bio_placeholder": "あなた自身について教えてください",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "success": "プロフィールを更新しました"
+  },
+  "background_form": {
+    "title": "背景を設定",
+    "save": "背景を保存",
+    "cancel": "キャンセル",
+    "success": "背景を更新しました"
+  },
+  "errors": {
+    "update_failed": "プロフィールの更新に失敗しました"
+  },
+  "reference": {
+    "error-format": "サポートされていない画像形式です",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-auth": "画像をアップロードするにはログインしてください",
+    "error-filename": "ファイル名が無効です"
+  },
+  "menu": {
+    "profile": "プロフィール"
+  }
+}

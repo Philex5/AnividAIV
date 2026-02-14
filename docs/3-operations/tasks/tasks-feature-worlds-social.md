@@ -1,0 +1,5 @@
+-[] FEAT-WORLDS 世界观社交能力
+  -[] 验收：公开世界观可点赞/收藏/评论/分享，私有世界观禁止互动
+  -[] 设计：docs/2-implementation/features/feature-worlds.md
+  -[] 测试：tests/test-cases/FEAT-WORLDS-social.md
+  -[] 依赖：user_interactions 与 comments 复用，oc_worlds 统计字段

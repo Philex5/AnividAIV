@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-17",
+  "config_type": "camera_motion",
+  "items": [
+    {
+      "uuid": "pan",
+      "name": "pan",
+      "key": "pan",
+      "i18n_name_key": "camera_motions.pan.name",
+      "thumbnail_url": "",
+      "sort_order": 1,
+      "status": "active",
+      "prompt_value": "pan"
+    },
+    {
+      "uuid": "tilt",
+      "name": "tilt",
+      "key": "tilt",
+      "i18n_name_key": "camera_motions.tilt.name",
+      "thumbnail_url": "",
+      "sort_order": 2,
+      "status": "active",
+      "prompt_value": "tilt"
+    },
+    {
+      "uuid": "zoom",
+      "name": "zoom",
+      "key": "zoom",
+      "i18n_name_key": "camera_motions.zoom.name",
+      "thumbnail_url": "",
+      "sort_order": 3,
+      "prompt_value": "zoom",
+      "status": "active"
+    },
+    {
+      "uuid": "push",
+      "name": "push",
+      "key": "push",
+      "i18n_name_key": "camera_motions.push.name",
+      "thumbnail_url": "",
+      "sort_order": 4,
+      "prompt_value": "push",
+      "status": "active"
+    },
+    {
+      "uuid": "orbit",
+      "name": "orbit",
+      "key": "orbit",
+      "i18n_name_key": "camera_motions.orbit.name",
+      "thumbnail_url": "",
+      "sort_order": 5,
+      "prompt_value": "orbit",
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-09",
+  "config_type": "outfit",
+  "items": [
+    {
+      "uuid": "outfit-hanfu-001",
+      "name": "hanfu",
+      "key": "hanfu",
+      "i18n_name_key": "outfits.hanfu.name",
+      "thumbnail_url": "/outfits/hanfu.webp",
+      "sort_order": 1,
+      "status": "active",
+      "config_data": {
+        "style": "traditional Chinese",
+        "formality": "formal, ceremonial"
+      }
+    },
+    {
+      "uuid": "outfit-qipao-001", 
+      "key": "qipao",
+      "i18n_name_key": "outfits.qipao.name",
+      "thumbnail_url": "/outfits/qipao.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "outfit-jk-uniform-001",
+      "name": "jk_uniform",
+      "key": "jk_uniform",
+      "i18n_name_key": "outfits.jk_uniform.name",
+      "thumbnail_url": "/outfits/jk-uniform.webp",
+      "sort_order": 3,
+      "status": "active"
+    }
+  ]
+}

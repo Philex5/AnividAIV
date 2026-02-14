@@ -1,0 +1,11 @@
+-[] FEAT-NOTIFICATIONS 系统通知功能
+-[] 验收：docs/2-implementation/features/feature-notifications.md
+-[] 设计：docs/2-implementation/features/feature-notifications.md
+-[] 测试：tests/test-cases/FEAT-NOTIFICATIONS-system-notifications.md
+-[] 依赖：通知数据模型 + 通知 API + Header 入口
+-[] 任务拆解：
+  -[] 后端：通知模型与服务
+  -[] API：列表/未读/已读
+  -[] 前端：Header 入口 + Popover + 通知中心页面
+  -[] i18n：notifications page 文案
+  -[] 测试：主路径/错误/回归

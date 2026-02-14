@@ -1,0 +1,697 @@
+{
+  "template": "AnividAI-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AnividAI",
+      "logo": {
+        "src": "/logo.webp",
+        "alt": "AnividAI"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "機能",
+          "url": "/#feature",
+          "icon": "",
+          "is_mega_menu": true,
+          "columns": [
+            {
+              "items": [
+                {
+                  "title": "OCメーカー",
+                  "description": "オリジナルキャラクターを創作・カスタマイズ",
+                  "icon": "RiUserAddLine",
+                  "url": "/oc-maker"
+                },
+                {
+                  "title": "AIアニメジェネレーター",
+                  "description": "テキストから素晴らしいアニメアートを生成",
+                  "url": "/ai-anime-generator"
+                },
+                {
+                  "title": "AIアニメ動画ジェネレーター",
+                  "description": "あなたのキャラクターでアニメーション動画を創作",
+                  "icon": "RiVideoFill",
+                  "url": "/ai-anime-video-generator"
+                },
+                {
+                  "title": "キャラクターとチャット",
+                  "description": "あなたのOCとインタラクティブな会話",
+                  "icon": "RiChat4Line",
+                  "url": "/chat"
+                }
+              ]
+            },
+            {
+              "app_container": true,
+              "items": [
+                {
+                  "title": "スタジオツール",
+                  "description": "あなたのキャラクターのための強力なアプリを探索",
+                  "icon": "RiApps2Line",
+                  "url": "/oc-maker",
+                  "sub_features": [
+                    {
+                      "title": "写真フィギュア化",
+                      "description": "OCと写真を3Dモデルに変換",
+                      "icon": "RiRobot3Line",
+                      "url": "/ai-action-figure-generator"
+                    },
+                    {
+                      "title": "AIステッカージェネレーター",
+                      "description": "かわいいAIステッカーを即座に作成",
+                      "icon": "RiRobot3Line",
+                      "url": "/ai-sticker-generator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "コミュニティ",
+          "url": "/community",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "料金プラン",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "更新履歴",
+          "url": "/changelog",
+          "icon": "RiMoneyDollarCircleLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "draggable_hero": {
+    "title": "あなたのAIスタジオで広がるアニメワールド",
+    "highlight_text": "アニメワールド",
+    "description": "AnividAIはアニメクリエイターのためのオールインワン制作スタジオです。オリジナルキャラクターのデザイン、一貫性のあるアートや動画の生成、そしてあなたの創造的なビジョンをプロフェッショナルなアニメコンテンツへと、シームレスなワークフローで実現します。",
+    "oc_showcase_title": "キャラクターの一貫性が、物語を無限に広げる",
+    "guide": {
+      "drag_text_desktop": "ドラッグして作品を探索",
+      "drag_text_mobile": "スワイプして作品を探索",
+      "click_text": "キャラクターの魂を見る"
+    }
+  },
+  "command_center": {
+    "modes": {
+      "oc": "キャラ設定",
+      "art": "画像生成",
+      "video": "動画制作",
+      "chat": "対話",
+      "world": "世界観"
+    },
+    "placeholders": {
+      "oc": "新しいキャラクターに魂を吹き込む...",
+      "art": "OCのシーンを具現化する...",
+      "video": "映画のような瞬間を切り取る...",
+      "chat": "キャラクターと話す...",
+      "world": "あなたの物語の舞台設定やルールを定義..."
+    },
+    "button": "具現化"
+  },
+  "introduce": {
+    "title": "プロフェッショナルなAIアニメ制作スタジオ",
+    "description": "AnividAIは、アニメアーティストやストーリーテラーにエンドツーエンドのワークフローを提供します。キャラクターデザインから高品質な画像、映画のような動画まで、必要なすべてがここに統合されています。",
+    "vision": "オールインワンAIアニメスタジオ",
+    "create_oc_button": "制作を開始",
+    "explore_community_button": "ギャラリーを探索"
+  },
+  "benefit": {
+    "title": "クリエイターがAnividAIを選ぶ理由",
+    "subtitle": "一貫性のある高品質なコンテンツを制作するために設計された、プロフェッショナルなツールキット。",
+    "items": [
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-1.webp",
+        "title": "一つのOC、すべてのツールで",
+        "description": "一度作成すれば、どこでも使えます。OCプロファイルがスタジオ全体と連動し、画像、動画、物語を通じてキャラクターの一貫性を保証します。"
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-2.webp",
+        "title": "一貫性をデザインする",
+        "description": "AIがキャラクターの外見を固定。完璧な一貫性を自動的に維持しながら、アニメ画像や動画を无制限に生成できます。"
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-3.webp",
+        "title": "実戦的な制作パイプライン",
+        "description": "コンセプトアートから最終アセットまで。キャラクター作成、高品質なコンテンツ生成、グッズ用デザインまで、プロ仕様の環境で完結します。"
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-4.webp",
+        "title": "厳選されたACGNライブラリ",
+        "description": "アニメ、漫画、ゲームアートに特化したスタイル。ジブリ風からスタイライズド3Dまで、こだわりを持つクリエイターのために構築されています。"
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-5.webp",
+        "title": "クリエイターコミュニティ",
+        "description": "あなたの傑作を公開し、世界中のオリジナルキャラクターを発見しましょう。プロンプトを共有し、プロジェクトを披露して、ファンを増やしましょう。"
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-6.webp",
+        "title": "無料でスタート",
+        "description": "アニメ制作を無料で始めましょう。ウェルカムクレジットを使って、スタジオのフル機能を備えたAI生成ツールを体験できます。カード登録は不要です。"
+      }
+    ]
+  },
+  "usage": {
+    "disabled": true
+  },
+  "feature": {
+    "name": "feature",
+    "title": "アニメ制作のための統合ツールキット",
+    "description": "キャラクターデザインから映画のようなアニメーションまで、AnividAIはプロジェクトを具現化するための連携ツール群を提供します。",
+    "items": [
+      {
+        "id": "oc_maker",
+        "title": "キャラクターの核心：OC Maker",
+        "description": "キャラクターを一度デザインすれば、すべてで使用可能。OC Makerがプロジェクト全体の一貫性を支えるアンカーとなります。",
+        "icon": "RiUserAddLine",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-ocs-maker.webp",
+          "alt": "OC Maker デザインインターフェース"
+        },
+        "cta": {
+          "title": "キャラをデザイン",
+          "url": "/oc-maker"
+        }
+      },
+      {
+        "id": "ai_anime_generator",
+        "title": "視覚化：AIアニメアート",
+        "description": "テキストをプロフェッショナルなアニメアートに変換。すべてのシーンとスタイルで、キャラクターの一貫性を保普及させます。",
+        "icon": "RiImageFill",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-anime-generator.webp",
+          "alt": "AIアニメ画像生成"
+        },
+        "cta": {
+          "title": "画像を生成",
+          "url": "/ai-anime-generator"
+        }
+      },
+      {
+        "id": "ai_video_generator",
+        "title": "モーション：AIアニメ動画",
+        "description": "プロ仕様前後のカメラ制御で、映画のようなアニメクリップを作成。流れるような動きと一貫した美学で、キャラクターに命を吹き込みます。",
+        "icon": "RiVideoFill",
+        "media": {
+          "type": "video",
+          "src": "gallery/anime_video/kling_3_0/kling3-showcase-3.mp4",
+          "alt": "AIアニメ動画制作"
+        },
+        "cta": {
+          "title": "動画を制作",
+          "url": "/ai-anime-video-generator"
+        }
+      },
+      {
+        "id": "chat_with_oc",
+        "title": "繋がり：キャラクターチャット",
+        "description": "OCと対話して、性格や設定を深めましょう。キャラクターの魂と物語を育むユニークな方法です。",
+        "icon": "RiChat4Line",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-chat.webp",
+          "alt": "キャラクター対話インターフェース"
+        },
+        "cta": {
+          "title": "対話する",
+          "url": "/chat"
+        }
+      },
+      {
+        "id": "oc_apps",
+        "title": "プロダクション：スタジオツール",
+        "description": "特化型ツールでIPを広げましょう。フィギュア風レンダーやステッカーパックなど、制作に役立つアセットを生成します。",
+        "icon": "RiApps2Line",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-oc-apps.webp",
+          "alt": "アニメ制作ツール"
+        },
+        "cta": {
+          "title": "アセット作成",
+          "url": "/ai-action-figure-generator"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "統計",
+    "title": "世界中で愛される AnividAI",
+    "description": "使いやすく、迅速に制作できるからです。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "信頼されている",
+        "label": "99+",
+        "description": "ユーザー"
+      },
+      {
+        "title": "搭載済み",
+        "label": "20+",
+        "description": "コンポーネント"
+      },
+      {
+        "title": "高速に制作",
+        "label": "5",
+        "description": "分で"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "よくある質問",
+    "description": "AnividAIで制作エコシステムを構築・利用するために必要なすべての情報",
+    "items": [
+      {
+        "title": "OC Makerとは何ですか？なぜ使うべきですか？",
+        "description": "OC Makerは、独自のオリジナルキャラクターを設計するための専門的なツールです。これを使用することで、画像生成、動画作成、チャットなど、すべての機能で一貫したキャラクターを維持できます。"
+      },
+      {
+        "title": "OC Makerのエコシステムはどのように機能しますか？",
+        "description": "まずOC Makerを使用して、3つの簡単なステップでキャラクターを設計します。一度作成すると、そのキャラクターはアニメ画像ジェネレーターや動画制作ツールですぐに利用可能になります。"
+      },
+      {
+        "title": "OCをすべての機能で使用できますか？",
+        "description": "はい！それがAnividAIの最大の利点です。OCを作成すると、AIアニメジェネレーター、AI動画ジェネレーター、チャット、スタジオツールで自動的に利用可能になります。AIは外見や性格を一貫して維持するため、常に同じキャラクターとして振る舞います。"
+      },
+      {
+        "title": "フリーユーザーには何が含まれていますか？",
+        "description": "フリーユーザーは最大10人のOCを作成でき、ウェルカムクレジットを受け取り、コミュニティギャラリーにアクセスできます。クレジットを使用してすべての生成機能を試すことができます。PlusやProにアップグレードすると、より多くのスロットや優先生成が提供されます。"
+      },
+      {
+        "title": "クレジット（MC）システムはどのように機能しますか？",
+        "description": "MC（ミャウコイン）はプラットフォーム共通のクレジット通貨です。料金は画像1枚あたり10 MC、動画1本あたり100 MC、OC 1体あたり50 MCからです。チャットとStudio Toolsはモデルや処理の複雑さに応じてMCを消費します。Meow Packの購入、またはサブスクリプションで毎月のMCとボーナスクレジットを利用できます。"
+      },
+      {
+        "title": "他の人のOCとチャットできますか？",
+        "description": "はい、所有者が「公開」設定にしている場合、コミュニティで閲覧し対話を開始できます。非公開のOCは作成者のみがアクセス可能です。"
+      },
+      {
+        "title": "どのような動画形式と長さがサポートされていますか？",
+        "description": "3〜10秒のMP4動画を、1:1、9:16、16:9の3つのアスペクト比で作成できます。プロフェッショナルなカメラムーブメントを備えた720p/1080pで生成されます。"
+      },
+      {
+        "title": "生成されたコンテンツを商用的に使用できますか？",
+        "description": "はい！あなたが創作したすべてのコンテンツ（OCデザイン、画像、動画、フィギュアレンダーなど）は、個人的または商用目的で使用可能です。追加のライセンス料は不要です。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "あなたのアニメ制作を始めませんか？",
+    "description": "オリジナルキャラクターを作成し、アニメ画像・動画を生成し、制作の幅を広げましょう。まずは無料から。",
+    "buttons": [
+      {
+        "title": "無料で最初のOCを作成",
+        "url": "/oc-maker",
+        "target": "_self",
+        "icon": "/creamy/decorations/bow_tile.webp"
+      },
+      {
+        "title": "コミュニティギャラリーを見る",
+        "url": "/community",
+        "target": "_self",
+        "variant": "outline",
+        "icon": "/creamy/decorations/foot.webp"
+      }
+    ]
+  },
+  "feature_showcase": {
+    "section_title": "強力なAIクリエイション機能",
+    "section_subtitle": "OC設計、アニメ画像生成、動画制作のためのプロフェッショナルツール。",
+    "intelligent_prompts": {
+      "title": "インテリジェントプロンプト",
+      "description": "シンプルなアイデアを洗練されたプロンプトへ。AIが表現とキーワードを補助します。",
+      "features": {
+        "0": "AIによるプロンプト強化",
+        "1": "キーワード提案",
+        "2": "スタイル別ガイド",
+        "3": "アニメ向け用語ライブラリ"
+      },
+      "cta": "マジックプロンプトを試す",
+      "media_alt": "AI prompt optimization demonstration",
+      "style_ghiblio": "スタジオジブリ風",
+      "style_pixar": "Pixar 3Dスタイル",
+      "style_watercolor": "水彩画スタイル",
+      "style_manga": "伝統的な漫画"
+    },
+    "diverse_styles": {
+      "title": "多様なアニメスタイル",
+      "description": "アニメ、漫画、ゲームアートなど、ACGNクリエイター向けに厳選されたスタイルライブラリ。",
+      "features": {
+        "0": "スタジオジブリ風の美学",
+        "1": "スタイライズド3Dレンダリング",
+        "2": "水彩イラスト風",
+        "3": "伝統的な漫画表現"
+      },
+      "cta": "すべてのスタイルを探索",
+      "media_alt": "Various anime styles showcase",
+      "style_ghiblio": "スタジオジブリ",
+      "style_pixar": "Pixar 3D",
+      "style_watercolor": "水彩画",
+      "style_manga": "漫画スタイル"
+    },
+    "rapid_generation": {
+      "title": "圧倒的な生成スピード",
+      "description": "最適化されたパイプラインで、高品質な作品をストレスなく生成できます。",
+      "features": {
+        "0": "高速生成パイプライン",
+        "1": "一括生成対応",
+        "2": "モバイル最適化",
+        "3": "リアルタイムプレビュー"
+      },
+      "cta": "今すぐ制作を開始",
+      "media_alt": "Fast generation speed demonstration"
+    }
+  },
+  "community_gallery": {
+    "title": "コミュニティのOCギャラリー",
+    "subtitle": "AnividAIコミュニティが制作したアニメアートとOCデザインを発見しましょう。",
+    "view_more": "もっと見る",
+    "upload_yours": "作品を共有する"
+  },
+  "how_to_use": {
+    "title": "3ステップで制作を開始",
+    "subtitle": "OC設定から画像生成まで、迷うことのないシンプルなワークフロー。",
+    "step_1_title": "アイデアを伝える",
+    "step_1_description": "キャラクター、シーン、ストーリーのアイデアを言葉にします。",
+    "step_2_title": "スタイルを選ぶ",
+    "step_2_description": "アニメスタイルや設定を選んで、イメージを固めます。",
+    "step_3_title": "作品を入手",
+    "step_3_description": "一貫した高品質な作品を生成し、あなたのアニメユニバースを構築しましょう。",
+    "cta_button": "無料で制作を開始",
+    "cta_subtitle": "カード登録不要 • まずは無料でOCを作成"
+  },
+  "blog": {
+    "title": "スタジオ最新情報",
+    "description": "最新機能、クリエイティブガイド、コミュニティのハイライトをチェックしましょう。",
+    "read_more_text": "詳しく見る"
+  },
+  "parameters": {
+    "visibility": "公開設定",
+    "visibility_description": "生成の公開レベルを設定",
+    "camera_motion": "カメラ動き",
+    "camera_motion_placeholder": "カメラムーブメントを選択"
+  },
+  "user_showcase": {
+    "title": "ユーザー作品紹介",
+    "description": "世界中の才能あるコミュニティメンバーによる驚きのアニメアートワーク",
+    "see_more": "もっと見る",
+    "loading": "読み込み中...",
+    "empty": "注目の作品はまだありません",
+    "featured_artworks": [
+      {
+        "uuid": "09eb6945-8b53-4c9d-9426-397bc3073a59",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "aba5e007-83ff-46ef-8f31-778830e39b19",
+        "type": "video",
+        "badge_type": "Anime Video"
+      },
+      {
+        "uuid": "eb9b7421-582a-4ebb-9202-1687ce216a43",
+        "type": "image",
+        "badge_type": "Action Figure"
+      },
+      {
+        "uuid": "4a63c875-9126-4657-96e1-22f66e9604da",
+        "type": "video",
+        "badge_type": "Anime Video"
+      },
+      {
+        "uuid": "3cca491e-9349-493b-92ca-0f737a827ffa",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "5e6dd497-a0de-4248-aebc-fea80e709515",
+        "type": "image",
+        "badge_type": "Sticker"
+      },
+      {
+        "uuid": "d7ee1301-ef87-4073-a23b-ca333cffd2c1",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "116953e6-5b2f-4f6c-bae5-95b55299a56c",
+        "type": "image",
+        "badge_type": "Anime"
+      },
+      {
+        "uuid": "e6d3ac76-cbaa-449b-98dd-252c6bf4b065",
+        "type": "image",
+        "badge_type": "Action Figure"
+      },
+      {
+        "uuid": "5693c7a4-d175-4423-b527-d013142ba6de",
+        "type": "video",
+        "badge_type": "Anime Video"
+      }
+    ]
+  },
+  "oc_detail": {
+    "basicInfo": "基本情報",
+    "background": "背景設定",
+    "brief_introduction": "紹介",
+    "personality": "性格",
+    "name": "名前",
+    "role": "役割",
+    "gender": "性別",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "gender_other": "その他",
+    "age": "年齢",
+    "species": "種族"
+  },
+  "oc_showcase_characters": [
+    {
+      "uuid": "oc-example-003",
+      "name": "Lyria",
+      "role": "Ocean Singer",
+      "avatar_url": "gallery/landingpage_oc_showcase/lyria/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/lyria/profile.webp",
+      "character_data": {
+        "species": "Mermaid",
+        "gender": "female",
+        "age": 19,
+        "personality_tags": [
+          "compassionate",
+          "curious",
+          "creative",
+          "mysterious"
+        ],
+        "brief_introduction": "その声を聞いたすべての人を魅了する優しい人魚。",
+        "background_story": "海に響く歌を作曲する隠されたラグーンに住んでいます。地上の世界を探索する夢を持っています。",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/lyria/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-005",
+      "name": "Puffie",
+      "role": "Joybringer of the Enchanted Fores",
+      "avatar_url": "gallery/landingpage_oc_showcase/puffie/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/puffie/profile.webp",
+      "character_data": {
+        "species": "Fairy",
+        "gender": "female",
+        "age": 6,
+        "personality_tags": [
+          "affectionate",
+          "playful",
+          "energetic"
+        ],
+        "brief_introduction": "すべての森の生き物に愛されている、ぬいぐるみのようなフェアリー。温かさと笑いをもたらします。",
+        "background_story": "笑いが最大の魔法である魔法の森の心臓で生まれました。優しい抱擁は、多くの悲しい心を癒してきました。",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/puffie/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-004",
+      "name": "Creamy",
+      "role": "Magical Explorer",
+      "avatar_url": "gallery/landingpage_oc_showcase/creamy/avatar.png",
+      "image": "gallery/landingpage_oc_showcase/creamy/profile.webp",
+      "character_data": {
+        "species": "Mystic Cat",
+        "gender": "female",
+        "age": 16,
+        "personality_tags": [
+          "Adventurous",
+          "cheerful",
+          "kind-hearted",
+          "helpful",
+          "curious"
+        ],
+        "brief_introduction": "Creamyは、遠い国から来た魔法の猫。探検家として神秘的な領域を旅し、必要とする人を助けます。彼女の魔法は困難な状況を切り開きます。",
+        "background_story": "",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/creamy/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-001",
+      "name": "Vex",
+      "role": "Urban Sentinel",
+      "avatar_url": "gallery/landingpage_oc_showcase/vex/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/vex/profile.webp",
+      "character_data": {
+        "species": "Robot",
+        "gender": "other",
+        "age": 15,
+        "personality_tags": [
+          "serious",
+          "perfectionist",
+          "loyal"
+        ],
+        "brief_introduction": "都市の安全を守るために設計されたアンドロイド。精密で忠実ですが、人間の感情に興味を持ち始めています。",
+        "background_story": "ネオンが輝く街をパトロールするために作成されました。機械でありながら、人間の感情の複雑さを学んでいます。",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/vex/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-002",
+      "name": "Aelion",
+      "role": "Forest Sage",
+      "avatar_url": "gallery/landingpage_oc_showcase/aelion/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/aelion/profile.webp",
+      "character_data": {
+        "species": "Elf",
+        "gender": "male",
+        "age": 1200,
+        "personality_tags": [
+          "intelligent",
+          "calm",
+          "mysterious"
+        ],
+        "brief_introduction": "最古の木の根のように深い知恵を持つ、エルフの賢者。自然と魔法の繊細なバランスを守り続けています。",
+        "background_story": "数世紀を森の魔法の研究に捧げてきました。めったに森を離れませんが、助けを求める者を拒むことはありません。",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/aelion/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/wide1.webp"
+          }
+        ]
+      }
+    }
+  ]
+}

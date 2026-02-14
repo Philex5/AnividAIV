@@ -1,0 +1,15 @@
+# 聊天配额 API 测试
+# Chat Quota APIs
+
+@import common.http
+
+### 获取聊天配额
+GET {{apiUrl}}/chat/quota
+
+### 重置聊天配额（Cron）
+POST {{apiUrl}}/chat/quota/reset
+Authorization: Bearer {{cronToken}}
+
+### 配额重置健康检查
+GET {{apiUrl}}/chat/quota/reset
+Authorization: Bearer {{cronToken}}

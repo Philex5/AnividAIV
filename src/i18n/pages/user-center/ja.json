@@ -1,0 +1,95 @@
+{
+  "title": "ユーザーセンター",
+  "user_info": {
+    "current_credits": "現在のクレジット",
+    "recharge": "チャージ",
+    "pro_member_tooltip": "AnividAIメンバー",
+    "free_member_tooltip": "無料ユーザー"
+  },
+  "tabs": {
+    "my_credits": "マイMC",
+    "my_subscription": "マイ加入プラン",
+    "my_orders": "マイ注文",
+    "danger_zone": "危険ゾーン"
+  },
+  "credits": {
+    "title": "マイクレジット",
+    "summary_tip": "残高：{balance} | 獲得：{totalEarned} | 使用：{totalUsed}",
+    "expiring_tip": "{expiringCredits}クレジットが{expiringAt}に期限切れ",
+    "no_expiring_tip": "まもなく期限切れのクレジットはありません",
+    "recharge": "もっと  [MC] を取得",
+    "no_credits": "クレジット記録が見つかりません",
+    "table": {
+      "trans_no": "取引番号",
+      "trans_type": "タイプ",
+      "credits": "クレジット",
+      "created_at": "作成日時",
+      "expired_at": "期限日時"
+    },
+    "trans_types": {
+      "new_user": "新規ユーザー特典",
+      "order_pay_one_time": "一回限り購入",
+      "order_pay_subscription": "加入（月次クレジット）",
+      "system_add": "システム追加",
+      "ping": "API使用",
+      "chat": "チャット使用",
+      "chat_refund": "チャット返金",
+      "oc_generation": "OC Generation",
+      "image_generation": "画像生成",
+      "image_generation_refund": "画像生成返金",
+      "video_generation": "動画生成",
+      "video_generation_refund": "動画生成返金"
+    }
+  },
+  "subscription": {
+    "no_subscription": "まだ加入していません",
+    "start_subscription": "加入開始",
+    "current_plan": "現在のプラン",
+    "next_billing": "次回請求",
+    "cancel_subscription": "キャンセル",
+    "cancel_confirm": "キャンセルしてもよろしいですか？現在の期間は有効のままです。",
+    "cancel_dialog": {
+      "title": "{plan}加入のキャンセル",
+      "description": "キャンセルを確認する前に詳細をご確認ください",
+      "current_plan": "現在のプラン",
+      "period_end": "有効期間",
+      "cancel_notice": {
+        "title": "キャンセルポリシー",
+        "continue_access": "{date}までプレミアム機能への継続したアクセスが続きます",
+        "no_refund": "キャンセルについては返金されません",
+        "manual_refund": "返金については、カスタマーサービスにお問い合わせください"
+      },
+      "impact_section": {
+        "title": "キャンセル後",
+        "active_until": "アクセス期間：{date}",
+        "no_renewal": "自動更新なし",
+        "features_disabled": "プレミアム機能は期限切れ後に無効になります"
+      },
+      "buttons": {
+        "keep": "加入を継続",
+        "confirm": "キャンセルを確認",
+        "processing": "処理中..."
+      }
+    }
+  },
+  "orders": {
+    "title": "マイ注文",
+    "order_no": "注文番号",
+    "product_name": "商品",
+    "amount": "金額",
+    "status": "ステータス",
+    "created_at": "作成日時",
+    "view_details": "詳細を表示",
+    "no_orders": "注文が見つかりません",
+    "monthly_credits_label": "{credits} / 月",
+    "monthly_credits_hint": "毎月配布 · 30日間有効"
+  },
+  "danger_zone": {
+    "title": "危険ゾーン",
+    "warning": "以下の操作は取り消せません。慎重に行ってください。",
+    "delete_account": "アカウント削除",
+    "delete_warning": "アカウント削除により、すべてのデータが永久に削除されます",
+    "confirm_email": "確認のためメールアドレスを入力してください",
+    "final_confirm": "この操作は取り消せないことを理解しました"
+  }
+}

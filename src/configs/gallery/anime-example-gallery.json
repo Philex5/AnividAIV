@@ -1,0 +1,313 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-07",
+  "description": "Example images for AI anime generator showcase (unauthenticated users)",
+  "examples": [
+    {
+      "uuid": "no_preset_anime-example-001",
+      "r2_path": "gallery/anime/no_preset_sample-2.webp",
+      "alt": "anime generator showcase moon goddess",
+      "aspect_ratio": "16:9",
+      "title": "Anime Generator Showcase - Moon Goddess",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A young female celestial warrior standing on a colossal floating stone platform above a sea of clouds at night. \nLong silver hair flowing down to her waist, glowing blue eyes, calm and determined expression. \nWearing a white and silver armored dress with elegant metallic details, flowing translucent cape, silver gauntlets and knee-high armored boots. \nA radiant crystal crown floating slightly above her head. \nBehind her, a massive glowing moon and a vast star-filled sky with nebula clouds. \nEpic fantasy atmosphere, ultra detailed, cinematic lighting, volumetric moonlight beams, dramatic scale, anime-inspired high detail illustration.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "cinematic_anime-example-001",
+      "r2_path": "gallery/anime/cinematic_anime_meeting.webp",
+      "alt": "boy and girl meeting ai cinematic anime style",
+      "aspect_ratio": "21:9",
+      "title": "boy and girl  meeting on a train platform",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A boy and girl meeting on a train platform, with beautiful city lights and reflections in the background",
+        "style": "cinematic_anime",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "shoujo_sparkle_anime-example-001",
+      "r2_path": "gallery/anime/shoujo_sparkle_girl.webp",
+      "alt": "anime high school girl",
+      "aspect_ratio": "1:1",
+      "title": "anime high school girl",
+      "parameters": {
+        "model_id": "bytedance/seedream-v4-edit",
+        "prompt": "a confident school girl on a rooftop at sunset, long hair and ribbon lifted by wind, one hand holding a school bag strap, city skyline glowing in the distance, floating petals and tiny light particles around her, warm golden-hour lighting, three-quarter portrait framing, clear emotional expression, elegant pose, bright and clean details.",
+        "style": "shoujo_sparkle",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "anime-example-001",
+      "r2_path": "gallery/anime/anime_girl_1.webp",
+      "alt": "ai anime girl",
+      "aspect_ratio": "3:4",
+      "title": "Anime Girl",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A girl standing under cherry blossom trees in a park, smiling and waving",
+        "style": "anime",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "watercolor-example-002",
+      "r2_path": "gallery/anime/watercolor_girl.webp",
+      "alt": "girl ai watercolor anime style",
+      "aspect_ratio": "5:4",
+      "title": "watercolor qipao girl",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A girl in a flowing, patterned qipao, holding a colorful paper umbrella, walking along a stone path in a serene garden",
+        "style": "watercolor",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "american_comics-example-002",
+      "r2_path": "gallery/anime/american_comics_detective.webp",
+      "alt": "detective ai american_comics anime style",
+      "aspect_ratio": "1:1",
+      "title": "detective in a trench coat investigating a mysterious alle",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A detective in a trench coat investigating a mysterious alley, illuminated by dramatic streetlights and shadows",
+        "style": "american_comics",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 5
+    },
+    {
+      "uuid": "anime-example-002",
+      "r2_path": "gallery/anime/anime_boy_1.webp",
+      "alt": "ai anime boy in classroom",
+      "aspect_ratio": "4:3",
+      "title": "Anime Boy",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A boy sitting by a window in a classroom, sunlight streaming in, looking outside",
+        "style": "anime",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "ghiblio-example-001",
+      "r2_path": "gallery/anime/ghiblio_girl_1.webp",
+      "alt": "girl walking through grass ai ghiblio anime style",
+      "aspect_ratio": "4:3",
+      "title": "girl walking through grass",
+      "parameters": {
+        "model_id": "gpt4o-image",
+        "prompt": "A young girl walking through a field of tall grass, carrying a satchel, surrounded by lush nature",
+        "style": "ghiblio",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "cinematic_anime-example-002",
+      "r2_path": "gallery/anime/cinematic_anime_catgirl_1.webp",
+      "alt": "A catgirl ai cinematic anime style",
+      "aspect_ratio": "1:1",
+      "title": "A catgirl standing on a hilltop",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A catgirl standing on a hilltop, wearing a light summer dress and holding a small satchel, looking up at the sky. ",
+        "style": "cinematic_anime",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "american_comics-example-001",
+      "r2_path": "gallery/anime/american_comics_vigilante_1.webp",
+      "alt": "masked vigilante ai american_comics anime style",
+      "aspect_ratio": "4:5",
+      "title": "masked vigilante",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A masked vigilante standing on a rooftop at night, overlooking the city with a outgoing expression",
+        "style": "american_comics",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "ghiblio-example-002",
+      "r2_path": "gallery/anime/ghiblio_cottage_1.webp",
+      "alt": "Cottage in forest ai ghiblio anime style",
+      "aspect_ratio": "4:3",
+      "title": "Cottage in forest",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A small cottage nestled in a forest, with smoke rising from the chimney and flowers blooming around",
+        "style": "ghiblio",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 5
+    },
+    {
+      "uuid": "z-image-example-001",
+      "r2_path": "gallery/anime/06-cyberpunk-sci-fi-01.webp",
+      "alt": "cyberpunk-sci-fi",
+      "aspect_ratio": "3:4",
+      "title": "cyberpunk sci-fi",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": " original heroine, silver hair, katana, futuristic cyberpunk sci-fi setting, neon lighting, high-tech visual language, high detail, clean lines, cohesive palette, polished anime illustration. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "cyberpunk-example-001",
+      "r2_path": "gallery/anime/cyberpunk_boy.webp",
+      "alt": "riding boy ai cyberpunk anime style",
+      "aspect_ratio": "4:3",
+      "title": "cyberpunk riding boy",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A teenage boy in a glowing, tech-infused jacket and visor, leaning against a futuristic motorcycle, neon signs reflecting on his face",
+        "style": "cyberpunk",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "pixel_retro-example-002",
+      "r2_path": "gallery/anime/pixel_retro_fox.webp",
+      "alt": "jumping fox ai pixel_retro anime style",
+      "aspect_ratio": "1:1",
+      "title": "jumping fox",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "fox with a bushy tail, jumping through a forest filled with glowing mushrooms and stars",
+        "style": "pixel_retro",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "chibi-example-002",
+      "r2_path": "gallery/anime/chibi_girl.webp",
+      "alt": "girl ai chibi anime style",
+      "aspect_ratio": "3:2",
+      "title": "chibi girl",
+      "parameters": {
+        "model_id": "gpt4o-image",
+        "prompt": "girl sitting inside a teacup, with a playful expression",
+        "style": "chibi",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "watercolor-example-001",
+      "r2_path": "gallery/anime/watercolor_boy.webp",
+      "alt": "boy ai watercolor anime style",
+      "aspect_ratio": "4:3",
+      "title": "watercolor kimono boy",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A young boy wearing a traditional kimono, standing beside a tranquil river, with soft sunlight filtering through the trees",
+        "style": "watercolor",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "cyberpunk-example-002",
+      "r2_path": "gallery/anime/cyberpunk_girl.webp",
+      "alt": "girl ai cyberpunk anime style",
+      "aspect_ratio": "auto",
+      "title": "cyberpunk qipao girl",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A stylish girl with holographic accessories and a metallic dress, standing on a balcony overlooking a sprawling cyberpunk cityscape at night",
+        "style": "cyberpunk",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "pixel_retro-example-001",
+      "r2_path": "gallery/anime/pixel_retro_magical_girl.webp",
+      "alt": "magical girl ai pixel_retro anime style",
+      "aspect_ratio": "auto",
+      "title": "magical girl",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "magical girl casting a sparkling spell, with stars and hearts floating around her",
+        "style": "pixel_retro",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    }
+  ]
+}

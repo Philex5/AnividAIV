@@ -1,0 +1,137 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-11",
+  "description": "Example videos for Kling 3.0 model showcase",
+  "modelId": "kling-3.0/video",
+  "modelName": "Kling 3.0",
+  "examples": [
+    {
+      "uuid": "kling3-ex-001",
+      "r2_path": "gallery/anime_video/kling_3_0/showcase1.mp4",
+      "poster_path": "",
+      "alt": "kling anime style showcase",
+      "aspect_ratio": "16:9",
+      "title": "Anime Style Showcase",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "",
+        "style": "no_presets",
+        "character": "",
+        "duration_seconds": 10,
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "mode": "pro"
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "kling3-ex-003",
+      "r2_path": "gallery/anime_video/kling_3_0/kling3-showcase-2.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase-catgirl dancing ",
+      "duration": 10,
+      "aspect_ratio": "16:9",
+      "title": "Creamy Dancing",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "animation of the same blonde cat girl from the reference image dancing in place. \nShe performs a cute idol-style dance, small rhythmic steps, gentle arm swings, light hip movements. \nHer long blonde hair and pleated skirt sway naturally with motion. \nHer expression remains cheerful and consistent throughout. \nFull body shot, static camera, centered composition. \nOutfit and appearance must remain identical to the reference image during the entire video. \nSoft pastel blue and purple gradient background with floating bokeh light particles. \nSmooth animation, high consistency, no outfit changes, no hairstyle changes.",
+        "style": "no_presets",
+        "character": "",
+        "duration_seconds": 5,
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "mode": "pro"
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "kling3-ex-002",
+      "r2_path": "gallery/anime_video/kling_3_0/kling3-showcase-3.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase - Moon Goddess",
+      "aspect_ratio": "16:9",
+      "title": "Moon Goddess",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "",
+        "style": "",
+        "character": "",
+        "video_mode": "multi_shot",
+        "multi_shots": true,
+        "sound": true,
+        "reference_image_urls": [
+          "https://artworks.anividai.com/assets/logo.webp"
+        ],
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "mode": "pro",
+        "multi_prompt": [
+          {
+            "prompt": "Wide cinematic aerial shot. \nThe same silver-haired celestial warrior stands at the center of a gigantic floating stone platform above moving clouds. \nThe enormous moon dominates the sky, stars shimmering. \nHer long silver hair and translucent cape flow gently in the wind. \nSoft moonlight illuminates her armor details. \nSlow dramatic camera push-in. \nEpic scale, volumetric lighting, majestic atmosphere.",
+            "duration": 4
+          },
+          {
+            "prompt": "Medium full-body shot. \nThe same warrior raises one hand toward the sky. \nBlue cosmic energy begins to gather around her palm, glowing particles spiral upward. \nHer cape flows dynamically, armor reflecting blue light. \nClouds below move slowly. \nThe moonlight and energy light mix together. \nCamera slowly circles around her.\n",
+            "duration": 3
+          },
+          {
+            "prompt": "Close-up heroic shot from slightly below. \nThe same silver-haired celestial warrior releases a burst of radiant blue cosmic light upward into the sky. \nHer glowing blue eyes shine intensely. \nWind blows her hair dramatically. \nEnergy light reflects on her armor and face. \nBackground becomes a luminous star explosion effect. \nEpic climax moment, high detail, stable facial features.",
+            "duration": 3
+          }
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "kling3-ex-004",
+      "r2_path": "gallery/anime_video/kling_3_0/kling-showcase-4.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase - battle scene",
+      "aspect_ratio": "16:9",
+      "title": "Battle Scene",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "1990s anime style, classic cel shading, hand-drawn look.\nA teenage male psychic fighter with spiky dark brown hair and a red headband stands on a rocky cliff under a stormy sky.\nHe wears a sleeveless white martial arts top, loose dark blue pants, red wristbands, and black boots.\nLightning flashes behind him, wind blowing his clothes dramatically.\nSmall rocks begin floating around his body as psychic energy builds.\nLow angle dramatic shot, thick ink outlines, strong shadows, intense retro anime atmosphere.",
+        "style": "",
+        "character": "",
+        "duration_seconds": 5,
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "mode": "std"
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "kling3-ex-005",
+      "r2_path": "gallery/anime_video/kling_3_0/kling3-showcase-5.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase - realistic woman",
+      "aspect_ratio": "16:9",
+      "title": "Realistic Woman",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "",
+        "style": "",
+        "character": "",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "mode": "std"
+      },
+      "multi_prompt": [
+        {
+          "prompt": "Wide cinematic shot.\nThe same young woman stands on the rooftop edge at dawn.\nSoft wind moves her hair and jacket slightly.\nThe city skyline glows with early morning light.\nNatural handheld camera slowly pushing in.\nRealistic lighting, subtle lens flare, atmospheric depth, grounded physical movement.",
+          "duration": 4
+        },
+        {
+          "prompt": "Medium shot from the side.\nThe same woman takes a slow breath and looks toward the rising sun.\nHer expression shifts from uncertainty to determination.\nWind lifts strands of her hair naturally.\nSoft golden sunlight hits her face from the side.\nCamera gently circles around her.\nCinematic realism, natural skin detail, consistent outfit and hairstyle.",
+          "duration": 3
+        },
+        {
+          "prompt": "Close-up cinematic shot.\nThe same woman closes her eyes briefly, then opens them with calm determination.\nThe rising sun illuminates her face with warm light.\nBackground softly blurred city skyline.\nSubtle emotional performance, realistic micro expressions.\n35mm film look, natural skin texture, no stylization.",
+          "duration": 3
+        }
+      ],
+      "sort_order": 1
+    }
+  ]
+}

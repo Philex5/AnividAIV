@@ -1,0 +1,66 @@
+{
+  "title": "ホーム | AnividAI",
+  "sections": {
+    "characters": {
+      "title": "最近のキャラクター",
+      "empty": "まだキャラクターがいません",
+      "all_ocs": "すべてのキャラクターを見る",
+      "create": "最初のキャラクターを作成"
+    },
+    "tools": {
+      "title": "創作ツール",
+      "anime": {
+        "title": "アニメ画像生成器",
+        "desc": "AIでアニメ画像を創作"
+      },
+      "video": {
+        "title": "動画生成器",
+        "desc": "アニメーション動画を生成"
+      },
+      "storyCreator": {
+        "title": "ストーリー作成ツール",
+        "desc": "OCのストーリーアークを概述",
+        "status": "近日公開"
+      },
+      "chats": {
+        "title": "OCとチャット",
+        "desc": "キャラクターとの对话",
+        "soon": "OCとのチャットをお楽しみください"
+      },
+      "apps": {
+        "title": "スタジオツール",
+        "empty": "利用可能なツールはありません",
+        "comingSoon": {
+          "title": "その他のツール",
+          "desc": "近日中にさらにツールが登場"
+        },
+        "list": {
+          "action_figure": {
+            "title": "アクションフィギュア生成器",
+            "desc": "OCから3Dアクションフィギュアを作成"
+          },
+          "sticker": {
+            "title": "ステッカー生成器",
+            "desc": "楽しいアニメステッカーを作成"
+          },
+          "story-writer": {
+            "title": "ストーリー作家",
+            "desc": "AIでキャラクターストーリーを執筆"
+          },
+          "character-intro-video": {
+            "title": "イントロ動画",
+            "desc": "OCのイントロ動画を作成"
+          }
+        }
+      }
+    },
+    "community": {
+      "title": "コミュニティPick",
+      "viewMore": "さらに表示 →",
+      "loadFailed": "作品の読み込みに失敗しました",
+      "empty": "",
+      "itemAlt": "コミュニティ作品",
+      "noCover": "プレビューは利用できません"
+    }
+  }
+}

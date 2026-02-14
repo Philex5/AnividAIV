@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "title": "マイクレーション - AnividAI",
+    "description": "キャラクターとアートワークを一元管理"
+  },
+  "page": {
+    "title": "マイクレーション",
+    "description": "キャラクターとアートワークを一元管理",
+    "sign_in_required": "サインインが必要",
+    "sign_in_message": "キャラクターとアートワークを表示・管理するにはサインインしてください",
+    "sign_in_button": "サインイン"
+  },
+  "mainTabs": {
+    "characters": "キャラクター",
+    "artworks": "アートワーク",
+    "worlds": "ワールド"
+  },
+  "worlds": {
+    "tabs": {
+      "mine": "マイワールド",
+      "favorites": "お気に入り"
+    },
+    "buttons": {
+      "create": "新しいワールドを作成",
+      "try_again": "再試行",
+      "explore": "ワールドを探索"
+    },
+    "loading": {
+      "mine": "ワールドを読み込み中...",
+      "favorites": "お気に入りのワールドを読み込み中..."
+    },
+    "errors": {
+      "mine": "ワールドの読み込みに失敗しました",
+      "favorites": "お気に入りのワールドの読み込みに失敗しました"
+    },
+    "empty": {
+      "mine_title": "ワールドがまだありません",
+      "mine_description": "最初のワールドを作成して、独自のユニバースを構築しましょう",
+      "favorites_title": "お気に入りのワールドはありません",
+      "favorites_description": "コミュニティを探索してお気に入りのワールドを見つけましょう"
+    },
+    "stats": {
+      "total_label": "総ワールド数:",
+      "favorites_label": "お気に入りのワールド数:"
+    },
+    "actions": {
+      "delete": "削除",
+      "delete_confirm": "このワールドを削除してもよろしいですか？この操作は取り消せません。",
+      "delete_success": "ワールドを正常に削除しました",
+      "delete_failed": "ワールドの削除に失敗しました"
+    }
+  },
+  "characters": {
+    "tabs": {
+      "mine": "私のオリジナル",
+      "favorites": "お気に入り"
+    },
+    "buttons": {
+      "create": "新しいキャラクター作成",
+      "try_again": "再試行",
+      "explore": "コミュニティを探索"
+    },
+    "loading": {
+      "mine": "キャラクターを読み込み中...",
+      "favorites": "お気に入りのキャラクターを読み込み中..."
+    },
+    "errors": {
+      "mine": "キャラクターの読み込みに失敗しました",
+      "favorites": "お気に入りの読み込みに失敗しました"
+    },
+    "empty": {
+      "mine_title": "まだキャラクターがありません",
+      "mine_description": "最初のオリジナルキャラクターを作成して始めましょう",
+      "favorites_title": "お気に入りはありません",
+      "favorites_description": "コミュニティを探索してお気に入りを見つけましょう"
+    },
+    "stats": {
+      "total_label": "総キャラクター数:",
+      "favorites_label": "お気に入りのキャラクター数:"
+    }
+  },
+  "artworks": {
+    "user": {
+      "pro_required": "会員サブスクリプションが必要です"
+    },
+    "tabs": {
+      "mine": "自分のアートワーク",
+      "favorites": "お気に入り",
+      "all": "すべて",
+      "images": "画像",
+      "videos": "動画",
+      "audio": "オーディオ"
+    },
+    "page": {
+      "search_placeholder": "アートワークをプロンプトで検索..."
+    },
+    "buttons": {
+      "create": "アートワーク作成",
+      "try_again": "再試行",
+      "explore": "コミュニティを閲覧"
+    },
+    "loading": {
+      "mine": "アートワークを読み込み中...",
+      "favorites": "お気に入りを読み込み中..."
+    },
+    "errors": {
+      "mine": "アートワークの読み込みに失敗しました",
+      "favorites": "お気に入りの読み込みに失敗しました",
+      "retry": "再試行"
+    },
+    "empty": {
+      "mine_title": "アートワークはまだありません",
+      "mine_description": "AIツールで素晴らしいアニメアート創作を始めましょう",
+      "mine_cta": "アートワーク作成",
+      "favorites_title": "お気に入りはありません",
+      "favorites_description": "コミュニティを探索してお気に入りを見つけましょう",
+      "favorites_cta": "コミュニティを閲覧",
+      "no_results": "検索結果に一致するアートワークがありません"
+    },
+    "stats": {
+      "total_label": "総アートワーク数:",
+      "images_label": "画像:",
+      "videos_label": "動画:",
+      "audio_label": "オーディオ:"
+    }
+  },
+  "actions": {
+    "createCharacter": "キャラクター作成",
+    "createArtwork": "アートワーク作成"
+  },
+  "export": {
+    "title": "キャラクターエクスポート",
+    "export_card": "シェアカード生成",
+    "export_card_desc": "美しい共有可能カードを作成",
+    "export_pdf": "PDFプロフィールエクスポート",
+    "export_pdf_desc": "完全なキャラクタードキュメント",
+    "export_json": "JSONデータエクスポート",
+    "export_json_desc": "開発者とバックアップ用",
+    "export_markdown": "Markdownエクスポート",
+    "export_markdown_desc": "編集可能なドキュメント形式",
+    "export_owner_only": "所有者のみ",
+    "export_failed": "エクスポートに失敗しました",
+    "export_success": "正常にエクスポートされました！",
+    "export_card_success": "カードが正常に生成されました！",
+    "export_card_failed": "カードの生成に失敗しました",
+    "generate_share_card": "シェアカード生成",
+    "generate_card_desc": "伝説のキャラクターカードをカスタマイズ",
+    "template": "レイアウト",
+    "style": "エフェクト",
+    "preview": "プレビュー",
+    "card_template": "カードテンプレート",
+    "rarity": "レアリティエフェクト",
+    "theme_color": "審美テーマ",
+    "generate_download": "生成＆ダウンロード",
+    "cancel": "キャンセル",
+    "generating": "アーティファクト生成中...",
+    "tcg_card_style": "TCGカードスタイル",
+    "movie_poster": "Movie Poster",
+    "business_card": "ビジネスカード",
+    "regular": "通常",
+    "super_rare": "スーパーレア",
+    "ultra_rare": "ウルトラレア",
+    "dark_theme": "ダークテーマ",
+    "light_theme": "ライトテーマ",
+    "cyberpunk": "サイバーパンク",
+    "minimal": "ミニマル"
+  },
+  "share_card": {
+    "title": "伝説を拡散",
+    "download": "カードダウンロード",
+    "copy": "DNAリンクをコピー",
+    "copied": "リンクがクリップボードにコピーされました！",
+    "copy_error": "コピーに失敗しました",
+    "download_error": "画像がありません",
+    "placeholder": "このOCをお好みのAnividAIアプリで使用するか、世界と共有しましょう。"
+  },
+  "image_detail": {
+    "title": "アートワーク詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "可視性",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "リンクされたOCはありません"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトがクリップボードにコピーされました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "画像をダウンロード",
+      "reuse": "再利用",
+      "download_error": "画像のダウンロードに失敗しました",
+      "as_reference": "参照として使用",
+      "to_video": "動画に変換",
+      "delete": "削除",
+      "delete_confirm": "この画像を削除しますか？この操作は元に戻せません。",
+      "delete_success": "画像が正常に削除されました",
+      "delete_failed": "画像の削除に失敗しました"
+    },
+    "meta": {
+      "aspect_ratio": "アスペクト比",
+      "style": "スタイル",
+      "scene": "シーン",
+      "outfit": "衣装",
+      "seed": "シード",
+      "created_at": "作成日"
+    },
+    "variants": {
+      "title": "バリエーション"
+    },
+    "visibility_toast": {
+      "success": "可視性が更新されました",
+      "error": "可視性の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "このアートワークの再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "アートワークが選択されていません",
+      "description": "詳細を表示するにはギャラリーから画像を選択してください。"
+    },
+    "loading": "アートワーク詳細を読み込み中...",
+    "error": "アートワーク詳細の読み込みに失敗しました"
+  },
+  "video_detail": {
+    "title": "ビデオ詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "可視性",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "リンクされたOCはありません"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "meta": {
+      "duration": "継続時間",
+      "resolution": "解像度",
+      "aspect_ratio": "アスペクト比",
+      "created_at": "作成日"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトがクリップボードにコピーされました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "ビデオダウンロード",
+      "reuse": "再利用",
+      "delete": "削除",
+      "delete_confirm": "このビデオを削除しますか？この操作は元に戻せません。",
+      "delete_success": "ビデオが正常に削除されました",
+      "delete_failed": "ビデオの削除に失敗しました"
+    },
+    "visibility_toast": {
+      "success": "可視性が更新されました",
+      "error": "可視性の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "このビデオの再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "ビデオが選択されていません",
+      "description": "詳細を表示するにはギャラリーからビデオを選択してください。"
+    },
+    "loading": "ビデオ詳細を読み込み中...",
+    "error": "ビデオ詳細の読み込みに失敗しました"
+  },
+  "community": {
+    "title": "コミュニティ",
+    "subtitle": "コミュニティの素晴らしい作品を探索",
+    "search": {
+      "placeholder": "プロンプトやクリエイターで検索...",
+      "button": "検索",
+      "clear": "クリア"
+    },
+    "tabs": {
+      "all": "すべて",
+      "oc": "キャラクター",
+      "image": "画像",
+      "video": "動画"
+    },
+    "sort": {
+      "trending": "トレンド",
+      "newest": "新着",
+      "top": "トップ"
+    },
+    "filters": {
+      "filterButton": "フィルター",
+      "drawerTitle": "フィルターオプション",
+      "drawerDescription": "表示をカスタマイズ",
+      "apply": "フィルターを適用",
+      "clear": "フィルターをクリア"
+    },
+    "genTypes": {
+      "title": "生成タイプ",
+      "options": {
+        "text_to_image": "テキストから画像",
+        "image_to_image": "画像から画像",
+        "text_to_video": "テキストから動画",
+        "image_to_video": "画像から動画"
+      }
+    },
+    "states": {
+      "comingSoon": "近日公開",
+      "loading": "読み込み中...",
+      "loadingMore": "追加読み込み中...",
+      "noResults": "アートワークが見つかりません",
+      "loadFailed": "アートワークの読み込みに失敗しました",
+      "retry": "再試行"
+    },
+    "aria": {
+      "sort": "アートワークを並び替え",
+      "search": "アートワークを検索",
+      "filters": "アートワークをフィルター",
+      "closeDetail": "詳細モーダルを閉じる",
+      "like": "このアートワークにいいね",
+      "favorite": "このアートワークをお気に入りに追加",
+      "share": "このアートワークを共有",
+      "download": "アートワークをダウンロード",
+      "more": "その他のオプション",
+      "toggleVisibility": "可視性を切り替え",
+      "viewDetail": "アートワーク詳細を表示",
+      "useOc": "OCを使用"
+    },
+    "actions": {
+      "like": "いいね",
+      "fav": "お気に入り",
+      "share": "共有",
+      "download": "ダウンロード",
+      "more": "その他",
+      "copyLink": "リンクをコピー",
+      "viewDetail": "アートワーク詳細を表示",
+      "viewMore": "もっと見る",
+      "useOc": "OCを使用"
+    },
+    "detail": {
+      "loading": "詳細を読み込み中...",
+      "error": "詳細の読み込みに失敗しました",
+      "prompt": "プロンプト",
+      "description": "説明",
+      "tags": "タグ",
+      "ocTraits": "キャラクター特性",
+      "empty": {
+        "title": "アートワークが選択されていません",
+        "description": "詳細を表示するにはギャラリーから画像を選択してください。"
+      },
+      "stats": {
+        "likes": "いいね",
+        "views": "閲覧",
+        "comments": "コメント"
+      },
+      "meta": {
+        "duration": "継続時間",
+        "resolution": "解像度",
+        "model": "モデル",
+        "style": "スタイル",
+        "characters": "関連OC",
+        "created_at": "作成日"
+      }
+    },
+    "toasts": {
+      "copySuccess": "リンクがクリップボードにコピーされました！",
+      "copyFailed": "コピーに失敗しました",
+      "likeFailed": "いいねに失敗しました",
+      "favoriteFailed": "お気に入りに追加に失敗しました",
+      "loadFailed": "アートワークの読み込みに失敗しました",
+      "loadMoreFailed": "追加読み込みに失敗しました",
+      "visibilityChanged": "可視性が更新されました",
+      "visibilityChangeFailed": "可視性の更新に失敗しました",
+      "detailFailed": "アートワーク詳細の読み込みに失敗しました"
+    }
+  }
+}

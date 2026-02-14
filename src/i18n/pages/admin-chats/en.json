@@ -1,0 +1,54 @@
+{
+  "title": "Chats Management",
+  "subtitle": "Monitor chat usage trends, top OCs, and session-level details.",
+  "actions": {
+    "refresh": "Refresh"
+  },
+  "states": {
+    "loading": "Loading chats data..."
+  },
+  "errors": {
+    "load_failed": "Failed to load chats analytics",
+    "load_detail_failed": "Failed to load session details"
+  },
+  "cards": {
+    "total_sessions": "Total Sessions",
+    "total_sessions_desc": "All chat sessions in current scope",
+    "total_users": "Chat Users",
+    "total_users_desc": "Unique users who used chat"
+  },
+  "chart": {
+    "title": "Sessions & Users Trend",
+    "description": "Compare session count and unique users over time",
+    "sessions": "Sessions",
+    "users": "Users",
+    "day": "Day",
+    "month": "Month",
+    "month_label": "Month"
+  },
+  "top_oc": {
+    "title": "Top OCs by Sessions",
+    "sessions": "Sessions: {count}",
+    "users": "Users: {count}",
+    "empty": "No OC usage data"
+  },
+  "table": {
+    "title": "Session List",
+    "session_id": "Session ID",
+    "user": "User",
+    "character": "Character",
+    "message_count": "Message Count",
+    "created_at": "Created At",
+    "actions": "Actions",
+    "view": "View",
+    "empty": "No chat sessions found",
+    "copy_success": "Session ID copied",
+    "copy_failed": "Failed to copy session ID"
+  },
+  "session_detail": {
+    "title": "Session Details",
+    "loading": "Loading session messages...",
+    "empty": "No messages in this session",
+    "message_count": "Message Count"
+  }
+}

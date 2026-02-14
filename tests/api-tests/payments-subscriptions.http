@@ -1,0 +1,81 @@
+# 支付与订阅 API 测试
+# Payment & Subscription APIs
+# 相关文档: docs/2-implementation/api/payments.md, subscriptions.md
+
+@import common.http
+
+###############################################################################
+# 支付 (Payments)
+###############################################################################
+
+### 创建支付订单
+POST {{apiUrl}}/checkout
+Content-Type: application/json
+
+{
+  "product_id": "credits_100",
+  "payment_provider": "stripe"
+}
+
+### Stripe 支付回调（模拟）
+GET {{apiUrl}}/pay/callback/stripe?session_id=test-session-id
+
+### Creem 支付回调（模拟）
+GET {{apiUrl}}/pay/callback/creem?order_id=test-order-id
+
+### Stripe Webhook（模拟）
+POST {{apiUrl}}/pay/notify/stripe
+Content-Type: application/json
+Stripe-Signature: test-signature
+
+{
+  "type": "checkout.session.completed",
+  "data": {
+    "object": {
+      "id": "cs_test_123",
+      "metadata": {
+        "order_id": "order_test_123"
+      }
+    }
+  }
+}
+
+### Creem Webhook（模拟）
+POST {{apiUrl}}/pay/notify/creem
+Content-Type: application/json
+
+{
+  "event": "payment.succeeded",
+  "data": {
+    "order_id": "order_test_123"
+  }
+}
+
+###############################################################################
+# 订阅 (Subscriptions)
+###############################################################################
+
+### 获取用户订阅信息
+GET {{apiUrl}}/subscriptions
+
+### 创建计费门户会话
+POST {{apiUrl}}/subscriptions/billing-portal
+Content-Type: application/json
+
+{}
+
+### 取消订阅
+POST {{apiUrl}}/subscriptions/cancel
+Content-Type: application/json
+
+{}
+
+### 获取订阅日志
+GET {{apiUrl}}/subscriptions/{{subscriptionId}}/logs?limit=50&offset=0
+
+###############################################################################
+# 订单 (Orders)
+###############################################################################
+
+### 获取订单列表
+GET {{apiUrl}}/orders

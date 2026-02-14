@@ -1,0 +1,98 @@
+{
+  "free": {
+    "level": "free",
+    "display_name": "Free",
+    "monthly_credits": 0,
+    "yearly_credits": 0,
+    "price_monthly_usd": 0,
+    "price_yearly_usd": 0,
+    "features": [
+      "public_only",
+      "video_watermark",
+      "short_chat_context",
+      "oc_limit_10",
+      "world_limit_3",
+      "standard_queue"
+    ]
+  },
+  "basic": {
+    "level": "basic",
+    "display_name": "Basic",
+    "monthly_credits": 2000,
+    "yearly_credits": 24000,
+    "price_monthly_usd": 990,
+    "price_yearly_usd": 9500,
+    "stripe_price_id_monthly": "price_basic_monthly",
+    "stripe_price_id_yearly": "price_basic_yearly",
+    "features": [
+      "private_optional",
+      "no_watermark",
+      "medium_chat_context",
+      "oc_limit_unlimited",
+      "world_limit_20",
+      "fast_queue"
+    ]
+  },
+  "plus": {
+    "level": "plus",
+    "display_name": "Plus",
+    "monthly_credits": 6000,
+    "yearly_credits": 72000,
+    "price_monthly_usd": 2690,
+    "price_yearly_usd": 25800,
+    "stripe_price_id_monthly": "price_plus_monthly",
+    "stripe_price_id_yearly": "price_plus_yearly",
+    "features": [
+      "private_optional",
+      "custom_watermark",
+      "long_chat_context",
+      "oc_limit_unlimited",
+      "world_limit_unlimited",
+      "fast_queue",
+      "priority_support"
+    ]
+  },
+  "pro": {
+    "level": "pro",
+    "display_name": "Pro",
+    "monthly_credits": 12500,
+    "yearly_credits": 150000,
+    "price_monthly_usd": 4990,
+    "price_yearly_usd": 47900,
+    "stripe_price_id_monthly": "price_pro_monthly",
+    "stripe_price_id_yearly": "price_pro_yearly",
+    "features": [
+      "private_optional",
+      "custom_watermark",
+      "unlimited_chat_context",
+      "oc_limit_unlimited",
+      "world_limit_unlimited",
+      "fast_queue",
+      "priority_support",
+      "beta_features"
+    ]
+  },
+  "mc_packs": [
+    {
+      "id": "mc_pack_small",
+      "name": "MC Pack Small",
+      "credits": 2000,
+      "price_usd": 1000,
+      "stripe_price_id": "price_mc_2000"
+    },
+    {
+      "id": "mc_pack_medium",
+      "name": "MC Pack Medium",
+      "credits": 6000,
+      "price_usd": 3000,
+      "stripe_price_id": "price_mc_6000"
+    },
+    {
+      "id": "mc_pack_large",
+      "name": "MC Pack Large",
+      "credits": 10000,
+      "price_usd": 5000,
+      "stripe_price_id": "price_mc_10000"
+    }
+  ]
+}

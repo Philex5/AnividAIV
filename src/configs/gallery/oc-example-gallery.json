@@ -1,0 +1,328 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-06",
+  "description": "Example Original Characters for showcase (unauthenticated users)",
+  "characters": [
+    {
+      "uuid": "72394abf-e526-4dd2-ac95-3e451d3d2caf",
+      "name": "Sakura",
+      "profile_url": "gallery/oc/oc_exmple_1_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_1_avatar.webp",
+      "character_data": {
+        "species": "Human",
+        "gender": "female",
+        "age": 16,
+        "personality_tags": [
+          "cheerful",
+          "energetic",
+          "kind"
+        ],
+        "art_style": "Anime",
+        "body_type": "average",
+        "hair_color": "#ffc0cb",
+        "hair_style": "Straight",
+        "eye_color": "#4169e1",
+        "outfit_style": "School uniform with pink ribbon accents",
+        "accessories": [
+          "hair_ribbon",
+          "school_bag"
+        ],
+        "appearance_features": "Cherry blossom hairpin",
+        "brief_introduction": "A cheerful high school student who brightens everyone's day with her infectious optimism.",
+        "background_story": "Growing up in a small town surrounded by cherry blossom trees, Sakura learned to appreciate the beauty in everyday moments. Her positive attitude helped her overcome challenges and make friends wherever she goes.",
+        "extended_attributes": [
+          {
+            "key": "hobbies",
+            "value": "Gardening, baking cookies, photography"
+          },
+          {
+            "key": "skills",
+            "value": "Empathy, positivity, making others smile"
+          }
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "01cd6ee3-a123-435f-b371-1c9bd0ba21c1",
+      "name": "Aelion",
+      "profile_url": "gallery/oc/oc_exmple_2_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_2_avatar.webp",
+      "character_data": {
+        "species": "Elf",
+        "gender": "male",
+        "age": 120,
+        "personality_tags": [
+          "intelligent",
+          "calm",
+          "mysterious"
+        ],
+        "art_style": "Watercolor",
+        "body_type": "slim",
+        "hair_color": "#c0c0c0",
+        "hair_style": "Layered",
+        "eye_color": "#228b22",
+        "outfit_style": "Flowing forest robes",
+        "accessories": [
+          "necklace",
+          "staff"
+        ],
+        "appearance_features": "Ancient wooden staff",
+        "brief_introduction": "A wise elf sage who guards the secrets of the ancient woods.",
+        "background_story": "Aelion has spent centuries studying the magic of the forest. He rarely leaves his woodland home, but those who seek his wisdom are never turned away.",
+        "extended_attributes": [
+          {
+            "key": "hobbies",
+            "value": "Meditation, herbalism, star-gazing"
+          },
+          {
+            "key": "skills",
+            "value": "Nature magic, ancient languages"
+          },
+          {
+            "key": "weapon",
+            "value": "Forest staff"
+          }
+        ]
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "9a9eea8c-99cd-4dad-ac04-54a97b88f517",
+      "name": "Mimi",
+      "profile_url": "gallery/oc/oc_exmple_3_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_3_avatar.webp",
+      "character_data": {
+        "species": "Catfolk",
+        "gender": "female",
+        "age": 14,
+        "personality_tags": [
+          "curious",
+          "adventurous",
+          "humorous"
+        ],
+        "art_style": "Chibi",
+        "body_type": "petite",
+        "hair_color": "#8b4513",
+        "hair_style": "Twin tails",
+        "eye_color": "#ffd700",
+        "outfit_style": "Cute hoodie with paw prints",
+        "accessories": [
+          "cat_ears",
+          "tail",
+          "paw_gloves"
+        ],
+        "appearance_features": "Bell collar",
+        "brief_introduction": "A playful catgirl always looking for her next adventure.",
+        "background_story": "Mimi grew up in a bustling city, using her agility and wit to explore every nook and cranny. Her mischievous pranks are legendary among her friends.",
+        "extended_attributes": [
+          {
+            "key": "hobbies",
+            "value": "Climbing, chasing butterflies, napping"
+          },
+          {
+            "key": "skills",
+            "value": "Stealth, acrobatics, making people laugh"
+          }
+        ]
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "354bc53a-70e1-4602-b871-533341a7fc0f",
+      "name": "Vex",
+      "profile_url": "gallery/oc/oc_exmple_4_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_4_avatar.webp",
+      "character_data": {
+        "species": "Robot",
+        "gender": "other",
+        "age": 15,
+        "personality_tags": [
+          "serious",
+          "perfectionist",
+          "loyal"
+        ],
+        "art_style": "Cyberpunk",
+        "body_type": "athletic",
+        "hair_color": "#4169e1",
+        "hair_style": "Mohawk",
+        "eye_color": "#c0c0c0",
+        "outfit_style": "Futuristic armor with neon accents",
+        "accessories": [
+          "visor",
+          "gloves"
+        ],
+        "appearance_features": "Holographic interface",
+        "brief_introduction": "A cutting-edge android designed for urban security and investigation.",
+        "background_story": "Vex was created by a tech conglomerate to patrol the neon-lit streets of the city. Despite being a machine, Vex is learning the complexities of human emotion.",
+        "extended_attributes": [
+          {
+            "key": "hobbies",
+            "value": "Analyzing data, learning human culture"
+          },
+          {
+            "key": "skills",
+            "value": "Hacking, combat tactics, surveillance"
+          }
+        ]
+      },
+      "sort_order": 4
+    },
+    {
+      "uuid": "b614d75a-e1d9-4bc5-a772-49330fb2fd19",
+      "name": "Lyria",
+      "profile_url": "gallery/oc/oc_exmple_5_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_5_avatar.webp",
+      "character_data": {
+        "species": "Mermaid",
+        "gender": "female",
+        "age": 19,
+        "personality_tags": [
+          "kind",
+          "creative",
+          "mysterious"
+        ],
+        "art_style": "Ghiblio",
+        "body_type": "slim",
+        "hair_color": "#87ceeb",
+        "hair_style": "Wavy",
+        "eye_color": "#8a2be2",
+        "outfit_style": "Flowing seashell dress",
+        "accessories": [
+          "pearl_necklace",
+          "shell_hairpin"
+        ],
+        "appearance_features": "Magical conch shell",
+        "brief_introduction": "A gentle mermaid with a voice that enchants all who hear it.",
+        "background_story": "Lyria lives in a hidden lagoon, where she composes songs that echo through the ocean. She dreams of exploring the world above the waves.",
+        "extended_attributes": [
+          {
+            "key": "hobbies",
+            "value": "Singing, collecting seashells, composing music"
+          },
+          {
+            "key": "skills",
+            "value": "Enchanting voice, swimming, water magic"
+          }
+        ]
+      },
+      "sort_order": 5
+    },
+    {
+      "uuid": "903bb7d7-361c-42b6-834a-df20f1fac6ba",
+      "name": "Puffie",
+      "profile_url": "gallery/oc/oc_exmple_6_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_6_avatar.webbp",
+      "character_data": {
+        "species": "Fairy",
+        "gender": "other",
+        "age": 6,
+        "personality_tags": [
+          "kind",
+          "humorous",
+          "curious",
+          "energetic"
+        ],
+        "art_style": "Chibi",
+        "body_type": "petite",
+        "hair_color": "#a0522d",
+        "hair_style": "Bun",
+        "eye_color": "#4169e1",
+        "outfit_style": "Fluffy onesie with tiny wings",
+        "accessories": [
+          "bow",
+          "scarf",
+          "tiny_satchel"
+        ],
+        "appearance_features": "Plush bear-like body, round ears, big eyes, short tail",
+        "brief_introduction": "A cuddly bear fairy who spreads joy and laughter wherever they go.",
+        "background_story": "Puffie was born in the heart of the enchanted forest, where laughter is the greatest magic. Their fluffy fur and gentle hugs have healed many sad hearts.",
+        "extended_attributes": [
+          {
+            "key": "favorite_food",
+            "value": "Wildflower honey and berry tarts"
+          },
+          {
+            "key": "dreams",
+            "value": "To build the coziest den in the forest"
+          },
+          {
+            "key": "fears",
+            "value": "Thunderstorms and being alone at night"
+          },
+          {
+            "key": "secrets",
+            "value": "Knows the location of a hidden grove where wishes come true"
+          },
+          {
+            "key": "relationships",
+            "value": "Best friends with the squirrel twins, adored by forest children"
+          },
+          {
+            "key": "catchphrase",
+            "value": "Snuggle up, it’s magic time!"
+          }
+        ]
+      },
+      "sort_order": 12
+    },
+    {
+      "uuid": "9d7213b3-eb59-4296-b9c4-b3a914c6d39a",
+      "name": "Tharion",
+      "profile_url": "gallery/oc/oc_exmple_7_character.webp",
+      "avatar_url": "gallery/oc/oc_exmple_7_avatar.webp",
+      "character_data": {
+        "species": "Dragonborn",
+        "gender": "male",
+        "age": 35,
+        "personality_tags": [
+          "brave",
+          "serious",
+          "loyal",
+          "cautious"
+        ],
+        "art_style": "Fantasy RPG",
+        "body_type": "muscular",
+        "hair_color": "#c0c0c0",
+        "hair_style": "Layered",
+        "eye_color": "#ffbf00",
+        "outfit_style": "Scaled armor with ornate shoulder guards and Ancient dragon crest shield",
+        "accessories": [
+          "sword",
+          "amulet",
+          "ring"
+        ],
+        "appearance_features": "Dragon head and human body",
+        "brief_introduction": "A stoic dragon warrior sworn to protect his homeland and uphold ancient traditions.",
+        "background_story": "Tharion hails from the volcanic highlands, where dragon clans have guarded the realm for centuries. He carries the legacy of his ancestors and is burdened by the responsibility of leadership.",
+        "extended_attributes": [
+          {
+            "key": "weaknesses",
+            "value": "Haunted by the fear of failing his clan"
+          },
+          {
+            "key": "dreams",
+            "value": "To unite all dragon clans under a banner of peace"
+          },
+          {
+            "key": "fears",
+            "value": "Losing control of his dragon powers"
+          },
+          {
+            "key": "secrets",
+            "value": "Hides a forbidden spell that could change the fate of his people"
+          },
+          {
+            "key": "relationships",
+            "value": "Mentor to young warriors, estranged from his brother"
+          },
+          {
+            "key": "catchphrase",
+            "value": "Honor is forged in fire"
+          }
+        ]
+      },
+      "sort_order": 11
+    }
+  ]
+}

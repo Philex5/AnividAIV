@@ -1,0 +1,81 @@
+# 用户与会员 API 测试
+# User & Membership APIs
+# 相关文档: docs/2-implementation/api/user.md, membership.md, affiliate.md
+
+@import common.http
+
+###############################################################################
+# 认证 (Auth)
+###############################################################################
+
+### 获取会话信息
+GET {{apiUrl}}/auth/{{authAction}}
+
+###############################################################################
+# 用户信息 (User Info)
+###############################################################################
+
+### 获取用户信息
+POST {{apiUrl}}/get-user-info
+Content-Type: application/json
+
+### 获取用户积分详情
+POST {{apiUrl}}/get-user-credits
+Content-Type: application/json
+
+### 获取用户余额
+GET {{apiUrl}}/get-user-balance
+
+### 获取即将过期积分
+GET {{apiUrl}}/get-expiring-credits
+
+### 批量获取用户角色头像
+GET {{apiUrl}}/users/character-avatars?user_uuid={{userUuid}}
+
+### 获取用户公开资料
+GET {{apiUrl}}/users/{{userId}}/profile
+
+### 更新用户资料
+PUT {{apiUrl}}/users/{{userId}}/profile
+Content-Type: application/json
+
+{
+  "display_name": "Test User",
+  "bio": "Updated profile bio"
+}
+
+### 获取用户公开角色
+GET {{apiUrl}}/users/{{userId}}/public-characters?page=1&limit=20
+
+### 获取用户公开世界观
+GET {{apiUrl}}/users/{{userId}}/public-worlds?page=1&limit=20
+
+### 获取用户公开作品
+GET {{apiUrl}}/users/{{userId}}/public-artworks?page=1&limit=20
+
+###############################################################################
+# 会员系统 (Membership)
+###############################################################################
+
+### 获取会员状态
+GET {{apiUrl}}/membership/status
+
+###############################################################################
+# 邀请返利 (Affiliate)
+###############################################################################
+
+### 设置邀请码
+POST {{apiUrl}}/update-invite-code
+Content-Type: application/json
+
+{
+  "invite_code": "MY_INVITE_CODE"
+}
+
+### 使用邀请码
+POST {{apiUrl}}/update-invite
+Content-Type: application/json
+
+{
+  "invite_code": "FRIEND_INVITE_CODE"
+}

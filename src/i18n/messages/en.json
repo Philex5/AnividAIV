@@ -1,0 +1,1613 @@
+{
+  "metadata": {
+    "title": "AnividAI - Your AI Studio for Anime Worlds",
+    "description": "Create original characters (OCs), generate consistent AI anime art, anime videos, stories and chat with your OCs—all in one platform with AnividAI.",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "Sign In",
+    "sign_out": "Sign Out",
+    "credits": "Credits",
+    "api_keys": "API Keys",
+    "my_orders": "My Orders",
+    "home": "Home",
+    "user_center": "User Center",
+    "admin_system": "Admin System",
+    "upgrade": "Upgrade",
+    "pro_required": "subscription required",
+    "premium_model_tooltip": "Premium Model Only for subscription members. Upgrade to unlock."
+  },
+  "nav": {
+    "ai_anime_generator": "AI Anime Generator",
+    "posts": "Blog Posts",
+    "showcase": "Showcase",
+    "pricing": "Pricing",
+    "home": "Home",
+    "creation_tool": "Creation Tools",
+    "oc_maker": "OC Maker",
+    "ai_anime_generator_short": "AI Anime Generator",
+    "anime_video_generator": "Anime Video Generator",
+    "chat_with_oc": "Chat with OCs",
+    "oc_apps": "Studio Tools",
+    "ai_action_figure_generator": "AI Action Figure Generator",
+    "worlds": "Worlds"
+  },
+  "sidebar": {
+    "home": "Home",
+    "my_creations": "My Creations",
+    "my_characters": "My Characters",
+    "my_artworks": "My Artworks",
+    "profile": "Profile",
+    "community": "Community",
+    "oc_maker": "OC Maker",
+    "ai_anime_generator": "Anime Generator",
+    "ai_anime_video_generator": "Video Generator",
+    "chat": "Chat with OC",
+    "ai_action_figure_generator": "AI Action Figure Generator",
+    "ai_sticker_generator": "AI Sticker Generator",
+    "oc_apps": "Studio Tools"
+  },
+  "promotions": {
+    "banner": {
+      "enabled": true,
+      "icon": "NEW",
+      "text": "Kling 3.0 is now live on AnividAI with a limited-time 50% OFF launch offer.",
+      "link": "/models/kling-3-0",
+      "mobile_badge": "NEW",
+      "mobile_cta": "View details"
+    },
+    "sidebar_card": {
+      "enabled": false,
+      "image": "showcases/landingpage-features/feature-video-generator.webp",
+      "text": "Unlock premium anime video quality with Kling 3.0 and member benefits.",
+      "link": "/pricing"
+    }
+  },
+  "community": {
+    "loading": "Loading...",
+    "loadingMore": "Loading more artworks...",
+    "retry": "Retry",
+    "duration": "{count} sec",
+    "resolution": "{value} resolution",
+    "states": {
+      "loadingMore": "Loading more artworks...",
+      "retry": "Retry"
+    },
+    "aria": {
+      "useOc": "Use this OC",
+      "like": "Like this artwork",
+      "favorite": "Add to favorites",
+      "share": "Share this artwork",
+      "more": "More options",
+      "viewDetail": "View artwork details",
+      "closeDetail": "Close details",
+      "sort": "Sort artworks",
+      "search": "Search artworks"
+    },
+    "actions": {
+      "useOc": "Use this OC",
+      "viewDetail": "View Details",
+      "reuse": "Reuse",
+      "download": "Download"
+    }
+  },
+  "comments": {
+    "title": "{count} Comments",
+    "placeholder": "Add a comment...",
+    "replyPlaceholder": "Reply to {name}...",
+    "submit": "Comment",
+    "reply": "Reply",
+    "cancel": "Cancel",
+    "loadMore": "Load more comments",
+    "viewReplies": "View replies",
+    "hideReplies": "Hide replies",
+    "deleted": "This comment has been deleted.",
+    "noComments": "No comments yet. Be the first to comment!",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "anonymous": "Anonymous",
+    "avatarFallback": "U",
+    "toasts": {
+      "posted": "Comment posted",
+      "postFailed": "Failed to post comment",
+      "replied": "Reply posted",
+      "replyFailed": "Failed to post reply",
+      "deleted": "Comment deleted",
+      "deleteFailed": "Failed to delete comment",
+      "actionFailed": "Action failed"
+    }
+  },
+  "character_selector": {
+    "empty_message": "No characters available. Create your first character to start chatting!",
+    "create_first_character": "Create Your First Character",
+    "browse_community_ocs": "Browse Community OCs",
+    "or_divider": "or",
+    "select_prompt": "Select a character to start chatting",
+    "character_count": "{count, plural, =1 {Choose from your # character} other {Choose from your # characters}}",
+    "character_count_plural": "Choose from your {count} characters",
+    "loading": "Loading characters...",
+    "age_label": "Age: {age}",
+    "page_summary": "Page {current} of {total} ({count} characters)"
+  },
+  "sign_modal": {
+    "sign_in_title": "Sign In",
+    "sign_in_description": "Sign in to your account",
+    "sign_up_title": "Sign Up",
+    "sign_up_description": "Create an account",
+    "email_title": "Email",
+    "email_placeholder": "Input your email here",
+    "password_title": "Password",
+    "password_placeholder": "Input your password here",
+    "forgot_password": "Forgot password?",
+    "or": "Or",
+    "continue": "Continue",
+    "no_account": "Don't have an account?",
+    "email_sign_in": "Sign in with Email",
+    "google_sign_in": "Sign in with Google",
+    "github_sign_in": "Sign in with GitHub",
+    "close_title": "Close",
+    "cancel_title": "Cancel",
+    "continue_after_login": "Login to continue",
+    "settings_preserved": "Your current settings will be preserved"
+  },
+  "my_orders": {
+    "title": "My Orders",
+    "description": "orders paid with AnividAI.",
+    "no_orders": "No orders found",
+    "tip": "",
+    "activate_order": "Activate Order",
+    "actived": "Activated",
+    "join_discord": "Join Discord",
+    "read_docs": "Read Docs",
+    "table": {
+      "order_no": "Order No",
+      "email": "Email",
+      "product_name": "Product Name",
+      "amount": "Amount",
+      "paid_at": "Paid At",
+      "github_username": "GitHub Username",
+      "status": "Status",
+      "manage_billing": "Manage Billing",
+      "interval": "Interval",
+      "interval_month": "Monthly",
+      "interval_year": "Annually",
+      "interval_one_time": "One-Time"
+    }
+  },
+  "my_credits": {
+    "title": "My Credits",
+    "left_tip": "left credits: {left_credits}",
+    "summary_tip": "Balance: {balance} · Earned: {totalEarned} · Used: {totalUsed}",
+    "expiring_tip": "Expiring soon: {expiringCredits} by {expiringAt}",
+    "no_expiring_tip": "No credits expiring in the next 7 days.",
+    "no_credits": "No credits records",
+    "recharge": "Recharge",
+    "table": {
+      "trans_no": "Trans No",
+      "trans_type": "Trans Type",
+      "credits": "Credits",
+      "updated_at": "Updated At",
+      "status": "Status",
+      "expired_at": "Expired At",
+      "created_at": "Created At"
+    }
+  },
+  "my_ocs": {
+    "title": "My Original Characters:",
+    "description": "All your original characters are here.",
+    "create_character": "Create OC",
+    "no_characters": "You hava no OC yet!"
+  },
+  "api_keys": {
+    "title": "API Keys",
+    "tip": "Please keep your apikey safe to avoid leaks",
+    "no_api_keys": "No API Keys",
+    "create_api_key": "Create API Key",
+    "table": {
+      "name": "Name",
+      "key": "Key",
+      "created_at": "Created At"
+    },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "API Key Name",
+      "submit": "Submit"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "News, resources, and updates about AnividAI",
+    "read_more_text": "Read More",
+    "no_content": "No content",
+    "all": "All",
+    "category": "Category",
+    "author": "Author"
+  },
+  "my_invites": {
+    "title": "My Invites",
+    "description": "View your invite records",
+    "no_invites": "No invite records found",
+    "my_invite_link": "My Invite Link",
+    "edit_invite_link": "Edit Invite Link",
+    "copy_invite_link": "Copy Invite Link",
+    "invite_code": "Invite Code",
+    "invite_tip": "Invite 1 friend to buy AnividAI, reward $50.",
+    "invite_balance": "Invite Reward Balance",
+    "total_invite_count": "Total Invite Count",
+    "total_paid_count": "Total Paid Count",
+    "total_award_amount": "Total Award Amount",
+    "update_invite_code": "Set Invite Code",
+    "update_invite_code_tip": "Input your custom invite code",
+    "update_invite_button": "Save",
+    "no_orders": "You can't invite others before you bought AnividAI",
+    "no_affiliates": "You're not allowed to invite others, please contact us to apply for permission.",
+    "table": {
+      "invite_time": "Invite Time",
+      "invite_user": "Invite User",
+      "status": "Status",
+      "reward_percent": "Reward Percent",
+      "reward_amount": "Reward Amount",
+      "pending": "Pending",
+      "completed": "Completed"
+    }
+  },
+  "feedback": {
+    "title": "Feedback",
+    "description": "We'd love to hear what went well or how we can improve the product experience.",
+    "submit": "Submit",
+    "loading": "Submitting...",
+    "contact_tip": "Other ways to contact us",
+    "type_tip": "What type of feedback is this?",
+    "placeholder": "Leave your words here...",
+    "success": "Thank you for your feedback!"
+  },
+  "anime_styles": {
+    "anime": {
+      "name": "Anime",
+      "description": "Classic anime style with clean lineart and vibrant colors"
+    },
+    "ghiblio": {
+      "name": "Studio Ghibli",
+      "description": "Inspired by Studio Ghibli films with painterly backgrounds"
+    },
+    "cinematic_anime": {
+      "name": "Cinematic Anime",
+      "description": "Highly detailed cinematic anime illustration"
+    },
+    "american_comics": {
+      "name": "American Comics",
+      "description": "Bold comic book style with dramatic shading"
+    },
+    "pixel_retro": {
+      "name": "Pixel Retro",
+      "description": "Retro video game pixel art style"
+    },
+    "chibi": {
+      "name": "Chibi",
+      "description": "Super deformed cute character style"
+    },
+    "watercolor": {
+      "name": "WaterColor",
+      "description": "Soft watercolor painting style"
+    },
+    "cyberpunk": {
+      "name": "Cyberpunk",
+      "description": "Futuristic cyberpunk anime style"
+    },
+    "kawaii_anime": {
+      "name": "Kawaii Anime",
+      "description": "Cute anime style with cozy atmosphere"
+    },
+    "waifu_kimono_sakura": {
+      "name": "Waifu Kimono Sakura",
+      "description": "Elegant waifu in kimono under cherry blossoms"
+    },
+    "fantasy_lolita": {
+      "name": "Fantasy Lolita",
+      "description": "Magical lolita fashion style with dreamy fantasy elements"
+    },
+    "mecha_anime": {
+      "name": "Mecha Anime",
+      "description": "Anime style focused on giant robots and futuristic technology"
+    },
+    "shoujo_sparkle": {
+      "name": "Shoujo Sparkle",
+      "description": "Romantic shoujo style with sparkling eyes and soft colors"
+    },
+    "dark_gothic": {
+      "name": "Dark Gothic",
+      "description": "Dark gothic anime style with dramatic mood and ornate outfits"
+    },
+    "retro_90s_anime": {
+      "name": "Retro 90s Anime",
+      "description": "Nostalgic 90s anime style with bold outlines and vintage vibe"
+    }
+  },
+  "character_styles": {
+    "anime": {
+      "name": "Anime",
+      "description": "Full-body character in classic anime style"
+    },
+    "semi_realistic": {
+      "name": "Semi Realistic",
+      "description": "Semi-realistic character with detailed features"
+    },
+    "chibi": {
+      "name": "Chibi",
+      "description": "Chibi character with oversized head and cute expression"
+    },
+    "watercolor": {
+      "name": "Watercolor",
+      "description": "Character in watercolor style with soft colors"
+    },
+    "cyberpunk": {
+      "name": "Cyberpunk",
+      "description": "Character in cyberpunk style with neon lighting"
+    },
+    "fantasy_rpg": {
+      "name": "Fantasy RPG",
+      "description": "Character in fantasy RPG style with elaborate costume"
+    },
+    "ghiblio": {
+      "name": "Ghiblio",
+      "description": "Character inspired by Studio Ghibli with soft colors and warm atmosphere"
+    },
+    "modern_digital_painting": {
+      "name": "Modern Digital Painting",
+      "description": "Character in modern digital painting style with rich textures and dramatic lighting"
+    },
+    "shoujo_sparkle": {
+      "name": "Shoujo Sparkle",
+      "description": "Shoujo-style character with sparkling eyes and soft romantic tones"
+    },
+    "dark_gothic": {
+      "name": "Dark Gothic",
+      "description": "Gothic character style with dramatic mood and ornate fashion details"
+    },
+    "retro_90s_anime": {
+      "name": "Retro 90s Anime",
+      "description": "Character in nostalgic 90s anime style with bold outlines"
+    },
+    "kawaii_anime": {
+      "name": "Kawaii Anime",
+      "description": "Cute anime style with cozy atmosphere"
+    }
+  },
+  "species": {
+    "human": "Human",
+    "elf": "Elf",
+    "cat_person": "Catfolk",
+    "wolf_person": "Wolfkin",
+    "dragon_person": "Dragonborn",
+    "angel": "Angel",
+    "demon": "Demon",
+    "mermaid": "Merfolk",
+    "fairy": "Fairy",
+    "vampire": "Vampire",
+    "robot": "Robot",
+    "orc": "Orc",
+    "undead": "Undead",
+    "drawf": "Drawf",
+    "hybrid": "Hybrid",
+    "custom": "Custom",
+    "mystic_cat": "Mystic Cat"
+  },
+  "personality": {
+    "creative": "Creative",
+    "kind": "Kind",
+    "brave": "Brave",
+    "curious": "Curious",
+    "intelligent": "Intelligent",
+    "friendly": "Friendly",
+    "adventurous": "Adventurous",
+    "heroic": "Heroic",
+    "cautious": "Cautious",
+    "loyal": "Loyal",
+    "outgoing": "Outgoing",
+    "speed_loving": "Speed-loving",
+    "freedom_fighter": "Freedom Fighter",
+    "tech_savvy": "Tech Savvy",
+    "helpful": "Helpful",
+    "mysterious": "Mysterious",
+    "independent": "Independent",
+    "shy": "Shy",
+    "humorous": "Humorous",
+    "calm": "Calm",
+    "hot_blooded": "Hot-blooded",
+    "sharp_tongued": "Sharp-tongued",
+    "serious": "Serious",
+    "perfectionist": "Perfectionist",
+    "energetic": "Energetic",
+    "cheerful": "Cheerful",
+    "race": "Race",
+    "nobles": "Nobles",
+    "dutiful": "Dutiful"
+  },
+  "role": {
+    "student": "Student",
+    "teacher": "Teacher",
+    "king": "King",
+    "queen": "Queen",
+    "prince": "Prince",
+    "princess": "Princess",
+    "warrior": "Warrior",
+    "mage": "Mage",
+    "healer": "Healer",
+    "villain": "Villain",
+    "hero": "Hero",
+    "mentor": "Mentor",
+    "leader": "Leader",
+    "detective": "Detective",
+    "idol": "Idol",
+    "scientist": "Scientist",
+    "doctor": "Doctor",
+    "nurse": "Nurse",
+    "thief": "Thief",
+    "assassin": "Assassin",
+    "merchant": "Merchant",
+    "adventurer": "Adventurer",
+    "guardian": "Guardian",
+    "spy": "Spy",
+    "maid": "Maid",
+    "butler": "Butler",
+    "general": "General",
+    "captain": "Captain"
+  },
+  "accessories": {
+    "headband": "Headband",
+    "hat": "Hat",
+    "glasses": "Glasses",
+    "earrings": "Earrings",
+    "necklace": "Necklace",
+    "bracelet": "Bracelet",
+    "ring": "Ring",
+    "scarf": "Scarf",
+    "gloves": "Gloves",
+    "belt": "Belt",
+    "bag": "Bag",
+    "watch": "Watch",
+    "bow_tie": "Bow Tie",
+    "tie": "Tie",
+    "flower": "Flower",
+    "ribbon": "Ribbon",
+    "cape": "Cape",
+    "mask": "Mask",
+    "wings": "Wings",
+    "tail": "Tail",
+    "bow": "Bow",
+    "sword": "Sword",
+    "amulet": "Amulet",
+    "staff": "Staff",
+    "dagger": "Dagger",
+    "visor": "Visor",
+    "hair_ribbon": "Hair Ribbon",
+    "school_bag": "School Bag",
+    "paw_gloves": "Paw Gloves",
+    "pearl_necklace": "Pearl Necklace",
+    "shell_hairpin": "Shell Hairpin",
+    "tiny_satchel": "Tiny Satchel",
+    "cat_ears": "Cat Ears"
+  },
+  "models": {
+    "z_image": {
+      "name": "Z-Image",
+      "description": "Affordable and Fast. Reference images are not supported. Powered by Tongyi-MAI."
+    },
+    "nano_banana": {
+      "name": "Nano Banana",
+      "description": "Fast and efficient anime image generation with high quality output"
+    },
+    "nano_banana_pro": {
+      "name": "Nano Banana Pro",
+      "description": "Upgraded version Of Nano Banana From Google.More Power and smarter"
+    },
+    "gpt-image-1": {
+      "name": "GPT Image 1",
+      "description": "Advanced AI model for creative and detailed anime artwork"
+    },
+    "kling_video": {
+      "name": "Kling 2.5 Turbo",
+      "description": "Professional anime video generation with smooth animations"
+    },
+    "kling_3_0_video": {
+      "name": "Kling 3.0",
+      "description": "Premium Kling 3.0 video generation with std/pro modes and high-fidelity output"
+    },
+    "sora2": {
+      "name": "Sora-2",
+      "description": "Advanced multi-image video generation with extended duration support"
+    },
+    "sora2_pro": {
+      "name": "Sora-2 Pro",
+      "description": "Premium multi-image video generation with highest quality and advanced features"
+    },
+    "wan_2_5": {
+      "name": "Wan 2.5",
+      "description": "High-performance AI video generation supporting text and image to video conversion"
+    },
+    "seedream_4_0": {
+      "name": "Seedream 4.0",
+      "description": "Next-Generation Image Creative Engine from ByteDance.Whether it's knowledge-driven generation, complex reasoning, or high-fidelity detail representation, it can transform your ideas into stunning visual works with faster inference speed and more precise understanding."
+    },
+    "seedream_4_5": {
+      "name": "Seedream 4.5",
+      "description": "Premium Image Creative Engine from ByteDance with enhanced quality. Supports 2K (basic) and 4K (high) output resolutions, and delivers exceptional detail and realism."
+    },
+    "flux_2_pro": {
+      "name": "Flux 2 Pro",
+      "description": "Advanced FLUX model by Black Forest Labs with strong photoreal detail, precise text rendering, and multi-reference consistency. Supports 1K and 2K output."
+    },
+    "flux_2_flex": {
+      "name": "Flux 2 Flex",
+      "description": "Premium FLUX model optimized for flexible multi-image control and high-fidelity generation quality. Supports 1K and 2K output."
+    },
+    "veo_3_1_fast": {
+      "name": "Veo 3.1 Fast",
+      "description": "Google DeepMind's improved AI video model now creates realistic motion, supports longer clips, uses reference image, and generates synchronized audio in native 1080p."
+    },
+    "hailuo_2_3": {
+      "name": "Hailuo 2.3",
+      "description": "High-fidelity AI video generation by MiniMax, image-to-video only"
+    },
+    "hailuo_2_3_pro": {
+      "name": "Hailuo 2.3 Pro",
+      "description": "Premium high-fidelity AI video generation by MiniMax, image-to-video only"
+    }
+  },
+  "video_generation": {
+    "parameters": {
+      "title": "Video Parameters",
+      "duration": "Duration",
+      "negative_prompt": "Negative Prompt",
+      "aspect_ratio": "Aspect Ratio",
+      "quality": "Quality",
+      "mode": "Mode",
+      "multi_shots": "Multi Shots",
+      "watermark": "Watermark",
+      "camera_motion": "Camera Motion",
+      "negative_prompt_placeholder": "Words or concepts to avoid in the video",
+      "seed": "Seed",
+      "n_frames": "Frames",
+      "size": "Size",
+      "remove_watermark": "Remove Watermark"
+    },
+    "common": {
+      "enabled": "Enabled",
+      "disabled": "Disabled"
+    }
+  },
+  "parameters": {
+    "style": "Style",
+    "character": "Character",
+    "loading_characters": "Loading characters...",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "subscriptionTooltip": "Private visibility is available for subscription members. Upgrade to unlock."
+  },
+  "prompt": {
+    "label": "Prompt",
+    "placeholder": "Describe your anime character or scene...",
+    "optimize": "AI Optimize",
+    "counter_too_long": "Prompt exceeds maximum length of {max} characters",
+    "counter_too_short": "Prompt must be at least {min} characters"
+  },
+  "footer": {
+    "name": "AnividAI",
+    "brand": {
+      "title": "",
+      "description": "AnividAI is an OC-centered anime art platform, empowering you to create, manage, and explore original characters and their AI-generated worlds.",
+      "logo": {
+        "src": "/logo.webp",
+        "alt": "AnividAI"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • AnividAI All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Products",
+          "children": [
+            {
+              "title": "OC Maker",
+              "url": "/oc-maker",
+              "target": "_self"
+            },
+            {
+              "title": "AI Anime Generator",
+              "url": "/ai-anime-generator",
+              "target": "_self"
+            },
+            {
+              "title": "AI Anime Video Generator",
+              "url": "/ai-anime-video-generator",
+              "target": "_self"
+            },
+            {
+              "title": "Chat with OCs",
+              "url": "/chat",
+              "target": "_self"
+            },
+            {
+              "title": "Worlds",
+              "url": "/worlds",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Models",
+          "children": [
+            {
+              "title": "Nano Banana",
+              "url": "/models/nano-banana",
+              "target": "_self"
+            },
+            {
+              "title": "Wan 2.5",
+              "url": "/models/wan-2-5",
+              "target": "_self"
+            },
+            {
+              "title": "Z-Image",
+              "url": "/models/z-image",
+              "target": "_self"
+            },
+            {
+              "title": "Kling 3.0",
+              "url": "/models/kling-3-0",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Studio Tools",
+          "children": [
+            {
+              "title": "AI Action Figure Generator",
+              "url": "/ai-action-figure-generator",
+              "target": "_self"
+            },
+            {
+              "title": "AI Sticker Generator",
+              "url": "/ai-sticker-generator",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Tools",
+          "children": [
+            {
+              "title": "Anime Character Generator",
+              "url": "/anime-character-generator",
+              "target": "_self"
+            },
+            {
+              "title": "Art Prompt Generator",
+              "url": "/art-prompt-generator",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Community",
+              "url": "/community",
+              "target": "_blank"
+            },
+            {
+              "title": "Pricing",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "ChangeLogs",
+              "url": "/changelog",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/AnividAI",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/yinkong05/Anivid-AI",
+          "target": "_blank"
+        },
+        {
+          "title": "Pinterest",
+          "icon": "RiPinterestFill",
+          "url": "https://www.pinterest.com/anividai/",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@anividai.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Cookie Settings",
+          "url": "/cookie-settings"
+        }
+      ]
+    }
+  },
+  "admin": {
+    "generations": {
+      "title": "Generations Management",
+      "subtitle": "View and manage all AI generations",
+      "cards": {
+        "type_desc": "Total count by type",
+        "success_rate_desc": "Overall success rate"
+      },
+      "chart": {
+        "title": "Generation Trend (30 days)",
+        "description": "Daily total, success and failed generations",
+        "total": "Total",
+        "success": "Success",
+        "failed": "Failed"
+      },
+      "table": {
+        "title": "Recent Failures (preview)",
+        "uuid": "UUID",
+        "type": "Type",
+        "status": "Status",
+        "error_code": "Error Code",
+        "error_message": "Error Message",
+        "updated_at": "Updated At"
+      },
+      "filters": {
+        "type": "Type",
+        "status": "Status",
+        "moderation_status": "Moderation Status",
+        "all_types": "All Types",
+        "gen_type": "Gen Type",
+        "all_gen_types": "All Gen Types",
+        "all_status": "All Status",
+        "completed": "Completed",
+        "failed": "Failed",
+        "processing": "Processing",
+        "image": "Image",
+        "video": "Video",
+        "character": "Character",
+        "user_id": "User ID",
+        "user_uuid_placeholder": "User UUID",
+        "artwork_uuid": "Artwork UUID",
+        "artwork_uuid_placeholder": "Artwork UUID",
+        "date_range": "Date Range",
+        "last_7_days": "Last 7 Days",
+        "last_30_days": "Last 30 Days",
+        "last_90_days": "Last 90 Days",
+        "all_time": "All Time",
+        "all_moderation_status": "All Status",
+        "normal": "Normal",
+        "banned": "Banned",
+        "featured": "Featured"
+      },
+      "search": {
+        "placeholder": "Search by prompt"
+      },
+      "actions": {
+        "select_mode": "Select Mode",
+        "exit_select_mode": "Exit Select Mode"
+      },
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "page_info": "Page {page} of {totalPages} ({total} total)"
+      },
+      "empty": {
+        "no_generations": "No generations found"
+      },
+      "export": {
+        "button": "Export Data",
+        "success": "Data exported successfully",
+        "error": "Export failed"
+      }
+    },
+    "logs": {
+      "title": "Generation Logs",
+      "tabs": {
+        "all": "All Logs",
+        "failed": "Failed Logs"
+      },
+      "types": {
+        "desc": "Total count by type"
+      },
+      "chart": {
+        "title": "Generation Trend",
+        "description": "Daily generations and success rate",
+        "total": "Generations",
+        "success_rate": "Success Rate",
+        "range_year": "Last 12 months",
+        "range_month": "Last 30 days",
+        "range_week": "Last 7 days",
+        "range_custom": "Custom range",
+        "range_start": "Start",
+        "range_end": "End",
+        "range_select": "Select range"
+      },
+      "stats": {
+        "total": "Total Generations",
+        "total_desc": "All time generations",
+        "success": "Successful Generations",
+        "success_desc": "Completed successfully",
+        "failed": "Failed Generations",
+        "failed_desc": "Completed with errors",
+        "success_rate": "Success Rate",
+        "success_rate_desc": "Overall success rate"
+      },
+      "summary": {
+        "total": "Total Failures",
+        "today": "Failed Today",
+        "rate": "Failure Rate",
+        "top_errors": "Top Error Codes",
+        "total_desc": "All time failures",
+        "today_desc": "Failed today",
+        "rate_desc": "Overall failure rate",
+        "times": "{count} times"
+      },
+      "table": {
+        "uuid": "UUID",
+        "type": "Type",
+        "status": "Status",
+        "error_code": "Error Code",
+        "error_message": "Error Message",
+        "updated_at": "Updated At",
+        "mc_back_status": "MC Back Status",
+        "mc_back_count": "MC Back Count",
+        "empty_all": "No generation logs found",
+        "empty_failed": "No failed logs found"
+      },
+      "filters": {
+        "error_code": "Error Code",
+        "type": "Generation Type",
+        "date_range": "Date Range"
+      },
+      "export": {
+        "button": "Export Logs",
+        "csv": "Export as CSV",
+        "json": "Export as JSON"
+      },
+      "analysis": {
+        "title": "Error Analysis",
+        "description": "Error rate and distribution analysis"
+      }
+    },
+    "revenue": {
+      "no_data": "No Data Here",
+      "cards": {
+        "total_revenue": "Total Revenue",
+        "monthly_revenue": "Monthly Revenue",
+        "current_month_cost": "Current Month Cost",
+        "avg_order_value": "Avg Order Value",
+        "total_orders": "Total Orders",
+        "orders": "Orders",
+        "revenue": "Revenue",
+        "cost": "Cost",
+        "mc_breakdown": "Img: {image} MC + Video: {video} MC",
+        "mc_usd_breakdown": "USD: ${total} (Img ${image} + Video ${video})",
+        "mc_total_and_type": "MC: {total} (Img {image} + Video {video})",
+        "profit": "Profit",
+        "product_distribution": "Product Distribution"
+      },
+      "chart": {
+        "title": "Revenue Trend (90 days)",
+        "description": "Daily paid order revenue (amount)",
+        "revenue": "Revenue",
+        "orders": "Orders"
+      },
+      "costs": {
+        "title": "Monthly Costs (manual)",
+        "empty": "No costs recorded",
+        "add_cost": "Add Cost",
+        "total": "Total",
+        "cost": "Cost",
+        "manual_cost": "Manual Cost",
+        "mc_cost": "MC Cost",
+        "mc_consumed": "MC Consumed",
+        "mc_image_cost": "Image MC Cost",
+        "mc_image_consumed": "Image MC Consumed",
+        "mc_video_cost": "Video MC Cost",
+        "mc_video_consumed": "Video MC Consumed",
+        "profit": "Profit",
+        "profit_margin": "Profit Margin"
+      },
+      "summary": {
+        "revenue_summary": "Revenue Summary",
+        "revenue": "Revenue",
+        "cost_summary": "Cost Summary",
+        "monthly_details": "Monthly Details",
+        "profit_summary": "Profit Summary"
+      },
+      "detail": {
+        "title": "Details for",
+        "loading": "Loading...",
+        "no_data": "No data available",
+        "total_revenue": "Total Revenue",
+        "total_cost": "Total Cost",
+        "manual_cost": "Manual Cost",
+        "mc_cost": "MC Cost",
+        "mc_consumed": "MC Consumed",
+        "mc_image_cost": "Image MC Cost",
+        "mc_image_consumed": "Image MC Consumed",
+        "mc_video_cost": "Video MC Cost",
+        "mc_video_consumed": "Video MC Consumed",
+        "cost_details": "Cost Details",
+        "order_details": "Order Details",
+        "no_costs": "No costs recorded for this month",
+        "no_orders": "No orders for this month",
+        "orders_count": "Orders",
+        "click_to_view": "Click to view details"
+      },
+      "edit_cost": {
+        "title": "Edit Cost",
+        "description": "Update the cost entry",
+        "platform": "Platform",
+        "amount": "Amount",
+        "currency": "Currency",
+        "note": "Note",
+        "save": "Save",
+        "updating": "Updating...",
+        "confirm_delete": "Are you sure you want to delete this cost?"
+      },
+      "loading": "Loading..."
+    },
+    "categories": {
+      "title": "Categories",
+      "toolbar": {
+        "add_category": "Add Category"
+      },
+      "table": {
+        "name": "Name",
+        "title": "Title",
+        "description": "Description",
+        "sort": "Sort",
+        "status": "Status",
+        "created_at": "Created At",
+        "actions": "Actions",
+        "edit": "Edit",
+        "view": "View"
+      }
+    },
+    "feedbacks": {
+      "title": "Feedbacks",
+      "table": {
+        "user": "User",
+        "content": "Content",
+        "type": "Type",
+        "created_at": "Created At",
+        "actions": "Actions",
+        "types": {
+          "general": "General",
+          "bug_report": "Bug Report",
+          "feature_request": "Feature Request",
+          "user_experience": "User Experience"
+        }
+      }
+    },
+    "orders": {
+      "title": "Paid Orders",
+      "table": {
+        "order_no": "Order No",
+        "paid_email": "Paid Email",
+        "product_name": "Product Name",
+        "amount": "Amount",
+        "created_at": "Created At",
+        "status": "Status",
+        "actions": "Actions",
+        "view_details": "Details"
+      }
+    },
+    "posts": {
+      "title": "Posts",
+      "toolbar": {
+        "add_post": "Add Post"
+      },
+      "table": {
+        "title": "Title",
+        "description": "Description",
+        "slug": "Slug",
+        "locale": "Locale",
+        "category": "Category",
+        "status": "Status",
+        "created_at": "Created At",
+        "actions": "Actions",
+        "edit": "Edit",
+        "view": "View"
+      },
+      "empty_message": "No posts found"
+    },
+    "users": {
+      "title": "All Users",
+      "no_results": "No users match your search",
+      "no_users": "No users found",
+      "toast": {
+        "uuid_copied": "UUID copied to clipboard",
+        "uuid_copy_failed": "Failed to copy UUID"
+      },
+      "tabs": {
+        "all": "All Users",
+        "active": "Active Users",
+        "vip": "VIP Users",
+        "banned": "Banned Users"
+      },
+      "filters": {
+        "search_placeholder": "Search by email, name or UUID",
+        "search": "Search",
+        "user_type": "User Type",
+        "all_users": "All Users",
+        "free_users": "Free Users",
+        "paid_users": "Paid Users",
+        "basic_members": "Basic Members",
+        "plus_members": "Plus Members",
+        "pro_members": "Pro Members",
+        "sort_created": "Created",
+        "sort_active": "Last Active",
+        "date_range": "Date Range",
+        "all_time": "All Time",
+        "last_7_days": "Last 7 days",
+        "last_30_days": "Last 30 days",
+        "last_90_days": "Last 90 days"
+      },
+      "pagination": {
+        "showing": "Showing {start}-{end} of {total}",
+        "items_per_page": "Items per page",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "table": {
+        "user_type": "Type",
+        "uuid": "UUID",
+        "email": "Email",
+        "name": "Name",
+        "avatar": "Avatar",
+        "no_avatar": "No image",
+        "country": "Country",
+        "source": "Source",
+        "last_active_at": "Last Active",
+        "created_at": "Created At"
+      }
+    },
+    "file_trans": {
+      "title": "File Transfer Monitors",
+      "subtitle": "Monitor and manage file transfers",
+      "cards": {
+        "pending_transfers": {
+          "title": "Pending Transfers",
+          "description": "Files waiting for transfer"
+        },
+        "success_rate": {
+          "title": "Success Rate",
+          "description": "Transfer success rate in last 24 hours"
+        },
+        "today_transfers": {
+          "title": "Transfers Today",
+          "description": "Completed transfers today"
+        },
+        "completed_transfers": {
+          "title": "Completed Transfers",
+          "description": "Total completed transfers"
+        },
+        "expiring_soon": {
+          "title": "Expiring Soon",
+          "description": "Temporary URLs expiring within 24 hours"
+        },
+        "failed_transfers": {
+          "title": "Failed Transfers",
+          "description": "Transfers requiring retry"
+        }
+      },
+      "chart": {
+        "title": "File Transfer Trend",
+        "description": "Transfer statistics for the last 7 days",
+        "success": "Success",
+        "failed": "Failed",
+        "pending": "Pending"
+      },
+      "filters": {
+        "title": "Filters",
+        "reset": "Reset",
+        "apply": "Apply Filters",
+        "time_range": "Time Range",
+        "start_date": "Start Date",
+        "end_date": "End Date",
+        "type": "Type",
+        "images": "Images",
+        "videos": "Videos"
+      },
+      "pending_list": {
+        "title": "Pending Transfers List",
+        "refresh": "Refresh List",
+        "loading": "Loading...",
+        "empty": "No pending transfers",
+        "manual_transfer": "Transfer Now",
+        "filters": {
+          "time_range": "Time Range",
+          "start_date": "Start Date",
+          "end_date": "End Date",
+          "type": "Type",
+          "images": "Images",
+          "videos": "Videos",
+          "apply_filters": "Apply Filters"
+        }
+      },
+      "controls": {
+        "title": "Manual Operations Console",
+        "trigger_all_transfers": "🚀 Trigger All Transfers",
+        "trigger_processing": "🖼️ Trigger Image Processing",
+        "triggering": "⏳ Triggering...",
+        "processing": "⏳ Processing...",
+        "filters": {
+          "time_range": "Time Range",
+          "start_date": "Start Date",
+          "end_date": "End Date",
+          "type": "Type",
+          "images": "Images",
+          "videos": "Videos"
+        },
+        "result": {
+          "transfer_operation": "Transfer Operation Result",
+          "image_operation": "Image Processing Operation Result",
+          "error": "Error: {error}"
+        },
+        "success": {
+          "transfer_success": "✅ Transfer task triggered successfully!",
+          "transfer_failed": "❌ Transfer task failed: {error}",
+          "processing_success": "✅ Image processing task triggered successfully!",
+          "processing_failed": "❌ Image processing task failed: {error}",
+          "network_error_transfer": "❌ Network error, transfer task failed",
+          "network_error_processing": "❌ Network error, image processing failed"
+        }
+      },
+      "transfer_item": {
+        "created_at": "Created:",
+        "retry_count": "Retry Count:",
+        "expires_at": "Expires:",
+        "status": "Status:",
+        "status_map": {
+          "pending": "Pending",
+          "transferring": "Transferring",
+          "completed": "Completed",
+          "failed": "Failed",
+          "skipped": "Skipped"
+        }
+      }
+    },
+    "dashboard": {
+      "cards": {
+        "total_users": "Total Users",
+        "paid_orders": "Paid Orders",
+        "system_posts": "System Posts",
+        "user_feedbacks": "User Feedbacks",
+        "total_generations": "Total Generations",
+        "success_rate": "Success Rate",
+        "users_desc": "Total users registered in the system",
+        "orders_desc": "User Paid Orders in total",
+        "posts_desc": "Posts in total",
+        "feedbacks_desc": "Feedbacks in total",
+        "generations_desc": "Total generations completed",
+        "success_rate_desc": "Overall success rate percentage"
+      },
+      "chart": {
+        "title": "Users, Orders and Generations",
+        "description": "Daily users, orders and generations trend",
+        "users": "Users",
+        "orders": "Orders",
+        "generations": "Generations"
+      }
+    }
+  },
+  "changelog": {
+    "name": "changelog",
+    "title": "ChangeLog",
+    "description": "Track all version updates, new features, improvements, and bug fixes for AnividAI.",
+    "version": "Version",
+    "date": "Date",
+    "changeTypes": {
+      "added": "Added",
+      "fixed": "Fixed",
+      "changed": "Changed",
+      "removed": "Removed"
+    },
+    "empty": "No changelog entries found."
+  },
+  "legal": {
+    "title": "Cookie Preferences",
+    "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. Please choose which types of cookies you want to allow.",
+    "showDetails": "Show Details",
+    "hideDetails": "Hide Details",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "cancel": "Cancel",
+    "necessary": {
+      "title": "Necessary Cookies",
+      "description": "Required for basic site functionality. These cookies are essential for the website and its features to work properly. They cannot be disabled. Including session management, login authentication, and security protection."
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how you use our site. Used to track page views and user behavior, helping us optimize website experience.",
+      "toggle": "Toggle analytics cookies"
+    }
+  },
+  "artworkGallery": {
+    "title": "Select from My Artworks",
+    "empty": "No artworks found. Create some artworks first!",
+    "selectedCount": "{count}/{max} selected",
+    "noSelection": "No images selected",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {page} of {total}"
+    },
+    "tooltip": {
+      "upload": "Upload image",
+      "gallery": "Select from MyArtworks"
+    }
+  },
+  "common_components": {
+    "model_selector": {
+      "loading": "Loading models...",
+      "load_failed": "Failed to load models",
+      "ai_placeholder": "AI",
+      "credits": "Credits"
+    },
+    "style_selector": {
+      "loading": "Loading...",
+      "loading_styles": "Loading styles...",
+      "load_failed": "Failed to load styles",
+      "no_presets": "No Presets",
+      "no_presets_description": "No preset templates. When you select an OC, its style is applied automatically. Otherwise, specify your desired style in the prompt or use the reference image's style.",
+      "no_selection": "No style selected",
+      "no_options": "No available options"
+    },
+    "template_selector": {
+      "title": "Template",
+      "no_templates": "No templates"
+    },
+    "reference_upload": {
+      "title": "Reference",
+      "max_images": "Maximum {max} images allowed"
+    },
+    "art_style_selector": {
+      "title": "Art Style",
+      "loading": "Loading...",
+      "no_selection": "No style selected",
+      "no_options": "No options available"
+    },
+    "image_generation_modal": {
+      "title": "Generate Image",
+      "description": "Fill in the parameters and start generation.",
+      "labels": {
+        "model": "Model",
+        "style": "Style",
+        "prompt": "Prompt",
+        "quantity": "Quantity",
+        "resolution": "Resolution",
+        "reference": "Reference Image URL",
+        "status": "Status",
+        "results": "Results"
+      },
+      "placeholders": {
+        "model": "Select a model",
+        "style": "Select a style",
+        "prompt": "Describe what you want to generate",
+        "resolution": "Select or enter a resolution",
+        "reference": "Paste a reference image URL"
+      },
+      "actions": {
+        "submit": "Generate",
+        "cancel": "Cancel"
+      },
+      "status": {
+        "idle": "Ready to generate",
+        "submitting": "Submitting generation request...",
+        "polling": "Generating, please wait...",
+        "completed": "Generation completed",
+        "failed": "Generation failed",
+        "empty_results": "No results yet.",
+        "loading_options": "Loading options...",
+        "load_failed": "Failed to load options"
+      },
+      "errors": {
+        "missing_prompt": "Prompt cannot be empty",
+        "missing_model": "Model is required",
+        "missing_resolution": "Resolution is required",
+        "request_failed": "Failed to create generation task"
+      }
+    },
+    "generation_status_modal": {
+      "title": "Generating",
+      "description": "We'll update this panel as the task progresses.",
+      "labels": {
+        "preview": "Generated preview"
+      },
+      "actions": {
+        "close": "Close"
+      },
+      "status": {
+        "idle": "Ready",
+        "submitting": "Submitting request...",
+        "polling": "Generating...",
+        "completed": "Generation completed",
+        "failed": "Generation failed"
+      }
+    },
+    "video_generation_modal": {
+      "title": "Generate Video",
+      "description": "Fill in the parameters and start generation.",
+      "labels": {
+        "model": "Model",
+        "style": "Style",
+        "prompt": "Prompt",
+        "quantity": "Quantity",
+        "resolution": "Resolution",
+        "reference": "Reference Image URL",
+        "status": "Status",
+        "results": "Results"
+      },
+      "placeholders": {
+        "model": "Select a model",
+        "style": "Select a style",
+        "prompt": "Describe what you want to generate",
+        "resolution": "Select or enter a resolution",
+        "reference": "Paste a reference image URL"
+      },
+      "actions": {
+        "submit": "Generate",
+        "cancel": "Cancel"
+      },
+      "status": {
+        "idle": "Ready to generate",
+        "submitting": "Submitting generation request...",
+        "polling": "Generating, please wait...",
+        "completed": "Generation completed",
+        "failed": "Generation failed",
+        "empty_results": "No results yet.",
+        "loading_options": "Loading options...",
+        "load_failed": "Failed to load options"
+      },
+      "errors": {
+        "missing_prompt": "Prompt cannot be empty",
+        "missing_model": "Model is required",
+        "missing_resolution": "Resolution is required",
+        "request_failed": "Failed to create generation task"
+      }
+    }
+  },
+  "action_figure_templates": {
+    "desk_model": {
+      "name": "Desk Model with ZBrush Display",
+      "description": "1/7 Scale Realistic Model on Desk with ZBrush and BANDAI Box"
+    },
+    "toy_pack": {
+      "name": "Character Trait Toy Pack",
+      "description": "Action battle pose with effects and detailed diorama base"
+    },
+    "classic_standing": {
+      "name": "Acrylic Base Figure",
+      "description": "A realistic action figure stands on a round acrylic base, faithfully capturing the character's features."
+    },
+    "cabinet_display": {
+      "name": "Acrylic Base Figure",
+      "description": "A lifelike 1/7 scale figure posed on a  acrylic base, displayed inside a realistic figure cabinet."
+    },
+    "lego_display": {
+      "name": "Lego Figure Display",
+      "description": "Turn character in lego style action figure using ai."
+    },
+    "figure_group_display": {
+      "name": "Figure Group Display",
+      "description": "Turn multi characters in action figure together using ai."
+    }
+  },
+  "sticker_templates": {
+    "pixar_style": {
+      "name": "Pixar Style",
+      "description": "Pixar-inspired sticker with 3D cartoon rendering, expressive faces, and a polished, cinematic look."
+    },
+    "minimal_line": {
+      "name": "Minimal Line Art",
+      "description": "Minimalist line art sticker with clean, simple lines and a flat 2D design."
+    },
+    "pixel_art": {
+      "name": "Pixel Art",
+      "description": "Retro pixel art sticker in 8-bit or 16-bit style."
+    },
+    "watercolor_soft": {
+      "name": "Watercolor Soft",
+      "description": "Soft watercolor sticker with gentle color transitions, pastel palette, and artistic hand-painted texture."
+    },
+    "pop_art": {
+      "name": "Pop Art",
+      "description": "Bold pop art sticker inspired by comic books, featuring vibrant colors, halftone patterns, and strong outlines."
+    },
+    "graffiti": {
+      "name": "Graffiti",
+      "description": "Urban graffiti sticker with bold spray paint effects, dynamic lines, and street art style."
+    },
+    "chibi": {
+      "name": "Chibi",
+      "description": "Cute chibi-style sticker featuring exaggerated, adorable characters and playful, rounded text."
+    },
+    "no_preset": {
+      "name": "No Preset",
+      "description": "No preset templates. When you select an OC, its style is applied automatically. Otherwise, specify your desired style in the prompt or use the reference image's style."
+    }
+  },
+  "feature_recommend": {
+    "title": "Expand Your Anime Creation Toolkit",
+    "subtitle": "Explore additional AI-driven features to spark inspiration and elevate your OC anime arts",
+    "badges": {
+      "hot": "Hot",
+      "new": "New"
+    },
+    "features": {
+      "ai_anime_generator": {
+        "title": "AI Anime Generator",
+        "description": "Generate breathtaking anime art from your OC designs or text/image prompts. Bring any character or idea to life with advanced AI."
+      },
+      "ai_video_generator": {
+        "title": "AI Video Generator",
+        "description": "Transform your original characters and stories into dynamic anime videos. Animate your OC universe with just a few clicks."
+      },
+      "oc_maker": {
+        "title": "OC Maker",
+        "description": "Design, customize, and manage your own original characters. Build your personal anime universe from scratch."
+      },
+      "chat": {
+        "title": "Chat with OCs",
+        "description": "Interact and role-play with your created characters. Experience immersive conversations powered by AI."
+      },
+      "ai_action_figure_generator": {
+        "title": "AI Action Figure Generator",
+        "description": "Convert your OC into unique, collectible action figures. Visualize your characters in 3D and share them with the community."
+      },
+      "ai_sticker_generator": {
+        "title": "AI Sticker Generator",
+        "description": "Create adorable anime stickers featuring your OCs. Express yourself and share your characters in chats and social media."
+      }
+    }
+  },
+  "incentive": {
+    "check_in": "Check In",
+    "checked_in": "Checked",
+    "daily_check_in": "Daily Check-in",
+    "streak": "{count} days streak",
+    "check_in_tip": "Check in today to get {amount} credits!",
+    "come_back_tomorrow": "Come back tomorrow for more rewards!",
+    "claim_reward": "Claim Reward",
+    "already_checked_in": "Already Checked In",
+    "check_in_success": "Success! +{amount} credits received.",
+    "check_in_failed": "Check-in failed, please try again later.",
+    "day_unit": "Days",
+    "share_reward_tip": "Share to get +10 credits (Daily {count}/{limit})",
+    "share_reward_success": "Shared! +10 credits received."
+  },
+  "share_menu": {
+    "aria": {
+      "share": "Share"
+    },
+    "button": "Share",
+    "copied": "Copied",
+    "daily_bonus": "Daily Bonus"
+  },
+  "share_texts": {
+    "character": {
+      "twitter": "Just created an amazing OC \"{name}\" on AnividAI! 🎨✨ Check it out:",
+      "facebook": "Check out my original character \"{name}\" created with AnividAI! 🎨",
+      "reddit": "I made an original character \"{name}\" using AnividAI. What do you think?",
+      "default": "I created an OC \"{name}\" on AnividAI! Come and see:"
+    },
+    "image": {
+      "twitter": "Generated this awesome anime art on AnividAI! 🎨✨",
+      "facebook": "Check out this anime artwork I created with AnividAI!",
+      "reddit": "Created this anime art using AnividAI. Thoughts?",
+      "default": "Check out this artwork I created on AnividAI!"
+    },
+    "video": {
+      "twitter": "Just made an anime video on AnividAI! 🎬✨ Take a look:",
+      "facebook": "Check out this anime video I created with AnividAI! 🎬",
+      "reddit": "Created an anime video using AnividAI. What do you think?",
+      "default": "I created an anime video on AnividAI! Come watch:"
+    },
+    "world": {
+      "twitter": "Built an anime world \"{name}\" on AnividAI! 🌍✨ Explore it here:",
+      "facebook": "Check out the anime world \"{name}\" I created with AnividAI! 🌍",
+      "reddit": "I built a world called \"{name}\" using AnividAI. What do you think?",
+      "default": "I created a world \"{name}\" on AnividAI! Come explore:"
+    }
+  },
+  "skill_icons": {
+    "Default": "Default",
+    "Magic": "Magic",
+    "Elemental": "Elemental",
+    "Physical": "Physical",
+    "Psychic": "Psychic",
+    "Spatial": "Spatial",
+    "Buff": "Buff",
+    "Summoning": "Summoning",
+    "Shapeshifting": "Shapeshifting",
+    "Technological": "Technological",
+    "Potion": "Potion",
+    "Unique": "Unique"
+  },
+  "worlds": {
+    "genres": {
+      "fantasy": {
+        "name": "Fantasy (General)",
+        "description": "General worlds of magic, mythic creatures, and ancient legends."
+      },
+      "western_fantasy": {
+        "name": "Western Fantasy",
+        "description": "Classic medieval settings with knights, high magic, and epic lore."
+      },
+      "japanese_fantasy": {
+        "name": "Japanese Fantasy (Isekai/JRPG)",
+        "description": "Anime-style fantasy often featuring adventurer guilds and distinct magic circles."
+      },
+      "cyberpunk": {
+        "name": "Cyberpunk",
+        "description": "High-tech, low-life future with neon lights and heavy rain."
+      },
+      "slice_of_life": {
+        "name": "Slice of Life",
+        "description": "Everyday stories in realistic or slightly idealized settings."
+      },
+      "sci_fi": {
+        "name": "Sci-Fi",
+        "description": "Interstellar travel, advanced technology, and alien civilizations."
+      },
+      "horror_gothic": {
+        "name": "Horror / Gothic",
+        "description": "Dark, eerie settings with supernatural or psychological thrills."
+      },
+      "steampunk": {
+        "name": "Steampunk",
+        "description": "19th-century industrial aesthetics powered by steam."
+      },
+      "post_apocalyptic": {
+        "name": "Post-Apocalyptic",
+        "description": "Survival in a world after a global catastrophe."
+      },
+      "eastern_fantasy": {
+        "name": "Eastern Fantasy (Xianxia/Wuxia)",
+        "description": "Traditional East Asian mythology and martial arts."
+      },
+      "custom": {
+        "name": "Custom",
+        "description": "Define your own world genre."
+      }
+    }
+  }
+}

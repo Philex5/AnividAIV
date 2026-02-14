@@ -1,0 +1,697 @@
+{
+  "template": "AnividAI-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "AnividAI",
+      "logo": {
+        "src": "/logo.webp",
+        "alt": "AnividAI"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "",
+          "is_mega_menu": true,
+          "columns": [
+            {
+              "items": [
+                {
+                  "title": "OC Maker",
+                  "description": "Create and customize your original characters",
+                  "icon": "RiUserAddLine",
+                  "url": "/oc-maker"
+                },
+                {
+                  "title": "AI Anime Generator",
+                  "description": "Generate stunning anime artwork from text",
+                  "url": "/ai-anime-generator"
+                },
+                {
+                  "title": "AI Anime Video Generator",
+                  "description": "Create animated videos with your characters",
+                  "icon": "RiVideoFill",
+                  "url": "/ai-anime-video-generator"
+                },
+                {
+                  "title": "Chat with Characters",
+                  "description": "Interactive conversations with your OCs",
+                  "icon": "RiChat4Line",
+                  "url": "/chat"
+                }
+              ]
+            },
+            {
+              "app_container": true,
+              "items": [
+                {
+                  "title": "Studio Tools",
+                  "description": "Explore powerful applications for your characters",
+                  "icon": "RiApps2Line",
+                  "url": "/oc-maker",
+                  "sub_features": [
+                    {
+                      "title": "AI Action Figure Generator",
+                      "description": "Transform OCs into 3D models",
+                      "icon": "RiRobot3Line",
+                      "url": "/ai-action-figure-generator"
+                    },
+                    {
+                      "title": "AI Stiker Generator",
+                      "description": "Create adorable AI stickers instantly ",
+                      "icon": "RiRobot3Line",
+                      "url": "/ai-sticker-generator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "url": "/community",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "Pricing",
+          "url": "/pricing",
+          "icon": "RiMoneyDollarCircleLine"
+        },
+        {
+          "title": "ChangeLogs",
+          "url": "/changelog",
+          "icon": "RiMoneyDollarCircleLine"
+        }
+      ]
+    },
+    "buttons": [],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "draggable_hero": {
+    "title": " Your AI Studio for Anime Worlds",
+    "highlight_text": "Anime Worlds",
+    "description": "AnividAI is an all-in-one creation studio for anime creators. Design OCs, generate consistent artwork and videos, and transform your creative visions into professional anime content in one seamless workflow.",
+    "oc_showcase_title": "Consistent characters, limitless stories",
+    "guide": {
+      "drag_text_desktop": "Drag to explore creations",
+      "drag_text_mobile": "Swipe to explore creations",
+      "click_text": "View Character Soul"
+    }
+  },
+  "command_center": {
+    "modes": {
+      "oc": "Character",
+      "art": "Visualize",
+      "video": "Motion",
+      "chat": "Connect",
+      "world": "Universe"
+    },
+    "placeholders": {
+      "oc": "Inject soul into a new character...",
+      "art": "Manifest a scene for your OC...",
+      "video": "Capture a cinematic moment...",
+      "chat": "Talk to your characters...",
+      "world": "Define the rules of your universe..."
+    },
+    "button": "Manifest"
+  },
+  "introduce": {
+    "title": "Professional AI Anime Creation Studio",
+    "description": "AnividAI provides an end-to-end workflow for anime artists and storytellers. From character design to high-quality images and cinematic videos, everything you need is integrated into one powerful platform.",
+    "vision": " Your AI Studio for Anime Worlds",
+    "create_oc_button": "Start Creating",
+    "explore_community_button": "Explore Gallery"
+  },
+  "benefit": {
+    "title": "Why creators choose AnividAI",
+    "subtitle": "A professional toolkit designed for anime creators to produce consistent, high-quality content.",
+    "items": [
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-1.webp",
+        "title": "One OC, Every Tool",
+        "description": "Create once, use everywhere. Your OC profile powers the entire studio—ensuring consistent characters across images, videos, and interactive stories."
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-2.webp",
+        "title": "Consistent by Design",
+        "description": "Our AI locks your character's appearance. Generate unlimited anime art and videos while maintaining perfect character consistency automatically."
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-3.webp",
+        "title": "Production-Ready Pipeline",
+        "description": "From concept art to final assets. Create characters, generate high-res content, and produce merch-ready designs—all in a professional environment."
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-4.webp",
+        "title": "Curated ACGN Library",
+        "description": "Specialized styles for anime, manga, and game art. From Ghibli-esque aesthetics to stylized 3D, built for creators who demand precision."
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-5.webp",
+        "title": "Creator Community",
+        "description": "Publish your masterpieces and discover original characters worldwide. Share prompts, showcase your projects, and grow your audience."
+      },
+      {
+        "icon": "assets/imgs/icons/landingpage/benefits-6.webp",
+        "title": "Free to Start",
+        "description": "Start your anime production for free. Get welcome credits to try the studio's full suite of AI generation tools—no credit card required."
+      }
+    ]
+  },
+  "usage": {
+    "disabled": true
+  },
+  "feature": {
+    "name": "feature",
+    "title": "All-in-One Toolkit for Anime Production",
+    "description": "From character design to cinematic animation, AnividAI offers a connected suite of tools to bring your anime projects to life.",
+    "items": [
+      {
+        "id": "oc_maker",
+        "title": "Character Core: OC Maker",
+        "description": "Design your character once and use it everywhere. Our OC Maker acts as an anchor for character consistency across your entire project.",
+        "icon": "RiUserAddLine",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-ocs-maker.webp",
+          "alt": "OC Maker character design interface"
+        },
+        "cta": {
+          "title": "Design Character",
+          "url": "/oc-maker"
+        }
+      },
+      {
+        "id": "ai_anime_generator",
+        "title": "Visualization: AI Anime Art",
+        "description": "Transform text into professional anime artwork while keeping your characters consistent across every scene and style.",
+        "icon": "RiImageFill",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-anime-generator.webp",
+          "alt": "AI anime image generation with character consistency"
+        },
+        "cta": {
+          "title": "Generate Art",
+          "url": "/ai-anime-generator"
+        }
+      },
+      {
+        "id": "ai_video_generator",
+        "title": "Motion: AI Anime Video",
+        "description": "Create cinematic anime clips with professional camera control. Bring your characters to life with fluid motion and consistent aesthetics.",
+        "icon": "RiVideoFill",
+        "media": {
+          "type": "video",
+          "src": "gallery/anime_video/kling_3_0/kling3-showcase-3.mp4",
+          "alt": "AI anime video production showcase"
+        },
+        "cta": {
+          "title": "Animate",
+          "url": "/ai-anime-video-generator"
+        }
+      },
+      {
+        "id": "chat_with_oc",
+        "title": "Connection: Character Chat",
+        "description": "Interact with your OCs to refine their personality and lore. A unique way to develop your character's soul and story.",
+        "icon": "RiChat4Line",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-chat.webp",
+          "alt": "Character interaction interface"
+        },
+        "cta": {
+          "title": "Connect",
+          "url": "/chat"
+        }
+      },
+      {
+        "id": "oc_apps",
+        "title": "Production: Studio Tools",
+        "description": "Expand your IP with specialized tools. Generate action figure renders, sticker packs, and production-ready assets.",
+        "icon": "RiApps2Line",
+        "media": {
+          "type": "image",
+          "src": "showcases/landingpage-features/feature-oc-apps.webp",
+          "alt": "Anime production tools"
+        },
+        "cta": {
+          "title": "Create Assets",
+          "url": "/ai-action-figure-generator"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "People Love AnividAI",
+    "description": "for it's easy to use and fast to ship.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Trusted by",
+        "label": "99+",
+        "description": "Customers"
+      },
+      {
+        "title": "Built in",
+        "label": "20+",
+        "description": "Components"
+      },
+      {
+        "title": "Ship Fast in",
+        "label": "5",
+        "description": "Minutes"
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Everything you need to know about creating and using your production ecosystem on AnividAI",
+    "items": [
+      {
+        "title": "What is an OC Maker and why should I use it?",
+        "description": "An OC Maker is a specialized anime character creator for designing unique original characters. Using the AnividAI OC Maker allows you to maintain character consistency across all features—generate images, create videos, and chat with your OCs."
+      },
+      {
+        "title": "How does the AnividAI OC Maker ecosystem work?",
+        "description": "Start by using our OC Maker to design your character in 3 simple steps. Once forged in the character creator, your OC is instantly available in the anime character generator, video creator, and interactive chat tools."
+      },
+      {
+        "title": "Can I use my OC across all features?",
+        "description": "Yes! That's the core advantage of AnividAI. Once you create an OC, it's automatically available in AI Anime Generator, AI Anime Video Generator, Chat, and Studio Tools. The AI maintains consistent appearance, personality, and traits across all platforms, so your character always looks and acts the same."
+      },
+      {
+        "title": "What's included for free users?",
+        "description": "Free users can create up to 10 OCs, receive welcome credits to try all features, and access the community gallery. You can generate anime images, create short videos, chat with your characters, and use Studio Tools using the credit system. Upgrade to Plus or Pro for unlimited OCs, monthly credits, and priority generation."
+      },
+      {
+        "title": "How does the credits (MC) system work?",
+        "description": "MC (Meow Coin) is our universal credit currency. Pricing starts at 10 MC per image, 100 MC per video, and 50 MC per OC. Chat and Studio Tools consume MC based on model and complexity. Buy Meow Packs anytime or subscribe to receive monthly MC with bonus credits."
+      },
+      {
+        "title": "Can I chat with other people's OCs?",
+        "description": "Yes, if the OC owner sets their character to 'Public' visibility. You can browse public OCs in the community and start conversations. Private OCs can only be accessed by their creators, while 'Friends Only' OCs are available to approved users. Each chat session respects the character's personality and backstory."
+      },
+      {
+        "title": "What video formats and lengths are supported?",
+        "description": "AI Anime Video Generator creates 3-10 second MP4 videos in three aspect ratios: 1:1 (square), 9:16 (vertical for TikTok/Reels), and 16:9 (horizontal for YouTube). Videos are generated in 720p or 1080p resolution with professional camera motions and your OC's consistent appearance. Perfect for social media sharing."
+      },
+      {
+        "title": "Can I use generated content commercially?",
+        "description": "Yes! All content you create\u2014OC designs, anime images, videos, and Studio Tools outputs (like action figure renders)\u2014is yours to use for personal or commercial purposes. This includes selling merchandise, using in portfolios, social media, crowdfunding, and marketing materials. There are no additional licensing fees or attribution requirements."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Ready to start your anime production?",
+    "description": "Create original characters, generate anime images and videos, and expand your IP for free.",
+    "buttons": [
+      {
+        "title": "Create your first OC free",
+        "url": "/oc-maker",
+        "target": "_self",
+        "icon": "/creamy/decorations/bow_tile.webp"
+      },
+      {
+        "title": "Explore the community gallery",
+        "url": "/community",
+        "target": "_self",
+        "variant": "outline",
+        "icon": "/creamy/decorations/foot.webp"
+      }
+    ]
+  },
+  "feature_showcase": {
+    "section_title": "Powerful AI creation capabilities",
+    "section_subtitle": "Professional tools for OC design, anime image generation, and anime video creation.",
+    "intelligent_prompts": {
+      "title": "Intelligent Prompts",
+      "description": "Turn simple ideas into refined anime prompts with AI-assisted phrasing, style guidance, and keyword suggestions.",
+      "features": {
+        "0": "AI-assisted prompt enhancement",
+        "1": "Smart keyword suggestions",
+        "2": "Style-aware guidance",
+        "3": "Anime prompt terminology library"
+      },
+      "cta": "Try Magic Prompt",
+      "media_alt": "AI prompt optimization demonstration",
+      "style_ghiblio": "Studio Ghibli Style",
+      "style_pixar": "Pixar 3D Style",
+      "style_watercolor": "Watercolor Style",
+      "style_manga": "Traditional Manga"
+    },
+    "diverse_styles": {
+      "title": "Diverse Anime Styles",
+      "description": "Explore anime, manga, game art, and stylized 3D looks with a curated library built for ACGN creators.",
+      "features": {
+        "0": "Studio Ghibli aesthetic",
+        "1": "Stylized 3D rendering",
+        "2": "Watercolor illustration style",
+        "3": "Traditional manga art"
+      },
+      "cta": "Explore All Styles",
+      "media_alt": "Various anime styles showcase",
+      "style_ghiblio": "Studio Ghibli",
+      "style_pixar": "Pixar 3D",
+      "style_watercolor": "Watercolor",
+      "style_manga": "Manga Style"
+    },
+    "rapid_generation": {
+      "title": "Lightning Fast Generation",
+      "description": "Generate high-quality anime artwork quickly with an optimized pipeline built for creators on any device.",
+      "features": {
+        "0": "Fast generation pipeline",
+        "1": "Batch creation support",
+        "2": "Mobile-first performance",
+        "3": "Real-time preview updates"
+      },
+      "cta": "Start Creating Now",
+      "media_alt": "Fast generation speed demonstration"
+    }
+  },
+  "community_gallery": {
+    "title": "Community gallery of original characters",
+    "subtitle": "Discover anime art, OC designs, and clips created by the AnividAI community.",
+    "view_more": "View more creations",
+    "upload_yours": "Share your creation"
+  },
+  "how_to_use": {
+    "title": "Create your original character in 3 steps",
+    "subtitle": "From OC maker to anime art in minutes with a simple, guided workflow.",
+    "step_1_title": "Describe Your Idea",
+    "step_1_description": "Describe your OC, scene, and story ideas in clear, simple words.",
+    "step_2_title": "Choose Your Style",
+    "step_2_description": "Choose anime styles, outfits, and settings to match your vision.",
+    "step_3_title": "Get Your Artwork",
+    "step_3_description": "Generate consistent anime artwork and start building your universe.",
+    "cta_button": "Start Creating for Free",
+    "cta_subtitle": "No credit card required \u2022 Create your first OC now"
+  },
+  "blog": {
+    "title": "Latest from our studio",
+    "description": "Stay updated with the latest features, creative guides, and community highlights.",
+    "read_more_text": "Read more"
+  },
+  "parameters": {
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level",
+    "camera_motion": "Camera Motion",
+    "camera_motion_placeholder": "Select camera motion"
+  },
+  "user_showcase": {
+    "title": "What Our Users Create",
+    "description": "Discover amazing anime artwork created by our talented community members worldwide",
+    "see_more": "View More Community Artworks",
+    "loading": "Loading artworks...",
+    "empty": "No featured artworks yet",
+    "featured_artworks": [
+      {
+        "uuid": "09eb6945-8b53-4c9d-9426-397bc3073a59",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "aba5e007-83ff-46ef-8f31-778830e39b19",
+        "type": "video",
+        "badge_type": "Anime Video"
+      },
+      {
+        "uuid": "eb9b7421-582a-4ebb-9202-1687ce216a43",
+        "type": "image",
+        "badge_type": "Action Figure"
+      },
+      {
+        "uuid": "4a63c875-9126-4657-96e1-22f66e9604da",
+        "type": "video",
+        "badge_type": "Anime Video"
+      },
+      {
+        "uuid": "3cca491e-9349-493b-92ca-0f737a827ffa",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "5e6dd497-a0de-4248-aebc-fea80e709515",
+        "type": "image",
+        "badge_type": "Sticker"
+      },
+      {
+        "uuid": "d7ee1301-ef87-4073-a23b-ca333cffd2c1",
+        "type": "character",
+        "badge_type": "OC"
+      },
+      {
+        "uuid": "116953e6-5b2f-4f6c-bae5-95b55299a56c",
+        "type": "image",
+        "badge_type": "Anime"
+      },
+      {
+        "uuid": "e6d3ac76-cbaa-449b-98dd-252c6bf4b065",
+        "type": "image",
+        "badge_type": "Action Figure"
+      },
+      {
+        "uuid": "5693c7a4-d175-4423-b527-d013142ba6de",
+        "type": "video",
+        "badge_type": "Anime Video"
+      }
+    ]
+  },
+  "oc_detail": {
+    "basicInfo": "Basic Info",
+    "background": "Background",
+    "brief_introduction": "Brief Introduction",
+    "personality": "Personality",
+    "name": "Name",
+    "role": "Role",
+    "gender": "Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_other": "Other",
+    "age": "Age",
+    "species": "Species"
+  },
+  "oc_showcase_characters": [
+    {
+      "uuid": "oc-example-003",
+      "name": "Lyria",
+      "role": "Ocean Singer",
+      "avatar_url": "gallery/landingpage_oc_showcase/lyria/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/lyria/profile.webp",
+      "character_data": {
+        "species": "Mermaid",
+        "gender": "female",
+        "age": 19,
+        "personality_tags": [
+          "compassionate",
+          "curious",
+          "creative",
+          "mysterious"
+        ],
+        "brief_introduction": "A gentle mermaid with a voice that enchants all who hear it.",
+        "background_story": "Lyria lives in a hidden lagoon, where she composes songs that echo through the ocean. She dreams of exploring the world above the waves.",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/lyria/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/lyria/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/lyria/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-005",
+      "name": "Puffie",
+      "role": "Joybringer of the Enchanted Fores",
+      "avatar_url": "gallery/landingpage_oc_showcase/puffie/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/puffie/profile.webp",
+      "character_data": {
+        "species": "Fairy",
+        "gender": "female",
+        "age": 6,
+        "personality_tags": [
+          "affectionate",
+          "playful",
+          "energetic"
+        ],
+        "brief_introduction": "A fluffy bear fairy who brings warmth and laughter, beloved by all forest creatures.",
+        "background_story": "Puffie was born in the heart of the enchanted forest, where laughter is the greatest magic. Their fluffy fur and gentle hugs have healed many sad hearts.",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/puffie/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/puffie/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/puffie/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-004",
+      "name": "Creamy",
+      "role": "Magical Explorer",
+      "avatar_url": "gallery/landingpage_oc_showcase/creamy/avatar.png",
+      "image": "gallery/landingpage_oc_showcase/creamy/profile.webp",
+      "character_data": {
+        "species": "Mystic Cat",
+        "gender": "female",
+        "age": 16,
+        "personality_tags": [
+          "Adventurous",
+          "cheerful",
+          "kind-hearted",
+          "helpful",
+          "curious"
+        ],
+        "brief_introduction": "Creamy is a magical cat from a distant land, known for her boundless curiosity and powerful magic. As an explorer and adventurer, she travels across mysterious realms, seeking new wonders and helping those in need. Her lively and adorable personality makes her a beloved companion wherever she goes. Creamy\u2019s kindness and willingness to lend a paw have earned her many friends on her journeys, and her magical abilities often turn the tide in challenging situations.",
+        "background_story": "",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/creamy/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/creamy/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/creamy/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-001",
+      "name": "Vex",
+      "role": "Urban Sentinel",
+      "avatar_url": "gallery/landingpage_oc_showcase/vex/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/vex/profile.webp",
+      "character_data": {
+        "species": "Robot",
+        "gender": "other",
+        "age": 15,
+        "personality_tags": [
+          "serious",
+          "perfectionist",
+          "loyal"
+        ],
+        "brief_introduction": "Vex is an android designed for city security, precise and loyal, now curious about human emotions.city security, precise and loyal, now curious.",
+        "background_story": "Vex was created by a tech conglomerate to patrol the neon-lit streets of the city. Despite being a machine, Vex is learning the complexities of human emotion.",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/vex/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/vex/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/vex/wide1.webp"
+          }
+        ]
+      }
+    },
+    {
+      "uuid": "oc-example-002",
+      "name": "Aelion",
+      "role": "Forest Sage",
+      "avatar_url": "gallery/landingpage_oc_showcase/aelion/avatar.webp",
+      "image": "gallery/landingpage_oc_showcase/aelion/profile.webp",
+      "character_data": {
+        "species": "Elf",
+        "gender": "male",
+        "age": 1200,
+        "personality_tags": [
+          "intelligent",
+          "calm",
+          "mysterious"
+        ],
+        "brief_introduction": "Aelion is an ancient and revered elven sage, whose wisdom is as deep as the roots of the oldest trees. As the silent guardian of the primeval forest, he preserves forgotten lore and protects the delicate balance between nature and magic. Though rarely seen by outsiders, his guidance is sought by those in desperate need, and his presence is felt in every whisper of the woodland breeze.",
+        "background_story": "Aelion has spent centuries studying the magic of the forest. He rarely leaves his woodland home, but those who seek his wisdom are never turned away.",
+        "artworks": [
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/artwork1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/artwork1.webp"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/artwork2.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/artwork2.webp"
+          },
+          {
+            "type": "video",
+            "url": "gallery/landingpage_oc_showcase/aelion/video1.mp4",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/video1.mp4"
+          },
+          {
+            "type": "image",
+            "url": "gallery/landingpage_oc_showcase/aelion/wide1.webp",
+            "thumbnailUrl": "gallery/landingpage_oc_showcase/aelion/wide1.webp"
+          }
+        ]
+      }
+    }
+  ]
+}

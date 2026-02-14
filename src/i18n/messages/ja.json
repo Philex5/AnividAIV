@@ -1,0 +1,1569 @@
+{
+  "metadata": {
+    "title": "AnividAI - あなたのAIアニメ制作スタジオ",
+    "description": "AnividAIでオリジナルキャラクター（OC）を作成し、一貫性のあるAIアニメイラスト、動画、ストーリーをワンストップで生成できます。",
+    "keywords": ""
+  },
+  "user": {
+    "sign_in": "ログイン",
+    "sign_out": "ログアウト",
+    "credits": "クレジット",
+    "api_keys": "APIキー",
+    "my_orders": "我的注文",
+    "home": "ホーム",
+    "user_center": "ユーザーセンター",
+    "admin_system": "管理システム",
+    "upgrade": "アップグレード",
+    "pro_required": "サブスクリプションが必要です",
+    "premium_model_tooltip": "プレミアムモデルはサブスクリプション会員限定です。アップグレードしてご利用ください。"
+  },
+  "nav": {
+    "ai_anime_generator": "AIアニメ генератор",
+    "posts": "ブログ記事",
+    "showcase": "展示",
+    "pricing": "料金プラン",
+    "home": "ホーム",
+    "creation_tool": "創作ツール",
+    "oc_maker": "OCメーカー",
+    "ai_anime_generator_short": "AIアニメ генератор",
+    "anime_video_generator": "アニメ動画 генератор",
+    "chat_with_oc": "OCとチャット",
+    "oc_apps": "スタジオツール",
+    "ai_action_figure_generator": "AIакция фигура генератор",
+    "worlds": "世界"
+  },
+  "sidebar": {
+    "home": "ホーム",
+    "my_creations": "マイクリエーション",
+    "my_characters": "マイキャラクター",
+    "my_artworks": "マイアートワーク",
+    "profile": "プロフィール",
+    "community": "コミュニティ",
+    "oc_maker": "OCメーカー",
+    "ai_anime_generator": "アニメジェネレーター",
+    "ai_anime_video_generator": "動画ジェネレーター",
+    "chat": "OCとチャット",
+    "ai_action_figure_generator": "AIアクションフィギュアジェネレーター",
+    "ai_sticker_generator": "AIステッカージェネレーター",
+    "oc_apps": "スタジオツール"
+  },
+  "promotions": {
+    "banner": {
+      "enabled": true,
+      "icon": "NEW",
+      "text": "AnividAI で Kling 3.0 が公開中。期間限定で 50%OFF のローンチオファーをご利用いただけます。",
+      "link": "/models/kling-3-0",
+      "mobile_badge": "NEW",
+      "mobile_cta": "詳細を見る"
+    },
+    "sidebar_card": {
+      "enabled": false,
+      "image": "showcases/landingpage-features/feature-video-generator.webp",
+      "text": "Kling 3.0 と会員特典で、アニメ動画生成のクオリティをさらに引き上げましょう。",
+      "link": "/pricing"
+    }
+  },
+  "community": {
+    "loading": "読み込み中...",
+    "loadingMore": "更多作品載入中...",
+    "retry": "再試行",
+    "duration": "{count}秒",
+    "resolution": "{value}解像度",
+    "states": {
+      "loadingMore": "更多作品載入中...",
+      "retry": "再試行"
+    },
+    "aria": {
+      "useOc": "このOCを使用",
+      "like": "この作品にいいね",
+      "favorite": "お気に入りに追加",
+      "share": "この問題を共有",
+      "more": "更多オプション",
+      "viewDetail": "作品の詳細を表示",
+      "closeDetail": "詳細を閉じる",
+      "sort": "作品をソート",
+      "search": "作品を検索"
+    },
+    "actions": {
+      "useOc": "このOCを使用",
+      "viewDetail": "詳細を表示",
+      "reuse": "再利用",
+      "download": "ダウンロード"
+    }
+  },
+  "comments": {
+    "title": "{count}件のコメント",
+    "placeholder": "コメントを追加...",
+    "replyPlaceholder": "{name}さんに返信...",
+    "submit": "コメントする",
+    "reply": "返信",
+    "cancel": "キャンセル",
+    "loadMore": "さらにコメントを読み込む",
+    "viewReplies": "返信を表示",
+    "hideReplies": "返信を非表示",
+    "deleted": "このコメントは削除されました。",
+    "noComments": "まだコメントはありません。最初のコメントを投稿しましょう！",
+    "deleteConfirm": "このコメントを削除してもよろしいですか？",
+    "anonymous": "匿名",
+    "avatarFallback": "U",
+    "toasts": {
+      "posted": "コメントを投稿しました",
+      "postFailed": "コメントの投稿に失敗しました",
+      "replied": "返信を投稿しました",
+      "replyFailed": "返信の投稿に失敗しました",
+      "deleted": "コメントを削除しました",
+      "deleteFailed": "コメントの削除に失敗しました",
+      "actionFailed": "操作に失敗しました"
+    }
+  },
+  "character_selector": {
+    "empty_message": "利用可能なキャラクターがありません。最初のキャラクターを作成してチャットを開始しましょう！",
+    "create_first_character": "最初のキャラクターを作成",
+    "browse_community_ocs": "コミュニティOCを閲覧",
+    "or_divider": "または",
+    "select_prompt": "チャットを開始するキャラクターを選択",
+    "character_count": "{count}体のキャラクターから選択",
+    "character_count_plural": "{count}体のキャラクターから選択",
+    "loading": "キャラクターを読み込み中...",
+    "age_label": "年齢: {age}",
+    "page_summary": "{total}ページ中{current}ページ（{count}体）"
+  },
+  "sign_modal": {
+    "sign_in_title": "ログイン",
+    "sign_in_description": "アカウントにログイン",
+    "sign_up_title": "新規登録",
+    "sign_up_description": "アカウントを作成",
+    "email_title": "メール",
+    "email_placeholder": "メールアドレスを入力してください",
+    "password_title": "パスワード",
+    "password_placeholder": "パスワードを入力してください",
+    "forgot_password": "パスワードをお忘れですか？",
+    "or": "または",
+    "continue": "続行",
+    "no_account": "アカウントをお持ちでないですか？",
+    "email_sign_in": "メールアドレスでログイン",
+    "google_sign_in": "Googleでログイン",
+    "github_sign_in": "GitHubでログイン",
+    "close_title": "閉じる",
+    "cancel_title": "キャンセル",
+    "continue_after_login": "続行するにはログインしてください",
+    "settings_preserved": "現在の設定は保持されます"
+  },
+  "my_orders": {
+    "title": "我的注文",
+    "description": "AnividAIで支払った注文。",
+    "no_orders": "注文が見つかりません",
+    "tip": "",
+    "activate_order": "注文をアクティブ化",
+    "actived": "アクティブ済み",
+    "join_discord": "Discordに参加",
+    "read_docs": "ドキュメントを読む",
+    "table": {
+      "order_no": "注文番号",
+      "email": "メール",
+      "product_name": "製品名",
+      "amount": "金額",
+      "paid_at": "支払い日時",
+      "github_username": "GitHubユーザー名",
+      "status": "ステータス",
+      "manage_billing": "請求を管理",
+      "interval": "間隔",
+      "interval_month": "月次",
+      "interval_year": "年次",
+      "interval_one_time": "一回限り"
+    }
+  },
+  "my_credits": {
+    "title": "我的クレジット",
+    "left_tip": "残りクレジット：{left_credits}",
+    "summary_tip": "残高：{balance} · 獲得：{totalEarned} · 使用：{totalUsed}",
+    "expiring_tip": "間もなく期限切れ：{expiringCredits}（{expiringAt}まで）",
+    "no_expiring_tip": "今後7日間で期限切れのクレジットはありません。",
+    "no_credits": "クレジット記録がありません",
+    "recharge": "チャージ",
+    "table": {
+      "trans_no": "取引番号",
+      "trans_type": "取引種別",
+      "credits": "クレジット",
+      "updated_at": "更新日",
+      "status": "ステータス",
+      "expired_at": "期限日",
+      "created_at": "作成日"
+    }
+  },
+  "my_ocs": {
+    "title": "我的オリジナルキャラクター：",
+    "description": "すべてのオリジナルキャラクター在这里。",
+    "create_character": "OCを作成",
+    "no_characters": "まだOCがありません！"
+  },
+  "api_keys": {
+    "title": "APIキー",
+    "tip": "APIキーは安全に保管し、流出を避けてください",
+    "no_api_keys": "APIキーなし",
+    "create_api_key": "APIキーを作成",
+    "table": {
+      "name": "名前",
+      "key": "キー",
+      "created_at": "作成日"
+    },
+    "form": {
+      "name": "名前",
+      "name_placeholder": "APIキー名",
+      "submit": "送信"
+    }
+  },
+  "blog": {
+    "title": "ブログ",
+    "description": "AnividAIに関するニュース、リソース、更新情報",
+    "read_more_text": "続きを読む",
+    "no_content": "コンテンツなし",
+    "all": "すべて",
+    "category": "カテゴリー",
+    "author": "著者"
+  },
+  "my_invites": {
+    "title": "我的招待",
+    "description": "招待記録を表示",
+    "no_invites": "招待記録が見つかりません",
+    "my_invite_link": "私の招待リンク",
+    "edit_invite_link": "招待リンクを編集",
+    "copy_invite_link": "招待リンクをコピー",
+    "invite_code": "招待コード",
+    "invite_tip": "友達を1人招待してAnividAIを購入すると、$50の報酬を進呈します。",
+    "invite_balance": "招待報酬残高",
+    "total_invite_count": "総招待数",
+    "total_paid_count": "有料招待総数",
+    "total_award_amount": "総報酬額",
+    "update_invite_code": "招待コードを設定",
+    "update_invite_code_tip": "カスタム招待コードを入力",
+    "update_invite_button": "保存",
+    "no_orders": "AnividAIを購入する前に他人を招待することはできません",
+    "no_affiliates": "他人を招待する権限がありません。許可を申請するにはお問い合わせください。",
+    "table": {
+      "invite_time": "招待日時",
+      "invite_user": "招待ユーザー",
+      "status": "ステータス",
+      "reward_percent": "報酬率",
+      "reward_amount": "報酬額",
+      "pending": "保留中",
+      "completed": "完了"
+    }
+  },
+  "feedback": {
+    "title": "フィードバック",
+    "description": "製品体験がどこがよかったか、またはどのように改善できるかをお聞かせください。",
+    "submit": "送信",
+    "loading": "送信中...",
+    "contact_tip": "その他の連絡先",
+    "type_tip": "これはどのような種類のフィードバックですか？",
+    "placeholder": "メッセージを残す...",
+    "success": "フィードバックをありがとうございます！"
+  },
+  "anime_styles": {
+    "anime": {
+      "name": "アニメ",
+      "description": "クリーンな線画と鮮やかな色彩が特徴の王道アニメスタイル"
+    },
+    "ghiblio": {
+      "name": "スタジオジブリ",
+      "description": "絵画的な背景と温かい世界観を持つジブリ風スタイル"
+    },
+    "cinematic_anime": {
+      "name": "シネマティックアニメ",
+      "description": "高精細な背景とドラマチックな光表現を持つ映画的アニメスタイル"
+    },
+    "american_comics": {
+      "name": "アメリカンコミック",
+      "description": "力強い輪郭線と劇的な陰影が特徴のアメコミ風スタイル"
+    },
+    "pixel_retro": {
+      "name": "ピクセルレトロ",
+      "description": "レトロゲームの雰囲気を再現したドット絵スタイル"
+    },
+    "chibi": {
+      "name": "ちび",
+      "description": "デフォルメの効いた可愛らしいちびキャラスタイル"
+    },
+    "watercolor": {
+      "name": "水彩画",
+      "description": "やわらかなにじみと淡い色合いの水彩風スタイル"
+    },
+    "cyberpunk": {
+      "name": "サイバーパンク",
+      "description": "ネオン光と近未来都市を特徴とするサイバーパンク風アニメスタイル"
+    },
+    "kawaii_anime": {
+      "name": "かわいいアニメ",
+      "description": "可愛らしいアニメ風の絵柄と居心地の良い雰囲気"
+    },
+    "waifu_kimono_sakura": {
+      "name": "着物ワイフ・桜",
+      "description": "桜の下で和服をまとう優雅で上品なワイフスタイル"
+    },
+    "fantasy_lolita": {
+      "name": "ファンタジーロリータ",
+      "description": "幻想的な装飾と魔法的要素を組み合わせたロリータ風スタイル"
+    },
+    "mecha_anime": {
+      "name": "メカアニメ",
+      "description": "巨大ロボットと先端技術を主題にしたメカ系アニメスタイル"
+    },
+    "shoujo_sparkle": {
+      "name": "少女スパークル",
+      "description": "きらめく瞳と柔らかな配色が特徴の少女漫画風スタイル"
+    },
+    "dark_gothic": {
+      "name": "ダークゴシック",
+      "description": "重厚な雰囲気と精緻な衣装表現が映えるダークゴシックスタイル"
+    },
+    "retro_90s_anime": {
+      "name": "レトロ90年代アニメ",
+      "description": "太い輪郭線と懐かしい質感が特徴の90年代風アニメスタイル"
+    }
+  },
+  "character_styles": {
+    "anime": {
+      "name": "アニメ",
+      "description": "王道アニメ調で描く全身キャラクタースタイル"
+    },
+    "semi_realistic": {
+      "name": "セミリアリスティック",
+      "description": "写実感とアニメ表現を両立した繊細なキャラクタースタイル"
+    },
+    "chibi": {
+      "name": "ちび",
+      "description": "大きな頭身と愛らしい表情が特徴のちびキャラスタイル"
+    },
+    "watercolor": {
+      "name": "水彩画",
+      "description": "やわらかな色彩とにじみ表現を活かした水彩キャラスタイル"
+    },
+    "cyberpunk": {
+      "name": "サイバーパンク",
+      "description": "ネオン光と近未来感を取り入れたサイバーパンクキャラスタイル"
+    },
+    "fantasy_rpg": {
+      "name": "ファンタジーRPG",
+      "description": "装飾豊かな衣装と冒険世界観を備えたファンタジーRPGスタイル"
+    },
+    "ghiblio": {
+      "name": "ジブリ",
+      "description": "柔らかな色彩と温かい空気感を持つジブリ風キャラスタイル"
+    },
+    "modern_digital_painting": {
+      "name": "モダンデジタルペインティング",
+      "description": "豊かな筆致と陰影表現で描くモダンなデジタルペイントスタイル"
+    },
+    "shoujo_sparkle": {
+      "name": "少女スパークル",
+      "description": "きらめく瞳とやわらかな色調が特徴の少女漫画風キャラスタイル"
+    },
+    "dark_gothic": {
+      "name": "ダークゴシック",
+      "description": "重厚な雰囲気と華やかな装飾衣装を備えたゴシックキャラスタイル"
+    },
+    "retro_90s_anime": {
+      "name": "レトロ90年代アニメ",
+      "description": "太い輪郭線と懐かしい質感を持つ90年代アニメ風キャラスタイル"
+    },
+    "kawaii_anime": {
+      "name": "かわいいアニメ",
+      "description": "可愛らしいアニメ風の絵柄と居心地の良い雰囲気"
+    }
+  },
+  "species": {
+    "human": "人間",
+    "elf": "エルフ",
+    "cat_person": "猫人間",
+    "wolf_person": "狼人間",
+    "dragon_person": "ドラゴンボーン",
+    "angel": "天使",
+    "demon": "恶魔",
+    "mermaid": "人魚",
+    "fairy": "妖精",
+    "vampire": "吸血鬼",
+    "robot": "ロボット",
+    "orc": "orc",
+    "undead": "アンデッド",
+    "drawf": "ドワーフ",
+    "hybrid": "ハイブリッド",
+    "mystic_cat": "神秘猫",
+    "custom": "カスタム"
+  },
+  "personality": {
+    "creative": "創造的",
+    "kind": "優しい",
+    "brave": "勇敢",
+    "curious": "好奇心旺盛",
+    "intelligent": "知的",
+    "friendly": "友好的",
+    "adventurous": "冒険好き",
+    "heroic": "英雄的",
+    "cautious": "慎重",
+    "loyal": "忠実",
+    "outgoing": "社交的",
+    "speed_loving": "スピード好き",
+    "freedom_fighter": "自由戦士",
+    "tech_savvy": "技術に堪能",
+    "helpful": "親切",
+    "mysterious": "神秘的",
+    "independent": "独立した",
+    "shy": "内気",
+    "humorous": "ユーモラス",
+    "calm": "冷静",
+    "hot_blooded": "熱血",
+    "sharp_tongued": "毒舌",
+    "serious": "真面目",
+    "perfectionist": "完璧主義",
+    "energetic": "精力旺盛",
+    "cheerful": "朗らか",
+    "race": "種族",
+    "nobles": "貴族",
+    "dutiful": "孝行"
+  },
+  "role": {
+    "student": "学生",
+    "teacher": "教師",
+    "king": "王",
+    "queen": "女王",
+    "prince": "王子",
+    "princess": "王女",
+    "warrior": "戦士",
+    "mage": "魔法使い",
+    "healer": " healer",
+    "villain": "悪役",
+    "hero": "ヒーロー",
+    "mentor": "mentor",
+    "leader": "リーダー",
+    "detective": "detective",
+    "idol": "アイドル",
+    "scientist": "科学者",
+    "doctor": "医師",
+    "nurse": "看護師",
+    "thief": "盗賊",
+    "assassin": "assassin",
+    "merchant": "merchant",
+    "adventurer": "adventurer",
+    "guardian": "guardian",
+    "spy": "spy",
+    "maid": "maid",
+    "butler": "butler",
+    "general": "general",
+    "captain": "captain"
+  },
+  "accessories": {
+    "headband": "headband",
+    "hat": "hat",
+    "glasses": "glasses",
+    "earrings": "earrings",
+    "necklace": "necklace",
+    "bracelet": "bracelet",
+    "ring": "ring",
+    "scarf": "scarf",
+    "gloves": "gloves",
+    "belt": "belt",
+    "bag": "bag",
+    "watch": "watch",
+    "bow_tie": "bow tie",
+    "tie": "tie",
+    "flower": "flower",
+    "ribbon": "ribbon",
+    "cape": "cape",
+    "mask": "mask",
+    "wings": "wings",
+    "tail": "tail",
+    "bow": "bow",
+    "sword": "sword",
+    "amulet": "amulet",
+    "staff": "staff",
+    "dagger": "dagger",
+    "visor": "visor",
+    "hair_ribbon": "hair ribbon",
+    "school_bag": "school bag",
+    "paw_gloves": "paw gloves",
+    "pearl_necklace": "pearl necklace",
+    "shell_hairpin": "shell hairpin",
+    "tiny_satchel": "tiny satchel",
+    "cat_ears": "cat ears"
+  },
+  "models": {
+    "z_image": {
+      "name": "Z-Image",
+      "description": "安価で高速。参照画像は非対応です。Tongyi-MAIによる提供"
+    },
+    "nano_banana": {
+      "name": "Nano Banana",
+      "description": "高速で効率的な аниме画像生成、高品質出力"
+    },
+    "nano_banana_pro": {
+      "name": "Nano Banana Pro",
+      "description": "GoogleからのNano Bananaのアップグレード版。 より強力かつスマート"
+    },
+    "gpt-image-1": {
+      "name": "GPT Image 1",
+      "description": "クリエイティブで詳細なанимеアート用の高度なAIモデル"
+    },
+    "kling_video": {
+      "name": "Kling 2.5 Turbo",
+      "description": "スムーズなアニメーションを持つプロフェッショナル аниме動画生成"
+    },
+    "kling_3_0_video": {
+      "name": "Kling 3.0",
+      "description": "std/pro モードに対応したプレミアム Kling 3.0 動画生成"
+    },
+    "sora2": {
+      "name": "Sora-2",
+      "description": "拡張 duration サポート付きの高度なマルチ画像動画生成"
+    },
+    "sora2_pro": {
+      "name": "Sora-2 Pro",
+      "description": "最高品質と高度な機能を持つプレミアム マルチ画像動画生成"
+    },
+    "wan_2_5": {
+      "name": "Wan 2.5",
+      "description": "テキストと画像から動画への変換をサポートする高性能AI動画生成"
+    },
+    "seedream_4_0": {
+      "name": "Seedream 4.0",
+      "description": "ByteDanceからの次世代画像クリエイティブエンジン。知識駆動生成、複雑な推論、高忠実度の詳細表現の Whether—even transform your ideas into stunning visual works with faster inference speed and more precise understanding."
+    },
+    "seedream_4_5": {
+      "name": "Seedream 4.5",
+      "description": "ByteDanceからの高品質画像クリエイティブエンジン。2K（基本）と4K（高品質）出力解像度をサポートし、卓越したディテールとリアリズムを実現します。"
+    },
+    "flux_2_pro": {
+      "name": "Flux 2 Pro",
+      "description": "Black Forest Labsの先進FLUXモデル。高いフォトリアル精度、正確なテキスト描画、マルチリファレンス整合性を提供。1K/2K出力対応。"
+    },
+    "flux_2_flex": {
+      "name": "Flux 2 Flex",
+      "description": "柔軟なマルチ画像制御と高忠実度生成に最適化されたプレミアムFLUXモデル。1K/2K出力対応。"
+    },
+    "veo_3_1_fast": {
+      "name": "Veo 3.1 Fast",
+      "description": "Google DeepMindの強化されたAI動画モデルは、よりリアルな動きの生成、長時間のクリップ対応、画像の参照制御、そしてネイティブ1080pで音声の同期出力が可能です。"
+    },
+    "hailuo_2_3": {
+      "name": "Hailuo 2.3",
+      "description": "MiniMaxによる高忠実度AI動画生成、画像から動画のみ対応"
+    },
+    "hailuo_2_3_pro": {
+      "name": "Hailuo 2.3 Pro",
+      "description": "MiniMaxによるプレミアム高忠実度AI動画生成、画像から動画のみ対応"
+    }
+  },
+  "video_generation": {
+    "parameters": {
+      "title": "動画パラメータ",
+      "duration": "duration",
+      "negative_prompt": "negative prompt",
+      "aspect_ratio": "aspect ratio",
+      "quality": "quality",
+      "mode": "mode",
+      "multi_shots": "multi shots",
+      "watermark": "watermark",
+      "camera_motion": "camera motion",
+      "negative_prompt_placeholder": "動画で使用しない単語や概念",
+      "seed": "seed",
+      "n_frames": "frames",
+      "size": "size",
+      "remove_watermark": "remove watermark"
+    },
+    "common": {
+      "enabled": "enabled",
+      "disabled": "disabled"
+    }
+  },
+  "parameters": {
+    "style": "スタイル",
+    "character": "キャラクター",
+    "loading_characters": "キャラクターを読み込み中...",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "subscriptionTooltip": "非公開設定はサブスクリプション会員限定です。アップグレードしてご利用ください。"
+  },
+  "prompt": {
+    "label": "プロンプト",
+    "placeholder": "アニメキャラクターやシーンを説明してください...",
+    "optimize": "AI最適化",
+    "counter_too_long": "プロンプトが最大長{max}文字を超えています",
+    "counter_too_short": "プロンプトは最低{min}文字必要です"
+  },
+  "footer": {
+    "name": "AnividAI",
+    "brand": {
+      "title": "",
+      "description": "AnividAIはOC中心の анимеアートプラットフォームで、オリジナルキャラクターとそのAI生成世界を創作、管理、探索する力になります。",
+      "logo": {
+        "src": "/logo.webp",
+        "alt": "AnividAI"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2026 • AnividAI All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "コア機能",
+          "children": [
+            {
+              "title": "OC Maker",
+              "url": "/oc-maker",
+              "target": "_self"
+            },
+            {
+              "title": "AI Anime Generator",
+              "url": "/ai-anime-generator",
+              "target": "_self"
+            },
+            {
+              "title": "AI Anime Video Generator",
+              "url": "/ai-anime-video-generator",
+              "target": "_self"
+            },
+            {
+              "title": "Chat with OCs",
+              "url": "/chat",
+              "target": "_self"
+            },
+            {
+              "title": "Worlds",
+              "url": "/worlds",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "スタジオツール",
+          "children": [
+            {
+              "title": "AI Action Figure Generator",
+              "url": "/ai-action-figure-generator",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "ツール",
+          "children": [
+            {
+              "title": "アニメキャラクター生成器",
+              "url": "/anime-character-generator",
+              "target": "_self"
+            },
+            {
+              "title": "アートプロンプト生成器",
+              "url": "/art-prompt-generator",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "サイト情報",
+          "children": [
+            {
+              "title": "機能",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "コミュニティ",
+              "url": "/community",
+              "target": "_blank"
+            },
+            {
+              "title": "料金プラン",
+              "url": "/pricing",
+              "target": "_self"
+            },
+            {
+              "title": "更新履歴",
+              "url": "/changelog",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/AnividAI",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/yinkong05/Anivid-AI",
+          "target": "_blank"
+        },
+        {
+          "title": "Pinterest",
+          "icon": "RiPinterestFill",
+          "url": "https://www.pinterest.com/anividai/",
+          "target": "_blank"
+        },
+        {
+          "title": "メール",
+          "icon": "RiMailLine",
+          "url": "mailto:support@anividai.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "プライバシーポリシー",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "利用規約",
+          "url": "/terms-of-service"
+        },
+        {
+          "title": "Cookie設定",
+          "url": "/cookie-settings"
+        }
+      ]
+    }
+  },
+  "admin": {
+    "generations": {
+      "title": "生成管理",
+      "subtitle": "すべてのAI生成を表示・管理",
+      "cards": {
+        "type_desc": "タイプ別の総数",
+        "success_rate_desc": "全体成功率"
+      },
+      "chart": {
+        "title": "生成トレンド（30日間）",
+        "description": "日次総数、成功および失敗した生成",
+        "total": "合計",
+        "success": "成功",
+        "failed": "失敗"
+      },
+      "table": {
+        "title": "最近の失敗（プレビュー）",
+        "uuid": "UUID",
+        "type": "タイプ",
+        "status": "ステータス",
+        "error_code": "エラーコード",
+        "error_message": "エラーメッセージ",
+        "updated_at": "更新日"
+      },
+      "filters": {
+        "type": "タイプ",
+        "status": "ステータス",
+        "moderation_status": "モデレーション",
+        "all_types": "全タイプ",
+        "gen_type": "生成タイプ",
+        "all_gen_types": "全生成タイプ",
+        "all_status": "全ステータス",
+        "completed": "完了",
+        "failed": "失敗",
+        "processing": "処理中",
+        "image": "画像",
+        "video": "動画",
+        "character": "キャラクター",
+        "user_id": "ユーザーID",
+        "user_uuid_placeholder": "ユーザーUUID",
+        "artwork_uuid": "アートワークUUID",
+        "artwork_uuid_placeholder": "アートワークUUID",
+        "date_range": "日付範囲",
+        "last_7_days": "過去7日間",
+        "last_30_days": "過去30日間",
+        "last_90_days": "過去90日間",
+        "all_time": "全期間",
+        "all_moderation_status": "すべて",
+        "normal": "通常",
+        "banned": "禁止",
+        "featured": "注目"
+      },
+      "search": {
+        "placeholder": "プロンプトで検索"
+      },
+      "actions": {
+        "select_mode": "選択モード",
+        "exit_select_mode": "選択を終了"
+      },
+      "pagination": {
+        "previous": "前へ",
+        "next": "次へ",
+        "page_info": "ページ {page} / {totalPages}（総計{total}）"
+      },
+      "empty": {
+        "no_generations": "生成が見つかりません"
+      },
+      "export": {
+        "button": "データをエクスポート",
+        "success": "データが正常に保存されました",
+        "error": "エクスポートに失敗しました"
+      }
+    },
+    "logs": {
+      "title": "Generation Logs",
+      "tabs": {
+        "all": "All Logs",
+        "failed": "Failed Logs"
+      },
+      "types": {
+        "desc": "Total count by type"
+      },
+      "chart": {
+        "title": "Generation Trend",
+        "description": "Daily generations and success rate",
+        "total": "Generations",
+        "success_rate": "Success Rate",
+        "range_year": "Last 12 months",
+        "range_month": "Last 30 days",
+        "range_week": "Last 7 days",
+        "range_custom": "Custom range",
+        "range_start": "Start",
+        "range_end": "End",
+        "range_select": "Select range"
+      },
+      "stats": {
+        "total": "Total Generations",
+        "total_desc": "All time generations",
+        "success": "Successful Generations",
+        "success_desc": "Completed successfully",
+        "failed": "Failed Generations",
+        "failed_desc": "Completed with errors",
+        "success_rate": "Success Rate",
+        "success_rate_desc": "Overall success rate"
+      },
+      "summary": {
+        "total": "Total Failures",
+        "today": "Failed Today",
+        "rate": "Failure Rate",
+        "top_errors": "Top Error Codes",
+        "total_desc": "All time failures",
+        "today_desc": "Failed today",
+        "rate_desc": "Overall failure rate",
+        "times": "{count} times"
+      },
+      "table": {
+        "uuid": "UUID",
+        "type": "Type",
+        "status": "Status",
+        "error_code": "Error Code",
+        "error_message": "Error Message",
+        "updated_at": "Updated At",
+        "mc_back_status": "MC Back Status",
+        "mc_back_count": "MC Back Count",
+        "empty_all": "No generation logs found",
+        "empty_failed": "No failed logs found"
+      },
+      "filters": {
+        "error_code": "エラーコード",
+        "type": "生成タイプ",
+        "date_range": "日付範囲"
+      },
+      "export": {
+        "button": "ログをエクスポート",
+        "csv": "CSVとしてエクスポート",
+        "json": "JSONとしてエクスポート"
+      },
+      "analysis": {
+        "title": "エラー分析",
+        "description": "エラー率と分布分析"
+      }
+    },
+    "revenue": {
+      "no_data": "ここにデータはありません",
+      "cards": {
+        "total_revenue": "総収益",
+        "monthly_revenue": "月次収益",
+        "current_month_cost": "今月のコスト",
+        "avg_order_value": "平均注文額",
+        "total_orders": "総注文数",
+        "orders": "注文",
+        "revenue": "収益",
+        "cost": "コスト",
+        "mc_breakdown": "画像: {image} MC + 動画: {video} MC",
+        "mc_usd_breakdown": "USD: ${total} (画像 ${image} + 動画 ${video})",
+        "mc_total_and_type": "MC: {total} (画像 {image} + 動画 {video})",
+        "profit": "利益",
+        "product_distribution": "製品分布"
+      },
+      "chart": {
+        "title": "収益トレンド（90日間）",
+        "description": "日次有料注文収益（額）",
+        "revenue": "収益",
+        "orders": "注文"
+      },
+      "costs": {
+        "title": "月次コスト（手動）",
+        "empty": "記録されたコストなし",
+        "add_cost": "コストを追加",
+        "total": "合計",
+        "cost": "コスト",
+        "profit": "利益",
+        "profit_margin": "利益率"
+      },
+      "summary": {
+        "revenue_summary": "収益サマリー",
+        "revenue": "収益",
+        "cost_summary": "コストサマリー",
+        "monthly_details": "月次詳細",
+        "profit_summary": "利益サマリー"
+      },
+      "detail": {
+        "title": "の詳細",
+        "loading": "読み込み中...",
+        "no_data": "利用可能なデータなし",
+        "total_revenue": "総収益",
+        "total_cost": "総コスト",
+        "cost_details": "コスト詳細",
+        "order_details": "注文詳細",
+        "no_costs": "今月記録されたコストなし",
+        "no_orders": "今月の注文なし",
+        "orders_count": "注文",
+        "click_to_view": "詳細を表示するにはクリック"
+      },
+      "edit_cost": {
+        "title": "コストを編集",
+        "description": "コストエントリを更新",
+        "platform": "プラットフォーム",
+        "amount": "金額",
+        "currency": "通貨",
+        "note": "メモ",
+        "save": "保存",
+        "updating": "更新中...",
+        "confirm_delete": "このコストを削除してもよろしいですか？"
+      },
+      "loading": "読み込み中..."
+    },
+    "categories": {
+      "title": "カテゴリー",
+      "toolbar": {
+        "add_category": "カテゴリーを追加"
+      },
+      "table": {
+        "name": "名前",
+        "title": "タイトル",
+        "description": "説明",
+        "sort": "並び順",
+        "status": "ステータス",
+        "created_at": "作成日",
+        "actions": "アクション",
+        "edit": "編集",
+        "view": "表示"
+      }
+    },
+    "feedbacks": {
+      "title": "フィードバック",
+      "table": {
+        "user": "ユーザー",
+        "content": "コンテンツ",
+        "type": "タイプ",
+        "created_at": "作成日",
+        "actions": "アクション",
+        "types": {
+          "general": "一般",
+          "bug_report": "バグ報告",
+          "feature_request": "機能要求",
+          "user_experience": "ユーザー体験"
+        }
+      }
+    },
+    "orders": {
+      "title": "有料注文",
+      "table": {
+        "order_no": "注文番号",
+        "paid_email": "支払メール",
+        "product_name": "製品名",
+        "amount": "金額",
+        "created_at": "作成日",
+        "status": "ステータス",
+        "actions": "アクション",
+        "view_details": "詳細"
+      }
+    },
+    "posts": {
+      "title": "記事",
+      "toolbar": {
+        "add_post": "記事を追加"
+      },
+      "table": {
+        "title": "タイトル",
+        "description": "説明",
+        "slug": "スラッグ",
+        "locale": "ロケール",
+        "category": "カテゴリー",
+        "status": "ステータス",
+        "created_at": "作成日",
+        "actions": "アクション",
+        "edit": "編集",
+        "view": "表示"
+      },
+      "empty_message": "記事が見つかりません"
+    },
+    "users": {
+      "title": "全ユーザー",
+      "no_results": "検索に一致するユーザーがいません",
+      "no_users": "ユーザーが見つかりません",
+      "toast": {
+        "uuid_copied": "UUID をクリップボードにコピーしました",
+        "uuid_copy_failed": "UUID のコピーに失敗しました"
+      },
+      "tabs": {
+        "all": "全ユーザー",
+        "active": "アクティブユーザー",
+        "vip": "VIPユーザー",
+        "banned": "禁止ユーザー"
+      },
+      "filters": {
+        "search_placeholder": "メール、名前またはUUIDで検索",
+        "search": "検索",
+        "user_type": "ユーザータイプ",
+        "all_users": "全ユーザー",
+        "free_users": "フリーミアムユーザー",
+        "paid_users": "有料ユーザー",
+        "basic_members": "ベーシックメンバー",
+        "plus_members": "プラスメンバー",
+        "pro_members": "プロメンバー",
+        "sort_created": "作成日",
+        "sort_active": "最終アクティブ",
+        "date_range": "日付範囲",
+        "all_time": "全期間",
+        "last_7_days": "過去7日間",
+        "last_30_days": "過去30日間",
+        "last_90_days": "過去90日間"
+      },
+      "pagination": {
+        "showing": "{start}-{end} / {total} を表示",
+        "items_per_page": "ページあたりのアイテム数",
+        "previous": "前へ",
+        "next": "次へ"
+      },
+      "table": {
+        "user_type": "タイプ",
+        "uuid": "UUID",
+        "email": "メール",
+        "name": "名前",
+        "avatar": "アバター",
+        "no_avatar": "画像なし",
+        "country": "国",
+        "source": "参照元",
+        "last_active_at": "最終アクティブ",
+        "created_at": "作成日"
+      }
+    },
+    "file_trans": {
+      "title": "ファイル転送モニタ",
+      "subtitle": "ファイル転送を監視・管理",
+      "cards": {
+        "pending_transfers": {
+          "title": "保留中の転送",
+          "description": "転送を待つファイル"
+        },
+        "success_rate": {
+          "title": "成功率",
+          "description": "過去24時間の転送成功率"
+        },
+        "today_transfers": {
+          "title": "今日の転送",
+          "description": "今日完了した転送"
+        },
+        "completed_transfers": {
+          "title": "完了した転送",
+          "description": "総完了転送数"
+        },
+        "expiring_soon": {
+          "title": "間もなく期限切れ",
+          "description": "24時間以内に期限切れる一時URL"
+        },
+        "failed_transfers": {
+          "title": "失敗した転送",
+          "description": "再試行が必要な転送"
+        }
+      },
+      "chart": {
+        "title": "ファイル転送トレンド",
+        "description": "過去7日間の転送統計",
+        "success": "成功",
+        "failed": "失敗",
+        "pending": "保留中"
+      },
+      "filters": {
+        "title": "フィルター",
+        "reset": "リセット",
+        "apply": "フィルターを適用",
+        "time_range": "時間範囲",
+        "start_date": "開始日",
+        "end_date": "終了日",
+        "type": "タイプ",
+        "images": "画像",
+        "videos": "動画"
+      },
+      "pending_list": {
+        "title": "保留中の転送リスト",
+        "refresh": "リストを更新",
+        "loading": "読み込み中...",
+        "empty": "保留中の転送なし",
+        "manual_transfer": "今すぐ転送",
+        "filters": {
+          "time_range": "時間範囲",
+          "start_date": "開始日",
+          "end_date": "終了日",
+          "type": "タイプ",
+          "images": "画像",
+          "videos": "動画",
+          "apply_filters": "フィルターを適用"
+        }
+      },
+      "controls": {
+        "title": "手動操作コンソール",
+        "trigger_all_transfers": "🚀 全転送をトリガー",
+        "trigger_processing": "🖼️ 画像処理をトリガー",
+        "triggering": "⏳ トリガー中...",
+        "processing": "⏳ 処理中...",
+        "filters": {
+          "time_range": "時間範囲",
+          "start_date": "開始日",
+          "end_date": "終了日",
+          "type": "タイプ",
+          "images": "画像",
+          "videos": "動画"
+        },
+        "result": {
+          "transfer_operation": "転送操作結果",
+          "image_operation": "画像処理操作結果",
+          "error": "エラー：{error}"
+        },
+        "success": {
+          "transfer_success": "✅ 転送タスクが正常にトリガーされました！",
+          "transfer_failed": "❌ 転送タスクが失敗しました：{error}",
+          "processing_success": "✅ 画像処理タスクが正常にトリガーされました！",
+          "processing_failed": "❌ 画像処理タスクが失敗しました：{error}",
+          "network_error_transfer": "❌ ネットワークエラー、転送タスクが失敗しました",
+          "network_error_processing": "❌ ネットワークエラー、画像処理が失敗しました"
+        }
+      },
+      "transfer_item": {
+        "created_at": "作成：",
+        "retry_count": "リトライ数：",
+        "expires_at": "期限：",
+        "status": "ステータス：",
+        "status_map": {
+          "pending": "保留中",
+          "transferring": "転送中",
+          "completed": "完了",
+          "failed": "失敗",
+          "skipped": "スキップ"
+        }
+      }
+    },
+    "dashboard": {
+      "cards": {
+        "total_users": "総ユーザー数",
+        "paid_orders": "有料注文",
+        "system_posts": "システム記事",
+        "user_feedbacks": "ユーザーフィードバック",
+        "total_generations": "総生成数",
+        "success_rate": "成功率",
+        "users_desc": "システムに登録された総ユーザー数",
+        "orders_desc": "総有料注文",
+        "posts_desc": "総記事数",
+        "feedbacks_desc": "総フィードバック数",
+        "generations_desc": "総完了生成数",
+        "success_rate_desc": "全体成功率百分比"
+      },
+      "chart": {
+        "title": "ユーザー、注文、生成",
+        "description": "日次ユーザー、注文、生成トレンド",
+        "users": "ユーザー",
+        "orders": "注文",
+        "generations": "生成"
+      }
+    }
+  },
+  "changelog": {
+    "name": "更新履歴",
+    "title": "更新履歴",
+    "description": "AnividAIのすべてのバージョン更新、新機能、改善、バグ修正を追跡。",
+    "version": "バージョン",
+    "date": "日付",
+    "changeTypes": {
+      "added": "追加",
+      "fixed": "修正",
+      "changed": "変更",
+      "removed": "削除"
+    },
+    "empty": "更新履歴エントリが見つかりません。"
+  },
+  "legal": {
+    "title": "Cookie基本設定",
+    "description": "ブラウザ体験を向上させ、パーソナライズされたコンテンツを提供し、トラフィックを分析するためにCookieを使用しています。許可するCookieの種類を選択してください。",
+    "showDetails": "詳細を表示",
+    "hideDetails": "詳細を非表示",
+    "acceptAll": "すべて承諾",
+    "rejectAll": "すべて拒否",
+    "cancel": "キャンセル",
+    "necessary": {
+      "title": "必要なCookie",
+      "description": "サイト機能に必要です。これらのCookieは、Webサイトとその機能が正常に動作するために不可欠です。無効にすることはできません。セッション管理、ログイン認証、セキュリティ保護を含みます。"
+    },
+    "analytics": {
+      "title": "分析Cookie",
+      "description": "サイトの使用方法を理解するのを支援します。ページビューとユーザー行動を追跡し、Webサイト体験を最適化するのに役立ちます。",
+      "toggle": "分析Cookieを切り替え"
+    }
+  },
+  "artworkGallery": {
+    "title": "我的作品から選択",
+    "empty": "作品が見つかりません。まず作品を作成してください！",
+    "selectedCount": "{count}/{max} 選択済み",
+    "noSelection": "画像が選択されていません",
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "pagination": {
+      "previous": "前へ",
+      "next": "次へ",
+      "page": "ページ {page} / {total}"
+    },
+    "tooltip": {
+      "upload": "画像をアップロード",
+      "gallery": "MyArtworksから選択"
+    }
+  },
+  "common_components": {
+    "model_selector": {
+      "loading": "モデルを読み込み中...",
+      "load_failed": "モデルの読み込みに失敗しました",
+      "ai_placeholder": "AI",
+      "credits": "クレジット"
+    },
+    "style_selector": {
+      "loading": "読み込み中...",
+      "loading_styles": "スタイルを読み込み中...",
+      "load_failed": "スタイルの読み込みに失敗しました",
+      "no_presets": "プリセットなし",
+      "no_presets_description": "プリセットテンプレートはありません。OCを選択すると、そのスタイルが自動的に適用されます。選択しない場合は、プロンプトで希望のスタイルを指定するか、参考画像のスタイルを使用してください。",
+      "no_selection": "スタイル未選択",
+      "no_options": "利用可能なオプションがありません"
+    },
+    "template_selector": {
+      "title": "テンプレート",
+      "no_templates": "テンプレートがありません"
+    },
+    "reference_upload": {
+      "title": "参考画像",
+      "max_images": "最大{max}枚までアップロード可能"
+    },
+    "art_style_selector": {
+      "title": "アートスタイル",
+      "loading": "読み込み中...",
+      "no_selection": "スタイル未選択",
+      "no_options": "利用可能なオプションがありません"
+    },
+    "image_generation_modal": {
+      "title": "画像を生成",
+      "description": "パラメーターを入力して生成を開始します。",
+      "labels": {
+        "model": "モデル",
+        "style": "スタイル",
+        "prompt": "プロンプト",
+        "quantity": "数量",
+        "resolution": "解像度",
+        "reference": "参考画像URL",
+        "status": "ステータス",
+        "results": "結果"
+      },
+      "placeholders": {
+        "model": "モデルを選択",
+        "style": "スタイルを選択",
+        "prompt": "生成したい内容を入力",
+        "resolution": "解像度を選択または入力",
+        "reference": "参考画像のURLを貼り付け"
+      },
+      "actions": {
+        "submit": "生成",
+        "cancel": "キャンセル"
+      },
+      "status": {
+        "idle": "生成の準備ができました",
+        "submitting": "生成リクエストを送信中...",
+        "polling": "生成中です。しばらくお待ちください...",
+        "completed": "生成が完了しました",
+        "failed": "生成に失敗しました",
+        "empty_results": "結果がまだありません。",
+        "loading_options": "オプションを読み込み中...",
+        "load_failed": "オプションの読み込みに失敗しました"
+      },
+      "errors": {
+        "missing_prompt": "プロンプトは必須です",
+        "missing_model": "モデルは必須です",
+        "missing_resolution": "解像度は必須です",
+        "request_failed": "生成タスクの作成に失敗しました"
+      }
+    },
+    "generation_status_modal": {
+      "title": "生成中",
+      "description": "進行状況に合わせてここを更新します。",
+      "labels": {
+        "preview": "生成プレビュー"
+      },
+      "actions": {
+        "close": "閉じる"
+      },
+      "status": {
+        "idle": "準備完了",
+        "submitting": "リクエスト送信中...",
+        "polling": "生成中...",
+        "completed": "生成完了",
+        "failed": "生成に失敗しました"
+      }
+    },
+    "video_generation_modal": {
+      "title": "動画を生成",
+      "description": "パラメーターを入力して生成を開始します。",
+      "labels": {
+        "model": "モデル",
+        "style": "スタイル",
+        "prompt": "プロンプト",
+        "quantity": "数量",
+        "resolution": "解像度",
+        "reference": "参考画像URL",
+        "status": "ステータス",
+        "results": "結果"
+      },
+      "placeholders": {
+        "model": "モデルを選択",
+        "style": "スタイルを選択",
+        "prompt": "生成したい内容を入力",
+        "resolution": "解像度を選択または入力",
+        "reference": "参考画像のURLを貼り付け"
+      },
+      "actions": {
+        "submit": "生成",
+        "cancel": "キャンセル"
+      },
+      "status": {
+        "idle": "生成の準備ができました",
+        "submitting": "生成リクエストを送信中...",
+        "polling": "生成中です。しばらくお待ちください...",
+        "completed": "生成が完了しました",
+        "failed": "生成に失敗しました",
+        "empty_results": "結果がまだありません。",
+        "loading_options": "オプションを読み込み中...",
+        "load_failed": "オプションの読み込みに失敗しました"
+      },
+      "errors": {
+        "missing_prompt": "プロンプトは必須です",
+        "missing_model": "モデルは必須です",
+        "missing_resolution": "解像度は必須です",
+        "request_failed": "生成タスクの作成に失敗しました"
+      }
+    }
+  },
+  "action_figure_templates": {
+    "desk_model": {
+      "name": "デスクモデル with ZBrush 表示",
+      "description": "ZBrush と BANDAI ボックスを使用した机上の1/7スケールリアルモデル"
+    },
+    "toy_pack": {
+      "name": "キャラクターティット Pack",
+      "description": "エフェクトと詳細なジオラマベースを含むアクションバトルポーズ"
+    },
+    "classic_standing": {
+      "name": "アクリリックベースフィギア",
+      "description": "キャラの特徴を忠実に再現した、円形透明アクリリックベースに立つリアルなアクショフィギュア。"
+    },
+    "cabinet_display": {
+      "name": "アクリリックベースフィギア",
+      "description": "リアルフィギアキャビネット内に表示される、透明アクリリックベース上の生き生きとした1/7スケールフィギア。"
+    },
+    "lego_display": {
+      "name": "レゴフィギア表示",
+      "description": "AIを使用してキャラクターをレゴスタイルに変換。"
+    },
+    "figure_group_display": {
+      "name": "フィギアグループ表示",
+      "description": "複数のキャラクターを一緒にアクショフィギュアに変換。"
+    }
+  },
+  "sticker_templates": {
+    "pixar_style": {
+      "name": "ピクサースタイル",
+      "description": "3Dカートーンレンダリング、表情豊かな顔、磨くcinematic、外観を備えたピクサーに触発されたステッカー。"
+    },
+    "minimal_line": {
+      "name": "ミニマルラインアート",
+      "description": "クリーンでシンプルなラインとフラット2Dデザインを持つミニマルなラインアートステッカー。透明な背景、デジタルメッセージングに最適。"
+    },
+    "pixel_art": {
+      "name": "ピクセルアート",
+      "description": "透明な背景と限定カラーパレットを持つ8ビットまたは16ビットスタイルの、レトロピクセルアートステッカー。"
+    },
+    "watercolor_soft": {
+      "name": "水彩ソフト",
+      "description": "穏やかな色彩遷移、パステルパレット、アーティスティックな手描きテクスチャを持つソフト水彩ステッカー。"
+    },
+    "pop_art": {
+      "name": "ポップアート",
+      "description": "鮮やか色彩、ハルトーンパターン、力強いアウトラインを持つ、コミックブックに触発されたboldポップアートステッカー。"
+    },
+    "graffiti": {
+      "name": "グラフィティ",
+      "description": "力強いスプレイペイント効果、ダイナミックなライン、ストリートアートスタイルを持つ_urbanグラフィティステッカー。"
+    },
+    "chibi": {
+      "name": "ちび",
+      "description": "誇張された愛らしいキャラクターと遊び心のある丸い текстを備えた、可愛いちびスタイルステッカー。"
+    },
+    "no_preset": {
+      "name": "プリセットなし",
+      "description": "プリセットテンプレートはありません。OCを選択すると、そのスタイルが自動的に適用されます。選択しない場合は、プロンプトで希望のスタイルを指定するか、参考画像のスタイルを使用してください。"
+    }
+  },
+  "feature_recommend": {
+    "title": "アニメ創作ツールキットを拡張しよう",
+    "subtitle": "インスピレーションを刺激し、あなたのOCアニメ作品をさらに高めるAI搭載の機能を探索しましょう",
+    "badges": {
+      "hot": "人気",
+      "new": "新着"
+    },
+    "features": {
+      "ai_anime_generator": {
+        "title": "AIアニメジェネレーター",
+        "description": "OCデザインやテキスト・画像プロンプトから、息を呑むようなアニメアートを生成。高度なAIでどんなキャラクターやアイデアも形にできます。"
+      },
+      "ai_video_generator": {
+        "title": "AI動画ジェネレーター",
+        "description": "あなたのオリジナルキャラクターやストーリーを、ダイナミックなアニメ動画に変換。数クリックでOCユニバースをアニメ化しましょう。"
+      },
+      "oc_maker": {
+        "title": "OCメーカー",
+        "description": "オリジナルキャラクターを自由にデザイン・カスタマイズ・管理。ゼロから自分だけのアニメ世界を構築できます。"
+      },
+      "chat": {
+        "title": "OCとチャット",
+        "description": "作成したキャラクターと会話やロールプレイを楽しめます。AIによる没入型コミュニケーションを体験しましょう。"
+      },
+      "ai_action_figure_generator": {
+        "title": "AIアクションフィギュアジェネレーター",
+        "description": "あなたのOCをユニークなコレクションフィギュアに変身。キャラクターを3Dで可視化し、コミュニティで共有しましょう。"
+      },
+      "ai_sticker_generator": {
+        "title": "AIステッカージェネレーター",
+        "description": "OCキャラクターを使った可愛いアニメステッカーを作成。チャットやSNSで自分らしさを表現し、キャラクターをシェアしましょう。"
+      }
+    }
+  },
+  "incentive": {
+    "check_in": "チェックイン",
+    "checked_in": "済み",
+    "daily_check_in": "デイリーチェックイン",
+    "streak": "{count} 日連続",
+    "check_in_tip": "本日チェックインして {amount} クレジットをゲット！",
+    "come_back_tomorrow": "明日推し戻ってきて報酬を受け取りましょう！",
+    "claim_reward": "報酬を受け取る",
+    "already_checked_in": "本日はチェックイン済みです",
+    "check_in_success": "成功！+{amount} クレジットを獲得しました。",
+    "check_in_failed": "チェックインに失敗しました。後でもう一度お試しください。",
+    "day_unit": "日",
+    "share_reward_tip": "シェアして +10 クレジット (今日 {count}/{limit})",
+    "share_reward_success": "シェア完了！+10 クレジットを獲得しました。"
+  },
+  "share_menu": {
+    "aria": {
+      "share": "共有"
+    },
+    "button": "共有",
+    "copied": "コピーしました",
+    "daily_bonus": "デイリーボーナス"
+  },
+  "share_texts": {
+    "character": {
+      "twitter": "AnividAIで素敵なOC「{name}」を作成しました！🎨✨ ぜひ見てください：",
+      "facebook": "AnividAIで作成した私のオリジナルキャラクター「{name}」をチェックしてください！🎨",
+      "reddit": "AnividAIを使ってオリジナルキャラクター「{name}」を作りました。どう思いますか？",
+      "default": "AnividAIでOC「{name}」を作成しました！ぜひ見てください："
+    },
+    "image": {
+      "twitter": "AnividAIで素晴らしいアニメアートを生成しました！🎨✨",
+      "facebook": "AnividAIで作成したこのアニメアートをチェックしてください！",
+      "reddit": "AnividAIを使ってこのアニメアートを作成しました。どう思いますか？",
+      "default": "AnividAIで作成したこのアートワークをチェックしてください！"
+    },
+    "video": {
+      "twitter": "AnividAIでアニメ動画を作成しました！🎬✨ ぜひ見てください：",
+      "facebook": "AnividAIで作成したこのアニメ動画をチェックしてください！🎬",
+      "reddit": "AnividAIを使ってアニメ動画を作成しました。どう思いますか？",
+      "default": "AnividAIでアニメ動画を作成しました！ぜひ見てください："
+    },
+    "world": {
+      "twitter": "AnividAIでアニメ世界「{name}」を構築しました！🌍✨ こちらで探索してください：",
+      "facebook": "AnividAIで作成したアニメ世界「{name}」をチェックしてください！🌍",
+      "reddit": "AnividAIを使って「{name}」という世界を構築しました。どう思いますか？",
+      "default": "AnividAIで世界「{name}」を作成しました！ぜひ探索してください："
+    }
+  },
+  "skill_icons": {
+    "Default": "デフォルト",
+    "Magic": "魔法",
+    "Potion": "ポーション",
+    "Elemental": "元素",
+    "Physical": "物理",
+    "Psychic": "超能力",
+    "Spatial": "空間",
+    "Buff": "強化",
+    "Summoning": "召喚",
+    "Shapeshifting": "変身",
+    "Technological": "技術",
+    "Unique": "固有"
+  },
+  "worlds": {
+    "genres": {
+      "fantasy": {
+        "name": "ファンタジー (汎用)",
+        "description": "魔法、神話の生き物、古代の伝説が彩る一般的なファンタジー世界。"
+      },
+      "western_fantasy": {
+        "name": "西洋ファンタジー",
+        "description": "騎士、高位魔法、壮大な伝承を持つ古典的な中世設定。"
+      },
+      "japanese_fantasy": {
+        "name": "日本式ファンタジー (異世界/JRPG)",
+        "description": "冒険者ギルドや独特な魔法陣が登場する、アニメスタイルのファンタジー。"
+      },
+      "cyberpunk": {
+        "name": "サイバーパンク",
+        "description": "ネオンの光と雨に濡れた、ハイテクでローライフな未来世界。"
+      },
+      "slice_of_life": {
+        "name": "日常",
+        "description": "現実的、あるいは少し理想化された設定での日々の物語。"
+      },
+      "sci_fi": {
+        "name": "SF (サイエンス・フィクション)",
+        "description": "星間旅行、高度な技術、そして異星文明の世界。"
+      },
+      "horror_gothic": {
+        "name": "ホラー / ゴシック",
+        "description": "超自然的、あるいは心理的な恐怖が潜む、暗く不気味な設定。"
+      },
+      "steampunk": {
+        "name": "スチームパンク",
+        "description": "蒸気機関によって駆動される19世紀の産業美学。"
+      },
+      "post_apocalyptic": {
+        "name": "ポストアポカリプス (終末もの)",
+        "description": "世界的な大災害の後の世界での生存。廃墟と再生。"
+      },
+      "eastern_fantasy": {
+        "name": "東洋ファンタジー (仙侠/武侠)",
+        "description": "伝統的な東アジアの神話、修仙、武術の世界。"
+      },
+      "custom": {
+        "name": "カスタム",
+        "description": "独自の世界ジャンルを定義します。"
+      }
+    }
+  }
+}

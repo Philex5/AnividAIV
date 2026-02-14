@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "title": "AI Chat with Original Characters | Try for Free | AnividAI",
+    "description": "Experience the advanced AI chat platform for original characters. Chat with community OCs or your creations. Start ai chat online now for free!"
+  },
+  "tagline": "AI-Powered Character Chat",
+  "hero": {
+    "title": "AI Chat with Original Characters",
+    "description": "Experience the advanced AI chat platform for original characters. Chat with community-shared OCs or your own creations. Every month, get 100 free AI chat conversations with no credit card required - just sign up and start chatting instantly! Our advanced AI chat technology brings your characters to life with contextual memory and natural responses.",
+    "tagline": "AI-Powered Character Chat"
+  },
+  "hero_badges": {
+    "free_monthly": "100 Free Conversations",
+    "no_card": "No Credit Card Required",
+    "community": "Community Characters",
+    "smart": "AI Memory"
+  },
+  "cta": {
+    "start_chatting": "Start Chatting",
+    "sign_in_prompt": "Sign in to start chatting"
+  },
+  "progress_conversation_rounds": "Conversation Rounds",
+  "input_placeholder": "Type your message...",
+  "send_button": "Send",
+  "cost_hint": "This message will cost 1",
+  "insufficient_credits": "Insufficient credits. You need 1 MC to send a message.",
+  "recharge_button": "Recharge",
+  "new_session": "New Chat",
+  "session_list": "Chat History",
+  "no_sessions": "No chat history yet",
+  "streaming_indicator": "Typing...",
+  "error_generation_failed": "Message generation failed. Credits have been refunded. Please try again.",
+  "error_character_not_found": "Character not found",
+  "error_permission_denied": "You don't have permission to chat with this character",
+  "loading_messages": "Loading messages...",
+  "loading_sessions": "Loading chat history...",
+  "message_count": "{count} messages",
+  "last_updated": "Last updated",
+  "created_at": "Created",
+  "select_character": "Select a character to start chatting",
+  "select_character_for_new_chat": "Select a character to start a new chat",
+  "character_avatar_alt": "{name}'s avatar",
+  "user_message_label": "You",
+  "assistant_message_label": "{name}",
+  "delete_session": "Delete chat",
+  "delete_session_confirm": "Are you sure you want to delete this chat session?",
+  "rename_session": "Rename chat",
+  "session_title_placeholder": "Chat title...",
+  "empty_message_warning": "Please enter a message",
+  "models": {
+    "selectModel": "Select model",
+    "base": "Base Model",
+    "premium": "Premium Model",
+    "baseBadge": "Free",
+    "premiumBadge": "Pro",
+    "locked": "Locked",
+    "upgradeRequired": "Upgrade to {level} to use"
+  },
+  "progress": {
+    "conversationRounds": "Conversation Rounds",
+    "tokensUsed": "Tokens Used",
+    "summary": "Rounds: {roundsPercent}% | Tokens: {tokensPercent}%"
+  },
+  "quota_monthly_quota": "Monthly Quota",
+  "quota_remaining": "AP",
+  "quota_resets_on": "Resets on",
+  "upgrade": {
+    "maxRoundsTitle": "Conversation Round Limit Reached",
+    "maxRoundsDescription": "You've reached the maximum number of conversation rounds for your current plan. Upgrade to continue chatting or clear the conversation to start fresh.",
+    "maxTokensTitle": "Token Limit Reached",
+    "maxTokensDescription": "You've used all your tokens for this conversation. Upgrade to increase your limit or clear the conversation to start fresh.",
+    "modelNotAllowedTitle": "Premium Model Required",
+    "modelNotAllowedDescription": "The premium model is only available to Plus and Pro subscribers. Upgrade your plan to access premium models.",
+    "upgradeRequiredTitle": "Upgrade Required",
+    "upgradeRequiredDescription": "To continue chatting with enhanced features, please upgrade your plan.",
+    "benefitsTitle": "Upgrade Benefits:",
+    "benefits": {
+      "free": {
+        "1": "Increase to 30 conversation rounds",
+        "2": "Access to faster generation queue"
+      },
+      "basic": {
+        "1": "Upgrade to 60 conversation rounds",
+        "2": "Access to Premium AI models"
+      },
+      "plus": {
+        "1": "Increase to 120 conversation rounds",
+        "2": "Unlimited token usage per round"
+      }
+    },
+    "clearChat": "Clear Conversation",
+    "upgradeNow": "Upgrade Now"
+  },
+  "introduction": {
+    "title": "What is AI Chat with Original Characters",
+    "description": "Our AI chat platform revolutionizes character interaction by offering free AI chat experiences that let you engage with both your personal OCs and community-shared characters. Enjoy unlimited creative storytelling through our ai free chat system - no hidden costs, no credit card needed. Start your ai chat online journey today with 100 monthly free conversations and discover why thousands choose our ai chats free experience.",
+    "tagline": "AI Chat on AnividAI | Have a profound soul-to-soul conversation with your OC "
+  },
+  "benefits": {
+    "section_title": "Why Choose Our AI Chat Platform",
+    "section_subtitle": "Experience premium ai chat features designed for character enthusiasts",
+    "real_time": {
+      "title": "Real-time AI Chat Online",
+      "description": "Experience lightning-fast responses in our ai chat system. Engage in natural, fluid conversations powered by cutting-edge AI technology that understands context and emotion."
+    },
+    "multiple_characters": {
+      "title": "Chat with Any OC - Yours or Community's",
+      "description": "Access thousands of original characters from our community or create your own. Our platform supports unlimited ai chats free of charge with your personal creations."
+    },
+    "contextual_memory": {
+      "title": "Advanced Contextual Memory",
+      "description": "Our AI remembers every detail from your conversations. Characters develop relationships, recall past discussions, and build deeper connections over time."
+    },
+    "community_sharing": {
+      "title": "Community-Driven AI Chats",
+      "description": "Discover amazing characters created by our community. Share your own characters and participate in our ai chats free ecosystem."
+    },
+    "ai_powered": {
+      "title": "Premium AI Chat Intelligence",
+      "description": "Every response is generated using advanced AI models, perfectly matching your character's personality, background, and speaking style."
+    },
+    "free_monthly": {
+      "title": "100 Free AI Chat Conversations Monthly",
+      "description": "Start chatting immediately with 100 free conversations every month. No credit card required for basic access - pure ai free chat experience."
+    },
+    "multiple_styles": {
+      "title": "Diverse AI Chat Experiences",
+      "description": "From anime characters to fantasy warriors, from sci-fi explorers to modern-day friends - explore endless character types in our ai chats free library."
+    },
+    "personalization": {
+      "title": "Fully Personalized AI Chat",
+      "description": "Create unique characters with custom personalities, backstories, and speech patterns. Our AI chat adapts to your creative vision."
+    },
+    "safe_environment": {
+      "title": "Safe & Moderated Chat Environment",
+      "description": "Enjoy secure ai chat conversations in a community-driven environment with active moderation and content guidelines."
+    }
+  },
+  "how_to_use": {
+    "title": "How to Start Your AI Chat Journey",
+    "description": "Begin your ai chat online experience in minutes with our simple process",
+    "step1": {
+      "title": "Sign Up Free - No Credit Card Required",
+      "description": "Create your account to access 100 monthly free ai chat conversations. Browse our community library of OCs or use OC Maker to craft your own unique characters."
+    },
+    "step2": {
+      "title": "Choose Your Character & Start AI Chatting",
+      "description": "Select from community characters or your own creations. Our ai free chat system lets you begin conversations instantly."
+    },
+    "step3": {
+      "title": "Build Stories Through AI Chats Free",
+      "description": "Enjoy unlimited storytelling as your AI chat conversations evolve. Characters remember your history and create deeper narratives over time."
+    },
+    "step4": {
+      "title": "Share & Discover More AI Chats",
+      "description": "Share your conversations with the community and discover new characters. Our ai chats free ecosystem grows with your creativity."
+    }
+  },
+  "faq": {
+    "title": "AI Chat Frequently Asked Questions",
+    "description": "Everything you need to know about our AI chat platform",
+    "q1": {
+      "question": "What is AI Chat with Original Characters?",
+      "answer": "Our AI chat platform allows you to have real-time conversations with your original characters or community-shared OCs using advanced AI technology. Experience ai chats free with 100 monthly conversations at no cost."
+    },
+    "q2": {
+      "question": "How does the free AI chat system work?",
+      "answer": "After signing up (no credit card required), you receive 100 free ai chat conversations monthly. Chat with any OC - your creations or community characters. Our AI remembers all conversations and responds based on character personality."
+    },
+    "q3": {
+      "question": "Can I do AI chat online with multiple characters?",
+      "answer": "Currently, our product does not support chatting with multiple OCs (original characters) simultaneously in the same session. You can chat with one character at a time, and each OC maintains its own unique personality traits and conversation history. We are continuously working to improve our platform and may support multi-character chats in the future."
+    },
+    "q4": {
+      "question": "Is there really a free AI chat option?",
+      "answer": "Absolutely! Enjoy 100 free ai chat conversations every month with no credit card required. Our ai free chat system includes full access to character creation, community browsing, and AI responses."
+    },
+    "q5": {
+      "question": "How does the credit system work after free quota?",
+      "answer": "Start with 100 monthly free ai chat conversations. Additional messages cost 1 credit (MC) each. Earn credits through community participation or purchase them - your ai chat online experience continues seamlessly."
+    },
+    "q6": {
+      "question": "Can I access community OCs in AI chats?",
+      "answer": "Yes! Chat with community-created OCs in our ai chats free ecosystem. Discover diverse characters, from anime-style to original concepts, all ready for instant ai chat interactions."
+    },
+    "q7": {
+      "question": "How does contextual memory improve AI chats?",
+      "answer": "Our advanced AI remembers your entire conversation history with each character. Characters develop relationships, recall past events, and evolve their responses - creating authentic, ongoing ai chat narratives."
+    },
+    "q8": {
+      "question": "Can I delete or manage my AI chat history?",
+      "answer": "Yes, you have full control over your ai chat data. Clear conversation history, rename chat sessions, or start fresh with any character at any time."
+    }
+  },
+  "call_to_action": {
+    "title": "Ready to Start Your AI Chat Journey?",
+    "description": "Join thousands of users enjoying free AI chat conversations. Create your first character or browse community OCs - get 100 monthly ai chats free with no credit card required. Start chatting in under 60 seconds!",
+    "start_chatting": "Start Free AI Chat Now",
+    "browse_characters": "Browse Community Characters"
+  },
+  "character_selector": {
+    "empty_message": "No characters available. Create your first character to start chatting!",
+    "create_first_character": "Create Your First Character",
+    "browse_community_ocs": "Browse Community OCs",
+    "or_divider": "or",
+    "select_prompt": "Select a character to start chatting",
+    "character_count": "{count, plural, =1 {Choose from your # character} other {Choose from your # characters}}",
+    "character_count_plural": "Choose from your {count} characters",
+    "loading": "Loading characters..."
+  },
+  "oc_gallery": {
+    "title": "Featured Characters",
+    "subtitle": "Discover amazing characters from our community",
+    "loading": "Loading characters...",
+    "empty": "No characters found",
+    "chat": "Chat",
+    "view": "View",
+    "previous": "Previous",
+    "next": "Next",
+    "age": "Age {age}"
+  },
+  "empty_state": {
+    "title": "Chat with Original Characters",
+    "description": "Start a conversation with your own OCs or explore community characters",
+    "chat_with_oc": "Chat with Your OC",
+    "explore_community": "Explore Community"
+  },
+  "session": {
+    "delete": "Delete",
+    "delete_confirm_title": "Delete Conversation",
+    "delete_confirm_message": "Are you sure you want to delete this conversation? This action cannot be undone.",
+    "delete_confirm_button": "Delete",
+    "delete_cancel_button": "Cancel",
+    "deleted": "Conversation deleted",
+    "msgs": "msgs"
+  }
+}

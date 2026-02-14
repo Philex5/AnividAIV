@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "title": "Z-Image AI Generator - AI Image Generator | AnividAI",
+    "description": "Z-Image by Alibaba is a powerful AI image generator with full CFG support. Get free credits to create artwork. No credit card needed.",
+    "keywords": "Z-Image, Z-Image generator, AI image generator, free AI credits, Alibaba AI, Tongyi-MAI, diffusion transformer, CFG support, high quality AI art, professional AI generation, Z-Image online"
+  },
+  "Introduce": {
+    "tagline": "Z-Image AI Generator on AnividAI | Full-Capacity Foundation Model",
+    "title": "What is Z-Image AI Generator",
+    "description": "Z-Image is a powerful AI image generator developed by Tongyi-MAI (Alibaba). Engineered with Single-Stream Diffusion Transformer architecture, this AI image generator delivers high quality, robust generative diversity, broad stylistic coverage, and precise prompt adherence. As a full-capacity, undistilled transformer model, Z-Image supports complete Classifier-Free Guidance (CFG) and negative prompting, making it the ideal choice for professional creators, researchers, and developers who require the highest level of creative freedom."
+  },
+  "benefits": {
+    "title": "Why Choose Z-Image AI Generator?",
+    "subtitle": "Experience professional-grade AI image generation with full creative control and maximum versatility",
+    "items": [
+      {
+        "title": "Full CFG Support",
+        "description": "As an undistilled base model, Z-Image supports complete Classifier-Free Guidance, providing the precision required for complex prompt engineering and professional workflows.",
+        "icon": "sliders"
+      },
+      {
+        "title": "High Output Diversity",
+        "description": "Z-Image AI generator delivers significantly higher variability in composition, facial identity, and lighting across different seeds. Multi-person scenes remain distinct and dynamic.",
+        "icon": "shuffle"
+      },
+      {
+        "title": "Aesthetic Versatility",
+        "description": "This AI image generator masters a vast spectrum of visual languages—from hyper-realistic photography and cinematic digital art to intricate anime and stylized illustrations.",
+        "icon": "palette"
+      },
+      {
+        "title": "Robust Negative Control",
+        "description": "Z-Image online responds with high fidelity to negative prompting, allowing users to reliably suppress artifacts and adjust compositions for precise control.",
+        "icon": "minus-circle"
+      },
+      {
+        "title": "Free Credits System",
+        "description": "Start with free MC credits, no credit card required. Earn more free credits through daily check-ins and sharing your creations to social media.",
+        "icon": "gift"
+      },
+      {
+        "title": "Flexible Resolution",
+        "description": "Z-Image supports resolutions from 512×512 to 2048×2048 with any aspect ratio. Generate images at custom dimensions for any project requirement.",
+        "icon": "aspect-ratio"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Generate Art with Z-Image AI Generator in 3 Simple Steps",
+    "subtitle": "Transform your creative vision into stunning artwork with our AI image generator",
+    "steps": [
+      {
+        "title": "Describe Your Vision",
+        "description": "Enter a detailed text description of the artwork you want to create. Z-Image excels at understanding complex prompts with precise adherence."
+      },
+      {
+        "title": "Configure Settings",
+        "description": "Adjust guidance scale (3.0-5.0), inference steps (28-50), and use negative prompts to exclude unwanted elements. Full creative control with this AI image generator."
+      },
+      {
+        "title": "Generate & Refine",
+        "description": "Generate your image using Z-Image online and explore different seeds for high diversity variations. Perfect for iterative workflows and professional creative processes."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Z-Image generator",
+    "items": [
+      {
+        "question": "What is Z-Image generator?",
+        "answer": "Z-Image is a powerful AI image generator developed by Tongyi-MAI (Alibaba). Built with Single-Stream Diffusion Transformer architecture, this Z-Image generator is a full-capacity, undistilled model designed for professional creators who require high quality, robust diversity, and precise prompt adherence."
+      },
+      {
+        "question": "How does the free credits system work?",
+        "answer": "Z-Image uses an MC credit system. New users receive free credits to start creating, no credit card required. You can earn additional free credits through daily check-ins and by sharing your creations to social media platforms."
+      },
+      {
+        "question": "What's the difference between Z-Image and Z-Image-Turbo?",
+        "answer": "Z-Image is the full-capacity foundation model with CFG support, negative prompting, and high diversity (28-50 steps). Z-Image-Turbo is a distilled version optimized for speed (8 steps) but without CFG support. Z-Image offers more creative control and diversity for professional results."
+      },
+      {
+        "question": "How does Z-Image compare to other AI image generators?",
+        "answer": "Among AI image generators, Z-Image stands out for its full CFG support, high output diversity, and aesthetic versatility. Unlike some other models, Z-Image generator supports complete negative prompting and delivers consistent quality across styles from photorealistic to anime."
+      },
+      {
+        "question": "Does Z-Image support CFG and negative prompts?",
+        "answer": "Yes! As an undistilled base model, Z-Image supports full Classifier-Free Guidance (CFG) and responds with high fidelity to negative prompting. This allows for precise control over generated outputs and the ability to suppress unwanted elements."
+      },
+      {
+        "question": "What resolution does Z-Image support?",
+        "answer": "Z-Image supports flexible resolutions from 512×512 to 2048×2048 total pixel area with any aspect ratio. You can generate square, portrait, landscape, or custom dimensions to match your specific project needs."
+      },
+      {
+        "question": "What are the recommended parameters for Z-Image?",
+        "answer": "Recommended settings for this AI image generator: Resolution 512×512 to 2048×2048, Guidance scale 3.0-5.0, and Inference steps 28-50. These parameters balance quality and creative control for optimal results."
+      },
+      {
+        "question": "What styles can Z-Image generate?",
+        "answer": "Z-Image masters a vast spectrum of visual styles including hyper-realistic photography, cinematic digital art, intricate anime, stylized illustrations, and more. Its aesthetic versatility makes it ideal for diverse creative projects."
+      },
+      {
+        "question": "Who developed Z-Image?",
+        "answer": "Z-Image was developed by Tongyi-MAI (Alibaba's Tongyi Wanxiang team), one of China's leading AI research teams specializing in multimodal AI generation. The model uses their proprietary Single-Stream Diffusion Transformer architecture."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Start Creating with Z-Image AI Generator",
+    "subtitle": "Experience professional-grade AI image generation with full CFG support, high diversity, and complete creative control. Start with free credits today.",
+    "button_primary": "Start Creating with Z-Image"
+  },
+  "generator_title": "Generate Images with Z-Image",
+  "credits": "Credits",
+  "images": "images",
+  "generate": "Generate",
+  "generating": "Generating...",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Your Images",
+    "description": "Enter description, select style parameters, or click example images below to start generating"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "ratio": "Ratio",
+    "count": "Count",
+    "piece": " image"
+  },
+  "prompt": {
+    "label": "Describe your image",
+    "placeholder": "Example: A stunning landscape with vibrant colors and dramatic lighting, a futuristic cityscape at sunset, or an elegant portrait with soft studio lighting",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing..."
+  },
+  "parameters": {
+    "character": "Character",
+    "style": "Style",
+    "loading_characters": "Loading characters...",
+    "action": "Action",
+    "scene": "Scene",
+    "outfit": "Outfit",
+    "aspect-ratio": "Aspect Ratio",
+    "batch-size": "Number of Images",
+    "model": "AI Model",
+    "advanced": "Advanced Settings",
+    "guidance-scale": "Guidance Scale",
+    "num-inference-steps": "Inference Steps",
+    "seed": "Seed",
+    "random-seed": "Random Seed",
+    "generate-seed": "Generate New Seed",
+    "select": "Select",
+    "title": "Generation Parameters",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "subscriptionTooltip": "Private visibility is available for subscription members. Upgrade to unlock."
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Your generation task is in the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Images",
+      "description": "AI is creating your images. This may take up to 30 seconds per image."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your images are ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine the current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Your generation will continue in the background."
+  },
+  "completed-results": {
+    "title": "Your Generated Images",
+    "empty": {
+      "title": "No Generated Images",
+      "description": "You haven't generated any images yet. Try creating your first image!"
+    },
+    "copy-parameters": "Copy Parameters",
+    "download-all": "Download All",
+    "filters": {
+      "all-styles": "All Styles"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "most-liked": "Most Liked"
+    }
+  },
+  "result-image": {
+    "error": "Failed to load image",
+    "view": "View"
+  },
+  "image_detail": {
+    "title": "Artwork Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "make_public": "Show in Community",
+      "make_private": "Make Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt"
+    },
+    "actions": {
+      "download": "Download Image",
+      "reuse": "Reuse",
+      "download_error": "Failed to download image",
+      "as_reference": "As Reference"
+    },
+    "meta": {
+      "aspect_ratio": "Aspect Ratio",
+      "style": "Style",
+      "scene": "Scene",
+      "outfit": "Outfit",
+      "seed": "Seed",
+      "created_at": "Created At"
+    },
+    "variants": {
+      "title": "Variants"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Preparing this artwork for reuse...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No artwork selected",
+      "description": "Choose an image from your gallery to view details."
+    },
+    "loading": "Loading artwork details...",
+    "error": "Failed to load artwork details"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed",
+    "canceled": "Canceled"
+  },
+  "errors": {
+    "prompt-required": "Please enter a description for your image",
+    "insufficient-credits": "You don't have enough credits to generate this many images",
+    "generation-failed": "Failed to start generation. Please try again.",
+    "network-error": "Network error. Please check your connection and try again.",
+    "config-load-failed": "Failed to load configuration",
+    "image-not-found": "Image not found",
+    "no-permission": "You don't have permission to access this image",
+    "load-image-failed": "Failed to load image data",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again."
+  },
+  "auth_required": {
+    "reuse_params": "Please log in to use reference images or reuse generation parameters. Your current settings will be preserved.",
+    "ref_image": "Please log in to use reference images for generation."
+  },
+  "ratios": {
+    "square": {
+      "name": "Square (1:1)",
+      "description": "Perfect square format for profile pictures"
+    },
+    "portrait": {
+      "name": "Portrait (2:3)",
+      "description": "Vertical format ideal for character portraits"
+    },
+    "widescreen": {
+      "name": "Widescreen (16:9)",
+      "description": "Wide format perfect for landscapes and wallpapers"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "Aspect Ratio",
+    "selected": "Selected"
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  }
+}

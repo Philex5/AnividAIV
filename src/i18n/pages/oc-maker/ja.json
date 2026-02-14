@@ -1,0 +1,646 @@
+{
+  "metadata": {
+    "title": "OC Maker | アニメキャラクターメーカー & ジェネレーター | AnividAI",
+    "description": "AnividAIの究極のOC Makerで唯一のオリジナルキャラクターをデザイン。プロフェッショナルなアニメキャラクターメーカーとして、詳細な設定と一貫したビジュアルを持つOCの創作を支援します。",
+    "keywords": "oc maker, キャラクターメーカー, アニメキャラ作成, キャラメーカー, キャラクタージェネレーター, oc作成"
+  },
+  "navigation": {
+    "back_to_home": "ホームに戻る",
+    "start_creating": "OC Makerを始める",
+    "browse_gallery": "OCギャラリーを見る"
+  },
+  "hero": {
+    "title": "OC Maker：空想に形を、魂に名前を",
+    "subtitle": "すべての伝説は一つの魂から始まります。プロ仕様のOC Makerとアニメキャラクタージェネレーターを使用して、視覚的なエッセンスから深い設定まで、あなたのオリジナルキャラクターに命を吹き込みましょう。",
+    "description_label": "あなたのビジョンを入力",
+    "description_placeholder": "例：銀髪で瞳が光る、少し憂いのある月の巫女",
+    "description_helper": "OC Makerに、キャラクターの雰囲気や能力を一文で説明してください。",
+    "gender_label": "性別",
+    "art_style_label": "アートスタイル",
+    "species_label": "種族",
+    "gender_placeholder": "性別を選択",
+    "art_style_placeholder": "スタイルを選択",
+    "species_placeholder": "選択",
+    "species_custom": "カスタム",
+    "species_custom_placeholder": "種族を入力",
+    "gender_options": {
+      "female": "女性",
+      "male": "男性",
+      "other": "その他"
+    },
+    "generate_button": "生成",
+    "manual_button": "マスター鍛冶師（手動OC Maker）",
+    "info_text": "OC Makerのクイック召喚は、AIを使用して完全なキャラクタープロフィールを即座に作成します。インスピレーションが必要な時に最適です。",
+    "auto_generate_label": "プロフィールとアバターを自動生成 (+40 MC)",
+    "auto_generate_helper": "OC MakerのAIを使用して、立ち絵とアバターをまとめて生成します",
+    "quick_options": {
+      "clear": "オプションをリセット",
+      "gender": [
+        {
+          "value": "female",
+          "label": "♀ 女性",
+          "icon": "♀"
+        },
+        {
+          "value": "male",
+          "label": "♂ 男性",
+          "icon": "♂"
+        },
+        {
+          "value": "other",
+          "label": "⚥ その他",
+          "icon": "⚥"
+        }
+      ],
+      "art_styles": [
+        {
+          "value": "anime",
+          "label": "🎨 アニメ",
+          "icon": "🎨"
+        },
+        {
+          "value": "realistic",
+          "label": "🖼 リアリスティック",
+          "icon": "🖼"
+        },
+        {
+          "value": "pixel_art",
+          "label": "👾 ピクセルアート",
+          "icon": "👾"
+        }
+      ],
+      "species": [
+        {
+          "value": "human",
+          "label": "👤 人間",
+          "icon": "👤"
+        },
+        {
+          "value": "elf",
+          "label": "🧝 エルフ",
+          "icon": "🧝"
+        },
+        {
+          "value": "robot",
+          "label": "🤖 ロボット",
+          "icon": "🤖"
+        }
+      ]
+    },
+    "suggestions": {
+      "label": "OC Makerのひらめき",
+      "refresh": "更新",
+      "manual_hint": "すでに頭の中に伝説が住んでいますか？手動OC Makerを使いましょう。",
+      "pool": [
+        "ネオンピンクの髪のサイバーパンクハッカー少女",
+        "冒険が大好きなエルフの弓使い",
+        "ファンタジー世界の優しいオーク治療師",
+        "暗い過去を持つ謎の魔法使い",
+        "王国を守る勇敢な騎士",
+        "宇宙を旅する陽気なロボット探検家",
+        "ネオン都市に住むゴシック吸血鬼アーティスト",
+        "贖いを求める侍の剣士"
+      ]
+    },
+    "suggestion_pool": [
+      "ネオンピンクの髪のサイバーパンクハッカー少女",
+      "冒険が大好きなエルフの弓使い",
+      "ファンタジー世界の優しいオーク治療師",
+      "暗い過去を持つ謎の魔法使い",
+      "王国を守る勇敢な騎士",
+      "宇宙を旅する陽気なロボット探検家",
+      "ネオン都市に住むゴシック吸血鬼アーティスト",
+      "贖いを求める侍の剣士"
+    ],
+    "idea_sparks": {
+      "label": "OC Maker 魂の炉ラボ",
+      "description": "迷ったときは、厳選された組み合わせをタップしてOC Makerを自動入力し、キャラクター制作の創造性を刺激しましょう。",
+      "refresh": "アイデアをシャッフル",
+      "apply_label": "この魂を鍛造する",
+      "examples": [
+        {
+          "id": "neon-fairy-hacker",
+          "title": "ネオンフェアリーハッカー",
+          "description": "光る翼で汚れたコードを書き換える反逆の守護者。",
+          "prompt": "地下ネットワークを守る発光タトゥーのネオン翼フェアリーハッカー。",
+          "gender": "female",
+          "gender_label": "女性",
+          "art_style": "cyberpunk",
+          "art_style_label": "サイバーパンクアニメ",
+          "species": "fairy",
+          "species_label": "フェアリー",
+          "tags": [
+            "サイバーパンク",
+            "守護者"
+          ]
+        },
+        {
+          "id": "starlit-ranger",
+          "title": "星明かりのレンジャー隊長",
+          "description": "星座の鎧をまとい戦場で指揮するエルフの戦略家。",
+          "prompt": "星座を模した銀鎧と魔弓を持つエルフのレンジャー隊長。",
+          "gender": "male",
+          "gender_label": "男性",
+          "art_style": "fantasy_rpg",
+          "art_style_label": "ファンタジーRPG",
+          "species": "elf",
+          "species_label": "エルフ",
+          "tags": [
+            "ファンタジー",
+            "リーダー"
+          ]
+        },
+        {
+          "id": "cosmic-idol-cat",
+          "title": "コズミックアイドルキャット",
+          "description": "虹色の衣装で宇宙ステージを駆ける猫族アイドル。",
+          "prompt": "きらめく尻尾リボンとホログラムマイクを持つ猫族アイドルのコズミック衣装。",
+          "gender": "female",
+          "gender_label": "女性",
+          "art_style": "anime",
+          "art_style_label": "ビビッドアニメ",
+          "species": "cat_person",
+          "species_label": "キャットフォーク",
+          "tags": [
+            "アイドル",
+            "ミュージック"
+          ]
+        },
+        {
+          "id": "sky-healer",
+          "title": "水彩の天空ヒーラー",
+          "description": "雲を薬に描きかえる穏やかな天使。",
+          "prompt": "水彩の雲に浮かび光る薬瓶を抱える穏やかな天使のヒーラー。",
+          "gender": "other",
+          "gender_label": "ノンバイナリー",
+          "art_style": "watercolor",
+          "art_style_label": "水彩",
+          "species": "angel",
+          "species_label": "エンジェル",
+          "tags": [
+            "ヒーラー",
+            "ドリーミー"
+          ]
+        },
+        {
+          "id": "stellar-pathfinder",
+          "title": "星舟パスファインダー",
+          "description": "星雲のキャラバンを導く穏やかな探検者。",
+          "prompt": "層になったジャケットと星図・光るコンパスを持つセミリアリスティックな人間の宇宙航行者。",
+          "gender": "male",
+          "gender_label": "男性",
+          "art_style": "semi_realistic",
+          "art_style_label": "セミリアル",
+          "species": "human",
+          "species_label": "ヒューマン",
+          "tags": [
+            "SF",
+            "探検"
+          ]
+        },
+        {
+          "id": "gadget-chibi-bot",
+          "title": "ガジェットちびボット",
+          "description": "無限ツールを仕込んだポケットサイズの配達ロボ。",
+          "prompt": "交換式ガジェットアームとLEDフェイスを持つパステルカラーのちびロボ。",
+          "gender": "other",
+          "gender_label": "ロボット",
+          "art_style": "chibi",
+          "art_style_label": "ちび",
+          "species": "robot",
+          "species_label": "ロボット",
+          "tags": [
+            "キュート",
+            "サポート"
+          ]
+        }
+      ]
+    }
+  },
+  "quick_gen": {
+    "title": "クイックOC Maker",
+    "subtitle": "一文でキャラクターのエッセンスを説明し、OC Makerに魂を具現化させましょう。",
+    "placeholder": "一文でキャラクターを説明...",
+    "button": {
+      "generate": "生成",
+      "generating": "生成中...",
+      "reset": "リセット"
+    },
+    "result": {
+      "title": "生成されたキャラクター",
+      "name_label": "名前",
+      "intro_label": "紹介"
+    },
+    "actions": {
+      "use": "保存して使用",
+      "fine_tune": "微調整",
+      "regenerate": "再生成"
+    },
+    "toast": {
+      "generated": "OC Makerによってキャラクターが生成されました！",
+      "prefilled": "エッセンスがキャプチャされました。以下のOC Makerで詳細な調整を続けてください。",
+      "manual_mode": "マスター鍛冶師OC Makerモードが有効になりました",
+      "auth_required": "OC Makerでキャラクターを生成するにはログインしてください"
+    },
+    "errors": {
+      "failed": "OC Makerによる召喚に失敗しました",
+      "insufficient_credits": "OC Makerを使用するためのMCが不足しています。チャージして続行してください。",
+      "generation_timeout": "OC Makerの生成に時間がかかりすぎています。ライブラリで確認してください。",
+      "generation_failed": "OC Makerのビジュアル生成に失敗しました。ライブラリで再試行できます。",
+      "avatar_failed": "OC Makerのアバター生成に失敗しました。詳細ページで再試行できます。"
+    }
+  },
+  "Introduce": {
+    "title": "AnividAI OC Makerとは何か？",
+    "description": "AnividAI OC Makerは単なるツールではありません。それはあなた自身のアニメユニバースへの入り口です。究極のアニメキャラクターメーカーとして、ストーリーと共に成長する独自のキャラクターIPの育成を支援します。新しいヒーローを具現化するためにOC Makerを使用する場合でも、既存の伝説を保存する場合でも、私たちのプラットフォームはOCに命を吹き込むためのプロフェッショナルなキャラクター制作エコシステムを提供します。OC Makerで鍛造されたキャラクターは、AnividAIの永住者となり、あなたのアニメ動画の主役になったり、深いAIチャットを楽しんだり、アクションフィギュアとして形になったりする準備が整います。想像するのをやめて、最も強力なキャラクターメーカーを使い始めましょう。",
+    "tagline": "AnividAI OC Maker – 至高のアニメキャラクタージェネレーター"
+  },
+  "oc_gallery": {
+    "title": "伝説の殿堂：OC Makerギャラリー",
+    "subtitle": "OC Makerコミュニティで具現化された他の魂からインスピレーションを得ましょう。",
+    "loading": "キャラクターを読み込み中...",
+    "empty": "キャラクターが見つかりません",
+    "previous": "前へ",
+    "next": "次へ",
+    "age": "年齢 {age}",
+    "species_label": "種族",
+    "style_label": "アートスタイル",
+    "traits_label": "エッセンス",
+    "traits_more": "+{count} その他",
+    "use_template": "テンプレートとして使用",
+    "template_loaded": "テンプレートが読み込まれました！OC Makerであなた自身の形にカスタマイズしてください。",
+    "use_template_tooltip": "このキャラクターをベースとしてOC Makerを開始"
+  },
+  "spotlight_gallery": {
+    "title": "OC Makerスポットライトギャラリー",
+    "subtitle": "私たちのOC Makerで作成された多次元アーカイブを通じて、伝説の魂を探索します。",
+    "bio_fragment_title": "起源 / ロア",
+    "skill_arsenal_title": "スキルアーセナル",
+    "skill_arsenal_subtitle": "技術",
+    "soul_frequency_title": "魂の周波数（ステータス）",
+    "aura_fragments_title": "オーラの断片",
+    "access_archives": "アーカイブにアクセス"
+  },
+  "character_creation": {
+    "title": "魂の炉：OC Maker",
+    "basic_info": "基本エッセンス",
+    "name": "真の名前",
+    "name_placeholder": "キャラクター名を入力してください",
+    "name_required": "OC Makerで魂を定着させるには名前が必須です",
+    "gender": "性別",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "gender_other": "その他",
+    "gender_required": "性別は必須です",
+    "age": "成熟度 / 年齢",
+    "age_placeholder": "",
+    "species": "種族",
+    "species_placeholder": "種族を選択",
+    "role_label": "役割",
+    "role": "役割",
+    "personality_traits": "性格特性",
+    "brief_introduction": "簡単な紹介",
+    "brief_introduction_placeholder": "キャラクターの雰囲気をまとめてください...",
+    "brief_introduction_generate": "OC Makerで生成",
+    "brief_introduction_generating": "生成中...",
+    "brief_introduction_hint": "OC Makerでのキャラクターの1文サマリー",
+    "background_story": "背景ストーリー",
+    "background_placeholder": "OC Makerのためにキャラクターの歴史を書いてください...",
+    "outfit_style": "衣装スタイル",
+    "outfit_placeholder": "キャラクターの衣装スタイルを説明してください...",
+    "color_scheme": "オーラ（配色）",
+    "color_placeholder": "カラースキームを選択",
+    "visibility": "可視性",
+    "visibility_private": "非公開（インナーワールド）",
+    "visibility_friends": "フレンドに公開",
+    "visibility_public": "公開（既知の伝説）",
+    "allow_fork": "リミックスを許可",
+    "creating": "鍛造中...",
+    "create_character": "OC Makerでの鍛造を完了",
+    "preview": "プレビュー",
+    "edit": "詳細を彫り込む"
+  },
+  "character_card": {
+    "view_details": "詳細を見る",
+    "edit": "再編集",
+    "delete": "削除",
+    "share": "共有",
+    "like": "いいね",
+    "unlike": "いいね取消",
+    "views": "視聴",
+    "likes": "いいね",
+    "generations": "生成",
+    "forks": "フォーク",
+    "public": "公開",
+    "private": "非公開",
+    "unnamed_character": "名無しのキャラクター",
+    "visual_features": "視覚特徴",
+    "no_visual_features": "視覚特徴が設定されていません",
+    "attributes": "属性",
+    "no_introduction": "まだ紹介が書かれていません",
+    "character_artwork": "キャラクターアートワーク",
+    "no_style": "スタイルなし",
+    "background_story": "背景ストーリー",
+    "no_background": "まだ背景ストーリーが書かれていません"
+  },
+  "call_to_action": {
+    "title": "最高のOC Makerを試す準備はできましたか？",
+    "description": "何千人ものクリエイターと共に。私たちのアニメキャラクターメーカーでヒーローを具現化し、伝説を保存し、究極のキャラクター作成の旅を始めましょう。",
+    "start_creating": "OC Makerで最初の魂を無料で具現化する"
+  },
+  "stats": {
+    "active_users": "アクティブユーザー",
+    "characters_created": "創作されたOC",
+    "online_service": "オンラインサービス"
+  },
+  "tabs": {
+    "save": "キャラクターを保存",
+    "gallery": "OC Makerギャラリー",
+    "info": "テーマ情報"
+  },
+  "errors": {
+    "load_characters_failed": "OC Makerがギャラリーへの接続に失敗しました",
+    "create_character_failed": "OC Makerでの鍛造に失敗しました",
+    "delete_character_failed": "OCの削除に失敗しました",
+    "like_failed": "いいねに失敗しました",
+    "unlike_failed": "いいね取消に失敗しました",
+    "name_and_gender_required": "OC Makerで魂を定着させるには名前と性別が必要です",
+    "character_not_found": "OC Makerのアーカイブに魂が見つかりません",
+    "access_denied": "アクセス権限がありません",
+    "delete_confirm": "キャラクター「{name}」をOC Makerから削除してもよろしいですか？",
+    "delete_failed_retry": "削除に失敗しました。もう一度お試しください。",
+    "link_copied": "OCのリンクをコピーしました",
+    "check_url_message": "URLを確認して再試行してください。"
+  },
+  "loading_states": {},
+  "backgrounds": {
+    "freedom_fighter": "自由戦士",
+    "speed_racer": "スピードレーサー",
+    "tech_inventor": "技術発明家",
+    "guardian_protector": "守護者",
+    "student_scholar": "学生・学者",
+    "artist_creator": "アーティスト・創作者",
+    "wandering_explorer": "放浪の探検家",
+    "community_helper": "地域ボランティア"
+  },
+  "faq": {
+    "title": "OC Makerアーカイブ (FAQ)",
+    "subtitle": "アニメキャラクターメーカーがあなたのビジョンをどう形にするかご紹介します。",
+    "items": [
+      {
+        "question": "AnividAI OC Makerとは何ですか、どのように動作しますか？",
+        "answer": "AnividAI OC Makerは、IP育成のために設計されたプロフェッショナルグレードのキャラクター作成・アニメキャラクタージェネレーターです。高度なAIを使用して、あなたの説明に基づいたオリジナルキャラクター（OC）を具現化します。インスピレーションを得るための「クイック召喚」や、既存のIPを詳細に再現するための「マスター鍛冶師」パスを利用できます。"
+      },
+      {
+        "question": "OC Makerを無料で利用できますか？",
+        "answer": "はい！すべての新規クリエイターに試用クレジット(MC)を提供しています。無料のアニメキャラクタージェネレーターの力を体験するために、最初のキャラクターを無料で具現化できます。"
+      },
+      {
+        "question": "既存の自作キャラクターをOC Makerに保存できますか？",
+        "answer": "もちろんです。「マスター鍛冶師（手動OC Maker）」パスを使用して、既存のキャラクターを正確に再現できます。OC Makerに保存されたキャラクターはアカウントの恒久的な資産となり、すべてのAI駆動の物語や動画で一貫性を保つことができます。"
+      },
+      {
+        "question": "OC Makerはどのようにキャラクターの一貫性を保証しますか？",
+        "answer": "私たちのOC Makerで鍛造されたすべてのキャラクターは、固有の「DNA」またはメモリーコアを持っています。新しい画像や動画を生成する際、AIはこれらの保存された特性を参照し、視覚と性格の一貫性を完璧に維持します。"
+      },
+      {
+        "question": "OC Makerで作成したキャラクターを商用プロジェクトに使用できますか？",
+        "answer": "はい。AnividAIのOC Makerで作成されたキャラクターはあなたのものです。ゲーム、漫画、配信などの商用プロジェクトに自由に使用できます。"
+      },
+      {
+        "question": "OC MakerでOCを作成した後は何ができますか？",
+        "answer": "OC Makerでの作成は始まりに過ぎません。あなたのOCは豊かなエコシステムの中心となります。彼らとチャットしたり、アニメ動画に登場させたり、アクションフィギュアを作成したりして、コミュニティでファンを増やすことができます。"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "OC Makerの使い方",
+    "subtitle": "あなたのクリエイティブな鼓動に合ったOC Makerの道を選んでください。一瞬のひらめきを追うか、伝説を刻み続けるか。",
+    "path_a": {
+      "title": "Path A: クイックOC Maker",
+      "description": "一瞬のひらめきから、OC Makerで完全なキャラクターの魂を具現化します。",
+      "steps": [
+        "OC Makerに一文でエッセンスを入力",
+        "必要に応じて性別やアートスタイルを選択",
+        "アニメキャラクタージェネレーターでビジュアルと物語を即座に生成"
+      ]
+    },
+    "path_b": {
+      "title": "Path B: マスター鍛冶師OC Maker",
+      "description": "ワールドビルダーや既存のキャラクターIPのためのOC Maker内プロフェッショナルパス。",
+      "steps": [
+        "手動のOC Maker「魂の炉」に入る",
+        "キャラクターメーカーで外見と歴史を精密に彫刻",
+        "永久的なデジタルライブラリに保存"
+      ]
+    }
+  },
+  "benefits": {
+    "section_title": "なぜAnividAIのOC Makerを使うべきか？",
+    "section_subtitle": "究極のアニメキャラクターメーカーとプロ仕様のAI駆動OCエコシステムを解放しましょう。",
+    "professional_quality": {
+      "title": "OC Makerで永続的なIPを鍛造",
+      "description": "単なる画像生成にとどまりません。私たちのOC Makerは、ストーリーと共に成長するキャラクターIPの育成を支援し、デジタルマルチバースにおける恒久的な資産を提供します。"
+    },
+    "diverse_styles": {
+      "title": "OC Makerでの多様な芸術スタイル",
+      "description": "クラシックなアニメ、ハイエンドなゲームCG、様式化されたファンタジーなど、私たちのOC Makerはあなたの世界観に合わせた幅広い芸術的表現をサポートします。"
+    },
+    "fine_details": {
+      "title": "OC Makerの設定統合",
+      "description": "OCの特性は単なるテキストではありません。OC Makerでは、それらがメモリーコアを形成し、チャットでの振る舞いや、生成されるアニメシーンの外見に深い影響を与えます。"
+    },
+    "character_ecosystem": {
+      "title": "OC Makerからスクリーンへ",
+      "description": "OC Makerで生まれた空想を、即座にプレミアムなガチャカード、ビジュアルノベル、または高品質な動画クリップにエクスポートできます。"
+    },
+    "efficiency": {
+      "title": "効率的なOC Makerフロー",
+      "description": "白紙を前に悩む必要はありません。クイックOC Makerパスは即座のインスピレーションを提供し、マスター鍛冶師パスはプロ仕様のキャラクター作成に必要な精密さを提供します。"
+    },
+    "rich_character_info": {
+      "title": "OC Makerレガシーの起源",
+      "description": "詳細なキャラクターカード、アバター、深入りした背景故事により、OC Makerはユニバース全体の「DNA」を提供します。ここからあなたの伝説が始まります。"
+    }
+  },
+  "character_success_dialog": {
+    "title": "OC Maker：キャラクター創作成功！ 🎉",
+    "share": "伝説を共有する",
+    "create_new": "OC Makerで次を創作する",
+    "view_character": "詳細設定を入力",
+    "quick_actions": "クイックアクション",
+    "generate_image": "画像を生成",
+    "generate_video": "動画を生成",
+    "oc_apps": "スタジオツール"
+  },
+  "creation_tool": {
+    "title": "OC Maker：空想に形を与える",
+    "loading_configurations": "OC Makerの炉に接続中...",
+    "modes": {
+      "detailed": "Detailed",
+      "quick": "Quick",
+      "quick_badge": "New"
+    },
+    "steps": {
+      "basic_info": "基本情報",
+      "visual_design": "視覚設計",
+      "background_story": "背景ストーリー"
+    },
+    "buttons": {
+      "next_visual_design": "次へ：視覚設計",
+      "generate_character_art": "キャラクターアートを生成",
+      "generating": "生成中...",
+      "generating_character": "OC Makerでキャラクターを生成中...",
+      "generating_avatar": "アバターを生成中...",
+      "save_character": "キャラクターを保存",
+      "saving": "保存中...",
+      "creating": "OC Makerで創作中...",
+      "add_section": "セクションを追加",
+      "add_custom_attribute": "カスタム属性を追加",
+      "try_again": "OC Makerで再試行"
+    },
+    "status": {
+      "generating_character": "OC Maker：キャラクターアートワークを生成中...",
+      "generating_avatar": "OC Maker：キャラクターアバターを生成中...",
+      "ready_to_generate": "OC Makerで画像生成の準備ができています",
+      "artwork_placeholder": "OC Makerによるアートワークがここに表示されます"
+    },
+    "errors": {
+      "auto_save_failed": "OC Makerでの保存に失敗しました。もう一度お試しください。",
+      "must_save_first": "画像を生成する前にOC Makerでキャラクターを保存する必要があります",
+      "generation_failed": "OC Makerでの生成に失敗しました",
+      "no_character_art": "最初にOC Makerでキャラクターアートを生成してください",
+      "missing_species": "OC Makerでこのキャラクターの種族を選択してください",
+      "missing_profile_image": "保存する前にOC Makerでプロフィール画像を生成・選択してください",
+      "missing_avatar_image": "保存する前にOC Makerでアバター画像を生成してください"
+    },
+    "basic_info": {
+      "title": "OC Maker基本エッセンス",
+      "name_label": "名前 *",
+      "name_placeholder": "キャラクター名を入力",
+      "gender_label": "性別 *",
+      "gender_placeholder": "選択",
+      "gender_male": "男性",
+      "gender_female": "女性",
+      "gender_other": "その他",
+      "species_label": "種族",
+      "species_placeholder": "選択",
+      "species_custom": "カスタム",
+      "species_custom_placeholder": "カスタム種族を入力",
+      "role_label": "役割",
+      "role_student": "学生",
+      "role_teacher": "教師",
+      "role_warrior": "戦士",
+      "role_mage": "魔法使い",
+      "role_artist": "アーティスト",
+      "role_scientist": "科学者",
+      "role_explorer": "探検家",
+      "role_guardian": "守護者",
+      "role_mystic": "神秘主義者",
+      "role_noble": "貴族",
+      "role_merchant": "商人",
+      "role_healer": "治療師",
+      "role_craftsman": "職人",
+      "role_scholar": "学者",
+      "role_general": "一般",
+      "age_label": "年齢 *",
+      "age_placeholder": "",
+      "body_type_label": "体型",
+      "body_type_placeholder": "体型を選択",
+      "personality_traits_title": "OC Maker 魂の波動",
+      "personality_traits_subtitle": "あなたのキャラクターを説明するタグを選択",
+      "custom_personality_tag_placeholder": "特性名を入力",
+      "visibility_title": "可視性と許可",
+      "visibility_label": "可視性",
+      "visibility_private": "非公開",
+      "visibility_public": "公開",
+      "visibility_hint": "OC Makerでキャラクターの可視性レベルを設定",
+      "allow_remix_label": "他者のリミックスを許可",
+      "allow_remix_hint": "他者がこのOC Makerキャラクターをフォークすることを許可",
+      "extended_attributes_title": "OC Maker 魂の断片",
+      "extended_attributes_subtitle": "あなたのキャラクターにカスタム属性を追加",
+      "attribute_key_placeholder": "属性名",
+      "attribute_value_placeholder": "属性値",
+      "personality_tag_hint": "OC Makerでキャラクターの行動と態度を定義する主要な資質を選択してください。",
+      "extend_attr_hint": "OC Makerでキャラクターの背景と能力を富化するための追加の詳細を追加してください。"
+    },
+    "appearance": {
+      "title": "OC Maker 外観設計",
+      "art_style_label": "アートスタイル",
+      "body_type_label": "体型",
+      "body_type_placeholder": "体型を選択",
+      "hair_style_label": "髪型",
+      "hair_style_placeholder": "髪型を選択",
+      "hair_color_label": "髪色",
+      "hair_color_placeholder": "例：黒、茶色、金色",
+      "eye_color_label": "目の色",
+      "eye_color_placeholder": "目の色を選択",
+      "accessories_label": "アクセサリー",
+      "accessories_subtitle": "OC Makerでキャラクターのアクセサリーを選択",
+      "custom_accessory_placeholder": "アクセサリー名を入力",
+      "outfit_style_label": "衣装スタイル",
+      "outfit_style_placeholder": "キャラクターの衣装を説明...",
+      "appearance_features_label": "外観特徴",
+      "appearance_features_placeholder": "例：赤いスカーフ、金の指輪"
+    },
+    "personality": {
+      "brief_introduction_title": "OC Maker 簡単な紹介 *",
+      "brief_introduction_label": "サマリー",
+      "brief_introduction_placeholder": "あなたのキャラクターの簡単な紹介をOC Makerに入力してください...",
+      "brief_introduction_hint": "OC Makerでのキャラクターの1文サマリー",
+      "ai_generate_tooltip": "OC Maker AIで生成",
+      "main_background_title": "主要背景ストーリー",
+      "background_label": "キャラクター背景",
+      "background_placeholder": "OC Makerであなたのキャラクターの物語を伝えてください...",
+      "story_sections_title": "OC Maker ストーリーセクション",
+      "section_title_placeholder": "セクションタイトル",
+      "section_content_placeholder": "セクション内容..."
+    }
+  },
+  "oc_limit": {
+    "title": "OC Maker制限",
+    "current": "あなたのOC：{count}/{limit}",
+    "reached": "制限に達しました",
+    "warning": "アップグレードするか既存のOCを削除するまで、OC Makerでこれ以上作成できません。",
+    "upgrade_prompt": "OC Makerのスロットを増やすためにアップグレード",
+    "limits_by_plan": {
+      "free": "10 OC",
+      "basic": "無制限",
+      "plus": "無制限",
+      "pro": "無制限"
+    }
+  },
+  "upgrade_prompts": {
+    "oc_limit_reached": "OC Makerの制限に達しました。さらに作成するためにアップグレードしてください！",
+    "oc_limit_warning": "OC Makerで{limit}個中{count}個のOCを作成しました。制限を増やすためにアップグレードしてください。",
+    "subscription_required": "OC Makerにサブスクリプションが必要"
+  },
+  "membership": {
+    "free": "Traveler",
+    "basic": "Adventurer",
+    "plus": "Lord",
+    "pro": "Creator",
+    "upgrade_now": "今すぐアップグレード"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "アニメーション化",
+        "href": "/ai-video-generation?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "スタジオツール",
+        "listItems": [
+          {
+            "label": "AI アクションフィギュア ジェネレーター",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          },
+          {
+            "label": "AI ステッカー ジェネレーター",
+            "href": "/ai-sticker-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  }
+}

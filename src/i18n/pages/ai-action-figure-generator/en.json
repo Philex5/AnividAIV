@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "AI Action Figure Generator |Custom 3D Figure Maker| AnividAI",
+    "description": "Transform your photos and OCs into stunning 3D action figures with AnividAI's professional AI action figure generator. Try for free Now!",
+    "keywords": ""
+  },
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "ratio": "Ratio",
+    "count": "Count",
+    "piece": " figure"
+  },
+  "tool": {
+    "title": "Professional AI Action Figure Generator",
+    "selectTemplate": "Select Figure Template",
+    "templateDescription": "Choose a pose and style for your custom creation",
+    "provideReference": "Provide Reference",
+    "referenceDescription": "Upload an image or select your OC character to guide the AI",
+    "uploadImage": "Upload Image",
+    "selectOC": "Select OC",
+    "additionalPrompt": "Additional Details (Optional)",
+    "additionalPromptDescription": "Add custom details to enhance your generated figure",
+    "additionalPromptPlaceholder": "e.g., red cape, holding a legendary sword, dynamic lighting...",
+    "model": "Model",
+    "batchSize": "Batch Size",
+    "publicVisibility": "Public Visibility",
+    "subscriptionTooltip": "Private visibility is available for subscribers. Upgrade to unlock.",
+    "generate": "Generate Figure",
+    "generating": "Generating...",
+    "creditsCost": "({cost} MC)",
+    "readyTitle": "Ready to Build Your Figure?",
+    "readyDescription": "Select a template and provide a reference to start the AI action figure generator",
+    "generationFailed": "Figure Generation Failed",
+    "errorSignIn": "Please sign in to use the figure maker",
+    "errorSelectTemplate": "Please select a 3D figure template",
+    "errorProvideReference": "Please provide a reference image or select a character",
+    "errorUploadImage": "Please upload a reference image",
+    "errorSelectOC": "Please select an OC character",
+    "errorSelectModel": "Please select an AI model",
+    "loginRequiredForUpload": "Please sign in to upload images",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "generationStarted": "Generation started!",
+    "generationCompleted": "Action figure ready!",
+    "loadingReuse": "Loading parameters...",
+    "loginToReuse": "Please log in to reuse parameters",
+    "noPermission": "You don't have permission to access this figure",
+    "imageNotFound": "Figure image not found",
+    "reuseSuccess": "Parameters loaded. Ready to generate!",
+    "loadFailed": "Failed to load parameters",
+    "character-not-found": "Character not found. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again."
+  },
+  "introduce": {
+    "title": "Bring Your Characters to Life with Our AI Action Figure Generator",
+    "description": "Effortlessly turn your original characters or photos into stunning 3D collectibles with AnividAI's AI action figure generator. Our professional tool transforms 2D references into high-quality figures featuring dynamic poses and studio-grade lighting. Whether you are an artist showcasing an OC or a collector looking for unique designs, the AI action figure generator delivers lifelike results that capture every detail of your vision.",
+    "tagline": "The Ultimate AI Action Figure Generator for 3D Collectibles"
+  },
+  "benefits": {
+    "title": "Why Use Our AI Action Figure Generator?",
+    "subtitle": "Create professional-quality custom action figures and 3D models instantly",
+    "items": [
+      {
+        "title": "Consistent Design",
+        "description": "Our AI action figure generator ensures your custom models stay true to your original character designs across every dynamic pose.",
+        "icon": "template"
+      },
+      {
+        "title": "Studio-Grade Renders",
+        "description": "Experience professional quality with realistic materials and lighting. Every output from the AI action figure generator looks like a real collectible.",
+        "icon": "quality"
+      },
+      {
+        "title": "Versatile Templates",
+        "description": "Choose from a wide curated collection in the AI action figure generator, including standing poses, action scenes, and LEGO styles.",
+        "icon": "style"
+      },
+      {
+        "title": "Seamless OC Sync",
+        "description": "Import your OCs directly from the library and let the AI action figure generator bring your creations to life in 3D space.",
+        "icon": "character"
+      },
+      {
+        "title": "Complete Creative Control",
+        "description": "Personalize every detail with the AI action figure generator. Adjust accessories, effects, and props to create a one-of-a-kind result.",
+        "icon": "customize"
+      },
+      {
+        "title": "Ultra-Fast Generation",
+        "description": "Generate production-grade renders in under 60 seconds. Our AI action figure generator allows you to try multiple variations instantly.",
+        "icon": "speed"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "How to Use the AI Action Figure Generator",
+    "subtitle": "No design experience needed—create your 3D figures in 4 simple steps",
+    "step_1_title": "Pick a Template",
+    "step_1_description": "Choose from professionally designed poses in our AI action figure generator to set the stage for your character.",
+    "step_2_title": "Upload Reference",
+    "step_2_description": "Provide a character image or select an OC. The AI action figure generator works with any anime or realistic style.",
+    "step_3_title": "Customize Details",
+    "step_3_description": "Add accessories and effects. Use the AI action figure generator prompt field to describe unique features and weapons.",
+    "step_4_title": "Generate & Download",
+    "step_4_description": "Click generate and watch your result come to life! Download your high-resolution renders directly from the AI action figure generator.",
+    "image": "/imgs/guide/figure-step4.webp"
+  },
+  "faq": {
+    "title": "AI Action Figure Generator FAQ",
+    "subtitle": "Everything you need to know about our custom figure maker",
+    "items": [
+      {
+        "question": "Is the AI action figure generator free to use?",
+        "answer": "Yes! We offer free credits so you can try our AI action figure generator and create stunning 3D figures at no initial cost."
+      },
+      {
+        "question": "What makes this the best AI action figure generator?",
+        "answer": "Our tool uses advanced AI to maintain character consistency while delivering studio-quality lighting and realistic textures."
+      },
+      {
+        "question": "What templates are available?",
+        "answer": "The AI action figure generator provides diverse templates including desk models, action poses, and brick-style figures."
+      },
+      {
+        "question": "Can I turn my photos into figures?",
+        "answer": "Absolutely! Our AI action figure generator technology transforms any image reference into a high-quality 3D representation."
+      },
+      {
+        "question": "How long does the generation take?",
+        "answer": "Most results from the AI action figure generator are ready in 30–60 seconds, allowing for quick iteration."
+      },
+      {
+        "question": "What is the output resolution?",
+        "answer": "All figures created with our AI action figure generator are delivered in high-resolution, suitable for digital portfolios and sharing."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Ready to Try the AI Action Figure Generator?",
+    "description": "Bring your characters to life today with our professional figure maker. The ultimate tool for creators and collectors.",
+    "start_creating": "Start Creating Now"
+  },
+  "image_detail": {
+    "title": "Figure Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt"
+    },
+    "actions": {
+      "download": "Download Figure",
+      "reuse": "Reuse Parameters",
+      "download_error": "Failed to download figure",
+      "delete": "Delete",
+      "delete_confirm": "Delete this figure? This action cannot be undone.",
+      "delete_success": "Figure deleted successfully",
+      "delete_failed": "Failed to delete figure"
+    },
+    "meta": {
+      "created_at": "Created At",
+      "style": "Style"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Loading parameters...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No figure selected",
+      "description": "Choose a figure to view details."
+    },
+    "loading": "Loading figure details...",
+    "error": "Failed to load figure details"
+  }
+}

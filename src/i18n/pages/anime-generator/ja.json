@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "AI Anime Generator - 無料でアニメアートを作成！| AnividAI",
+    "description": "AnividAIのAI Anime Generatorでアニメスタイルの画像を作成。テキストプロンプトをアートに変換。すべての画像であなたのOCを主役に。",
+    "keywords": ""
+  },
+  "generator_title": "今すぐアニメアートを生成",
+  "introduce": {
+    "tagline": "AnividAIのAI Anime Generator | 究極のアニメアートが生まれる場所",
+    "title": "AI Anime Generatorとは",
+    "description": "AI Anime Generatorは、人工知能を使用してシンプルなテキストプロンプトから自動的にアニメスタイルのアートワークを作成するツールです。画像、シーン、イラストを素早く生成し、誰でもアニメ制作を楽しめるようにします。AnividAIのAI Anime Generatorは、オリジナルキャラクター（OC）に特化し、あなただけのOCを中心としたパーソナライズされたアニメアートを生成する力を提供します。"
+  },
+  "credits": "クレジット",
+  "images": "画像",
+  "generate": "生成",
+  "generating": "生成中...",
+  "optimize": "最適化",
+  "empty-state": {
+    "title": "アニメアート作成を始めよう",
+    "description": "説明を入力、スタイルパラメータを選択、または下の例をクリックして生成を開始"
+  },
+  "create_oc": "OCを作成",
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "ratio": "比率",
+    "count": "枚数",
+    "piece": "枚"
+  },
+  "prompt": {
+    "label": "アニメ画像を説明してください",
+    "placeholder": "例：長いピンクの髪を持つ美しい少女、白いドレスを着て、桜の庭に立っている",
+    "optimize": "AIで最適化",
+    "optimizing": "最適化中...",
+    "counter_too_long": "プロンプトが最大文字数（{max}）を超えています。",
+    "counter_too_short": "プロンプトは{min}文字以上で入力してください。",
+    "counter_format": "{current} / {max}"
+  },
+  "parameters": {
+    "character": "キャラクター",
+    "style": "スタイル",
+    "loading_characters": "キャラクターを読み込み中...",
+    "action": "アクション",
+    "scene": "シーン",
+    "outfit": "衣装",
+    "aspect-ratio": "アスペクト比",
+    "batch-size": "生成枚数",
+    "model": "AIモデル",
+    "advanced": "詳細設定",
+    "guidance-scale": "ガイダンススケール",
+    "num-inference-steps": "推論ステップ数",
+    "seed": "シード",
+    "random-seed": "ランダムシード",
+    "generate-seed": "新しいシードを生成",
+    "select": "選択",
+    "title": "生成パラメータ",
+    "visibility": "公開設定",
+    "visibility_description": "生成の可視性レベルを設定",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "characterNotSupported": "このモデルはキャラクターの参照をサポートしていません",
+    "subscriptionTooltip": "サブスクリプション会員はプライベート表示を利用できます。アップグレードしてご利用ください。"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "タスクがキューに追加されました",
+      "description": "生成タスクがキューに入りました。しばらくお待ちください..."
+    },
+    "processing": {
+      "title": "画像を生成中",
+      "description": "AIがアニメ画像を作成しています。1枚あたり最大30秒かかる場合があります。"
+    },
+    "completed": {
+      "title": "生成完了！",
+      "description": "アニメ画像の表示とダウンロードの準備ができました。"
+    },
+    "failed": {
+      "title": "生成失敗",
+      "description": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+    },
+    "canceled": {
+      "title": "生成がキャンセルされました",
+      "description": "生成タスクがキャンセルされました。"
+    },
+    "unknown": {
+      "title": "不明なステータス",
+      "description": "現在のステータスを確認できません。"
+    },
+    "progress": "進捗",
+    "batch-size": "バッチサイズ",
+    "credits-used": "使用クレジット",
+    "time-elapsed": "経過時間",
+    "estimated-remaining": "推定残り時間",
+    "coming-soon": "近日公開",
+    "cancel": "キャンセル",
+    "retry": "再試行",
+    "view-results": "結果を表示",
+    "processing-tip": "このページを閉じても大丈夫です。生成はバックグラウンドで継続されます。"
+  },
+  "completed-results": {
+    "title": "生成された画像",
+    "empty": {
+      "title": "生成された画像がありません",
+      "description": "まだ画像を生成していません。最初のアニメアートを作成してみましょう！"
+    },
+    "copy-parameters": "パラメータをコピー",
+    "download-all": "すべてダウンロード",
+    "filters": {
+      "all-styles": "すべてのスタイル"
+    },
+    "sort": {
+      "newest": "新しい順",
+      "oldest": "古い順",
+      "most-liked": "いいね順"
+    }
+  },
+  "result-image": {
+    "error": "画像の読み込みに失敗しました",
+    "view": "表示"
+  },
+  "image_detail": {
+    "title": "アートワーク詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "OCとの関連なし"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをクリップボードにコピーしました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "画像をダウンロード",
+      "reuse": "再利用",
+      "download_error": "画像のダウンロードに失敗しました",
+      "as_reference": "参照画像として使用",
+      "to_video": "動画に変換"
+    },
+    "meta": {
+      "aspect_ratio": "アスペクト比",
+      "style": "スタイル",
+      "scene": "シーン",
+      "outfit": "衣装",
+      "seed": "シード",
+      "created_at": "作成日時"
+    },
+    "variants": {
+      "title": "バリエーション"
+    },
+    "visibility_toast": {
+      "success": "公開設定を更新しました",
+      "error": "公開設定の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "このアートワークの再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "アートワークが選択されていません",
+      "description": "ギャラリーから画像を選択して詳細を表示してください。"
+    },
+    "loading": "アートワーク詳細を読み込み中...",
+    "error": "アートワーク詳細の読み込みに失敗しました"
+  },
+  "video_detail": {
+    "title": "動画詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "OCとの関連なし"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "meta": {
+      "duration": "再生時間",
+      "resolution": "解像度",
+      "aspect_ratio": "アスペクト比",
+      "created_at": "作成日時"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをクリップボードにコピーしました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "動画をダウンロード",
+      "reuse": "再利用",
+      "download_error": "動画のダウンロードに失敗しました"
+    },
+    "quality": {
+      "label": "画質",
+      "q720p": "720p",
+      "q1080p": "1080p",
+      "qsource": "オリジナル"
+    },
+    "visibility_toast": {
+      "success": "公開設定を更新しました",
+      "error": "公開設定の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "この動画の再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "動画が選択されていません",
+      "description": "ギャラリーから動画を選択して詳細を表示してください。"
+    },
+    "loading": "動画詳細を読み込み中...",
+    "error": "動画詳細の読み込みに失敗しました"
+  },
+  "status": {
+    "completed": "完了",
+    "processing": "処理中",
+    "pending": "待機中",
+    "failed": "失敗",
+    "canceled": "キャンセル済み"
+  },
+  "errors": {
+    "prompt-required": "アニメキャラクターの説明を入力してください",
+    "insufficient-credits": "この枚数の画像を生成するクレジットが不足しています",
+    "generation-failed": "生成の開始に失敗しました。もう一度お試しください。",
+    "network-error": "ネットワークエラーが発生しました。接続を確認して再試行してください。",
+    "config-load-failed": "設定の読み込みに失敗しました",
+    "image-not-found": "画像が見つかりません",
+    "no-permission": "この画像にアクセスする権限がありません",
+    "load-image-failed": "画像データの読み込みに失敗しました",
+    "character-not-found": "キャラクターが見つからないか、アクセス権限がありません。手動でキャラクターを選択してください。",
+    "invalid-character-uuid": "無効なキャラクター参照です。手動でキャラクターを選択してください。",
+    "character-load-error": "キャラクターの読み込みに失敗しました。もう一度お試しください。"
+  },
+  "auth_required": {
+    "reuse_params": "参照画像や生成パラメータの再利用にはログインが必要です。現在の設定は保持されます。",
+    "ref_image": "生成に参照画像を使用するにはログインが必要です。"
+  },
+  "how_to_use": {
+    "title": "4つの簡単なステップでアニメアートを作成",
+    "subtitle": "直感的なAI Anime Generatorであなたの想像力を形にしましょう。最新のAI Anime Generator技術を使用して、素晴らしいアニメキャラクターやシーンを簡単に作成できます。",
+    "step_1_title": "アイデアを説明する",
+    "step_1_description": "キャラクターの説明とクリエイティブなビジョンを入力してください。AI Anime Generatorとプロンプト最適化機能が、最高の結果を得るための完璧な入力を作成するお手伝いをします。",
+    "step_2_title": "キャラクターを選択（オプション）",
+    "step_2_description": "AnividAIにオリジナルキャラクター（OC）をお持ちですか？あなたのOCを選択すると、AI Anime Generatorがそれをユニークなアニメの世界に変換します。AI Anime Generatorであなたの作品を披露するのに最適です。",
+    "step_3_title": "モデルとパラメータを設定",
+    "step_3_description": "多様なAIモデルとアニメスタイルから選択できます。参照画像のアップロード、解像度の設定、公開設定の調整、生成枚数の選択も可能です。高度なAI Anime Generatorが毎回完璧なアニメアートワークをお届けします。",
+    "step_4_title": "共有とダウンロード",
+    "step_4_description": "美しいAI生成アニメアートワークをダウンロードするか、コミュニティと作品を共有してインスピレーションを与えましょう。無料AI Anime Generatorのパワーを体験し、アニメファン仲間とつながりましょう。"
+  },
+  "action_panel": {
+    "download": "ダウンロード",
+    "favorite": "お気に入り",
+    "edit": "編集",
+    "share": "共有",
+    "copy_params": "パラメータをコピー",
+    "selected_count": "{count}枚選択中"
+  },
+  "scenes": {
+    "snow_mountain": {
+      "name": "雪山"
+    },
+    "forest": {
+      "name": "森"
+    },
+    "city": {
+      "name": "都市"
+    }
+  },
+  "action": {
+    "running": {
+      "name": "走る"
+    },
+    "sitting": {
+      "name": "座る"
+    },
+    "standing": {
+      "name": "立つ"
+    },
+    "jumping": {
+      "name": "ジャンプ"
+    },
+    "dancing": {
+      "name": "ダンス"
+    },
+    "fighting": {
+      "name": "戦闘"
+    }
+  },
+  "outfits": {
+    "hanfu": {
+      "name": "漢服"
+    },
+    "qipao": {
+      "name": "チャイナドレス"
+    },
+    "jk_uniform": {
+      "name": "JK制服"
+    }
+  },
+  "ratios": {
+    "square": {
+      "name": "正方形 (1:1)",
+      "description": "プロフィール画像に最適な正方形フォーマット"
+    },
+    "portrait": {
+      "name": "ポートレート (2:3)",
+      "description": "キャラクターポートレートに最適な縦長フォーマット"
+    },
+    "widescreen": {
+      "name": "ワイドスクリーン (16:9)",
+      "description": "風景や壁紙に最適なワイドフォーマット"
+    }
+  },
+  "gallery": {
+    "ghiblio-girl-001": {
+      "title": "ジブリ風少女",
+      "description": "桜の下で着物を着た少女"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "アスペクト比",
+    "selected": "選択済み"
+  },
+  "style-presets": {
+    "label": "スタイル",
+    "no-selection": "スタイル未選択",
+    "max-reached": "選択上限に達しました"
+  },
+  "outfit-presets": {
+    "label": "衣装",
+    "optional": "（任意）",
+    "selected": "選択済み",
+    "no-selection": "衣装未選択"
+  },
+  "scene-presets": {
+    "label": "シーン",
+    "optional": "（任意）",
+    "selected": "選択済み",
+    "no-selection": "シーン未選択"
+  },
+  "reference": {
+    "label": "参照",
+    "title": "参照画像",
+    "upload": "画像をアップロード",
+    "drag-drop": "ここに画像をドラッグ＆ドロップ、またはクリックして選択",
+    "supported-formats": "JPG、PNG、WEBP対応（最大10MB）",
+    "remove": "削除",
+    "change": "変更",
+    "processing": "処理中...",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-format": "サポートされていない画像形式です"
+  },
+  "quick-prompt": {
+    "title": "クイックプロンプト",
+    "help": "タグをクリックしてプロンプトに追加",
+    "expand": "展開",
+    "collapse": "折りたたむ"
+  },
+  "benefits": {
+    "section_title": "AI Anime Generatorの特長",
+    "section_subtitle": "世界中のクリエイターやアニメファンのために設計された高度なAI Anime Generatorで、次世代のアニメアート制作を体験してください。",
+    "character_consistency": {
+      "title": "一貫したキャラクター生成",
+      "description": "AI Anime GeneratorはAnividAIのOC Makerで作成されたオリジナルキャラクター（OC）をサポートし、複数の画像でキャラクターの一貫した外観を維持します。これにより、あなただけのアニメ作品を中心にストーリーや世界観を簡単に構築できます。"
+    },
+    "ai_powered": {
+      "title": "AIによるプロンプト強化",
+      "description": "AI Anime Generatorのインテリジェントなプロンプト最適化を活用しましょう。最先端のニューラルネットワークを使用して、シンプルなテキスト説明を詳細でプロフェッショナルな品質のアニメアートワークに変換します。"
+    },
+    "diverse_styles": {
+      "title": "豊富なアニメアートスタイル",
+      "description": "ジブリ風、アメコミ、水彩画など、本格的なアニメスタイルから選択できます。AI Anime Generatorは、あなたのクリエイティブなビジョンに合わせた多彩なオプションを提供します。"
+    },
+    "no_drawing": {
+      "title": "絵心は不要",
+      "description": "AI Anime Generatorで素晴らしいアニメアートワークを簡単に作成できます。自然言語でアイデアを説明するだけで、リアルタイムでAI生成アニメアートをプレビューできます。クリエイティブなプロセスを誰でも楽しめるようにしました。"
+    },
+    "batch_processing": {
+      "title": "効率的なバッチ処理",
+      "description": "無料AI Anime Generatorで一度に複数の高品質アニメ画像を生成できます。時間を節約し、プロジェクト、ポートフォリオ、SNS共有のためのクリエイティブ出力を最大化しましょう。"
+    },
+    "professional_quality": {
+      "title": "スタジオ品質のアニメアートワーク",
+      "description": "商用利用、SNS、個人プロジェクトに適したプロフェッショナル品質のAI生成アニメアートを制作できます。AI Anime Generatorは業界標準を満たす結果をお届けします。"
+    }
+  },
+  "oc_anime_gallery": {
+    "title": "オリジナルキャラクター（OC）アニメギャラリー",
+    "description": "AI Anime GeneratorがAnividAIで作成されたオリジナルキャラクター（OC）を様々なアニメスタイルやシーンに変換する様子をご覧ください。",
+    "character_selector": "サンプルオリジナルキャラクター"
+  },
+  "create_oc_quick_link": {
+    "button": "自分のOCを作成する"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "AI Anime Generatorとアニメ制作プロセスについて知っておくべきことすべて。",
+    "items": [
+      {
+        "question": "AI Anime Generatorとは何ですか？どのように動作しますか？",
+        "answer": "AI Anime Generatorは、高度な人工知能を使用してテキストプロンプトからアニメスタイルの画像を作成するツールです。AI Anime Generatorでは、オリジナルキャラクター（OC）を説明するか、プラットフォームで作成されたOCから選択でき、最先端のニューラルネットワークを使用して高品質なアニメアート、キャラクター、シーンを生成します。"
+      },
+      {
+        "question": "AI Anime Generatorでプラットフォームのお試しOCと自分の説明の両方を使用できますか？",
+        "answer": "はい！AI Anime Generatorでは、プラットフォームで作成・保存されたOCから選択するか、自然言語で自分のOCを説明するかの両方が可能です。AI Anime Generatorは、あなたの選択または説明に基づいて、一貫したプロフェッショナルなアニメアートワークを生成します。"
+      },
+      {
+        "question": "AI Anime Generatorは無料で使用できますか？",
+        "answer": "はい、AI Anime Generatorは無料トライアルクレジットを提供しており、無料でアニメ画像やAI生成アニメアートを作成できます。"
+      },
+      {
+        "question": "AI Anime Generatorではどのようなアニメアートスタイルが利用可能ですか？",
+        "answer": "AI Anime Generatorは、スタジオジブリ風、漫画、水彩画、クラシックアニメ、デジタルアートなど、幅広いアニメアートスタイルをサポートしています。お好みのスタイルを選択して、ユニークなAI生成アニメ画像を作成できます。"
+      },
+      {
+        "question": "AI生成アニメ画像を商用プロジェクトに使用できますか？",
+        "answer": "はい、AI Anime Generatorで作成したアートワークは、商用目的、SNS、グッズ、個人プロジェクトにご使用いただけます。AI生成アニメアートの完全な権利はあなたが保持します。"
+      },
+      {
+        "question": "AI Anime Generatorはどのような画像形式と解像度をサポートしていますか？",
+        "answer": "AI Anime Generatorは、正方形、ポートレート、ワイドスクリーンなど、様々なアスペクト比で高品質画像を生成します。画像は共有や印刷に適したウェブ最適化フォーマットでダウンロードできます。"
+      },
+      {
+        "question": "AIで生成したアニメ画像を編集やカスタマイズできますか？",
+        "answer": "はい、生成した画像をリファレンスとしてAI編集に利用できます。ai anime generatorでご活用ください。"
+      },
+      {
+        "question": "AI Anime Generatorのモバイルアプリはありますか？",
+        "answer": "現在、AI Anime Generatorはモバイルブラウザに最適化されたウェブアプリとして利用可能です。iOSおよびAndroid向けの専用モバイルアプリは、アニメアート制作体験を向上させるために開発中です。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "オリジナルキャラクターで素晴らしいアニメアートワークを作成",
+    "description": "あなただけのOCを使用して、輝くアニメスタイルアートをデザイン・生成しましょう。今日からオリジナルキャラクターに命を吹き込みましょう！",
+    "start_creating": "作成を始める"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "非公開設定はサブスクリプション会員限定です。アップグレードして利用可能にしましょう。",
+    "private_visibility_short": "非公開設定を使用するにはアップグレードが必要です",
+    "subscription_required": "サブスクリプションが必要です"
+  },
+  "membership": {
+    "free": "無料",
+    "basic": "ベーシック",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "動画にする",
+        "href": "/ai-anime-video-generator?ref_image_url=${image_uuid}"
+      }
+    }
+  }
+}

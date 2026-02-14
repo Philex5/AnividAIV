@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "title": "AI Anime Video Generator – Try it Free | AnividAI",
+    "description": "Experience the power of our AI anime video generator—create dynamic, anime-style videos from text prompts and original characters (OCs) in seconds.",
+    "keywords": ""
+  },
+  "title": "AI Anime Video Generator",
+  "subtitle": "Turn text prompts, images, or OC into 5–15s anime videos",
+  "introduce": {
+    "tagline": "AI anime video generator on AnividAI | Text, image, and OC-driven anime storytelling.",
+    "title": "Why AnividAI's AI Anime Video Generator Empowers Creative Animation",
+    "description": "AnividAI's AI anime video generator offers three powerful ways to create anime videos: describe your scene with text prompts, upload reference images for image-to-video generation, or use your original characters (OC) from OC Maker. Our ai anime video generator supports multiple generation modes—text-to-video for pure imagination, image-to-video for visual references, and OC-to-video for character-driven stories. With professional-quality output from models like Veo3, Kling, Wan, and Sora, this free ai anime video generator is accessible for hobbyists and studios alike. You can remix prompts, palettes, and pacing, while the AI anime video generator keeps your vision consistent. "
+  },
+  "inputs": {
+    "prompt": "Prompt",
+    "model": "Model",
+    "duration": "Duration (s)",
+    "ratio": "Aspect Ratio",
+    "resolution": "Resolution",
+    "motion": "Camera Motion",
+    "style": "Style",
+    "reference": "Reference Image URL"
+  },
+  "actions": {
+    "create": "Create Video",
+    "use_example": "Use Example",
+    "download": "Download",
+    "recreate": "Recreate with these params"
+  },
+  "benefits": {
+    "title": "Why Choose Our AI Anime Video Generator?",
+    "subtitle": "Experience the future of anime video creation with powerful AI capabilities designed for creators",
+    "items": [
+      {
+        "title": "Fast Generation",
+        "description": "Quickly convert your ideas into high-quality anime loops with clear credit transparency and real-time auditing."
+      },
+      {
+        "title": "Director Motion",
+        "description": "Advanced camera control including pan, tilt, and zoom for professional cinematic storytelling."
+      },
+      {
+        "title": "OC Continuity",
+        "description": "Maintain character consistency by syncing metadata from OC Maker for canon-friendly animations."
+      },
+      {
+        "title": "Diverse Styles",
+        "description": "Our AI anime video generator supports multiple aesthetics, from classic cel to modern cinematic styles."
+      },
+      {
+        "title": "Social Ready",
+        "description": "Perfectly formatted for TikTok, Reels, and Shorts with easy download and instant sharing options."
+      },
+      {
+        "title": "Pro Quality",
+        "description": "This AI anime video generator delivers production-grade rendering and HD output up to 1080p."
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "Master the AI Anime Video Generator in 4 Steps",
+    "subtitle": "Follow this OC-first workflow to keep every render intentional. Each step in the AI anime video generator mirrors the AnividAI product stack—credits stay visible, membership perks unlock pro controls, and camera logic syncs with prompts so you can storyboard, revise, and ship anime episodes without switching tools.",
+    "step_1_title": "Define Your Narrative Hook",
+    "step_1_description": "Draft a vivid prompt or use our example; the AI anime video generator parses genre, pacing, mood, and OC metadata so your first preview matches your intended emotional beat.",
+    "step_2_title": "Select Your Hero Asset",
+    "step_2_description": "Choose an existing OC or upload a reference; the AI anime video generator syncs bios, outfits, and colors so every shot reflects established canon.",
+    "step_3_title": "Tune Parameters with Intention",
+    "step_3_description": "Set duration, ratio, resolution, motion, and style; tooltips keep credit use visible while the AI anime video generator predicts how each toggle affects pacing and render time.",
+    "step_4_title": "Ship, Share, and Iterate",
+    "step_4_description": "Hit Generate to stream timelines in seconds, then download HD masters or share links; the AI anime video generator stores settings for instant reruns or future Shorts workflows."
+  },
+  "showcase": {
+    "title": "Explore Video Examples",
+    "subtitle": "See what our AI anime video generator can create. Explore stunning ai generated video examples from our ai anime video generator platform. Click any example to try the same style.",
+    "try_style": "Try This Style"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our AI anime video generator",
+    "items": [
+      {
+        "question": "What generation modes are supported?",
+        "answer": "The AI anime video generator supports three modes: Text-to-Video (create videos from text descriptions), Image-to-Video (animate uploaded images or use first/last frame transitions), and OC-to-Video (generate videos featuring your original characters from OC Maker)."
+      },
+      {
+        "question": "How long does video generation take?",
+        "answer": "Most videos are generated in 1-5 minutes, depending on the model, duration, resolution, and prompt complexity. Fast models like Veo3 Fast complete quicker, while standard models may take longer for higher quality output."
+      },
+      {
+        "question": "What resolutions and aspect ratios are supported?",
+        "answer": "Available options vary by model. Common resolutions include 720p and 1080p. Aspect ratios include 16:9 (landscape), 9:16 (portrait), and 1:1 (square). Note: 1080p is typically only available in 16:9 format. Please check the actual options when selecting your model."
+      },
+      {
+        "question": "Can I upload a reference image?",
+        "answer": "Yes! You can upload 1-3 reference images depending on the model and mode. Some models support first-and-last-frame generation (2 images for transition effects), while others use a single reference image. The AI anime video generator uses these to maintain visual consistency."
+      },
+      {
+        "question": "How do I use my OC to generate videos?",
+        "answer": "Create your OC in OC Maker, then select it in the AI anime video generator. The AI will feature your character's portrait as a reference image, maintaining character consistency in the generated anime video."
+      },
+      {
+        "question": "What are the video duration options?",
+        "answer": "Duration options vary by model: typically 5, 10, or 15 seconds. Shorter videos use fewer credits and generate faster. Please refer to the actual model selection for available durations."
+      },
+      {
+        "question": "How do I download generated videos?",
+        "answer": "After generation, click the download button below the video player. Videos are downloaded in your selected resolution. Plus and Pro members can remove watermarks before downloading."
+      },
+      {
+        "question": "How are credits calculated for videos?",
+        "answer": "Credit costs vary significantly by model, resolution, and duration. Examples: Veo3 Fast ~100 credits, Veo3 Standard ~750 credits, Kling 5s ~210 credits, Wan 720p 5s ~300 credits. Always check the credit cost displayed on the generate button before creating—it reflects your actual selections."
+      },
+      {
+        "question": "What video models are available?",
+        "answer": "We offer multiple AI video models including Veo3 (fast and standard), Kling v2.5, Wan 2.5, and Sora 2 (standard and pro). Each model has different strengths—some excel at motion quality, others at character consistency. The actual available models may vary."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Launch Your Next OC Anime Clip with the AI Anime Video Generator",
+    "subtitle": "Experience the power of our free ai anime video generator platform. Claim starter credits, upgrade for watermark-free exports, and keep every OC asset synced across images, chat, and Shorts tools. This ai anime video generator is your always-on studio for anime creators, agencies, and fandom leaders.",
+    "button": "Start with the AI Anime Video Generator"
+  },
+  "parameters": {
+    "title": "Video Parameters",
+    "character": "Character",
+    "style": "Style",
+    "loading_characters": "Loading characters...",
+    "duration": "Duration",
+    "mode": "Mode",
+    "ratio": "Aspect Ratio",
+    "quality": "Quality",
+    "multi_shots": "Multi Shots",
+    "multi_shot_switch_hint": "Create multiple shots of the same video.",
+    "multi_shot_script": "Multi-Shot Script",
+    "add-shot": "Add Shot",
+    "shot-label": "Shot {index}",
+    "multi_shot_prompt_placeholder": "Describe this shot...",
+    "multi_shot_total_duration": "Total duration: {current}/{max} seconds",
+    "sound": "Sound",
+    "sound_description": "Enable model-generated sound for this video.",
+    "aspect_ratio": "Aspect Ratio",
+    "watermark": "Watermark",
+    "negative_prompt": "Negative Prompt",
+    "negative_prompt_placeholder": "Words or concepts to avoid in the video",
+    "camera_motion": "Camera Motion (Optional)",
+    "camera_motion_placeholder": "Select camera motion",
+    "reference": "Reference",
+    "reference_placeholder": "Paste image URL (optional)",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level"
+  },
+  "common": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "camera_motions": {
+    "pan": {
+      "name": "Pan"
+    },
+    "tilt": {
+      "name": "Tilt"
+    },
+    "zoom": {
+      "name": "Zoom"
+    },
+    "push": {
+      "name": "Push"
+    },
+    "orbit": {
+      "name": "Orbit"
+    }
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format",
+    "error-auth": "Please log in to upload images",
+    "error-filename": "Invalid file name",
+    "disabled-oc-selected": "Current model supports only one image. OC portrait is already selected, so reference image upload is disabled.",
+    "cleared-by-oc": "Reference image cleared because OC was selected and current model supports only one image.",
+    "trimmed-by-limit": "Some reference images were removed to match current model limits.",
+    "start-end-hint": "Image #1 is Start Frame, Image #2 is End Frame.",
+    "multi-shots-first-frame-only": "Multi-shots is enabled. Only the first frame image will be used.",
+    "start-frame": "Start Frame(optional)",
+    "end-frame": "End Frame(optional)",
+    "start-frame-placeholder": "Upload start frame image.",
+    "end-frame-placeholder": "Upload end frame image.",
+    "end-frame-disabled-multi-shot": "End frame is disabled in multi-shot mode."
+  },
+  "toast": {
+    "task_created": "Task created",
+    "started": "Video generation started!",
+    "completed": "Video generation completed!",
+    "reuse-failed": "Failed to load video parameters"
+  },
+  "errors": {
+    "generation_failed": "Generation failed",
+    "create_failed": "Failed to create task",
+    "not-authenticated": "Please log in to access this video",
+    "no-permission": "You don't have permission to access this video",
+    "not-found": "Video not found",
+    "load-video-failed": "Failed to load video data",
+    "auth-required": "Please log in to access this video",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again.",
+    "reference-image-not-found": "Reference image not found",
+    "invalid-reference-image-uuid": "Invalid reference image. Please select an image manually.",
+    "reference-image-load-error": "Failed to load reference image. Please try again.",
+    "multi-shot-min-segments": "Multi-shot mode requires at least 1 prompt segment.",
+    "multi-shot-duration-exceeded": "Total multi-shot duration must be between 3 and 15 seconds.",
+    "multi-shot-segment-duration-invalid": "Each multi-shot segment duration must be between 3 and 12 seconds.",
+    "multi-shot-start-frame-required": "Multi-shot mode requires a start frame image.",
+    "kling-duration-invalid": "Kling 3.0 duration must be between 3 and 15 seconds.",
+    "start-end-images-required": "Start/End Frame mode requires exactly 2 reference images."
+  },
+  "reuse": {
+    "loading": "Loading video parameters...",
+    "loading_desc": "Preparing the selected video for reuse..."
+  },
+  "generating": {
+    "title": "Generating Video...",
+    "tip": "Creating your anime video, this may take a few minutes..."
+  },
+  "panel": {
+    "guest": {
+      "title": "Create Anime Videos with AI",
+      "description": "Transform your prompts and characters into stunning 5–15s anime-style videos. Sign in to start creating!"
+    },
+    "user": {
+      "title": "Start Creating Your Anime Video",
+      "description": "Enter a description, select your style and parameters, then click Generate to create your video"
+    }
+  },
+  "buttons": {
+    "create_video": "Create Video",
+    "generating": "Generating...",
+    "sign_in": "Sign In to Create"
+  },
+  "labels": {
+    "credits": "Credits"
+  },
+  "image_detail": {
+    "title": "Artwork Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "make_public": "Show in Community",
+      "make_private": "Make Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt",
+      "placeholder": "Enter your anime scene description, e.g., `A girl interacting with a cat under a cherry blossom tree`"
+    },
+    "actions": {
+      "download": "Download Image",
+      "reuse": "Reuse",
+      "download_error": "Failed to download image"
+    },
+    "meta": {
+      "aspect_ratio": "Aspect Ratio",
+      "style": "Style",
+      "scene": "Scene",
+      "outfit": "Outfit",
+      "seed": "Seed",
+      "created_at": "Created At"
+    },
+    "variants": {
+      "title": "Variants"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Preparing this artwork for reuse...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No artwork selected",
+      "description": "Choose an image from your gallery to view details."
+    }
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "remove_watermark": "Watermark removal is available for subscription members. Upgrade to unlock.",
+    "remove_watermark_short": "Upgrade to remove watermark",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  },
+  "credits": "Credits",
+  "videos": "Videos",
+  "generate": "Generate",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Videos",
+    "description": "Enter a description, select style parameters, or click a sample video below to start generating"
+  },
+  "gallery": {
+    "title": "Video Gallery",
+    "empty": "No examples available",
+    "hint": "Hover to preview, click the card to watch, or use Reuse.",
+    "preview": "Preview video",
+    "reuse": "Reuse",
+    "immersive_title": "Video Preview"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "duration": "Duration",
+    "count": "Count",
+    "piece": "Video"
+  },
+  "prompt": {
+    "label": "Describe Video Scene",
+    "placeholder": "e.g.: A magical girl dancing in a beautiful cherry blossom forest, a wolf running under moonlight, butterflies taking flight together",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing...",
+    "counter_too_long": "Prompt exceeds the maximum length of {max} characters.",
+    "counter_too_short": "Prompt must be at least {min} characters.",
+    "counter_format": "{current} / {max}"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Generation task has been added to the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Video",
+      "description": "AI is creating your anime video. Video generation may take a few minutes."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your anime video is ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Generation will continue in the background."
+  }
+}

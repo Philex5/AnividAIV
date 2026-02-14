@@ -1,0 +1,182 @@
+{
+  "title": "コミュニティ",
+  "subtitle": "コミュニティからオリジナルキャラクターとAIアートを発見。",
+  "seo": {
+    "metaTitle": "アニメAIコミュニティギャラリー | AnividAI",
+    "metaDescription": "AnividAIコミュニティで公開されたオリジナルキャラクター、AIアニメ画像、ショート動画を探索。トレンド作品を見つけてお気に入り保存し、次の制作インスピレーションを得られます。"
+  },
+  "intro": {
+    "heading": "コミュニティのアニメAI作品を発見",
+    "paragraph": "AnividAIコミュニティギャラリーでは、世界中のクリエイターが公開したオリジナルキャラクター、AIアニメイラスト、ショート動画をまとめて閲覧できます。種類別に探し、人気のスタイルを比較し、次の制作前にインスピレーションを収集できます。"
+  },
+  "contentGuide": {
+    "heading": "コミュニティギャラリーの活用方法",
+    "items": [
+      "OC・画像・動画フィルターで目的の形式を素早く見つける。",
+      "トレンド・新着・人気順を使い分けて探索の目的を最適化する。",
+      "作品詳細でモデル傾向、タグ、作者情報を確認する。",
+      "いいねとお気に入りで自分専用の参考コレクションを作る。"
+    ]
+  },
+  "faq": {
+    "heading": "コミュニティFAQ",
+    "items": [
+      {
+        "question": "コミュニティギャラリーでは何を見つけられますか？",
+        "answer": "AnividAIユーザーが公開したオリジナルキャラクター、AIアニメ画像、AI生成動画を閲覧できます。"
+      },
+      {
+        "question": "コミュニティ作品を制作の参考にできますか？",
+        "answer": "はい。コミュニティ作品は制作の参考として利用でき、スタイルや構図、プロンプトの方向性確認に役立ちます。"
+      },
+      {
+        "question": "高品質な作品を効率よく探すには？",
+        "answer": "まずトレンドで人気作品を確認し、次に種類やサブタイプのフィルターで絞り込む方法が効果的です。"
+      }
+    ]
+  },
+  "search": {
+    "placeholder": "作品またはクリエイターを検索",
+    "button": "検索",
+    "clear": "検索をクリア"
+  },
+  "tabs": {
+    "all": "すべて",
+    "oc": "OC",
+    "image": "画像",
+    "video": "動画"
+  },
+  "sort": {
+    "trending": "トレンド",
+    "newest": "新着順",
+    "top": "トップ"
+  },
+  "filters": {
+    "filterButton": "フィルター",
+    "drawerTitle": "作品を絞り込み",
+    "drawerDescription": "あなたが好きそうな作品を見つけるためにソートを調整してください。",
+    "apply": "適用",
+    "clear": "クリア"
+  },
+  "genTypes": {
+    "title": "サブタイプ",
+    "options": {
+      "anime": "アニメ",
+      "action_figure": "アクションフィギュア",
+      "sticker": "ステッカー",
+      "avatar": "アバター",
+      "character": "キャラクター",
+      "video": "動画",
+      "anime_video": "アニメ動画"
+    }
+  },
+  "states": {
+    "comingSoon": "コンテンツは近日公開予定",
+    "loading": "読み込み中...",
+    "loadingMore": "さらに作品を読み込み中...",
+    "noResults": "結果が見つかりません",
+    "loadFailed": "作品の読み込みに失敗しました",
+    "retry": "再試行"
+  },
+  "aria": {
+    "sort": "ソート",
+    "search": "コミュニティ作品検索",
+    "filters": "フィルターを開く",
+    "closeDetail": "詳細を閉じる",
+    "like": "いいねを切り替え",
+    "favorite": "すきまを切り替え",
+    "share": "作品を共有",
+    "download": "作品ダウンロード",
+    "more": "その他のアクション",
+    "useOc": "このOCを使用"
+  },
+  "actions": {
+    "like": "いいね",
+    "fav": "すきま",
+    "share": "共有",
+    "download": "ダウンロード",
+    "more": "その他",
+    "copyLink": "リンクをコピー",
+    "viewDetail": "詳細を表示",
+    "viewMore": "さらに表示",
+    "useOc": "このOCを使用"
+  },
+  "detail": {
+    "loading": "作品詳細を読み込み中...",
+    "error": "作品詳細の取得に失敗しました",
+    "prompt": "プロンプト",
+    "description": "説明",
+    "tags": "タグ",
+    "ocTraits": "特性",
+    "stats": {
+      "likes": "いいね",
+      "views": "視聴回数",
+      "comments": "コメント"
+    },
+    "meta": {
+      "duration": "再生時間",
+      "resolution": "解像度",
+      "model": "モデル",
+      "characters": "OC",
+      "noCharacters": "なし",
+      "created_at": "作成日"
+    },
+    "oc": {
+      "gender": "性別",
+      "gender_male": "男性",
+      "gender_female": "女性",
+      "gender_other": "その他",
+      "age": "年齢",
+      "species": "種族",
+      "personality": "性格",
+      "introduction": "紹介",
+      "remixButton": "リミックス",
+      "chatButton": "チャット",
+      "detailButton": "詳細",
+      "noIntroduction": "紹介は利用できません"
+    },
+    "empty": {
+      "description": ""
+    }
+  },
+  "labels": {
+    "duration": "{count}秒",
+    "resolution": "{value}解像度"
+  },
+  "toasts": {
+    "loadFailed": "作品の読み込みに失敗しました",
+    "loadMoreFailed": "さらに作品の読み込みに失敗しました",
+    "detailFailed": "作品詳細の取得に失敗しました",
+    "copySuccess": "作品リンクをコピーしました",
+    "copyFailed": "リンクのコピーに失敗しました",
+    "likeFailed": "いいねの更新に失敗しました",
+    "favoriteFailed": "すきまの更新に失敗しました",
+    "shareMoreComingSoon": "その他の共有オプションは近日公開予定",
+    "useOcComingSoon": "OC再利用ワークフローは近日公開予定",
+    "downloadSuccess": "ダウンロードが開始されました",
+    "downloadFailed": "作品のダウンロードに失敗しました"
+  },
+  "comments": {
+    "title": "{count}件のコメント",
+    "placeholder": "コメントを追加...",
+    "replyPlaceholder": "{name}さんに返信...",
+    "submit": "コメントする",
+    "reply": "返信",
+    "cancel": "キャンセル",
+    "loadMore": "さらにコメントを読み込む",
+    "viewReplies": "返信を表示",
+    "hideReplies": "返信を非表示",
+    "deleted": "このコメントは削除されました。",
+    "noComments": "まだコメントはありません。最初のコメントを投稿しましょう！",
+    "deleteConfirm": "このコメントを削除してもよろしいですか？",
+    "toasts": {
+      "posted": "コメントを投稿しました",
+      "postFailed": "コメントの投稿に失敗しました",
+      "replied": "返信を投稿しました",
+      "replyFailed": "返信の投稿に失敗しました",
+      "deleted": "コメントを削除しました",
+      "deleteFailed": "コメントの削除に失敗しました",
+      "actionFailed": "操作に失敗しました"
+    }
+  }
+}

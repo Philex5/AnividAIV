@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "title": "Free Anime Character Generator | Create Custom Anime Characters Online",
+    "description": "Create unique anime characters instantly with AnividAI's free Anime Character Generator. Design custom OCs with AI, generate portraits, and build your anime character collection.",
+    "keywords": "anime character generator, anime character creator, make anime character, anime oc maker, create anime character"
+  },
+  "navigation": {
+    "back_to_home": "Back to Home",
+    "start_creating": "Start Creating",
+    "browse_gallery": "Browse Gallery"
+  },
+  "hero": {
+    "title": "Anime Character Generator: Create Your Perfect Character",
+    "subtitle": "Transform your imagination into stunning anime characters. Design unique OCs with our AI-powered character creator—perfect for stories, games, and digital art.",
+    "description_label": "Describe Your Character",
+    "description_placeholder": "e.g., A cheerful magical girl with pink twin tails and glowing powers",
+    "description_helper": "Describe your anime character's appearance and personality in one sentence.",
+    "gender_label": "Gender",
+    "art_style_label": "Art Style",
+    "species_label": "Species",
+    "gender_placeholder": "Select gender",
+    "art_style_placeholder": "Select style",
+    "species_placeholder": "Select",
+    "species_custom": "Custom",
+    "species_custom_placeholder": "Input species",
+    "gender_options": {
+      "female": "Female",
+      "male": "Male",
+      "other": "Other"
+    },
+    "generate_button": "Generate",
+    "manual_button": "Manual Character Creator",
+    "info_text": "Quick Generate creates a complete anime character profile with AI instantly.",
+    "auto_generate_label": "Auto-generate profile & portrait",
+    "auto_generate_helper": "Use AI to build full-body art and avatar automatically",
+    "quick_options": {
+      "clear": "Clear options",
+      "gender": [
+        {
+          "value": "female",
+          "label": "Female",
+          "icon": ""
+        },
+        {
+          "value": "male",
+          "label": "Male",
+          "icon": ""
+        },
+        {
+          "value": "other",
+          "label": "Other",
+          "icon": ""
+        }
+      ],
+      "art_styles": [
+        {
+          "value": "anime",
+          "label": "Anime",
+          "icon": ""
+        },
+        {
+          "value": "realistic",
+          "label": "Realistic",
+          "icon": ""
+        },
+        {
+          "value": "chibi",
+          "label": "Chibi",
+          "icon": ""
+        }
+      ],
+      "species": [
+        {
+          "value": "human",
+          "label": "Human",
+          "icon": ""
+        },
+        {
+          "value": "elf",
+          "label": "Elf",
+          "icon": ""
+        },
+        {
+          "value": "animal",
+          "label": "Animal Folk",
+          "icon": ""
+        }
+      ]
+    },
+    "suggestions": {
+      "label": "Character Ideas",
+      "refresh": "Refresh",
+      "manual_hint": "Have a specific character in mind? Use the manual creator.",
+      "pool": [
+        "A shy schoolgirl with hidden magical powers",
+        "A brave knight protecting a fantasy kingdom",
+        "A playful cat-eared adventurer exploring dungeons",
+        "A mysterious transfer student with a secret past",
+        "A cheerful idol pursuing her dreams",
+        "A cool hacker fighting for justice",
+        "A gentle healer in a magical world",
+        "A fierce warrior seeking redemption"
+      ]
+    },
+    "suggestion_pool": [
+      "A shy schoolgirl with hidden magical powers",
+      "A brave knight protecting a fantasy kingdom",
+      "A playful cat-eared adventurer exploring dungeons",
+      "A mysterious transfer student with a secret past",
+      "A cheerful idol pursuing her dreams",
+      "A cool hacker fighting for justice",
+      "A gentle healer in a magical world",
+      "A fierce warrior seeking redemption"
+    ],
+    "idea_sparks": {
+      "label": "Character Inspiration",
+      "description": "Need inspiration? Click a character template to auto-fill and customize.",
+      "refresh": "Shuffle ideas",
+      "apply_label": "Use This Template",
+      "examples": [
+        {
+          "id": "magical-girl-academy",
+          "title": "Magical Academy Student",
+          "description": "A determined student discovering her powers at a magical academy.",
+          "prompt": "A cheerful magical girl student with twin tails, wearing a school uniform with magical accents, holding a wand.",
+          "gender": "female",
+          "gender_label": "Female",
+          "art_style": "anime",
+          "art_style_label": "Anime",
+          "species": "human",
+          "species_label": "Human",
+          "tags": [
+            "magical girl",
+            "school"
+          ]
+        },
+        {
+          "id": "fantasy-hero",
+          "title": "Fantasy World Hero",
+          "description": "A brave hero embarking on an epic adventure.",
+          "prompt": "A determined fantasy hero with a sword, wearing light armor, standing before a magical landscape.",
+          "gender": "male",
+          "gender_label": "Male",
+          "art_style": "anime",
+          "art_style_label": "Anime",
+          "species": "human",
+          "species_label": "Human",
+          "tags": [
+            "fantasy",
+            "adventure"
+          ]
+        },
+        {
+          "id": "cyberpunk-netrunner",
+          "title": "Cyberpunk Netrunner",
+          "description": "A skilled hacker in a neon-lit cyberpunk city.",
+          "prompt": "A cool hacker character with cybernetic enhancements, wearing futuristic street fashion, surrounded by neon lights.",
+          "gender": "other",
+          "gender_label": "Other",
+          "art_style": "cyberpunk",
+          "art_style_label": "Cyberpunk",
+          "species": "human",
+          "species_label": "Human",
+          "tags": [
+            "cyberpunk",
+            "tech"
+          ]
+        },
+        {
+          "id": "elf-archer",
+          "title": "Forest Elf Archer",
+          "description": "A graceful elf protecting the ancient forest.",
+          "prompt": "An elegant elf archer with pointed ears, wearing nature-inspired armor, drawing a bow in a mystical forest.",
+          "gender": "female",
+          "gender_label": "Female",
+          "art_style": "fantasy",
+          "art_style_label": "Fantasy",
+          "species": "elf",
+          "species_label": "Elf",
+          "tags": [
+            "elf",
+            "nature"
+          ]
+        }
+      ]
+    }
+  },
+  "quick_gen": {
+    "title": "Quick Character Generator",
+    "subtitle": "Describe your character and let AI bring them to life.",
+    "placeholder": "Describe your anime character in one sentence...",
+    "button": {
+      "generate": "Generate",
+      "generating": "Creating...",
+      "reset": "Reset"
+    },
+    "or": "OR",
+    "result": {
+      "title": "Generated Character",
+      "name_label": "Character Name",
+      "intro_label": "Brief Description"
+    },
+    "actions": {
+      "use": "Save Character",
+      "fine_tune": "Customize",
+      "regenerate": "Generate Again"
+    },
+    "toast": {
+      "generated": "Character generated successfully!",
+      "prefilled": "Description captured. Continue customizing below.",
+      "manual_mode": "Manual creator mode activated",
+      "auth_required": "Please log in to generate characters"
+    },
+    "errors": {
+      "failed": "Generation failed",
+      "insufficient_credits": "You need more credits to generate. Get more to continue.",
+      "generation_timeout": "Generation is taking longer than expected. Check your library soon.",
+      "generation_failed": "Character generation failed. You can retry in your character library.",
+      "avatar_failed": "Avatar generation failed. You can retry in the character detail page."
+    },
+    "progress": {
+      "title": "Creating Your Anime Character",
+      "subtitle": "AI is bringing your character to life...",
+      "parsing_description": "Analyzing description...",
+      "creating_character": "Creating character profile...",
+      "generating_portrait": "Generating character portrait...",
+      "setting_avatar": "Creating avatar..."
+    }
+  },
+  "Introduce": {
+    "title": "What is Anime Character Generator?",
+    "description": "An anime character generator is a specialized tool designed to help users create, design, and customize unique anime characters for use in storytelling, games, comics, animation, and digital art. On the AnividAI platform, our Anime Character Generator is the core feature that empowers users to build unique characters and unlock a wide range of AI-driven applications. With AnividAI's Anime Character Generator, you can not only generate and personalize your own anime characters, but also interact with them through chat, use them as the main character in anime image and video generation, and explore creative tools like Action Figure Generator and Sticker Generator. Experience a professional, flexible, and innovative character creator ecosystem centered around your original anime creations.",
+    "tagline": "Anime Character Generator on AnividAI – The Ultimate Tool for Character Creators",
+    "image": {
+      "src": "showcases/landingpage-features/feature-ocs-maker.webp",
+      "alt": "Character Card of an anime character created using Anime Character Generator on AnividAI"
+    }
+  },
+  "oc_gallery": {
+    "title": "Inspiring Character Gallery",
+    "subtitle": "",
+    "loading": "Loading characters...",
+    "empty": "No characters found",
+    "previous": "Previous",
+    "next": "Next",
+    "age": "Age {age}",
+    "species_label": "Species",
+    "style_label": "Art Style",
+    "traits_label": "Key Traits",
+    "traits_more": "+{count} more",
+    "use_template": "Use as Template",
+    "template_loaded": "Template loaded! Customize and generate your version.",
+    "use_template_tooltip": "Start with this character as a base"
+  },
+  "spotlight_gallery": {
+    "title": "Anime Character Showcase",
+    "subtitle": "Explore inspiring anime characters created by our community.",
+    "bio_fragment_title": "Character Story",
+    "skill_arsenal_title": "Character Traits",
+    "skill_arsenal_subtitle": "Skills & Abilities",
+    "soul_frequency_title": "Character Stats",
+    "aura_fragments_title": "Visual Features",
+    "access_archives": "View All Characters"
+  },
+  "character_creation": {
+    "title": "Anime Character Creator",
+    "theme_title": "{theme} Character Creator",
+    "basic_info": "Basic Information",
+    "name": "Character Name",
+    "name_placeholder": "Enter character name",
+    "name_required": "Name is required",
+    "gender": "Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_other": "Other",
+    "gender_required": "Gender is required",
+    "age": "Age",
+    "age_placeholder": "",
+    "species": "Race/Species",
+    "species_placeholder": "Select race",
+    "role_label": "Role",
+    "role": "Role",
+    "personality_traits": "Personality Traits",
+    "brief_introduction": "Brief Introduction",
+    "brief_introduction_placeholder": "Enter a brief introduction for your character...",
+    "brief_introduction_generate": "AI Generate",
+    "brief_introduction_generating": "Generating...",
+    "brief_introduction_hint": "A one-sentence summary of your character",
+    "background_story": "Background Story",
+    "background_placeholder": "Describe character's background story...",
+    "outfit_style": "Outfit Style",
+    "outfit_placeholder": "Describe character's outfit style...",
+    "color_scheme": "Color Scheme",
+    "color_placeholder": "Select color scheme",
+    "visibility": "Visibility",
+    "visibility_private": "Private only",
+    "visibility_friends": "Friends visible",
+    "visibility_public": "Public",
+    "allow_fork": "Allow Remix",
+    "creating": "Creating...",
+    "create_character": "Create Character",
+    "preview": "Preview",
+    "edit": "Edit"
+  },
+  "character_card": {
+    "view_details": "View Details",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share",
+    "like": "Like",
+    "unlike": "Unlike",
+    "views": "Views",
+    "likes": "Likes",
+    "generations": "Generations",
+    "forks": "Forks",
+    "public": "Public",
+    "private": "Private",
+    "theme": "Theme",
+    "unnamed_character": "Unnamed Character",
+    "visual_features": "Visual Features",
+    "no_visual_features": "No visual features set",
+    "attributes": "Attributes",
+    "no_introduction": "No introduction written yet",
+    "character_artwork": "Character Artwork",
+    "no_style": "No Style",
+    "background_story": "Background Story",
+    "no_background": "No background story written yet"
+  },
+  "call_to_action": {
+    "title": "Ready to Design Your Own Anime Character with AnividAI?",
+    "description": "Join creators worldwide and bring your character ideas to life. Start your journey with our Anime Character Generator and explore a wide range of character-based applications.",
+    "start_creating": "Try now with our free trial"
+  },
+  "stats": {
+    "active_users": "Active Users",
+    "characters_created": "Characters Created",
+    "theme_templates": "Theme Templates",
+    "online_service": "Online Service"
+  },
+  "tabs": {
+    "save": "Save Character",
+    "gallery": "Character Gallery",
+    "info": "Theme Information"
+  },
+  "errors": {
+    "load_themes_failed": "Failed to load themes",
+    "load_characters_failed": "Failed to load characters",
+    "create_character_failed": "Failed to create character",
+    "delete_character_failed": "Failed to delete character",
+    "like_failed": "Failed to like character",
+    "unlike_failed": "Failed to unlike character",
+    "name_and_gender_required": "Please fill in character name and gender",
+    "character_not_found": "Character not found",
+    "access_denied": "Access denied",
+    "delete_confirm": "Are you sure you want to delete character \"{name}\"",
+    "delete_failed_retry": "Delete failed, please try again",
+    "link_copied": "Link copied to clipboard",
+    "check_url_message": "Please check the URL and try again."
+  },
+  "loading_states": {
+    "loading_themes": "Loading themes...",
+    "loading_theme_data": "Loading theme data...",
+    "no_themes": "No available themes"
+  },
+  "backgrounds": {
+    "freedom_fighter": "Freedom Fighter",
+    "speed_racer": "Speed Racer",
+    "tech_inventor": "Tech Inventor",
+    "guardian_protector": "Guardian Protector",
+    "student_scholar": "Student/Scholar",
+    "artist_creator": "Artist/Creator",
+    "wandering_explorer": "Wandering Explorer",
+    "community_helper": "Community Helper"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers about features and usage of our Anime Character Generator",
+    "items": [
+      {
+        "question": "What is an Anime Character Generator and how does it work?",
+        "answer": "An anime character generator is a specialized tool for creating, designing, and customizing original characters. Our tool uses advanced AI to help you generate character information, portraits, and backstories based on your input, making anime character creation fast and professional."
+      },
+      {
+        "question": "Can I use the Anime Character Generator for free?",
+        "answer": "AnividAI offers a trial version of our character creator free features. You can try core functions at no cost, while advanced features and extended usage may require credits or a subscription."
+      },
+      {
+        "question": "What styles are available for character creation?",
+        "answer": "Our generator supports a wide range of styles, including realism, Ghibli-inspired, gourmet anime, classic anime, and chibi. You can customize your character's appearance to match your creative vision."
+      },
+      {
+        "question": "What creative applications can I explore with my character on AnividAI?",
+        "answer": "AnividAI's Anime Character Generator supports a rich character ecosystem. You can use your character to generate anime images and videos, engage in character chat, create action figures, and generate stickers. The platform enables you to expand your creation into multiple art forms and interactive experiences."
+      },
+      {
+        "question": "How do I generate a character card and portrait using the generator?",
+        "answer": "Simply enter your character's basic information and appearance details, then click to generate. The Anime Character Generator will create a professional character card and detailed portrait instantly."
+      },
+      {
+        "question": "Can I add a backstory or biography to my character?",
+        "answer": "Yes. Our character creator allows you to add a biography and multi-part backstory, including major events and milestones. This feature helps you build a rich narrative for your creation."
+      },
+      {
+        "question": "Is it possible to download or share my character?",
+        "answer": "Absolutely. You can download your character's card and portrait, or share them directly with friends, communities, or on creative platforms."
+      },
+      {
+        "question": "Can I use my created characters for commercial projects?",
+        "answer": "Yes. Characters created with AnividAI's Anime Character Generator can be used for personal and commercial purposes. Please review theme-specific licensing if you use copyrighted universes."
+      },
+      {
+        "question": "How does the generator ensure character consistency?",
+        "answer": "The tool uses AI to maintain consistent appearance, personality traits, and details across all your character generations, ensuring your character remains true to your original design."
+      },
+      {
+        "question": "Are there limits to how many characters I can create?",
+        "answer": "There is no strict limit on the number of characters you can create. However, usage may be subject to credit balance or account storage limits. You can manage your characters and delete old ones as needed."
+      },
+      {
+        "question": "How do I get started with the Anime Character Generator?",
+        "answer": "Sign up for AnividAI, access the Anime Character Generator, and follow the step-by-step process to create, customize, and share your character. The platform is designed to make character creation easy for everyone."
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "How to Use Anime Character Generator",
+    "subtitle": "Choose the creation path that suits your needs and bring your anime characters to life",
+    "path_a": {
+      "title": "Quick Create",
+      "description": "Generate a complete anime character with AI in seconds. Perfect for rapid prototyping and getting inspired.",
+      "steps": [
+        "Describe your character with a simple prompt or select from preset ideas",
+        "Choose basic options like gender, art style, and species",
+        "Click Generate and watch AI create your character instantly",
+        "Review and save your character to your collection"
+      ]
+    },
+    "path_b": {
+      "title": "Manual Create",
+      "description": "Craft every detail of your character manually. Full control for artists who want complete customization.",
+      "steps": [
+        "Fill in detailed character information including name, age, and personality",
+        "Design appearance with hair color, eye color, accessories, and outfit style",
+        "Write a compelling backstory and add character traits",
+        "Generate character art and avatar with your custom specifications"
+      ]
+    }
+  },
+  "benefits": {
+    "section_title": "Discover the Power of Anime Character Generator on AnividAI",
+    "section_subtitle": "Unlock advanced character creation with professional AI-driven tools and a rich ecosystem",
+    "professional_quality": {
+      "title": "Professional Quality Results",
+      "description": "Experience industry-leading character generation. AnividAI delivers high-quality, detailed characters suitable for games, comics, animation, and digital art. The advanced creator ensures your character meets professional standards."
+    },
+    "diverse_styles": {
+      "title": "Diverse Artistic Styles",
+      "description": "Create characters in a wide range of styles, including realism, Ghibli-inspired, gourmet anime, classic anime, and chibi. Our generator allows you to explore and customize your character's appearance."
+    },
+    "fine_details": {
+      "title": "Exceptional Detail and Accuracy",
+      "description": "Our powerful AI models guarantee that every character generated features precise details, from accessories and core appearance to unique character traits. The generator ensures your character's features are faithfully represented."
+    },
+    "character_ecosystem": {
+      "title": "Character-Centered Creative Ecosystem",
+      "description": "Build a personal character universe by generating images, videos, and multiple art forms based on your creation. AnividAI enables you to explore innovative applications like Action Figure Generator and Sticker Generator."
+    },
+    "efficiency": {
+      "title": "Efficient and User-Friendly Creation",
+      "description": "Save time and effort with our intuitive generator. Simply provide a brief description, and our AI character creator will generate stunning, high-quality characters in minutes."
+    },
+    "rich_character_info": {
+      "title": "Comprehensive Character Information",
+      "description": "Showcase your character with detailed cards, avatars, full-body illustrations, and in-depth backstories. Our tools empower you to fully express your creativity."
+    }
+  },
+  "character_success_dialog": {
+    "title": "Character Created Successfully! 🎉",
+    "share": "Share",
+    "create_new": "Create New",
+    "view_character": "Click to view details",
+    "quick_actions": "Quick Actions",
+    "generate_image": "Generate Image",
+    "generate_video": "Generate Video",
+    "oc_apps": "Character Apps"
+  },
+  "creation_tool": {
+    "title": "AI Anime Character Generator & Creator",
+    "loading_configurations": "Loading configurations...",
+    "steps": {
+      "basic_info": "Basic Info",
+      "visual_design": "Visual Design",
+      "background_story": "Background Story"
+    },
+    "buttons": {
+      "next_visual_design": "Next: Visual Design",
+      "generate_character_art": "Generate Character Art",
+      "generating": "Generating...",
+      "generating_character": "Generating Character...",
+      "generating_avatar": "Generating Avatar...",
+      "save_character": "Save Character",
+      "saving": "Saving...",
+      "creating": "Creating...",
+      "add_section": "Add Section",
+      "add_custom_attribute": "Add Custom Attribute",
+      "try_again": "Try Again"
+    },
+    "status": {
+      "generating_character": "Generating character artwork...",
+      "generating_avatar": "Generating character avatar...",
+      "ready_to_generate": "Ready to generate images",
+      "artwork_placeholder": "Character artwork will appear here"
+    },
+    "errors": {
+      "auto_save_failed": "Failed to save character. Please try again.",
+      "must_save_first": "Character must be saved before generating images",
+      "generation_failed": "Generation failed",
+      "no_character_art": "Please generate character artwork first",
+      "missing_species": "Please select a species for this character",
+      "missing_profile_image": "Please generate and select a profile image before saving",
+      "missing_avatar_image": "Please generate an avatar image before saving"
+    },
+    "basic_info": {
+      "title": "Basic Information",
+      "name_label": "Name *",
+      "name_placeholder": "Enter character name",
+      "gender_label": "Gender *",
+      "gender_placeholder": "Select",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "gender_other": "Other",
+      "species_label": "Species",
+      "species_placeholder": "Select",
+      "species_custom": "Custom",
+      "species_custom_placeholder": "Type custom species",
+      "role_label": "Role",
+      "role_student": "Student",
+      "role_teacher": "Teacher",
+      "role_warrior": "Warrior",
+      "role_mage": "Mage",
+      "role_artist": "Artist",
+      "role_scientist": "Scientist",
+      "role_explorer": "Explorer",
+      "role_guardian": "Guardian",
+      "role_mystic": "Mystic",
+      "role_noble": "Noble",
+      "role_merchant": "Merchant",
+      "role_healer": "Healer",
+      "role_craftsman": "Craftsman",
+      "role_scholar": "Scholar",
+      "role_general": "General",
+      "age_label": "Age *",
+      "age_placeholder": "",
+      "body_type_label": "Body Type",
+      "body_type_placeholder": "Select body type",
+      "personality_traits_title": "Personality Traits",
+      "personality_traits_subtitle": "Select tags that describe your character",
+      "custom_personality_tag_placeholder": "Enter trait name",
+      "visibility_title": "Visibility & Permissions",
+      "visibility_label": "Visibility",
+      "visibility_private": "Private",
+      "visibility_public": "Public",
+      "visibility_hint": "Set character visibility level",
+      "allow_remix_label": "Allow others to remix",
+      "allow_remix_hint": "Allow others to fork this character",
+      "extended_attributes_title": "Extended Attributes",
+      "extended_attributes_subtitle": "Add custom attributes to your character",
+      "attribute_key_placeholder": "Attribute name",
+      "attribute_value_placeholder": "Attribute value",
+      "personality_tag_hint": "Select key qualities that define your character's behavior and attitude.",
+      "extend_attr_hint": "Add extra details to enrich your character's background and abilities."
+    },
+    "appearance": {
+      "title": "Appearance Design",
+      "art_style_label": "Art Style",
+      "body_type_label": "Body Type",
+      "body_type_placeholder": "Select body type",
+      "hair_style_label": "Hair Style",
+      "hair_style_placeholder": "Select hair style",
+      "hair_color_label": "Hair Color",
+      "hair_color_placeholder": "e.g., Black, Brown, Blonde",
+      "eye_color_label": "Eye Color",
+      "eye_color_placeholder": "Select eye color",
+      "accessories_label": "Accessories",
+      "accessories_subtitle": "Select accessories for your character",
+      "custom_accessory_placeholder": "Enter accessory name",
+      "outfit_style_label": "Outfit Style",
+      "outfit_style_placeholder": "Describe character's outfit...",
+      "appearance_features_label": "Appearance Features",
+      "appearance_features_placeholder": "e.g., Red scarf, Golden ring"
+    },
+    "personality": {
+      "brief_introduction_title": "Brief Introduction *",
+      "brief_introduction_label": "Summary",
+      "brief_introduction_placeholder": "Enter a brief introduction for your character...",
+      "brief_introduction_hint": "A one-sentence summary of your character",
+      "ai_generate_tooltip": "Generate with AI (Coming soon)",
+      "main_background_title": "Main Background Story",
+      "background_label": "Character Background",
+      "background_placeholder": "Tell your character's story...",
+      "story_sections_title": "Story Sections",
+      "section_title_placeholder": "Section title",
+      "section_content_placeholder": "Section content..."
+    }
+  },
+  "oc_limit": {
+    "title": "Character Limit",
+    "current": "Your Characters: {count}/{limit}",
+    "reached": "Limit Reached",
+    "warning": "You cannot create more characters until you upgrade your plan or delete existing ones.",
+    "upgrade_prompt": "Upgrade to create more Anime Characters",
+    "limits_by_plan": {
+      "free": "3 Characters",
+      "basic": "10 Characters",
+      "plus": "30 Characters",
+      "pro": "50 Characters"
+    }
+  },
+  "upgrade_prompts": {
+    "oc_limit_reached": "You've reached your character limit. Upgrade to create more!",
+    "oc_limit_warning": "You've created {count} out of {limit} characters. Upgrade to increase your limit.",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "Animate It",
+        "href": "/ai-video-generation?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "Character Apps",
+        "listItems": [
+          {
+            "label": "ai action figure generator",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          },
+          {
+            "label": "ai sticker generator",
+            "href": "/ai-sticker-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  }
+}

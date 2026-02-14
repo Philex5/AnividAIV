@@ -1,0 +1,68 @@
+{
+  "title": "Subscription Management",
+  "subtitle": "Manage user subscriptions and view statistics",
+  "stats": {
+    "total": "Total",
+    "active": "Active",
+    "canceledThisMonth": "Canceled (This Month)",
+    "thisMonth": "This Month",
+    "newSubscriptions": "new subscriptions"
+  },
+  "chart": {
+    "title": "Subscription Trend",
+    "description": "Monthly subscription growth",
+    "series": {
+      "subscriptions": "New Subscriptions"
+    }
+  },
+  "filters": {
+    "searchPlaceholder": "Email or UUID...",
+    "status": "Status",
+    "planType": "Plan Type",
+    "interval": "Interval",
+    "apply": "Apply Filters",
+    "allStatus": "All Status",
+    "active": "Active",
+    "paidLegacy": "Paid (Legacy)",
+    "stopping": "Stopping",
+    "canceled": "Canceled",
+    "expired": "Expired",
+    "allPlans": "All Plans",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "allIntervals": "All Intervals",
+    "monthly": "Monthly",
+    "yearly": "Yearly"
+  },
+  "table": {
+    "user": "User",
+    "plan": "Plan",
+    "interval": "Interval",
+    "status": "Status",
+    "price": "Price",
+    "subTimes": "Sub Times",
+    "credits": "Credits",
+    "created": "Created",
+    "updated": "Updated",
+    "actions": "Actions"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "logs": "Logs"
+  },
+  "pagination": {
+    "pageInfo": "Showing page {page} of {totalPages} ({total} total)",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "loading": "Loading...",
+  "errors": {
+    "loadFailed": "Failed to load subscriptions"
+  },
+  "labels": {
+    "unknown": "Unknown",
+    "yearly": "Yearly",
+    "monthly": "Monthly"
+  }
+}

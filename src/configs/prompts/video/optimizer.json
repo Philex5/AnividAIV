@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "description": "Template for optimizing user prompt into a concise English camera script",
+  "language": "en",
+  "template": "if the description contains only a single scene or action, expand it by adding relevant background details, character expressions, secondary actions, or environmental elements to make the anime video content richer and more vivid. Summarize the following description into a clear, concise anime video prompt in English, specifying scene and mood. Avoid ambiguous terms. Description: ${user_input}.Print prompt only.",
+  "variables": [
+    "user_input"
+  ],
+  "defaults": {}
+}

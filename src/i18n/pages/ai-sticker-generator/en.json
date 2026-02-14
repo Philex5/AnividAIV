@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "AI Sticker Generator | Custom Anime Sticker Maker | AnividAI",
+    "description": "Create adorable anime stickers instantly with our professional AI sticker generator. Transform OCs and photos into custom stickers for Discord and WhatsApp.",
+    "keywords": ""
+  },
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "ratio": "Ratio",
+    "count": "Count",
+    "piece": " sticker"
+  },
+  "sticker_templates": {
+    "pixar_style": {
+      "name": "Pixar Style",
+      "description": "Pixar-inspired sticker with 3D cartoon rendering, expressive faces, and a polished, cinematic look."
+    },
+    "pixel_art": {
+      "name": "Pixel Art",
+      "description": "Retro pixel art sticker in 8-bit or 16-bit style, with a transparent background and a limited color palette."
+    },
+    "watercolor_soft": {
+      "name": "Watercolor Soft",
+      "description": "Soft watercolor sticker with gentle color transitions, pastel palette, and artistic hand-painted texture."
+    },
+    "pop_art": {
+      "name": "Pop Art",
+      "description": "Bold pop art sticker inspired by comic books, featuring vibrant colors, halftone patterns, and strong outlines."
+    },
+    "graffiti": {
+      "name": "Graffiti",
+      "description": "Urban graffiti sticker with bold spray paint effects, dynamic lines, and street art style."
+    },
+    "chibi": {
+      "name": "Chibi",
+      "description": "Cute chibi-style sticker featuring exaggerated, adorable characters and playful, rounded text."
+    },
+    "minimal_line": {
+      "name": "Minimal Line Art",
+      "description": "Minimalist line art sticker with clean, simple lines and a flat 2D design. Transparent background, perfect for digital messaging."
+    },
+    "no_preset": {
+      "name": "No Preset",
+      "description": "Generate stickers without preset style. The AI will determine the best style based on your input and reference image."
+    },
+    "oc_nine_grid": {
+      "name": "OC Nine Grid",
+      "description": "Generate a single image with 9 sticker expressions arranged in a 3x3 grid layout. Each cell shows the OC with a different emotion."
+    }
+  },
+  "tool": {
+    "title": "Professional AI Sticker Generator",
+    "selectTemplate": "Select Template",
+    "templateDescription": "Choose a unique style for your creation",
+    "provideReference": "Provide Reference",
+    "referenceDescription": "Upload an image or select your OC to guide the generation",
+    "uploadImage": "Upload Image",
+    "selectOC": "Select OC",
+    "additionalPrompt": "Additional Details (Optional)",
+    "additionalPromptDescription": "Add custom details to enhance your results",
+    "additionalPromptPlaceholder": "e.g., rainbow background, wearing a hat, sparkles...",
+    "model": "Model",
+    "batchSize": "Batch Size",
+    "visibility": "Visibility Level",
+    "publicVisibility": "Public Visibility",
+    "subscriptionTooltip": "Private visibility is available for subscribers. Upgrade to unlock.",
+    "generate": "Generate",
+    "generating": "Generating...",
+    "creditsCost": "({cost} MC)",
+    "readyTitle": "Ready to Use the AI Sticker Generator?",
+    "readyDescription": "Select a template and provide a reference to get started",
+    "generationFailed": "Generation Failed",
+    "errorSignIn": "Please sign in to continue",
+    "errorSelectTemplate": "Please select a sticker template",
+    "errorProvideReference": "Please provide a reference image or select a character",
+    "errorUploadImage": "Please upload a reference image",
+    "errorSelectOC": "Please select an OC character",
+    "errorSelectModel": "Please select a model",
+    "loginRequiredForUpload": "Please sign in to upload images",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "generationStarted": "Generation started!",
+    "generationCompleted": "Stickers ready!",
+    "loadingReuse": "Loading parameters...",
+    "loginToReuse": "Please log in to reuse parameters",
+    "noPermission": "You don't have permission to access this image",
+    "imageNotFound": "Sticker not found",
+    "reuseSuccess": "Parameters loaded. Ready to generate!",
+    "loadFailed": "Failed to load parameters",
+    "character-not-found": "Character not found. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again.",
+    "inputMode": {
+      "title": "Generation Mode",
+      "textOnly": "Text to Sticker",
+      "textWithReference": "Image to Sticker",
+      "ocCharacter": "OC to Sticker",
+      "nineGrid": "Nine Grid (OC Only)",
+      "nineGridDesc": "Generate 9 stickers with different expressions from your OC character in one click.",
+      "textOnlyDesc": "Create simple text-based stickers like \"boom\" or \"lol\".",
+      "textWithReferenceDesc": "Combine text with an image for detailed anime stickers.",
+      "ocCharacterDesc": "Turn your OC into personalized stickers for Discord and social media.",
+      "textOnlyPlaceholder": "Enter text (e.g., 'boom', 'lol', 'wow')...",
+      "textWithReferencePlaceholder": "Describe your sticker (action, color, emotion)..."
+    },
+    "expression": {
+      "label": "Expression",
+      "placeholder": "Select expression",
+      "customPlaceholder": "Describe the expression or action...",
+      "options": {
+        "happy_waving": "Happy Waving",
+        "angry_stomping": "Angry Stomping",
+        "sad_crying": "Sad Crying",
+        "proud_victory": "Proud Victory",
+        "shy_covering_face": "Shy Covering Face",
+        "tired_lying_down": "Tired Lying Down",
+        "custom": "Custom Expression..."
+      }
+    }
+  },
+  "Introduce": {
+    "title": "The Best AI Sticker Generator for Custom Anime Stickers",
+    "description": "AnividAI's AI sticker generator helps you transform original characters and photos into high-quality anime stickers instantly. Using our advanced AI sticker generator, you can create character-consistent Discord and WhatsApp stickers in seconds. Whether you're a creator looking to expand your digital collection or just want personalized emojis for your community, this professional tool offers 9 unique styles to match your vision.",
+    "tagline": "The Ultimate Custom Anime AI Sticker Generator"
+  },
+  "benefits": {
+    "title": "Why Choose Our AI Sticker Generator?",
+    "subtitle": "Experience the most advanced anime sticker generation online",
+    "items": [
+      {
+        "title": "Character Consistency",
+        "description": "Our AI sticker generator ensures every sticker maintains your character's unique traits, from color accuracy to signature features.",
+        "icon": "heart"
+      },
+      {
+        "title": "Professional Quality",
+        "description": "Get crisp lines and vibrant colors from our AI sticker generator—perfect for Discord or high-quality printing.",
+        "icon": "star"
+      },
+      {
+        "title": "9 Versatile Styles",
+        "description": "As a versatile AI sticker generator, we offer Pixar Style, Chibi, Line Art, Pop Art, Pixel Art, Watercolor, Nine Grid Collection, and more.",
+        "icon": "palette"
+      },
+      {
+        "title": "Effortless Transformation",
+        "description": "Import your character library and let the AI sticker generator transform photos into beautiful custom stickers with one click.",
+        "icon": "upload"
+      },
+      {
+        "title": "Granular Control",
+        "description": "Personalize every detail. Adjust backgrounds and expressions to create unique results with our AI sticker generator.",
+        "icon": "settings"
+      },
+      {
+        "title": "Instant Results",
+        "description": "Our AI sticker generator creates stunning variations in under 60 seconds. Perfect for building a complete sticker pack quickly.",
+        "icon": "zap"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Create Stickers with the AI Sticker Generator in 4 Steps",
+    "subtitle": "Transform your imagination into adorable stickers effortlessly",
+    "steps": [
+      {
+        "title": "Select a Style",
+        "description": "Choose from 9 unique templates in the AI sticker generator like Chibi Cute, Pixel Art, or Nine Grid.",
+        "image": "/imgs/guide/sticker-step1.webp"
+      },
+      {
+        "title": "Upload Reference",
+        "description": "Upload a photo to the AI sticker generator. Our AI analyzes the design to ensure a consistent result.",
+        "image": "/imgs/guide/sticker-step2.webp"
+      },
+      {
+        "title": "Customize Details",
+        "description": "Add custom expressions in the AI sticker generator to get the perfect look for your community.",
+        "image": "/imgs/guide/sticker-step3.webp"
+      },
+      {
+        "title": "Generate & Download",
+        "description": "Watch your creation come to life! Our AI sticker generator exports high-resolution PNGs with transparent backgrounds.",
+        "image": "/imgs/guide/sticker-step4.webp"
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "AI Sticker Generator FAQ",
+    "items": [
+      {
+        "question": "What makes this AI sticker generator unique?",
+        "answer": "Our AI sticker generator focuses on professional quality and character consistency, staying true to your original design."
+      },
+      {
+        "question": "Is there a free AI sticker generator version?",
+        "answer": "Yes! You can start using our AI sticker generator for free using our credit system to test our different styles."
+      },
+      {
+        "question": "Can I use the AI sticker generator for Discord?",
+        "answer": "Absolutely. The AI sticker generator exports high-resolution PNG files specifically optimized for Discord stickers."
+      },
+      {
+        "question": "Does the AI sticker generator maintain my character's look?",
+        "answer": "Yes, our AI sticker generator is optimized for character consistency across different expressions and styles."
+      },
+      {
+        "question": "What styles does the AI sticker generator support?",
+        "answer": "The AI sticker generator currently offers 9 styles: Pixar Style, Chibi, Line Art, Pop Art, Pixel Art, Watercolor, Graffiti, and the exclusive OC Nine Grid collection."
+      },
+      {
+        "question": "Do I need artistic skills for the AI sticker generator?",
+        "answer": "No design skills are needed. Simply provide a reference, and our AI sticker generator handles the entire creative process."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Ready to Try the Best AI Sticker Generator?",
+    "subtitle": "Join thousands of creators using our AI sticker generator to make custom anime stickers today.",
+    "button_primary": "Start Generating Now",
+    "button_secondary": "View Examples"
+  },
+  "image_detail": {
+    "download": "Download",
+    "favorite": "Add to Favorites",
+    "share": "Share",
+    "like": "Like",
+    "view_full": "View Full Size"
+  }
+}

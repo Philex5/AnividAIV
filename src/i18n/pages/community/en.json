@@ -1,0 +1,182 @@
+{
+  "title": "Community",
+  "subtitle": "Discover original characters and AI artworks from the community.",
+  "seo": {
+    "metaTitle": "Anime AI Community Gallery | AnividAI",
+    "metaDescription": "Explore original characters, AI anime images, and short videos shared by creators in the AnividAI community gallery. Discover trending works, save favorites, and get inspiration for your next creation."
+  },
+  "intro": {
+    "heading": "Discover Anime AI Creations from the Community",
+    "paragraph": "The AnividAI community gallery brings together original characters, AI anime illustrations, and short video experiments from creators worldwide. Browse by content type, find trending styles, and collect inspiration before starting your next project."
+  },
+  "contentGuide": {
+    "heading": "How to use the community gallery",
+    "items": [
+      "Filter by OC, image, or video to quickly find the format you need.",
+      "Sort by trending, newest, or top to match your discovery goal.",
+      "Open any artwork detail to review model style, tags, and creator context.",
+      "Like and favorite works to build a personal inspiration collection."
+    ]
+  },
+  "faq": {
+    "heading": "Community FAQ",
+    "items": [
+      {
+        "question": "What content can I find in the community gallery?",
+        "answer": "You can discover public original characters, AI anime images, and AI-generated videos published by AnividAI users."
+      },
+      {
+        "question": "Can I use community works as creation references?",
+        "answer": "Yes. Community content is designed to inspire your own workflow. You can review styles, prompts, and composition ideas before generating new work."
+      },
+      {
+        "question": "How do I discover high-quality creations faster?",
+        "answer": "Use the filters and sorting controls together. Start from trending for popular content, then refine by type or generation subtype."
+      }
+    ]
+  },
+  "search": {
+    "placeholder": "Search artworks or creators",
+    "button": "Search",
+    "clear": "Clear search"
+  },
+  "tabs": {
+    "all": "All",
+    "oc": "OC",
+    "image": "Image",
+    "video": "Video"
+  },
+  "sort": {
+    "trending": "Trending",
+    "newest": "Newest",
+    "top": "Top"
+  },
+  "filters": {
+    "filterButton": "Filters",
+    "drawerTitle": "Refine artworks",
+    "drawerDescription": "Adjust sorting to discover the artworks you like.",
+    "apply": "Apply",
+    "clear": "Clear"
+  },
+  "genTypes": {
+    "title": "Subtype",
+    "options": {
+      "anime": "Anime",
+      "action_figure": "Action Figure",
+      "sticker": "Sticker",
+      "avatar": "Avatar",
+      "character": "Character",
+      "video": "Video",
+      "anime_video": "Anime Video"
+    }
+  },
+  "states": {
+    "comingSoon": "Content is coming soon",
+    "loading": "Loading...",
+    "loadingMore": "Loading more artworks...",
+    "noResults": "No results found",
+    "loadFailed": "Failed to load artworks",
+    "retry": "Retry"
+  },
+  "aria": {
+    "sort": "Sort",
+    "search": "Search community artworks",
+    "filters": "Open filters",
+    "closeDetail": "Close detail",
+    "like": "Toggle like",
+    "favorite": "Toggle favorite",
+    "share": "Share artwork",
+    "download": "Download artwork",
+    "more": "More actions",
+    "useOc": "Use this OC"
+  },
+  "actions": {
+    "like": "Like",
+    "fav": "Favorite",
+    "share": "Share",
+    "download": "Download",
+    "more": "More",
+    "copyLink": "Copy link",
+    "viewDetail": "View detail",
+    "viewMore": "View more",
+    "useOc": "Use this OC"
+  },
+  "detail": {
+    "loading": "Loading artwork...",
+    "error": "Failed to fetch artwork detail",
+    "prompt": "PROMPT",
+    "description": "Description",
+    "tags": "Tags",
+    "ocTraits": "Traits",
+    "stats": {
+      "likes": "Likes",
+      "views": "Views",
+      "comments": "Comments"
+    },
+    "meta": {
+      "duration": "Duration",
+      "resolution": "Resolution",
+      "model": "MODEL",
+      "characters": "OC",
+      "noCharacters": "None",
+      "created_at": "CREATED AT"
+    },
+    "oc": {
+      "gender": "Gender",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "gender_other": "Other",
+      "age": "Age",
+      "species": "Species",
+      "personality": "Personality",
+      "introduction": "Introduction",
+      "remixButton": "Remix It",
+      "chatButton": "Chat",
+      "detailButton": "Detail",
+      "noIntroduction": "No introduction available"
+    },
+    "empty": {
+      "description": ""
+    }
+  },
+  "labels": {
+    "duration": "{count} sec",
+    "resolution": "{value} resolution"
+  },
+  "toasts": {
+    "loadFailed": "Failed to load artworks",
+    "loadMoreFailed": "Failed to load more artworks",
+    "detailFailed": "Failed to fetch artwork detail",
+    "copySuccess": "Artwork link copied",
+    "copyFailed": "Failed to copy link",
+    "likeFailed": "Failed to update like",
+    "favoriteFailed": "Failed to update favorite",
+    "shareMoreComingSoon": "More sharing options are coming soon",
+    "useOcComingSoon": "OC reuse workflow is coming soon",
+    "downloadSuccess": "Download started",
+    "downloadFailed": "Failed to download artwork"
+  },
+  "comments": {
+    "title": "{count} Comments",
+    "placeholder": "Add a comment...",
+    "replyPlaceholder": "Reply to {name}...",
+    "submit": "Comment",
+    "reply": "Reply",
+    "cancel": "Cancel",
+    "loadMore": "Load more comments",
+    "viewReplies": "View replies",
+    "hideReplies": "Hide replies",
+    "deleted": "This comment has been deleted.",
+    "noComments": "No comments yet. Be the first to comment!",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "toasts": {
+      "posted": "Comment posted",
+      "postFailed": "Failed to post comment",
+      "replied": "Reply posted",
+      "replyFailed": "Failed to post reply",
+      "deleted": "Comment deleted",
+      "deleteFailed": "Failed to delete comment",
+      "actionFailed": "Action failed"
+    }
+  }
+}

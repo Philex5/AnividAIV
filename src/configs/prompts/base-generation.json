@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-29",
+  "config_type": "anime_generation",
+  "templates": {
+    "base_template": "{user_prompt}",
+    "style_template": "{style_prompt}",
+    "character_prompt": "The characters image is in last {oc_count} image ,both character and background in the same style",
+    "quality_enhancement": "masterpiece, best quality, highres, detailed, anime style"
+  },
+  "prompt_structure": {
+    "integration_order": [
+      "user_prompt",
+      "character_prompt",
+      "style_prompt",
+      "quality_enhancement"
+    ],
+    "separator": ". ",
+    "add_quality_terms": true
+  },
+  "settings": {
+    "max_length": 2000,
+    "sanitize_prompt": true,
+    "remove_duplicate_commas": true,
+    "trim_trailing_comma": true
+  }
+}

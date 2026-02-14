@@ -1,0 +1,47 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-09",
+  "config_type": "character_generation",
+  "templates": {
+    "character_data_template": "{character_data}",
+    "theme_specifics_template": "{theme_specifics}",
+    "quality_enhancement": "No text, no captions, no logos, no watermarks. masterpiece, best quality, highres, detailed character design"
+  },
+  "prompt_structure": {
+    "integration_order": [
+      "character_data",
+      "style_prompt",
+      "quality_enhancement"
+    ],
+    "separator": ". ",
+    "add_quality_terms": true
+  },
+  "field_naming_rules": {
+    "no_label_fields": [
+      "name",
+      "gender",
+      "species"
+    ],
+    "labeled_fields": {
+      "hair_color": "hair color",
+      "hair_style": "hair style",
+      "eye_color": "eye color",
+      "body_type": "body type",
+      "outfit_style": "outfit style",
+      "appearance_features": "Appearance Features"
+    },
+    "list_fields": {
+      "accessories": "accessories",
+      "personality_tags": "personality tags"
+    },
+    "suffix_fields": {
+      "age": "years old"
+    }
+  },
+  "settings": {
+    "max_length": 2000,
+    "sanitize_prompt": true,
+    "remove_duplicate_commas": true,
+    "trim_trailing_comma": true
+  }
+}

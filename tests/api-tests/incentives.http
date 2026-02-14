@@ -1,0 +1,34 @@
+# 用户激励系统 API 测试
+# User Incentives APIs
+# 相关文档: docs/2-implementation/features/feature-user-incentives.md
+
+@import common.http
+
+###############################################################################
+# 签到 (Check-in)
+###############################################################################
+
+### 获取签到状态
+GET {{apiUrl}}/incentive/status
+
+### 每日签到
+POST {{apiUrl}}/incentive/check-in
+Content-Type: application/json
+
+{}
+
+###############################################################################
+# 分享奖励 (Share Reward)
+###############################################################################
+
+### 领取分享奖励
+POST {{apiUrl}}/incentive/claim-share
+Content-Type: application/json
+
+{
+  "metadata": {
+    "platform": "twitter",
+    "target_id": "{{artworkUuid}}",
+    "target_type": "artwork"
+  }
+}

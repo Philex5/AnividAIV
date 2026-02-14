@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-28",
+  "config_type": "prompt_optimization",
+  "template": {
+    "system_prompt": "",
+    "user_prompt_template": "Optimize this prompt for AI image generation: \"{original_prompt}\"\n\nMake it more descriptive and detailed. Return only the optimized prompt."
+  }
+}

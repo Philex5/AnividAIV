@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-13",
+  "config_type": "background_generation",
+  "templates": {
+    "base_template": "{scene_description}",
+    "quality_enhancement": "masterpiece, best quality, highres, extremely detailed background, 8k wallpaper, no character, scenery only",
+    "style_template": "{style}"
+  },
+  "prompt_structure": {
+    "integration_order": [
+      "base_template",
+      "style_template",
+      "quality_enhancement"
+    ],
+    "separator": ", ",
+    "add_quality_terms": true
+  },
+  "settings": {
+    "max_length": 1000,
+    "sanitize_prompt": true
+  }
+}

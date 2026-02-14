@@ -1,0 +1,230 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-02-06",
+  "description": "Example images for Z-Image model showcase",
+  "modelId": "z-image",
+  "modelName": "Z-Image",
+  "examples": [
+    {
+      "uuid": "zi-ex-010",
+      "r2_path": "gallery/anime/z-image/instagram_model.webp",
+      "alt": "z-image showcase - Instagram model",
+      "aspect_ratio": "1:1",
+      "title": "z-image showcase Instagram model",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "Hyperrealistic, top-down bird's-eye view shot, a beautiful Instagram model Anne Hathaway, with exquisite and beautiful makeup and fashionable styling, standing on the screen of a smartphone held up by someone. The image creates a strong perspective illusion. Emphasize the 3D effect of the girl standing out from the phone. She wears black-rimmed glasses, high-street fashion, and strikes a cute, playful pose. The phone screen is treated as a dark floor, like a small stage. The scene uses strong forced perspective to show the proportional difference between the hand, the phone, and the girl. The background is clean gray, using soft indoor light, shallow depth of field, and the overall style is surrealistic photorealistic compositing. Very strong perspective.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "zi-ex-010",
+      "r2_path": "gallery/anime/z-image/lego_city.webp",
+      "alt": "z-image showcase - lego city",
+      "aspect_ratio": "16:9",
+      "title": "LEGO Shanghai Bund",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "Create a highly detailed and vividly colored LEGO-style scene of the Shanghai Bund. The foreground features the iconic historical buildings of the Bund, meticulously recreated with LEGO bricks in Western and neoclassical architectural styles — including clock towers, domes, and colonnades. LEGO minifigures are seen strolling along the riverfront, taking photos, and sightseeing, with classic LEGO-style cars parked along the street.\nIn the background lies the spectacular Huangpu River, assembled with translucent blue LEGO bricks. On the water, LEGO ferries and tour boats sail along. Across the river stands the skyline of Lujiazui in Pudong, including the Oriental Pearl Tower, Shanghai Tower, Jin Mao Tower, and Shanghai World Financial Center — all rendered as vibrant, lifelike LEGO skyscrapers.\nThe sky is LEGO’s signature bright blue, adorned with a few white LEGO brick clouds, creating a visual full of energy and modernity.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "zi-ex-010",
+      "r2_path": "gallery/anime/z-image/cute_panda.webp",
+      "alt": " cute chibi-style silicone wrist rest based on the panda emoji",
+      "aspect_ratio": "1:1",
+      "title": "Cute Panda Wrist Rest",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "Create an image of a cute chibi-style silicone wrist rest based on the {🐼} emoji. The wrist rest is made of soft, food-grade silicone with a skin-friendly matte surface. The interior is filled with slow-rebound foam. Designed in a personified cartoon style, the expression is lively, with both arms stretched out as if hugging the user’s wrist while lying on a desk. The overall shape is round, soft, and adorable, featuring the classic {🐼} color scheme. The design is comforting and cute, suitable for office use. The background is a solid white color with soft lighting. Rendered in a product photography style, the angle is either front-facing or at a 45-degree top-down view, showcasing high-definition details and emphasizing the silicone texture and comfort functionality.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "zi-ex-009",
+      "r2_path": "gallery/anime/z-image/03-battle-action-01.webp",
+      "alt": "dynamic battle scene with sword fighting",
+      "aspect_ratio": "3:4",
+      "title": "Surreal Dreamscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "original heroine, silver hair, katana, dynamic action pose, dramatic perspective, motion energy and impact, high detail, clean lines, cohesive palette, polished anime illustration. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy.",
+        "style": "surreal",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "zi-ex-001",
+      "r2_path": "gallery/anime/z-image/01-ink-wash-character-01.webp",
+      "alt": "ink wash martial artist in misty mountains",
+      "aspect_ratio": "3:4",
+      "title": "Ink Wash Character",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a martial artist in traditional attire near misty mountains, Chinese ink-wash illustration, expressive brush strokes, controlled ink diffusion, character in foreground with blank-space balance, soft diffuse daylight through fog, monochrome ink with subtle muted accent, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "ink-wash",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "zi-ex-002",
+      "r2_path": "gallery/anime/z-image/02-cyberpunk-streetscape-01.webp",
+      "alt": "cyberpunk futuristic city street scene",
+      "aspect_ratio": "3:4",
+      "title": "Cyberpunk Streetscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "dense futuristic city street with layered signs, vehicles, and pedestrians, cyberpunk environment concept art, detailed urban storytelling, street-level one-point perspective with depth cues, rain-soaked neon reflections, teal, magenta, electric violet, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "cyberpunk",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 7
+    },
+    {
+      "uuid": "zi-ex-003",
+      "r2_path": "gallery/anime/z-image/03-anime-battle-clash-01.webp",
+      "alt": "anime battle clash with dynamic impact",
+      "aspect_ratio": "3:4",
+      "title": "Anime Battle Clash",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "two anime fighters colliding mid-air in a high-speed clash, high-intensity anime battle scene, impact frame dynamics, speed-line emphasis, diagonal action composition with cinematic depth, high-contrast key light with explosion glow, bold complementary colors with bright effects, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "anime-action",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "zi-ex-004",
+      "r2_path": "gallery/anime/z-image/04-watercolor-landscape-01.webp",
+      "alt": "watercolor natural landscape scene",
+      "aspect_ratio": "3:4",
+      "title": "Watercolor Landscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a serene natural landscape with distant mountains and a river, watercolor anime background painting, soft edge blending, paper texture, wide scenic composition with layered foreground-midground-background, gentle morning light, light pastel greens, blues, and warm neutrals, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "watercolor",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 7
+    },
+    {
+      "uuid": "zi-ex-006",
+      "r2_path": "gallery/anime/z-image/06-mecha-hangar-01.webp",
+      "alt": "giant mecha in industrial hangar",
+      "aspect_ratio": "3:4",
+      "title": "Mecha Hangar",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a giant mecha under maintenance in an industrial hangar, mecha industrial concept scene, engineering realism, wide-angle environment shot with scale references, overhead industrial lights with volumetric haze, steel gray, warning yellow, and cool blue accents, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "mecha",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 6
+    },
+    {
+      "uuid": "zi-ex-007",
+      "r2_path": "gallery/anime/z-image/07-ghibli-warm-story-01.webp",
+      "alt": "warm storybook countryside scene",
+      "aspect_ratio": "3:4",
+      "title": "Warm Story Scene",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a whimsical countryside storybook scene, hand-painted warm storytelling mood, organic brush textures, storybook wide frame with clear focal path, golden-hour sunlight, soft earthy tones, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "warm-story",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 7
+    },
+    {
+      "uuid": "zi-ex-008",
+      "r2_path": "gallery/anime/z-image/08-surreal-dreamscape-01.webp",
+      "alt": "surreal dream world with impossible architecture",
+      "aspect_ratio": "3:4",
+      "title": "Surreal Dreamscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a surreal dream world with impossible architecture, surreal symbolic composition, coherent impossible space, layered depth with floating focal elements, ethereal glow with mist, unexpected but harmonious color pairing, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "surreal",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "zi-ex-001",
+      "r2_path": "gallery/anime/z-image/07-mecha-design-01.webp",
+      "alt": " mecha-inspired mechanical design",
+      "aspect_ratio": "3:4",
+      "title": "Surreal Dreamscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "original heroine, silver hair, katana, mecha-inspired mechanical design, hard-surface forms, precise panel details, high detail, clean lines, cohesive palette, polished anime illustration. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy.",
+        "style": "surreal",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 9
+    },
+    {
+      "uuid": "zi-ex-005",
+      "r2_path": "gallery/anime/z-image/05-noir-cityscape-01.webp",
+      "alt": "neo-noir city alley atmosphere",
+      "aspect_ratio": "3:4",
+      "title": "Noir Cityscape",
+      "parameters": {
+        "model_id": "z-image",
+        "prompt": "a noir-inspired city alley with wet pavement and dramatic architecture, neo-noir cinematic illustration, moody atmosphere, strong silhouettes, deep perspective corridor with leading lines, single-source dramatic side light, desaturated tones with selective neon highlights, high detail, clean lines, coherent composition, clear focal point, polished anime illustration. Keep the image strongly aligned with this target style and avoid unrelated aesthetics. Make this sample visually distinct from other style types in the same batch. If lock_character is false, avoid reusing exactly the same character identity or outfit across style types. Negative prompt: blurry, low quality, watermark, text artifacts, distorted anatomy, incorrect proportions, noisy artifacts.",
+        "style": "noir",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 9
+    }
+  ]
+}

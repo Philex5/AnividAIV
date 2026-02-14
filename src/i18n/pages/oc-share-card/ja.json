@@ -1,0 +1,22 @@
+{
+  "labels": {
+    "world": "世界",
+    "gender": "性別",
+    "species": "種族",
+    "age": "年齢",
+    "role": "役割",
+    "skills": "スキル",
+    "personality": "性格",
+    "biography": "略歴",
+    "rarity": "レアリティ",
+    "world_empty": "未設定"
+  },
+  "stats": {
+    "strength": "力",
+    "intelligence": "知能",
+    "agility": "敏捷",
+    "stamina": "持久力",
+    "luck": "運",
+    "charm": "魅力"
+  }
+}

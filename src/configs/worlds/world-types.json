@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fantasy",
+    "name_key": "worlds.genres.fantasy.name",
+    "description_key": "worlds.genres.fantasy.description",
+    "suggested_tags": ["Magic", "Dragons", "Castles", "Elves", "Medieval", "Enchanted Forest", "Artifacts"]
+  },
+  {
+    "id": "western_fantasy",
+    "name_key": "worlds.genres.western_fantasy.name",
+    "description_key": "worlds.genres.western_fantasy.description",
+    "suggested_tags": ["Knights", "Castles", "Dragons", "High Magic", "Medieval Armor", "Gothic Architecture", "Epic Quest"]
+  },
+  {
+    "id": "japanese_fantasy",
+    "name_key": "worlds.genres.japanese_fantasy.name",
+    "description_key": "worlds.genres.japanese_fantasy.description",
+    "suggested_tags": ["Adventurer Guild", "Magic Circles", "Floating Islands", "Isekai Style", "JRPG Aesthetic", "Heroic Party", "Spirit Beasts"]
+  },
+  {
+    "id": "cyberpunk",
+    "name_key": "worlds.genres.cyberpunk.name",
+    "description_key": "worlds.genres.cyberpunk.description",
+    "suggested_tags": ["Neon Lights", "Holograms", "High-tech", "Dystopia", "Cyborgs", "Night City", "Rain"]
+  },
+  {
+    "id": "slice_of_life",
+    "name_key": "worlds.genres.slice_of_life.name",
+    "description_key": "worlds.genres.slice_of_life.description",
+    "suggested_tags": ["School", "Cafe", "Modern City", "Peaceful", "Summer", "Home", "Nostalgia"]
+  },
+  {
+    "id": "sci_fi",
+    "name_key": "worlds.genres.sci_fi.name",
+    "description_key": "worlds.genres.sci_fi.description",
+    "suggested_tags": ["Spaceship", "Aliens", "Mecha", "Futuristic", "Galaxy", "Robots", "Laboratory"]
+  },
+  {
+    "id": "horror_gothic",
+    "name_key": "worlds.genres.horror_gothic.name",
+    "description_key": "worlds.genres.horror_gothic.description",
+    "suggested_tags": ["Abandoned", "Gothic", "Darkness", "Ghosts", "Fog", "Vampires", "Cursed"]
+  },
+  {
+    "id": "steampunk",
+    "name_key": "worlds.genres.steampunk.name",
+    "description_key": "worlds.genres.steampunk.description",
+    "suggested_tags": ["Gears", "Steam Engine", "Clockwork", "Victorian", "Airships", "Brass", "Inventor"]
+  },
+  {
+    "id": "post_apocalyptic",
+    "name_key": "worlds.genres.post_apocalyptic.name",
+    "description_key": "worlds.genres.post_apocalyptic.description",
+    "suggested_tags": ["Wasteland", "Ruins", "Survival", "Scavenger", "Rust", "Empty City", "Nature Overgrowth"]
+  },
+  {
+    "id": "eastern_fantasy",
+    "name_key": "worlds.genres.eastern_fantasy.name",
+    "description_key": "worlds.genres.eastern_fantasy.description",
+    "suggested_tags": ["Cultivation", "Martial Arts", "Bamboo Forest", "Floating Mountains", "Ancient China", "Jade", "Spirits"]
+  }
+]

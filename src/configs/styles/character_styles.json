@@ -1,0 +1,127 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-29",
+  "config_type": "character_style",
+  "items": [
+    {
+      "uuid": "anime",
+      "name": "anime",
+      "key": "anime",
+      "i18n_name_key": "character_styles.anime.name",
+      "prompt_value": "A full-body character illustration in classic anime style, clean line art, vibrant flat colors, expressive eyes, simple background.",
+      "thumbnail_url": "/imgs/oc_styles/anime.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "semi_realistic",
+      "name": "semi_realistic",
+      "key": "semi_realistic",
+      "i18n_name_key": "character_styles.semi_realistic.name",
+      "prompt_value": "A semi-realistic anime character illustration, detailed facial features, soft shading, realistic proportions, subtle highlights, elegant pose.",
+      "thumbnail_url": "/imgs/oc_styles/semi_realistic.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "chibi",
+      "name": "chibi",
+      "key": "chibi",
+      "i18n_name_key": "character_styles.chibi.name",
+      "prompt_value": "A chibi character illustration, oversized head, small body, big sparkling eyes, exaggerated cute expression, playful pose.",
+      "thumbnail_url": "/imgs/oc_styles/chibi.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "watercolor",
+      "name": "watercolor",
+      "key": "watercolor",
+      "i18n_name_key": "character_styles.watercolor.name",
+      "prompt_value": "A character illustration in watercolor style, soft and flowing colors, gentle outlines, dreamy atmosphere, light background.",
+      "thumbnail_url": "/imgs/oc_styles/watercolor.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "cyberpunk",
+      "name": "cyberpunk",
+      "key": "cyberpunk",
+      "i18n_name_key": "character_styles.cyberpunk.name",
+      "prompt_value": "A character illustration in cyberpunk style, neon lighting, futuristic outfit, cityscape background, dynamic pose, glowing accents.",
+      "thumbnail_url": "/imgs/oc_styles/cyberpunk.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "fantasy_rpg",
+      "name": "fantasy_rpg",
+      "key": "fantasy_rpg",
+      "i18n_name_key": "character_styles.fantasy_rpg.name",
+      "prompt_value": "A character illustration in fantasy RPG style, elaborate costume, magical accessories, heroic pose, mystical background.",
+      "thumbnail_url": "/imgs/oc_styles/fantasy_rpg.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "ghiblio",
+      "name": "ghiblio",
+      "key": "ghiblio",
+      "i18n_name_key": "character_styles.ghiblio.name",
+      "prompt_value": "A character illustration inspired by Studio Ghibli, soft colors, gentle expressions, natural background, whimsical and heartwarming atmosphere.",
+      "thumbnail_url": "/imgs/oc_styles/ghiblio.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "modern_digital_painting",
+      "name": "modern_digital_painting",
+      "key": "modern_digital_painting",
+      "i18n_name_key": "character_styles.modern_digital_painting.name",
+      "prompt_value": "A character illustration in modern digital painting style, painterly brush strokes, rich textures, dramatic lighting, dynamic composition.",
+      "thumbnail_url": "/imgs/oc_styles/modern_digital_painting.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "shoujo_sparkle",
+      "name": "Shoujo Sparkle",
+      "key": "shoujo_sparkle",
+      "i18n_name_key": "character_styles.shoujo_sparkle.name",
+      "prompt_value": "A character illustration in shoujo anime style, sparkling eyes, delicate and flowing hair, pastel and bright colors, floral and starry backgrounds, soft gradients, elegant and fashionable outfits, dreamy and romantic atmosphere.",
+      "thumbnail_url": "/imgs/oc_styles/shoujo_sparkle.webp",
+      "sort_order": 4,
+      "status": "active"
+    },
+    {
+      "uuid": "dark_gothic",
+      "name": "Dark Gothic",
+      "key": "dark_gothic",
+      "i18n_name_key": "character_styles.dark_gothic.name",
+      "prompt_value": "A character illustration in gothic anime style, dark and moody colors, elaborate gothic dresses, lace and frills, crosses and roses, mysterious and dramatic lighting, melancholic and elegant character design, fantasy gothic atmosphere.",
+      "thumbnail_url": "/imgs/oc_styles/dark_gothic.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "retro_90s_anime",
+      "name": "Retro 90s Anime",
+      "key": "retro_90s_anime",
+      "i18n_name_key": "character_styles.retro_90s_anime.name",
+      "prompt_value": "A character illustration in retro 90s anime style, bold outlines, saturated colors, simple and nostalgic backgrounds, expressive and exaggerated facial features, vintage character design, grainy texture, classic anime aesthetics.",
+      "thumbnail_url": "/imgs/oc_styles/retro_90s_anime.webp",
+      "sort_order": 4,
+      "status": "active"
+    },
+    {
+      "uuid": "kawaii_anime",
+      "name": "Kawaii Anime",
+      "key": "kawaii_anime",
+      "i18n_name_key": "character_styles.kawaii_anime.name",
+      "prompt_value": "character wearing an animal-eared hoodie,\npastel color palette, soft and gentle shading,\nlarge expressive eyes with a warm and friendly look,\nclean and polished character design suitable for a full-body or half-body standing illustration,\ncozy indoor atmosphere, playful and heartwarming mood,\nadorable small animal companion nearby,\nsoft lighting, gentle and comforting vibe,\nhigh-quality anime illustration, focus on charm and approachability",
+      "thumbnail_url": "/imgs/oc_styles/kawaii_anime.webp",
+      "sort_order": 3,
+      "status": "active"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-26",
+  "config_type": "character",
+  "personality_tags": {
+    "categories": [
+      {
+        "category": "core_traits",
+        "i18n_key": "personality.categories.core_traits",
+        "tags": [
+          {
+            "key": "brave",
+            "i18n_key": "personality.brave",
+            "weight": 1.0
+          },
+          {
+            "key": "kind",
+            "i18n_key": "personality.kind",
+            "weight": 1.0
+          },
+          {
+            "key": "intelligent",
+            "i18n_key": "personality.intelligent",
+            "weight": 1.0
+          },
+          {
+            "key": "loyal",
+            "i18n_key": "personality.loyal",
+            "weight": 1.0
+          },
+          {
+            "key": "outgoing",
+            "i18n_key": "personality.outgoing",
+            "weight": 1.0
+          },
+          {
+            "key": "energetic",
+            "i18n_key": "personality.energetic",
+            "weight": 1.0
+          },
+          {
+            "key": "calm",
+            "i18n_key": "personality.calm",
+            "weight": 1.0
+          },
+          {
+            "key": "creative",
+            "i18n_key": "personality.creative",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "category": "quirks",
+        "i18n_key": "personality.categories.quirks",
+        "tags": [
+          {
+            "key": "perfectionist",
+            "i18n_key": "personality.perfectionist",
+            "weight": 0.8
+          },
+          {
+            "key": "curious",
+            "i18n_key": "personality.curious",
+            "weight": 1.0
+          },
+          {
+            "key": "adventurous",
+            "i18n_key": "personality.adventurous",
+            "weight": 1.0
+          },
+          {
+            "key": "cautious",
+            "i18n_key": "personality.cautious",
+            "weight": 1.0
+          },
+          {
+            "key": "humorous",
+            "i18n_key": "personality.humorous",
+            "weight": 1.0
+          },
+          {
+            "key": "serious",
+            "i18n_key": "personality.serious",
+            "weight": 1.0
+          },
+          {
+            "key": "mysterious",
+            "i18n_key": "personality.mysterious",
+            "weight": 0.8
+          }
+        ]
+      }
+    ]
+  },
+  "outfit_styles": {
+    "categories": [
+      {
+        "category": "casual",
+        "i18n_key": "outfit.categories.casual",
+        "styles": [
+          {
+            "key": "everyday",
+            "i18n_key": "outfit.everyday",
+            "prompt": "casual everyday clothing"
+          },
+          {
+            "key": "sporty",
+            "i18n_key": "outfit.sporty",
+            "prompt": "sporty athletic wear"
+          },
+          {
+            "key": "comfortable",
+            "i18n_key": "outfit.comfortable",
+            "prompt": "comfortable relaxed outfit"
+          }
+        ]
+      },
+      {
+        "category": "formal",
+        "i18n_key": "outfit.categories.formal",
+        "styles": [
+          {
+            "key": "business",
+            "i18n_key": "outfit.business",
+            "prompt": "professional business attire"
+          },
+          {
+            "key": "elegant",
+            "i18n_key": "outfit.elegant",
+            "prompt": "elegant formal wear"
+          },
+          {
+            "key": "ceremonial",
+            "i18n_key": "outfit.ceremonial",
+            "prompt": "ceremonial traditional outfit"
+          }
+        ]
+      },
+      {
+        "category": "adventure",
+        "i18n_key": "outfit.categories.adventure",
+        "styles": [
+          {
+            "key": "explorer",
+            "i18n_key": "outfit.explorer",
+            "prompt": "adventure explorer gear"
+          },
+          {
+            "key": "combat",
+            "i18n_key": "outfit.combat",
+            "prompt": "combat ready outfit"
+          },
+          {
+            "key": "stealth",
+            "i18n_key": "outfit.stealth",
+            "prompt": "stealthy ninja-like attire"
+          }
+        ]
+      }
+    ]
+  },
+  "appearance_options": {
+    "hair_styles": [
+      {
+        "key": "straight",
+        "i18n_key": "appearance.hair.straight",
+        "prompt": "straight hair"
+      },
+      {
+        "key": "wavy",
+        "i18n_key": "appearance.hair.wavy",
+        "prompt": "wavy hair"
+      },
+      {
+        "key": "ponytail",
+        "i18n_key": "appearance.hair.ponytail",
+        "prompt": "ponytail hairstyle"
+      },
+      {
+        "key": "bun",
+        "i18n_key": "appearance.hair.bun",
+        "prompt": "bun hairstyle"
+      },
+      {
+        "key": "twin_tails",
+        "i18n_key": "appearance.hair.twin_tails",
+        "prompt": "twin tails hairstyle"
+      },
+      {
+        "key": "mohawk",
+        "i18n_key": "appearance.hair.mohawk",
+        "prompt": "mohawk hairstyle"
+      },
+      {
+        "key": "afro",
+        "i18n_key": "appearance.hair.afro",
+        "prompt": "afro hairstyle"
+      },
+      {
+        "key": "layered",
+        "i18n_key": "appearance.hair.layered",
+        "prompt": "layered hairstyle"
+      },
+      {
+        "key": "updo",
+        "i18n_key": "appearance.hair.updo",
+        "prompt": "updo hairstyle"
+      },
+      {
+        "key": "bald",
+        "i18n_key": "appearance.hair.bald",
+        "prompt": "bald head"
+      }
+    ],
+    "eye_colors": [
+      {
+        "key": "blue",
+        "i18n_key": "appearance.eyes.blue",
+        "value": "#2563eb"
+      },
+      {
+        "key": "green",
+        "i18n_key": "appearance.eyes.green",
+        "value": "#16a34a"
+      },
+      {
+        "key": "brown",
+        "i18n_key": "appearance.eyes.brown",
+        "value": "#a3682e"
+      },
+      {
+        "key": "amber",
+        "i18n_key": "appearance.eyes.amber",
+        "value": "#f59e0b"
+      },
+      {
+        "key": "gray",
+        "i18n_key": "appearance.eyes.gray",
+        "value": "#6b7280"
+      },
+      {
+        "key": "violet",
+        "i18n_key": "appearance.eyes.violet",
+        "value": "#8b5cf6"
+      }
+    ],
+    "body_types": [
+      {
+        "key": "petite",
+        "i18n_key": "appearance.body.petite"
+      },
+      {
+        "key": "slim",
+        "i18n_key": "appearance.body.slim"
+      },
+      {
+        "key": "average",
+        "i18n_key": "appearance.body.average"
+      },
+      {
+        "key": "athletic",
+        "i18n_key": "appearance.body.athletic"
+      },
+      {
+        "key": "muscular",
+        "i18n_key": "appearance.body.muscular"
+      },
+      {
+        "key": "curvy",
+        "i18n_key": "appearance.body.curvy"
+      },
+      {
+        "key": "tall",
+        "i18n_key": "appearance.body.tall"
+      },
+      {
+        "key": "plus_size",
+        "i18n_key": "appearance.body.plus_size"
+      },
+      {
+        "key": "stocky",
+        "i18n_key": "appearance.body.stocky"
+      },
+      {
+        "key": "lanky",
+        "i18n_key": "appearance.body.lanky"
+      }
+    ]
+  },
+  "accessories": {
+    "categories": [
+      {
+        "category": "jewelry",
+        "i18n_key": "accessories.categories.jewelry",
+        "items": [
+          {
+            "key": "necklace",
+            "i18n_key": "accessories.necklace",
+            "prompt": "wearing a necklace"
+          },
+          {
+            "key": "earrings",
+            "i18n_key": "accessories.earrings",
+            "prompt": "wearing earrings"
+          },
+          {
+            "key": "bracelet",
+            "i18n_key": "accessories.bracelet",
+            "prompt": "wearing a bracelet"
+          },
+          {
+            "key": "ring",
+            "i18n_key": "accessories.ring",
+            "prompt": "wearing rings"
+          }
+        ]
+      },
+      {
+        "category": "functional",
+        "i18n_key": "accessories.categories.functional",
+        "items": [
+          {
+            "key": "glasses",
+            "i18n_key": "accessories.glasses",
+            "prompt": "wearing glasses"
+          },
+          {
+            "key": "hat",
+            "i18n_key": "accessories.hat",
+            "prompt": "wearing a hat"
+          },
+          {
+            "key": "scarf",
+            "i18n_key": "accessories.scarf",
+            "prompt": "wearing a scarf"
+          },
+          {
+            "key": "gloves",
+            "i18n_key": "accessories.gloves",
+            "prompt": "wearing gloves"
+          }
+        ]
+      },
+      {
+        "category": "weapons",
+        "i18n_key": "accessories.categories.weapons",
+        "items": [
+          {
+            "key": "sword",
+            "i18n_key": "accessories.sword",
+            "prompt": "carrying a sword"
+          },
+          {
+            "key": "bow",
+            "i18n_key": "accessories.bow",
+            "prompt": "carrying a bow"
+          },
+          {
+            "key": "staff",
+            "i18n_key": "accessories.staff",
+            "prompt": "holding a staff"
+          },
+          {
+            "key": "dagger",
+            "i18n_key": "accessories.dagger",
+            "prompt": "carrying daggers"
+          }
+        ]
+      }
+    ]
+  }
+}

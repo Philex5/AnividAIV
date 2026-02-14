@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kie Model Onboarding"
+  short_description: "Add Kie image/video model with config+adapter+i18n"
+  default_prompt: "Use $kie-model-onboarding to add a new Kie model end-to-end."

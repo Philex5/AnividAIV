@@ -1,0 +1,639 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-02",
+  "subjects": [
+    {
+      "id": "sub_001",
+      "text": "cyberpunk cat hacker",
+      "weight": 1
+    },
+    {
+      "id": "sub_002",
+      "text": "sleepless astronaut",
+      "weight": 1
+    },
+    {
+      "id": "sub_003",
+      "text": "mech pilot witch",
+      "weight": 1
+    },
+    {
+      "id": "sub_004",
+      "text": "clockwork fox spirit",
+      "weight": 1
+    },
+    {
+      "id": "sub_005",
+      "text": "floating ramen stand owner",
+      "weight": 1
+    },
+    {
+      "id": "sub_006",
+      "text": "time traveler barista",
+      "weight": 1
+    },
+    {
+      "id": "sub_007",
+      "text": "interstellar botanist",
+      "weight": 1
+    },
+    {
+      "id": "sub_008",
+      "text": "vaporwave mermaid",
+      "weight": 1
+    },
+    {
+      "id": "sub_009",
+      "text": "anthropomorphic teapot",
+      "weight": 1
+    },
+    {
+      "id": "sub_010",
+      "text": "sentient origami crane",
+      "weight": 1
+    },
+    {
+      "id": "sub_011",
+      "text": "neon-drenched ronin",
+      "weight": 1
+    },
+    {
+      "id": "sub_012",
+      "text": "ghostly geisha in digital kimono",
+      "weight": 1
+    },
+    {
+      "id": "sub_013",
+      "text": "steampunk airship captain",
+      "weight": 1
+    },
+    {
+      "id": "sub_014",
+      "text": "cosmic jellyfish nebula",
+      "weight": 1
+    },
+    {
+      "id": "sub_015",
+      "text": "porcelain doll warrior",
+      "weight": 1
+    },
+    {
+      "id": "sub_016",
+      "text": "bioluminescent crystal deer",
+      "weight": 1
+    },
+    {
+      "id": "sub_017",
+      "text": "retro-futuristic android",
+      "weight": 1
+    },
+    {
+      "id": "sub_018",
+      "text": "dragon fruit shaped dragon",
+      "weight": 1
+    },
+    {
+      "id": "sub_019",
+      "text": "masked kitsune priestess",
+      "weight": 1
+    },
+    {
+      "id": "sub_020",
+      "text": "ink-wash summoned tiger",
+      "weight": 1
+    },
+    {
+      "id": "sub_021",
+      "text": "galactic wanderer with a star-map",
+      "weight": 1
+    },
+    {
+      "id": "sub_022",
+      "text": "gothic reaper in a flower field",
+      "weight": 1
+    },
+    {
+      "id": "sub_023",
+      "text": "pixel-art knight in shining armor",
+      "weight": 1
+    },
+    {
+      "id": "sub_024",
+      "text": "ancient celestial clockmaker",
+      "weight": 1
+    },
+    {
+      "id": "sub_025",
+      "text": "shadow ninja blending into darkness",
+      "weight": 1
+    }
+  ],
+  "actions": [
+    {
+      "id": "act_001",
+      "text": "dancing ballet",
+      "weight": 1
+    },
+    {
+      "id": "act_002",
+      "text": "weaving starlight",
+      "weight": 1
+    },
+    {
+      "id": "act_003",
+      "text": "assembling paradoxes",
+      "weight": 1
+    },
+    {
+      "id": "act_004",
+      "text": "melting into neon puddles",
+      "weight": 1
+    },
+    {
+      "id": "act_005",
+      "text": "conducting a silent symphony",
+      "weight": 1
+    },
+    {
+      "id": "act_006",
+      "text": "growing cities from seeds",
+      "weight": 1
+    },
+    {
+      "id": "act_007",
+      "text": "trading memories",
+      "weight": 1
+    },
+    {
+      "id": "act_008",
+      "text": "painting with moonlight",
+      "weight": 1
+    },
+    {
+      "id": "act_009",
+      "text": "surfing solar winds",
+      "weight": 1
+    },
+    {
+      "id": "act_010",
+      "text": "orchestrating paper birds",
+      "weight": 1
+    },
+    {
+      "id": "act_011",
+      "text": "conjuring digital flames",
+      "weight": 1
+    },
+    {
+      "id": "act_012",
+      "text": "shattering the fabric of time",
+      "weight": 1
+    },
+    {
+      "id": "act_013",
+      "text": "singing a lullaby to the moon",
+      "weight": 1
+    },
+    {
+      "id": "act_014",
+      "text": "dissolving into a swarm of butterflies",
+      "weight": 1
+    },
+    {
+      "id": "act_015",
+      "text": "harvesting star-fruit from the void",
+      "weight": 1
+    },
+    {
+      "id": "act_016",
+      "text": "riding a giant celestial koi fish",
+      "weight": 1
+    },
+    {
+      "id": "act_017",
+      "text": "reading a book made of storm clouds",
+      "weight": 1
+    },
+    {
+      "id": "act_018",
+      "text": "whispering secrets to forest spirits",
+      "weight": 1
+    },
+    {
+      "id": "act_019",
+      "text": "carving constellations into the sky",
+      "weight": 1
+    },
+    {
+      "id": "act_020",
+      "text": "glitching through multiple dimensions",
+      "weight": 1
+    },
+    {
+      "id": "act_021",
+      "text": "dancing on a razor-thin wire",
+      "weight": 1
+    },
+    {
+      "id": "act_022",
+      "text": "brewing tea from liquid stardust",
+      "weight": 1
+    },
+    {
+      "id": "act_023",
+      "text": "dreaming of electric cherry blossoms",
+      "weight": 1
+    },
+    {
+      "id": "act_024",
+      "text": "escaping the pull of a black hole",
+      "weight": 1
+    },
+    {
+      "id": "act_025",
+      "text": "protecting a tiny, glowing sprout",
+      "weight": 1
+    }
+  ],
+  "settings": [
+    {
+      "id": "set_001",
+      "text": "inside underwater ruins",
+      "weight": 1
+    },
+    {
+      "id": "set_002",
+      "text": "on cotton candy clouds",
+      "weight": 1
+    },
+    {
+      "id": "set_003",
+      "text": "in a Victorian train station",
+      "weight": 1
+    },
+    {
+      "id": "set_004",
+      "text": "atop a sleeping kaiju",
+      "weight": 1
+    },
+    {
+      "id": "set_005",
+      "text": "within a glass forest",
+      "weight": 1
+    },
+    {
+      "id": "set_006",
+      "text": "across an endless ramen sea",
+      "weight": 1
+    },
+    {
+      "id": "set_007",
+      "text": "inside a retro arcade temple",
+      "weight": 1
+    },
+    {
+      "id": "set_008",
+      "text": "under a midnight sakura blizzard",
+      "weight": 1
+    },
+    {
+      "id": "set_009",
+      "text": "inside a floating library",
+      "weight": 1
+    },
+    {
+      "id": "set_010",
+      "text": "in a zero gravity tea room",
+      "weight": 1
+    },
+    {
+      "id": "set_011",
+      "text": "inside a giant clockwork heart",
+      "weight": 1
+    },
+    {
+      "id": "set_012",
+      "text": "on a floating island made of forgotten toys",
+      "weight": 1
+    },
+    {
+      "id": "set_013",
+      "text": "in a neon-lit, rain-slicked cyberpunk alley",
+      "weight": 1
+    },
+    {
+      "id": "set_014",
+      "text": "within a cathedral of glowing overgrown vines",
+      "weight": 1
+    },
+    {
+      "id": "set_015",
+      "text": "at the absolute edge of the universe",
+      "weight": 1
+    },
+    {
+      "id": "set_016",
+      "text": "on a train traveling through a dreamscape",
+      "weight": 1
+    },
+    {
+      "id": "set_017",
+      "text": "inside a snowy, miniature paper-craft world",
+      "weight": 1
+    },
+    {
+      "id": "set_018",
+      "text": "at a festival of ten thousand floating lanterns",
+      "weight": 1
+    },
+    {
+      "id": "set_019",
+      "text": "in a vast desert of shimmering blue sand",
+      "weight": 1
+    },
+    {
+      "id": "set_020",
+      "text": "within the hollow trunk of a world tree",
+      "weight": 1
+    },
+    {
+      "id": "set_021",
+      "text": "on a bridge woven from solid rainbows",
+      "weight": 1
+    },
+    {
+      "id": "set_022",
+      "text": "inside a crystalline kaleidoscope cave",
+      "weight": 1
+    },
+    {
+      "id": "set_023",
+      "text": "at a bustling cyberpunk night market",
+      "weight": 1
+    },
+    {
+      "id": "set_024",
+      "text": "within a submerged, sunlit marble palace",
+      "weight": 1
+    },
+    {
+      "id": "set_025",
+      "text": "on a lonely planet with three setting suns",
+      "weight": 1
+    }
+  ],
+  "styles": [
+    {
+      "id": "sty_001",
+      "text": "pixel art",
+      "weight": 1
+    },
+    {
+      "id": "sty_002",
+      "text": "minimalist line art",
+      "weight": 1
+    },
+    {
+      "id": "sty_003",
+      "text": "oil painting",
+      "weight": 1
+    },
+    {
+      "id": "sty_004",
+      "text": "ukiyo-e",
+      "weight": 1
+    },
+    {
+      "id": "sty_005",
+      "text": "cel shaded anime",
+      "weight": 1
+    },
+    {
+      "id": "sty_006",
+      "text": "dreamcore collage",
+      "weight": 1
+    },
+    {
+      "id": "sty_007",
+      "text": "retro VHS glow",
+      "weight": 1
+    },
+    {
+      "id": "sty_008",
+      "text": "vibrant watercolor",
+      "weight": 1
+    },
+    {
+      "id": "sty_009",
+      "text": "90s retro anime aesthetic",
+      "weight": 1
+    },
+    {
+      "id": "sty_010",
+      "text": "Art Nouveau elegance",
+      "weight": 1
+    },
+    {
+      "id": "sty_011",
+      "text": "vaporwave synthwave fusion",
+      "weight": 1
+    },
+    {
+      "id": "sty_012",
+      "text": "cyber-renaissance masterwork",
+      "weight": 1
+    },
+    {
+      "id": "sty_013",
+      "text": "Studio Ghibli inspired scenery",
+      "weight": 1
+    },
+    {
+      "id": "sty_014",
+      "text": "dark gothic fantasy",
+      "weight": 1
+    },
+    {
+      "id": "sty_015",
+      "text": "vibrant pop art explosion",
+      "weight": 1
+    },
+    {
+      "id": "sty_016",
+      "text": "delicate charcoal sketch",
+      "weight": 1
+    },
+    {
+      "id": "sty_017",
+      "text": "traditional Sumi-e ink wash",
+      "weight": 1
+    },
+    {
+      "id": "sty_018",
+      "text": "low poly 3D diorama",
+      "weight": 1
+    },
+    {
+      "id": "sty_019",
+      "text": "mind-bending surrealism",
+      "weight": 1
+    },
+    {
+      "id": "sty_020",
+      "text": "soft impressionist brushwork",
+      "weight": 1
+    },
+    {
+      "id": "sty_021",
+      "text": "lo-fi hip hop aesthetic",
+      "weight": 1
+    },
+    {
+      "id": "sty_022",
+      "text": "cybernetic steampunk hybrid",
+      "weight": 1
+    },
+    {
+      "id": "sty_023",
+      "text": "glitch art abstraction",
+      "weight": 1
+    },
+    {
+      "id": "sty_024",
+      "text": "ethereal watercolor dream",
+      "weight": 1
+    },
+    {
+      "id": "sty_025",
+      "text": "hyper-realistic 3D render",
+      "weight": 1
+    }
+  ],
+  "modifiers": [
+    {
+      "id": "mod_001",
+      "text": "dramatic lighting",
+      "weight": 1
+    },
+    {
+      "id": "mod_002",
+      "text": "cinematic composition",
+      "weight": 1
+    },
+    {
+      "id": "mod_003",
+      "text": "volumetric fog",
+      "weight": 1
+    },
+    {
+      "id": "mod_004",
+      "text": "chromatic aberration",
+      "weight": 1
+    },
+    {
+      "id": "mod_005",
+      "text": "studio-quality rim light",
+      "weight": 1
+    },
+    {
+      "id": "mod_006",
+      "text": "soft bokeh sparkles",
+      "weight": 1
+    },
+    {
+      "id": "mod_007",
+      "text": "hyper-detailed textures",
+      "weight": 1
+    },
+    {
+      "id": "mod_008",
+      "text": "dynamic motion blur",
+      "weight": 1
+    },
+    {
+      "id": "mod_009",
+      "text": "iridescent pearl shimmer",
+      "weight": 1
+    },
+    {
+      "id": "mod_010",
+      "text": "ray-traced reflections",
+      "weight": 1
+    },
+    {
+      "id": "mod_011",
+      "text": "vintage film grain and scratches",
+      "weight": 1
+    },
+    {
+      "id": "mod_012",
+      "text": "high-contrast chiaroscuro lighting",
+      "weight": 1
+    },
+    {
+      "id": "mod_013",
+      "text": "ethereal bioluminescent glow",
+      "weight": 1
+    },
+    {
+      "id": "mod_014",
+      "text": "extreme macro photography detail",
+      "weight": 1
+    },
+    {
+      "id": "mod_015",
+      "text": "dramatic anamorphic lens flare",
+      "weight": 1
+    },
+    {
+      "id": "mod_016",
+      "text": "golden hour warmth",
+      "weight": 1
+    },
+    {
+      "id": "mod_017",
+      "text": "intricate gold filigree",
+      "weight": 1
+    },
+    {
+      "id": "mod_018",
+      "text": "vibrant neon accents",
+      "weight": 1
+    },
+    {
+      "id": "mod_019",
+      "text": "soft pastel color palette",
+      "weight": 1
+    },
+    {
+      "id": "mod_020",
+      "text": "fisheye lens perspective",
+      "weight": 1
+    },
+    {
+      "id": "mod_021",
+      "text": "double exposure effect",
+      "weight": 1
+    },
+    {
+      "id": "mod_022",
+      "text": "heavy bokeh background",
+      "weight": 1
+    },
+    {
+      "id": "mod_023",
+      "text": "particles of floating dust and light",
+      "weight": 1
+    },
+    {
+      "id": "mod_024",
+      "text": "cyberpunk holographic overlays",
+      "weight": 1
+    },
+    {
+      "id": "mod_025",
+      "text": "ancient weathered texture",
+      "weight": 1
+    }
+  ]
+}

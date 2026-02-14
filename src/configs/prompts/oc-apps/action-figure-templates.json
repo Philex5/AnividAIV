@@ -1,0 +1,65 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "desk_model",
+      "name": "Desk Model with ZBrush Display",
+      "description": "1/7 Scale Realistic Model on Desk with ZBrush and BANDAI Box",
+      "i18n_name_key": "action_figure_templates.desk_model.name",
+      "i18n_description_key": "action_figure_templates.desk_model.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-1.webp",
+      "aspect_ratio": "3:4",
+      "prompt": "Create a 1/7 scale commercial model of the main subject in the image, with a realistic depiction style and lifelike environment. The subject is placed on a computer desk, with a round transparent acrylic base that has no text on it. On the computer screen, show the ZBrush modeling process. Next to the computer screen, there is a toy box in BANDAI style, featuring the original artwork printed on it."
+    },
+    {
+      "id": "toy_pack",
+      "name": "Character Trait Toy Pack",
+      "description": "Action battle pose with effects and detailed diorama base",
+      "i18n_name_key": "action_figure_templates.toy_pack.name",
+      "i18n_description_key": "action_figure_templates.toy_pack.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-2.webp",
+      "aspect_ratio": "3:4",
+      "prompt": "Create a realistic action figure packaging inspired by the provided character image. Position the figure on the left side, fully contained within a molded plastic tray and a clear cover, ensuring no part extends beyond the packaging boundaries. On the right, design several accessory slots featuring items that reflect the character's unique traits, such as tools, gadgets, or story-related objects. The packaging should include a visible hanging tab at the top, just like retail toy boxes, and the overall structure must resemble a commercial product. Emphasize lighting and shadow effects to enhance the three-dimensional look and realism of the figure, accessories, and packaging. The figure's design should be based on the character's features.Accessories should be visually engaging and relevant to the character."
+    },
+    {
+      "id": "classic-standing",
+      "name": "Acrylic Base Figure",
+      "description": "A realistic action figure stands on a round transparent acrylic base, faithfully capturing the character's features.",
+      "i18n_name_key": "action_figure_templates.classic_standing.name",
+      "i18n_description_key": "action_figure_templates.classic_standing.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-3.webp",
+      "aspect_ratio": "3:4",
+      "prompt": "Create a realistic action figure of the character shown in the reference image, posed in a standard upright standing position. Place the figure securely on a round transparent acrylic base, ensuring the base is clearly visible and supports the figure naturally. The figure should accurately reflect the character's features, costume, and proportions as seen in the reference image. Present the figure and base on a subtle studio background, such as a soft gradient or a lightly textured surface, with realistic lighting and shadows to enhance the three-dimensional look and sense of space. The background should not distract from the figure, but help emphasize its realism and depth."
+    },
+    {
+      "id": "cabinet-display",
+      "name": "Acrylic Base Figure",
+      "description": "A lifelike 1/7 scale figure posed on a transparent acrylic base, displayed inside a realistic figure cabinet.",
+      "i18n_name_key": "action_figure_templates.cabinet_display.name",
+      "i18n_description_key": "action_figure_templates.cabinet_display.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-4.webp",
+      "aspect_ratio": "3:4",
+      "prompt": "Create a highly realistic 1/7 scale commercialized figure based on the illustration's adult character... Render the figure in a detailed, lifelike style and environment, placed on a shelf inside an ultra-realistic figure display cabinet, mounted on a circular transparent acrylic base without any text. Maintain highly precise details in texture, material, and paintwork to enhance realism. The cabinet scene should feature a natural depth of field."
+    },
+    {
+      "id": "lego-display",
+      "name": "Lego Figure Display",
+      "description": "Turn character in lego style action figure using ai.",
+      "i18n_name_key": "action_figure_templates.lego_display.name",
+      "i18n_description_key": "action_figure_templates.lego_display.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-5.webp",
+      "aspect_ratio": "3:2",
+      "prompt": "Transform the person in the photo into a LEGO minifigure packaging box style, presented in isometric perspective. Inside the box, display the LEGO minifigure based on the person in the photo, along with their essential items (such as makeup, bags, or other items) as LEGO accessories. Beside the box, also display the actual LEGO minifigure itself, unpackaged, rendered in a realistic and vivid style."
+    },
+    {
+      "id": "figure-group-display",
+      "name": "Figure Group Display",
+      "description": "Turn multi characters in action figure together using ai.",
+      "i18n_name_key": "action_figure_templates.figure_group_display.name",
+      "i18n_description_key": "action_figure_templates.figure_group_display.description",
+      "thumbnail": "/imgs/figure_templates/action-figure-template-6.webp",
+      "aspect_ratio": "3:2",
+      "prompt": "Create a highly realistic commercialized figure scene featuring multiple characters standing together, each sculpted with precise physical details and professional paintwork. The figures should display authentic PVC or ABS plastic textures, with visible molded seams, subtle airbrushed shading, and hand-painted highlights and gradients on armor, clothing, and skin. Add realistic gloss and matte finishes to different surfaces, and include fine details such as metallic effects, weathering, and layered paint typical of high-end collectible figures. Position the figures on simple, style-matching bases, arranged on a neutral tabletop or plain white studio background. Use soft studio lighting to cast natural shadows and reflections, emphasizing the three-dimensionality and physical presence of the figures as real objects."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Cookie設定",
+  "description": "Cookieは、ブラウザエクスペリエンスの向上、パーソナライズされたコンテンツの提供、トラフィック分析に使用されます。許可したいCookieの種類を選択してください。",
+  "acceptAll": "すべて同意",
+  "rejectAll": "すべて拒否",
+  "managePreferences": "Cookie設定を管理",
+  "showDetails": "詳細を表示",
+  "hideDetails": "詳細を非表示",
+  "cancel": "キャンセル",
+  "save": "保存",
+  "necessary": {
+    "title": "必須Cookie",
+    "description": "サイトの基本機能に必要です",
+    "details": "これらのCookieは、Webサイトとその機能が正常に動作するために不可欠です。無効にすることはできません。セッション管理、ログイン認証、セキュリティ保護などが含まれます。",
+    "feature1": "認証とセッション管理",
+    "feature2": "セキュリティと不正防止",
+    "feature3": "設定の保存"
+  },
+  "analytics": {
+    "title": "分析Cookie",
+    "description": "サイト利用状況を把握するのを支援します",
+    "details": "ページの閲覧数やユーザーの行動を追跡し、Webサイトエクスペリエンスの最適化に役立ちます。これらのCookieは情報を匿名で収集・報告します。",
+    "toggle": "分析Cookieの切り替え",
+    "googleDetails": "ページの閲覧数、ユーザーの行動、サイト利用統計を追跡し、ユーザーエクスペリエンスの改善に役立ちます。",
+    "clarityDetails": "ヒートマップとセッション録画を提供し、ユーザーの行動を理解し、Webサイトのユーザビリティ向上に役立ちます。",
+    "plausibleDetails": "個人データを収集せずにWebサイト利用状況を追跡する、プライバシー重視の分析ツールです。"
+  },
+  "settingsTitle": "Cookie設定",
+  "settingsDescription": "Cookie設定を管理し、WebサイトでのCookieの使用方法をご確認ください。",
+  "infoTitle": "Cookieポリシーについて",
+  "infoDescription": "お客様のプライバシーは重要です。このページにアクセスすることで、Cookie設定いつでも変更できます。Cookie設定がサーバーや第三者機関に送信されることはありません。",
+  "privacyLinksTitle": "詳細情報",
+  "privacyPolicy": "プライバシーポリシー",
+  "termsOfService": "利用規約",
+  "saveChanges": "変更を保存",
+  "resetPreferences": "デフォルトにリセット",
+  "resetConfirm": "Cookie設定をリセットしてもよろしいですか？",
+  "withdrawConsentTitle": "同意を撤回",
+  "withdrawConsentDescription": "同意を撤回すると、関連するCookieがすぐに削除され、分析スクリプトの読み込みが停止されます。",
+  "lastUpdated": "最終更新日"
+}

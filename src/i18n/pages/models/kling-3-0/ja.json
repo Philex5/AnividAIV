@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "title": "Kling 3.0 AI動画生成 | 15秒動画＆音声同期 | AnividAI",
+    "description": "AnividAIのKling 3.0でシネマティックなAI動画を作成。15秒生成、音声同期、マルチショット編集（最大6カット）、キャラクター一貫性を実現。",
+    "keywords": "Kling 3.0, Kling AI, AI動画生成, 15秒動画, 音声生成, マルチショット, キャラクター固定, AnividAI"
+  },
+  "Introduce": {
+    "tagline": "AnividAIのKling 3.0 | 音声同期とマルチショット制御を備えた次世代AI動画モデル",
+    "title": "Kling 3.0とは？",
+    "description": "Kling 3.0は、動画と音声を統合生成する革命的なAIモデルです。最大15秒の動画生成、6カットまでのマルチショット編集、そしてネイティブ音声同期をサポート。AnividAIでは、圧倒的なキャラクター一貫性と映画のような演出力で、公開品質のコンテンツを作成できます。"
+  },
+  "benefits": {
+    "title": "AnividAIでKling 3.0を使う理由",
+    "subtitle": "プロフェッショナルな動画制作を可能にする高度なAI機能",
+    "items": [
+      {
+        "title": "ネイティブ音声・映像同期",
+        "description": "動画に合わせて会話、効果音、音楽を直接同期生成し、没入感のある体験を生み出します。",
+        "icon": "music"
+      },
+      {
+        "title": "最大15秒の長尺生成",
+        "description": "最大15秒の連続した動画生成により、より完全で深みのあるストーリーを描けます。",
+        "icon": "clock"
+      },
+      {
+        "title": "シネマティック・マルチショット",
+        "description": "1回の生成で最大6つのカメラカットを指定でき、ダイナミックなストーリー展開とプロの編集フローを再現します。",
+        "icon": "film"
+      },
+      {
+        "title": "キャラクターの一貫性",
+        "description": "高度な画像・動画参照機能により、ショットやシーンをまたいでも被写体のアイデンティティを維持します。",
+        "icon": "user-check"
+      },
+      {
+        "title": "映画のようなカメラワーク",
+        "description": "パン、チルト、ズーム、プッシュなど、正確なカメラモーションで映画品質の映像を実現します。",
+        "icon": "video"
+      },
+      {
+        "title": "柔軟なアスペクト比",
+        "description": "16:9（ワイド）、9:16（縦型）、1:1（スクエア）など、SNSや放送規格に合わせた出力が可能です。",
+        "icon": "layout"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Kling 3.0で動画を作る3ステップ",
+    "subtitle": "アイデアからシネマティック動画まで数分で完了",
+    "steps": [
+      {
+        "title": "シーンと音声を記述",
+        "description": "映像のシーンと希望する音声の雰囲気（会話、効果音など）をプロンプトで詳細に指定します。"
+      },
+      {
+        "title": "長さとショットを設定",
+        "description": "最大15秒までの長さを選び、マルチショットが必要な場合はカメラカットを定義します。"
+      },
+      {
+        "title": "生成して仕上げる",
+        "description": "ネイティブ音声付きで動画を生成し、StandardまたはProモードで完璧に仕上げます。"
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "subtitle": "AnividAIでのKling 3.0に関するすべて",
+    "items": [
+      {
+        "question": "Kling 3.0は以前のバージョンと何が違いますか？",
+        "answer": "Kling 3.0では、ネイティブ音声生成、最大15秒への延長、マルチショット機能（最大6カット）が導入され、以前よりも大幅に制御性と品質が向上しています。"
+      },
+      {
+        "question": "動画と一緒に音声も生成できますか？",
+        "answer": "はい！Kling 3.0は音声と映像の統合生成に対応しており、効果音や会話が動画と同期して生成されます。"
+      },
+      {
+        "question": "動画の長さはどのくらいですか？",
+        "answer": "最大15秒までの動画を生成できます。従来の10秒制限から50%延長され、より複雑なストーリーテリングが可能になりました。"
+      },
+      {
+        "question": "マルチショット機能とは何ですか？",
+        "answer": "1回の生成プロセス内で最大6つの異なるカメラカットを指定できる機能で、プロが編集したようなシーケンスを作成できます。"
+      },
+      {
+        "question": "キャラクターの一貫性は保たれますか？",
+        "answer": "もちろんです。Kling 3.0は「世界最強の一貫性」を謳っており、画像や動画の参照機能を使って、異なるショットやシーン間でも被写体を維持します。"
+      },
+      {
+        "question": "対応しているアスペクト比は？",
+        "answer": "16:9（ワイド）、9:16（スマホ用縦型）、1:1（スクエア）など、主要な比率に対応しています。"
+      },
+      {
+        "question": "商用利用は可能ですか？",
+        "answer": "はい、AnividAIで生成された動画は、プラットフォームの規約に従って商用利用が可能です。"
+      },
+      {
+        "question": "最高の結果を出すコツは？",
+        "answer": "映像と音声の両方の要素についてプロンプトで具体的に記述してください。一貫性のために参照ツールを活用し、複雑なシーンではマルチショット設定を試してみてください。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Kling 3.0で制作を始める",
+    "subtitle": "ネイティブ音声とシネマティック制御を備えた、AI動画の未来を体験しましょう。",
+    "button_primary": "Kling 3.0で作成する"
+  },
+  "generator_title": "Kling 3.0で動画を生成",
+  "credits": "クレジット",
+  "videos": "動画",
+  "generate": "生成",
+  "optimize": "最適化",
+  "empty-state": {
+    "title": "動画作成を開始",
+    "description": "説明を入力、スタイルパラメータを選択、または下のサンプル動画をクリックして生成を開始"
+  },
+  "gallery": {
+    "title": "動画ギャラリー",
+    "empty": "サンプル動画がありません",
+    "hint": "ホバーでプレビュー、カードクリックで再生、再利用ボタンで設定を適用できます。",
+    "preview": "動画をプレビュー",
+    "reuse": "再利用",
+    "immersive_title": "動画プレビュー"
+  },
+  "create_oc": "OCを作成",
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "duration": "再生時間",
+    "count": "数量",
+    "piece": "動画"
+  },
+  "prompt": {
+    "label": "動画シーンを説明",
+    "placeholder": "例：雨に濡れたネオン街を歩く剣士、ゆっくり前進するカメラ、反射する路面、逆光でドラマチックな雰囲気",
+    "optimize": "AI最適化",
+    "optimizing": "最適化中...",
+    "counter_too_long": "プロンプトが最大文字数（{max}）を超えています。",
+    "counter_too_short": "プロンプトは{min}文字以上で入力してください。",
+    "counter_format": "{current} / {max}"
+  },
+  "parameters": {
+    "title": "動画パラメータ",
+    "character": "キャラクター",
+    "style": "スタイル",
+    "loading_characters": "キャラクターを読み込み中...",
+    "duration": "再生時間",
+    "mode": "モード",
+    "ratio": "アスペクト比",
+    "quality": "品質",
+    "multi_shots": "マルチショット",
+    "multi_shot_switch_hint": "同じ動画の複数のショットを作成する。",
+    "multi_shot_script": "マルチショットスクリプト",
+    "add-shot": "ショット追加",
+    "shot-label": "ショット {index}",
+    "single-shot-label": "プロンプト",
+    "multi_shot_prompt_placeholder": "このショットの内容を入力...",
+    "multi_shot_total_duration": "合計時間: {current}/{max} 秒",
+    "sound": "サウンド",
+    "sound_description": "この動画でモデル生成サウンドを有効にします。",
+    "aspect_ratio": "アスペクト比",
+    "watermark": "ウォーターマーク",
+    "negative_prompt": "ネガティブプロンプト",
+    "negative_prompt_placeholder": "動画で避けたい言葉やコンセプト",
+    "camera_motion": "カメラモーション（オプション）",
+    "camera_motion_placeholder": "カメラモーションを選択",
+    "reference": "参照",
+    "reference_placeholder": "画像URLを貼り付け（オプション）",
+    "visibility": "公開設定",
+    "visibility_description": "生成の可視性レベルを設定"
+  },
+  "common": {
+    "enabled": "有効",
+    "disabled": "無効"
+  },
+  "camera_motions": {
+    "pan": {
+      "name": "パン"
+    },
+    "tilt": {
+      "name": "チルト"
+    },
+    "zoom": {
+      "name": "ズーム"
+    },
+    "push": {
+      "name": "プッシュ"
+    },
+    "orbit": {
+      "name": "オービット"
+    }
+  },
+  "reference": {
+    "label": "参照",
+    "title": "参照画像",
+    "upload": "画像をアップロード",
+    "drag-drop": "ここに画像をドラッグ＆ドロップまたはクリックして選択",
+    "supported-formats": "JPG、PNG、WEBP対応（最大10MB）",
+    "remove": "削除",
+    "change": "変更",
+    "processing": "処理中...",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-format": "サポートされていない画像形式です",
+    "error-auth": "画像をアップロードするにはログインしてください",
+    "error-filename": "無効なファイル名です",
+    "disabled-oc-selected": "現在のモデルは1枚の画像のみサポートしています。OCポートレートが選択されているため、参照画像のアップロードは無効です。",
+    "cleared-by-oc": "OCが選択され、現在のモデルが1枚の画像のみサポートしているため、参照画像がクリアされました。",
+    "trimmed-by-limit": "現在のモデル制限に合わせて一部の参照画像を削除しました。",
+    "start-end-hint": "画像 #1 は開始フレーム、画像 #2 は終了フレームです。",
+    "multi-shots-first-frame-only": "マルチショット有効時は最初のフレーム画像のみ使用されます。",
+    "start-frame": "開始フレーム(オプション)",
+    "end-frame": "終了フレーム(オプション)",
+    "start-frame-placeholder": "開始フレーム画像をアップロードしてください。",
+    "end-frame-placeholder": "終了フレーム画像をアップロードしてください。",
+    "end-frame-disabled-multi-shot": "マルチショット有効時は終了フレームを使用できません。"
+  },
+  "toast": {
+    "task_created": "タスクが作成されました",
+    "started": "動画生成が開始されました！",
+    "completed": "動画生成が完了しました！",
+    "reuse-failed": "動画パラメータの読み込みに失敗しました"
+  },
+  "errors": {
+    "generation_failed": "生成に失敗しました",
+    "create_failed": "タスクの作成に失敗しました",
+    "not-authenticated": "この動画にアクセスするにはログインしてください",
+    "no-permission": "この動画にアクセスする権限がありません",
+    "not-found": "動画が見つかりません",
+    "load-video-failed": "動画データの読み込みに失敗しました",
+    "auth-required": "この動画にアクセスするにはログインしてください",
+    "character-not-found": "キャラクターが見つからないか、アクセス権限がありません。手動でキャラクターを選択してください。",
+    "invalid-character-uuid": "無効なキャラクター参照です。手動でキャラクターを選択してください。",
+    "character-load-error": "キャラクターの読み込みに失敗しました。もう一度お試しください。",
+    "reference-image-not-found": "参照画像が見つかりません",
+    "invalid-reference-image-uuid": "無効な参照画像です。手動で画像を選択してください。",
+    "reference-image-load-error": "参照画像の読み込みに失敗しました。もう一度お試しください。",
+    "multi-shot-min-segments": "マルチショットには少なくとも1つのセグメントが必要です。",
+    "multi-shot-duration-exceeded": "マルチショットの合計時間は3〜15秒である必要があります。",
+    "multi-shot-segment-duration-invalid": "各マルチショットセグメントの時間は3〜12秒である必要があります。",
+    "multi-shot-start-frame-required": "マルチショットモードでは開始フレーム画像が必須です。",
+    "kling-duration-invalid": "Kling 3.0 の時間は3〜15秒である必要があります。",
+    "start-end-images-required": "開始/終了フレームモードでは参照画像が2枚必要です。"
+  },
+  "reuse": {
+    "loading": "動画パラメータを読み込み中...",
+    "loading_desc": "選択した動画を再利用のために準備しています..."
+  },
+  "generating": {
+    "title": "動画を生成中...",
+    "tip": "動画を作成中です。数分かかる場合があります..."
+  },
+  "panel": {
+    "guest": {
+      "title": "AIで動画を作成",
+      "description": "プロンプトやキャラクターを素晴らしい動画に変換。サインインして作成を開始しましょう！"
+    },
+    "user": {
+      "title": "動画の作成を開始",
+      "description": "説明を入力し、スタイルとパラメータを選択して、生成をクリックして動画を作成してください"
+    }
+  },
+  "buttons": {
+    "create_video": "動画を作成",
+    "generating": "生成中...",
+    "sign_in": "サインインして作成"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "タスクがキューに追加されました",
+      "description": "生成タスクがキューに追加されました。お待ちください..."
+    },
+    "processing": {
+      "title": "動画を生成中",
+      "description": "AIが動画を作成しています。動画生成には数分かかる場合があります。"
+    },
+    "completed": {
+      "title": "生成完了！",
+      "description": "動画の表示とダウンロードの準備ができました。"
+    },
+    "failed": {
+      "title": "生成に失敗しました",
+      "description": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+    },
+    "canceled": {
+      "title": "生成がキャンセルされました",
+      "description": "生成タスクがキャンセルされました。"
+    },
+    "unknown": {
+      "title": "不明なステータス",
+      "description": "現在のステータスを判断できません。"
+    },
+    "progress": "進捗",
+    "batch-size": "バッチサイズ",
+    "credits-used": "使用クレジット",
+    "time-elapsed": "経過時間",
+    "estimated-remaining": "推定残り時間",
+    "coming-soon": "近日公開",
+    "cancel": "キャンセル",
+    "retry": "再試行",
+    "view-results": "結果を表示",
+    "processing-tip": "このページを閉じて後で戻ることができます。生成はバックグラウンドで続行されます。"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "非公開設定はサブスクリプションメンバー向けです。アップグレードしてアンロックしてください。",
+    "private_visibility_short": "アップグレードして非公開設定を使用",
+    "remove_watermark": "ウォーターマーク削除はサブスクリプションメンバー向けです。アップグレードしてアンロックしてください。",
+    "remove_watermark_short": "アップグレードしてウォーターマークを削除",
+    "subscription_required": "サブスクリプションが必要です"
+  },
+  "membership": {
+    "free": "フリー",
+    "basic": "ベーシック",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  }
+}

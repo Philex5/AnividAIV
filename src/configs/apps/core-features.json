@@ -1,0 +1,61 @@
+{
+  "version": "1.0.0",
+  "features": [
+    {
+      "slug": "ai-anime-generator",
+      "name": "anime_generator",
+      "kind": "image",
+      "i18n_name_key": "features.ai_anime_generator.title",
+      "i18n_desc_key": "features.ai_anime_generator.description",
+      "image": "/assets/creamy/creation_tool_icon/anime_generator.webp",
+      "sort_order": 100,
+      "seo_keywords": [
+        "ai anime generator",
+        "anime art generator",
+        "anime maker"
+      ]
+    },
+    {
+      "slug": "ai-anime-video-generator",
+      "name": "video_generator",
+      "kind": "video",
+      "i18n_name_key": "features.ai_video_generator.title",
+      "i18n_desc_key": "features.ai_video_generator.description",
+      "image": "/assets/creamy/creation_tool_icon/video_generator.webp",
+      "sort_order": 90,
+      "seo_keywords": [
+        "ai video generator",
+        "anime video maker",
+        "text to video"
+      ]
+    },
+    {
+      "slug": "oc-maker",
+      "name": "oc_maker",
+      "kind": "image",
+      "i18n_name_key": "features.oc_maker.title",
+      "i18n_desc_key": "features.oc_maker.description",
+      "image": "/assets/creamy/creation_tool_icon/oc_maker.webp",
+      "sort_order": 80,
+      "seo_keywords": [
+        "oc maker",
+        "character creator",
+        "anime character generator"
+      ]
+    },
+    {
+      "slug": "chat",
+      "name": "chat",
+      "kind": "chat",
+      "i18n_name_key": "features.chat.title",
+      "i18n_desc_key": "features.chat.description",
+      "image": "/assets/creamy/creation_tool_icon/ai_chat.webp",
+      "sort_order": 70,
+      "seo_keywords": [
+        "chat with oc",
+        "ai character chat",
+        "anime character chat"
+      ]
+    }
+  ]
+}

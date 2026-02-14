@@ -1,0 +1,389 @@
+{
+  "metadata": {
+    "title": "AI Anime Video Generator - 無料でアニメ動画を作成 | AnividAI",
+    "description": "AnividAIのAI anime video generatorで、テキストプロンプトやオリジナルキャラクター（OC）から数秒でダイナミックなアニメスタイルの動画を作成できます。",
+    "keywords": ""
+  },
+  "title": "AI Anime Video Generator",
+  "subtitle": "テキスト、画像、またはOCから5〜15秒のアニメ動画を作成",
+  "introduce": {
+    "tagline": "AnividAIのAI anime video generator | テキスト、画像、OCドリブンのアニメストーリーテリング",
+    "title": "AnividAIのAI Anime Video Generatorがクリエイティブなアニメーションを強化する理由",
+    "description": "AnividAIのAI anime video generatorは、アニメ動画を作成する3つの強力な方法を提供します：テキストプロンプトでシーンを説明、参照画像をアップロードして画像から動画を生成、またはOC Makerのオリジナルキャラクター（OC）を使用。このAI anime video generatorは複数の生成モードをサポートしています—純粋な想像力のためのテキストから動画、視覚的参照のための画像から動画、キャラクター主導のストーリーのためのOCから動画。Veo3、Kling、Wan、Soraなどのモデルによるプロ品質の出力で、この無料AI anime video generatorは趣味の方からスタジオまで幅広くご利用いただけます。プロンプト、カラーパレット、ペーシングをリミックスしながら、AI anime video generatorがビジョンの一貫性を保ちます。"
+  },
+  "inputs": {
+    "prompt": "プロンプト",
+    "model": "モデル",
+    "duration": "再生時間（秒）",
+    "ratio": "アスペクト比",
+    "resolution": "解像度",
+    "motion": "カメラモーション",
+    "style": "スタイル",
+    "reference": "参照画像URL"
+  },
+  "actions": {
+    "create": "動画を作成",
+    "use_example": "サンプルを使用",
+    "download": "ダウンロード",
+    "recreate": "このパラメータで再作成"
+  },
+  "benefits": {
+    "title": "AI Anime Video Generatorが選ばれる理由",
+    "subtitle": "クリエイターのために設計された強力なAI機能で、アニメ動画制作の未来を体験してください",
+    "items": [
+      {
+        "title": "高速生成",
+        "description": "あなたのアイデアを数分で高品質なアニメループに変換し、クレジット消費も明確に表示します。"
+      },
+      {
+        "title": "高度なモーション",
+        "description": "パン、チルト、ズームなどのカメラ制御により、プロフェッショナルな映像制作が可能です。"
+      },
+      {
+        "title": "OCの継続性",
+        "description": "OC Makerのメタデータを同期し、キャラクターの一貫性を保ったアニメーションを生成します。"
+      },
+      {
+        "title": "多彩なスタイル",
+        "description": "この AI anime video generator は、クラシックなセル画からモダンなスタイルまで多様な美学をサポートします。"
+      },
+      {
+        "title": "SNS対応",
+        "description": "TikTokやShortsに最適なフォーマットで、簡単にダウンロードして共有できます。"
+      },
+      {
+        "title": "プロ品質",
+        "description": "AI anime video generator による最大1080pの高解像度出力と、プロダクショングレードのレンダリングを提供します。"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "4ステップでAI Anime Video Generatorをマスター",
+    "subtitle": "このOCファーストのワークフローに従って、すべてのレンダリングを意図的に行いましょう。AI anime video generatorの各ステップはAnividAIプロダクトスタックを反映しています—クレジットは常に表示され、メンバーシップ特典でプロコントロールがアンロックされ、カメラロジックがプロンプトと同期するため、ツールを切り替えることなくストーリーボード作成、修正、アニメエピソードの配信が可能です。",
+    "step_1_title": "ナラティブフックを定義",
+    "step_1_description": "鮮明なプロンプトを作成するか、サンプルを使用してください。AI anime video generatorがジャンル、ペーシング、ムード、OCメタデータを解析し、最初のプレビューが意図した感情的なビートと一致するようにします。",
+    "step_2_title": "ヒーローアセットを選択",
+    "step_2_description": "既存のOCを選択するか、参照をアップロードしてください。AI anime video generatorが経歴、衣装、色を同期し、すべてのショットが確立されたカノンを反映するようにします。",
+    "step_3_title": "意図を持ってパラメータを調整",
+    "step_3_description": "再生時間、比率、解像度、モーション、スタイルを設定してください。ツールチップでクレジット使用量を確認しながら、AI anime video generatorが各トグルがペーシングとレンダリング時間にどう影響するかを予測します。",
+    "step_4_title": "配信、共有、反復",
+    "step_4_description": "生成をクリックして数秒でタイムラインをストリーミングし、HDマスターをダウンロードするかリンクを共有してください。AI anime video generatorが設定を保存し、即座の再実行や将来のShortsワークフローに対応します。"
+  },
+  "showcase": {
+    "title": "動画サンプルを探索",
+    "subtitle": "AI anime video generatorで作成できるものをご覧ください。AI anime video generatorプラットフォームからの素晴らしいAI生成動画サンプルを探索してください。任意のサンプルをクリックして同じスタイルを試せます。",
+    "try_style": "このスタイルを試す"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "AI Anime Video Generatorとアニメ動画制作プロセスについて知っておくべきことすべて",
+    "items": [
+      {
+        "question": "どの生成モードがサポートされていますか？",
+        "answer": "AI anime video generatorは3つのモードをサポートしています：テキストから動画（テキスト説明から動画を作成）、画像から動画（アップロードした画像をアニメーション化、または最初/最後のフレーム遷移を使用）、OCから動画（OC Makerのオリジナルキャラクターを使用した動画生成）。"
+      },
+      {
+        "question": "動画生成にはどのくらい時間がかかりますか？",
+        "answer": "ほとんどの動画は、モデル、再生時間、解像度、プロンプトの複雑さに応じて1〜5分で生成されます。Veo3 Fastのような高速モデルはより早く完了し、標準モデルは高品質な出力のためにより長くかかる場合があります。"
+      },
+      {
+        "question": "どの解像度とアスペクト比がサポートされていますか？",
+        "answer": "利用可能なオプションはモデルによって異なります。一般的な解像度には720pと1080pがあります。アスペクト比には16:9（横型）、9:16（縦型）、1:1（正方形）があります。注意：1080pは通常16:9フォーマットでのみ利用可能です。モデル選択時に実際のオプションをご確認ください。"
+      },
+      {
+        "question": "参照画像をアップロードできますか？",
+        "answer": "はい！モデルとモードに応じて1〜3枚の参照画像をアップロードできます。一部のモデルは最初と最後のフレーム生成（2枚の画像で遷移効果）をサポートし、他のモデルは単一の参照画像を使用します。AI anime video generatorはこれらを使用して視覚的な一貫性を維持します。"
+      },
+      {
+        "question": "OCを使って動画を生成するにはどうすればよいですか？",
+        "answer": "OC MakerでOCを作成し、AI anime video generatorで選択してください。AIがキャラクターのポートレートを参照画像として使用し、生成されたアニメ動画でキャラクターの一貫性を維持します。"
+      },
+      {
+        "question": "動画の再生時間オプションは何ですか？",
+        "answer": "再生時間オプションはモデルによって異なります：通常5秒または10秒です。Soraのような一部のモデルは10〜15秒の動画をサポートしています。短い動画はクレジットが少なく、生成も速くなります。利用可能な再生時間は実際のモデル選択を参照してください。"
+      },
+      {
+        "question": "生成された動画をダウンロードするにはどうすればよいですか？",
+        "answer": "生成後、動画プレーヤーの下にあるダウンロードボタンをクリックしてください。動画は選択した解像度でダウンロードされます。PlusおよびProメンバーはダウンロード前にウォーターマークを削除できます。"
+      },
+      {
+        "question": "動画のクレジットはどのように計算されますか？",
+        "answer": "クレジットコストはモデル、解像度、再生時間によって大きく異なります。例：Veo3 Fast 約100クレジット、Veo3 Standard 約750クレジット、Kling 5秒 約210クレジット、Wan 720p 5秒 約300クレジット。生成前に必ず生成ボタンに表示されるクレジットコストを確認してください—実際の選択内容が反映されています。"
+      },
+      {
+        "question": "どのビデオモデルが利用可能ですか？",
+        "answer": "Veo3（ファストと標準）、Kling v2.5、Wan 2.5、Sora 2（標準とプロ）など、複数のAIビデオモデルを提供しています。各モデルには異なる強みがあります—モーション品質に優れたものや、キャラクターの一貫性に優れたものなど。実際に利用可能なモデルは異なる場合があります。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "AI Anime Video Generatorで次のOCアニメクリップを始めよう",
+    "subtitle": "無料AI anime video generatorプラットフォームのパワーを体験してください。スターターックレジットを獲得し、ウォーターマークなしのエクスポートにアップグレードし、すべてのOCアセットを画像、チャット、Shortsツール間で同期させましょう。このAI anime video generatorは、アニメクリエイター、エージェンシー、ファンダムリーダーのための常時稼働スタジオです。",
+    "button": "AI Anime Video Generatorで始める"
+  },
+  "parameters": {
+    "title": "動画パラメータ",
+    "character": "キャラクター",
+    "style": "スタイル",
+    "loading_characters": "キャラクターを読み込み中...",
+    "duration": "再生時間",
+    "mode": "モード",
+    "ratio": "アスペクト比",
+    "quality": "品質",
+    "multi_shots": "マルチショット",
+    "multi_shot_switch_hint": "同じ動画の複数のショットを作成する。",
+    "multi_shot_script": "マルチショットスクリプト",
+    "add-shot": "ショット追加",
+    "shot-label": "ショット {index}",
+    "multi_shot_prompt_placeholder": "このショットの内容を入力...",
+    "multi_shot_total_duration": "合計時間: {current}/{max} 秒",
+    "sound": "サウンド",
+    "sound_description": "この動画でモデル生成サウンドを有効にします。",
+    "aspect_ratio": "アスペクト比",
+    "watermark": "ウォーターマーク",
+    "negative_prompt": "ネガティブプロンプト",
+    "negative_prompt_placeholder": "動画で避けたい言葉やコンセプト",
+    "camera_motion": "カメラモーション（オプション）",
+    "camera_motion_placeholder": "カメラモーションを選択",
+    "reference": "参照",
+    "reference_placeholder": "画像URLを貼り付け（オプション）",
+    "visibility": "公開設定",
+    "visibility_description": "生成の可視性レベルを設定"
+  },
+  "common": {
+    "enabled": "有効",
+    "disabled": "無効"
+  },
+  "camera_motions": {
+    "pan": {
+      "name": "パン"
+    },
+    "tilt": {
+      "name": "チルト"
+    },
+    "zoom": {
+      "name": "ズーム"
+    },
+    "push": {
+      "name": "プッシュ"
+    },
+    "orbit": {
+      "name": "オービット"
+    }
+  },
+  "reference": {
+    "label": "参照",
+    "title": "参照画像",
+    "upload": "画像をアップロード",
+    "drag-drop": "ここに画像をドラッグ＆ドロップまたはクリックして選択",
+    "supported-formats": "JPG、PNG、WEBP対応（最大10MB）",
+    "remove": "削除",
+    "change": "変更",
+    "processing": "処理中...",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-format": "サポートされていない画像形式です",
+    "error-auth": "画像をアップロードするにはログインしてください",
+    "error-filename": "無効なファイル名です",
+    "disabled-oc-selected": "現在のモデルは1枚の画像のみサポートしています。OCポートレートが選択されているため、参照画像のアップロードは無効です。",
+    "cleared-by-oc": "OCが選択され、現在のモデルが1枚の画像のみサポートしているため、参照画像がクリアされました。",
+    "trimmed-by-limit": "現在のモデル制限に合わせて一部の参照画像を削除しました。",
+    "start-end-hint": "画像 #1 は開始フレーム、画像 #2 は終了フレームです。",
+    "multi-shots-first-frame-only": "マルチショット有効時は最初のフレーム画像のみ使用されます。",
+    "start-frame": "開始フレーム(オプション)",
+    "end-frame": "終了フレーム(オプション)",
+    "start-frame-placeholder": "開始フレーム画像をアップロードしてください。",
+    "end-frame-placeholder": "終了フレーム画像をアップロードしてください。",
+    "end-frame-disabled-multi-shot": "マルチショット有効時は終了フレームを使用できません。"
+  },
+  "toast": {
+    "task_created": "タスクが作成されました",
+    "started": "動画生成が開始されました！",
+    "completed": "動画生成が完了しました！",
+    "reuse-failed": "動画パラメータの読み込みに失敗しました"
+  },
+  "errors": {
+    "generation_failed": "生成に失敗しました",
+    "create_failed": "タスクの作成に失敗しました",
+    "not-authenticated": "この動画にアクセスするにはログインしてください",
+    "no-permission": "この動画にアクセスする権限がありません",
+    "not-found": "動画が見つかりません",
+    "load-video-failed": "動画データの読み込みに失敗しました",
+    "auth-required": "この動画にアクセスするにはログインしてください",
+    "character-not-found": "キャラクターが見つからないか、アクセス権限がありません。手動でキャラクターを選択してください。",
+    "invalid-character-uuid": "無効なキャラクター参照です。手動でキャラクターを選択してください。",
+    "character-load-error": "キャラクターの読み込みに失敗しました。もう一度お試しください。",
+    "reference-image-not-found": "参照画像が見つかりません",
+    "invalid-reference-image-uuid": "無効な参照画像です。手動で画像を選択してください。",
+    "reference-image-load-error": "参照画像の読み込みに失敗しました。もう一度お試しください。",
+    "multi-shot-min-segments": "マルチショットには少なくとも1つのセグメントが必要です。",
+    "multi-shot-duration-exceeded": "マルチショットの合計時間は3〜15秒である必要があります。",
+    "multi-shot-segment-duration-invalid": "各マルチショットセグメントの時間は3〜12秒である必要があります。",
+    "multi-shot-start-frame-required": "マルチショットモードでは開始フレーム画像が必須です。",
+    "kling-duration-invalid": "Kling 3.0 の時間は3〜15秒である必要があります。",
+    "start-end-images-required": "開始/終了フレームモードでは参照画像が2枚必要です。"
+  },
+  "reuse": {
+    "loading": "動画パラメータを読み込み中...",
+    "loading_desc": "選択した動画を再利用のために準備しています..."
+  },
+  "generating": {
+    "title": "動画を生成中...",
+    "tip": "アニメ動画を作成中です。3〜5分かかる場合があります..."
+  },
+  "panel": {
+    "guest": {
+      "title": "AIでアニメ動画を作成",
+      "description": "プロンプトやキャラクターを素晴らしいアニメスタイルの動画に変換。サインインして作成を開始しましょう！"
+    },
+    "user": {
+      "title": "アニメ動画の作成を開始",
+      "description": "説明を入力し、スタイルとパラメータを選択して、生成をクリックして動画を作成してください"
+    }
+  },
+  "buttons": {
+    "create_video": "動画を作成",
+    "generating": "生成中...",
+    "sign_in": "サインインして作成"
+  },
+  "labels": {
+    "credits": "クレジット"
+  },
+  "image_detail": {
+    "title": "作品詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "リンクされたOCはありません"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをクリップボードにコピーしました",
+      "failed": "プロンプトのコピーに失敗しました",
+      "placeholder": "桜の木の下で少女と猫がふれあう、などのアニメシーンを入力してください"
+    },
+    "actions": {
+      "download": "画像をダウンロード",
+      "reuse": "再利用",
+      "download_error": "画像のダウンロードに失敗しました"
+    },
+    "meta": {
+      "aspect_ratio": "アスペクト比",
+      "style": "スタイル",
+      "scene": "シーン",
+      "outfit": "衣装",
+      "seed": "シード",
+      "created_at": "作成日時"
+    },
+    "variants": {
+      "title": "バリエーション"
+    },
+    "visibility_toast": {
+      "success": "公開設定が更新されました",
+      "error": "公開設定の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "この作品を再利用のために準備しています...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "作品が選択されていません",
+      "description": "詳細を表示するにはギャラリーから画像を選択してください。"
+    }
+  },
+  "upgrade_prompts": {
+    "private_visibility": "非公開設定はサブスクリプションメンバー向けです。アップグレードしてアンロックしてください。",
+    "private_visibility_short": "アップグレードして非公開設定を使用",
+    "remove_watermark": "ウォーターマーク削除はサブスクリプションメンバー向けです。アップグレードしてアンロックしてください。",
+    "remove_watermark_short": "アップグレードしてウォーターマークを削除",
+    "subscription_required": "サブスクリプションが必要です"
+  },
+  "membership": {
+    "free": "フリー",
+    "basic": "ベーシック",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  },
+  "credits": "クレジット",
+  "videos": "動画",
+  "generate": "生成",
+  "optimize": "最適化",
+  "empty-state": {
+    "title": "動画作成を開始",
+    "description": "説明を入力、スタイルパラメータを選択、または下のサンプル動画をクリックして生成を開始"
+  },
+  "gallery": {
+    "title": "動画ギャラリー",
+    "empty": "サンプル動画がありません",
+    "hint": "ホバーでプレビュー、カードクリックで再生、再利用ボタンで設定を適用できます。",
+    "preview": "動画をプレビュー",
+    "reuse": "再利用",
+    "immersive_title": "動画プレビュー"
+  },
+  "create_oc": "OCを作成",
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "duration": "再生時間",
+    "count": "数量",
+    "piece": "動画"
+  },
+  "prompt": {
+    "label": "動画シーンを説明",
+    "placeholder": "例：美しい桜の森で舞う魔法少女、月明かりの下で走る狼、一斉に飛び立つ蝶々",
+    "optimize": "AI最適化",
+    "optimizing": "最適化中...",
+    "counter_too_long": "プロンプトが最大文字数（{max}）を超えています。",
+    "counter_too_short": "プロンプトは{min}文字以上で入力してください。",
+    "counter_format": "{current} / {max}"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "タスクがキューに追加されました",
+      "description": "生成タスクがキューに追加されました。お待ちください..."
+    },
+    "processing": {
+      "title": "動画を生成中",
+      "description": "AIがアニメ動画を作成しています。動画生成には数分かかる場合があります。"
+    },
+    "completed": {
+      "title": "生成完了！",
+      "description": "アニメ動画の表示とダウンロードの準備ができました。"
+    },
+    "failed": {
+      "title": "生成に失敗しました",
+      "description": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+    },
+    "canceled": {
+      "title": "生成がキャンセルされました",
+      "description": "生成タスクがキャンセルされました。"
+    },
+    "unknown": {
+      "title": "不明なステータス",
+      "description": "現在のステータスを判断できません。"
+    },
+    "progress": "進捗",
+    "batch-size": "バッチサイズ",
+    "credits-used": "使用クレジット",
+    "time-elapsed": "経過時間",
+    "estimated-remaining": "推定残り時間",
+    "coming-soon": "近日公開",
+    "cancel": "キャンセル",
+    "retry": "再試行",
+    "view-results": "結果を表示",
+    "processing-tip": "このページを閉じて後で戻ることができます。生成はバックグラウンドで続行されます。"
+  }
+}

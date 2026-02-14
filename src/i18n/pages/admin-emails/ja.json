@@ -1,0 +1,72 @@
+{
+  "title": "メール管理",
+  "subtitle": "送信済みメールの履歴確認と手動送信",
+  "tabs": {
+    "sent": "送信済みメール",
+    "manual": "手動送信"
+  },
+  "sent": {
+    "searchPlaceholder": "件名・宛先・uuidで検索",
+    "statusPlaceholder": "ステータス",
+    "allStatus": "すべて",
+    "refresh": "更新",
+    "noData": "メール履歴がありません",
+    "columns": {
+      "subject": "件名",
+      "recipient": "宛先",
+      "campaign": "キャンペーン",
+      "status": "ステータス",
+      "sentAt": "送信日時",
+      "action": "操作"
+    },
+    "detail": "詳細",
+    "syncFromResend": "Resendから同期",
+    "syncingFromResend": "同期中...",
+    "syncResultTemplate": "{total} 件中 {synced} 件同期、更新 {changed} 件、失敗 {failed} 件",
+    "pagination": {
+      "prev": "前へ",
+      "next": "次へ",
+      "page": "{page}/{totalPages}ページ（合計 {total}）"
+    }
+  },
+  "manual": {
+    "targetLabel": "送信対象",
+    "targetAll": "全ユーザー",
+    "targetSpecific": "指定メール",
+    "recipientsLabel": "宛先メール",
+    "recipientsPlaceholder": "カンマ・スペース・改行で複数メールを入力",
+    "campaignNameLabel": "キャンペーン名",
+    "campaignNamePlaceholder": "任意のキャンペーン名",
+    "subjectLabel": "件名",
+    "subjectPlaceholder": "メール件名",
+    "contentTextLabel": "メール本文",
+    "contentTextPlaceholder": "プレーンテキスト本文を入力してください。テーマ付きHTMLは自動生成されます。",
+    "preview": "プレビュー",
+    "previewing": "プレビュー生成中...",
+    "submit": "送信",
+    "sending": "送信中...",
+    "resultTitle": "結果",
+    "resultTemplate": "合計 {total} 件、成功 {success} 件、失敗 {failed} 件"
+  },
+  "detailDialog": {
+    "title": "メール詳細",
+    "campaign": "キャンペーン",
+    "recipient": "宛先",
+    "status": "ステータス",
+    "resendMessageId": "Resend Message ID",
+    "error": "エラー",
+    "sentAt": "送信日時",
+    "html": "HTML",
+    "text": "テキスト",
+    "metadata": "メタデータ"
+  },
+  "messages": {
+    "loading": "読み込み中...",
+    "loadFailed": "データの読み込みに失敗しました",
+    "sendSuccess": "送信が完了しました",
+    "sendFailed": "送信に失敗しました",
+    "invalidForm": "必須項目を入力してください",
+    "syncFailed": "Resend からの同期に失敗しました",
+    "previewFailed": "プレビュー生成に失敗しました"
+  }
+}

@@ -1,0 +1,23 @@
+import { NextResponse } from 'next/server';
+import templateConfig from '@/configs/prompts/oc-apps/action-figure-templates.json';
+
+/**
+ * GET /api/oc-apps/action-figure/templates
+ *
+ * Returns action figure template configurations
+ *
+ * @returns JSON response with templates array
+ *
+ * Related: docs/2-implementation/api/oc-apps.md
+ */
+export async function GET() {
+  try {
+    return NextResponse.json(templateConfig);
+  } catch (error) {
+    console.error('[Templates API] Failed to load templates:', error);
+    return NextResponse.json(
+      { error: 'Failed to load templates' },
+      { status: 500 }
+    );
+  }
+}

@@ -1,0 +1,515 @@
+{
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Choose Your Plan For AnividAI",
+    "description": "Find the perfect AnividAI plan for you. Unlock advanced features by upgrading whenever you want.",
+    "toggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "save": "Save 20%"
+    },
+    "groups": [
+      {
+        "name": "free",
+        "title": "Free Plan",
+        "description": "Get started with AI anime generation"
+      },
+      {
+        "name": "monthly",
+        "title": "Monthly Subscription",
+        "is_featured": true
+      },
+      {
+        "name": "yearly",
+        "title": "Annual Subscription",
+        "label": "Save 20%"
+      },
+      {
+        "name": "enterprise",
+        "title": "Enterprise",
+        "description": "For large teams & studios"
+      },
+      {
+        "name": "mc_packs",
+        "title": "Meow Coin Packs",
+        "description": "Need more Meow Coin? Buy anytime"
+      }
+    ],
+    "mc_packs_section": {
+      "title": "Need More Meow Coin?",
+      "subtitle": "Buy Meow Packs anytime - Pay as you go. (Packs [MC] NEVER EXPIRE)",
+      "note": ""
+    },
+    "mc_payg": {
+      "title": "Pay as You Go",
+      "description": "Custom amount - flexible purchase"
+    },
+    "mc_fixed": {
+      "title": "Quick Options",
+      "description": "Choose from our popular packs"
+    },
+    "credits_display": {
+      "for_new_user": "for new user (Valid in 30 days)",
+      "includes": "Includes:",
+      "per_month": "/per month (Valid for 30 days)",
+      "total": "Total:",
+      "per_year": "/per year",
+      "monthly_valid": "/per month (Valid for 30 days)",
+      "monthly_chat_messages": "Monthly Chat Messages",
+      "billed_annually": "Billed annually at",
+      "current_plan": "Current Plan",
+      "included": "Included",
+      "mc_rate": "MC Rate"
+    },
+    "items": [
+      {
+        "title": "Basic",
+        "description": "For casual creators",
+        "label": "",
+        "price": "$9.9",
+        "unit": "/month",
+        "features_title": "Everything in Free, plus",
+        "features": [
+          "1,800 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 250 images or 25 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited Original Characters",
+          "20 Worlds",
+          "500 Monthly Chat Quota & Advanced Features(beta)",
+          "Private/Public Toggle",
+          "No Video Watermark",
+          "Standard Support"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_basic_monthly",
+        "product_name": "AnividAI Basic Monthly",
+        "amount": 990,
+        "currency": "USD",
+        "credits": 1800,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.0055
+      },
+      {
+        "title": "Basic",
+        "description": "For casual creators",
+        "label": "",
+        "price": "$95",
+        "unit": "/year",
+        "price_per_month": "$7.9/mo",
+        "features_title": "Everything in Free, plus",
+        "features": [
+          "1,800 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 250 images or 25 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited Original Characters",
+          "20 Worlds",
+          "500 Monthly Chat Quota & Advanced Features(beta)",
+          "Private/Public Toggle",
+          "No Video Watermark",
+          "Standard Support"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "year",
+        "product_id": "anividai_basic_yearly",
+        "product_name": "AnividAI Basic Yearly",
+        "amount": 9500,
+        "currency": "USD",
+        "credits": 21600,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.0045
+      },
+      {
+        "title": "Plus",
+        "description": "For active creators",
+        "label": "Most Popular",
+        "price": "$29.9",
+        "unit": "/month",
+        "features_title": "Everything in Basic, plus",
+        "features": [
+          "6,000 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 670 images or 67 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited Original Characters",
+          "Unlimited Worlds",
+          "3,000 Monthly Chat Quota & Advanced Features(beta)",
+          "Priority Support",
+          "Early Access to Beta Features"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": true,
+        "interval": "month",
+        "product_id": "anividai_plus_monthly",
+        "product_name": "AnividAI Plus Monthly",
+        "amount": 2990,
+        "currency": "USD",
+        "credits": 6000,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.005
+      },
+      {
+        "title": "Plus",
+        "description": "For active creators",
+        "label": "Most Popular",
+        "price": "$287",
+        "unit": "/year",
+        "price_per_month": "$23.9/mo",
+        "features_title": "Everything in Basic, plus",
+        "features": [
+          "6,000 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 670 images or 67 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited Original Characters",
+          "Unlimited Worlds",
+          "3,000 Monthly Chat Quota & Advanced Features(beta)",
+          "Priority Support",
+          "Early Access to Beta Features"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": true,
+        "interval": "year",
+        "product_id": "anividai_plus_yearly",
+        "product_name": "AnividAI Plus Yearly",
+        "amount": 28700,
+        "currency": "USD",
+        "credits": 72000,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.004
+      },
+      {
+        "title": "Pro",
+        "description": "For pro creators",
+        "label": "Best Value",
+        "price": "$49.9",
+        "unit": "/month",
+        "features_title": "Everything in Plus, plus",
+        "features": [
+          "11,000 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 1170 images or 117 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited OCs & Worlds",
+          "Unlimited Chat Quota & Advanced Features(beta)",
+          "Priority Support",
+          "Early Access to All New Features"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_pro_monthly",
+        "product_name": "AnividAI Pro Monthly",
+        "amount": 4990,
+        "currency": "USD",
+        "credits": 11000,
+        "valid_months": 1,
+        "group": "monthly",
+        "mc_rate": 0.0045
+      },
+      {
+        "title": "Pro",
+        "description": "For pro creators",
+        "label": "Best Value",
+        "price": "$479",
+        "unit": "/year",
+        "price_per_month": "$39.9/mo",
+        "features_title": "Everything in Plus, plus",
+        "features": [
+          "11,000 [MC] per month (valid for 30 days)",
+          "Access to Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, Nano-Banana-Pro)",
+          "Up to 1170 images or 117 videos",
+          "700 [MC] via Check-in & Share",
+          "Unlimited OCs & Worlds",
+          "Unlimited Chat Quota & Advanced Features(beta)",
+          "Priority Support",
+          "Early Access to All New Features"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "year",
+        "product_id": "anividai_pro_yearly",
+        "product_name": "AnividAI Pro Yearly",
+        "amount": 47900,
+        "currency": "USD",
+        "credits": 132000,
+        "valid_months": 12,
+        "group": "yearly",
+        "mc_rate": 0.0036
+      },
+      {
+        "title": "Free",
+        "description": "Perfect for getting started",
+        "price": "$0",
+        "features_title": "Includes",
+        "features": [
+          "All Products Access",
+          "100 Welcome [MC] (valid for 30 days)",
+          "700 [MC] via Check-in & Share",
+          "Standard AI Models Only",
+          "10 Original Characters",
+          "3 Worlds",
+          "Results Must Be Public Only",
+          "Video Watermark Included",
+          "100 Monthly Chat Quota & Basic Features(beta)"
+        ],
+        "button": {
+          "title": "Subscribe Now",
+          "icon": "RiFlashlightFill"
+        },
+        "is_featured": false,
+        "interval": "one-time",
+        "product_id": "free",
+        "product_name": "Free",
+        "amount": 0,
+        "currency": "USD",
+        "group": "free",
+        "credits": 100
+      },
+      {
+        "title": "Enterprise",
+        "description": "For large teams & studios",
+        "label": "",
+        "price": "Custom",
+        "unit": "",
+        "features_title": "Best for studios, plus",
+        "features": [
+          "Unlimited Everything",
+          "Custom API Access",
+          "Dedicated Support",
+          "SLA Guarantee"
+        ],
+        "button": {
+          "title": "Contact Us",
+          "url": "mailto:support@anividai.com",
+          "icon": "RiMailSendLine"
+        },
+        "is_featured": false,
+        "interval": "month",
+        "product_id": "anividai_enterprise",
+        "product_name": "AnividAI Enterprise",
+        "amount": 0,
+        "currency": "USD",
+        "group": "enterprise"
+      }
+    ],
+    "mc_payg_items": [
+      {
+        "title": "Pay as you go",
+        "credits": "Custom [MC]",
+        "price": "",
+        "amount": 0,
+        "currency": "USD",
+        "product_id": "anividai_mc_payg",
+        "product_name": "AnividAI Meow Coin (Pay as you go)",
+        "credits_value": 0,
+        "interval": "one-time",
+        "is_featured": false,
+        "is_custom": true,
+        "custom_input_label": "Meow Coin amount",
+        "custom_placeholder": "Enter MC amount",
+        "custom_unit": "[MC]",
+        "custom_price_prefix": "$",
+        "custom_price_suffix": "",
+        "custom_rate": 0.0065,
+        "button": {
+          "title": "Buy Now",
+          "icon": "RiCoinFill"
+        }
+      }
+    ],
+    "mc_fixed_items": [
+      {
+        "title": "Meow Pack Small",
+        "credits": "1000 [MC]",
+        "price": "$6.5",
+        "amount": 650,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_small",
+        "product_name": "AnividAI Meow Pack Small",
+        "credits_value": 1000,
+        "interval": "one-time",
+        "button": {
+          "title": "Buy Now",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.0065
+      },
+      {
+        "title": "Meow Pack Medium",
+        "credits": "5000 [MC]",
+        "price": "$30",
+        "label": "Popular",
+        "amount": 3000,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_medium",
+        "product_name": "AnividAI Meow Pack Medium",
+        "credits_value": 5000,
+        "interval": "one-time",
+        "is_featured": true,
+        "button": {
+          "title": "Buy Now",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.006
+      },
+      {
+        "title": "Meow Pack Large",
+        "credits": "11000 [MC]",
+        "price": "$60",
+        "label": "Best Value",
+        "amount": 6000,
+        "currency": "USD",
+        "product_id": "anividai_mc_pack_large",
+        "product_name": "AnividAI Meow Pack Large",
+        "credits_value": 11000,
+        "interval": "one-time",
+        "is_featured": true,
+        "button": {
+          "title": "Buy Now",
+          "icon": "RiCoinFill"
+        },
+        "mc_rate": 0.0055
+      }
+    ],
+    "features_comparison": {
+      "title": "Feature Comparison",
+      "subtitle": "Choose the plan that fits your needs",
+      "headers": [
+        "Feature",
+        "Free",
+        "Basic",
+        "Plus",
+        "Pro"
+      ],
+      "rows": [
+        {
+          "feature": "Monthly [MC] (Meow Coin)",
+          "free": "100 (New User)",
+          "basic": "1,800 [MC]",
+          "plus": "6,000 [MC]",
+          "pro": "11,000 [MC]"
+        },
+        {
+          "feature": "Latest SOTA Models (Veo 3.1, Sora 2.0 Pro, etc.)",
+          "free": "Standard Only",
+          "basic": "Full Access",
+          "plus": "Full Access",
+          "pro": "Full Access"
+        },
+        {
+          "feature": "Original Characters",
+          "free": "10",
+          "basic": "Unlimited",
+          "plus": "Unlimited",
+          "pro": "Unlimited"
+        },
+        {
+          "feature": "Worlds",
+          "free": "3",
+          "basic": "20",
+          "plus": "Unlimited",
+          "pro": "Unlimited"
+        },
+        {
+          "feature": "Monthly Chat Quota",
+          "free": "100",
+          "basic": "500",
+          "plus": "3,000",
+          "pro": "Unlimited"
+        },
+        {
+          "feature": "MC Rate",
+          "free": "-",
+          "basic": "$0.0055/[MC]",
+          "plus": "$0.0050/[MC]",
+          "pro": "$0.0045/[MC]"
+        },
+        {
+          "feature": "Result Visibility",
+          "free": "Public Only",
+          "basic": "Private/Public",
+          "plus": "Private/Public",
+          "pro": "Private/Public"
+        },
+        {
+          "feature": "Video Watermark",
+          "free": "Included",
+          "basic": "None",
+          "plus": "None",
+          "pro": "None"
+        },
+        {
+          "feature": "Early Beta Access",
+          "free": "-",
+          "basic": "-",
+          "plus": "Access",
+          "pro": "Access"
+        },
+        {
+          "feature": "Support",
+          "free": "Community",
+          "basic": "Standard",
+          "plus": "Priority",
+          "pro": "Priority"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is [MC] (Meow Coin)?",
+          "answer": "[MC] is our platform credit used for AI generation. Subscription [MC] is valid for 30 days. Packs [MC] NEVER EXPIRE."
+        },
+        {
+          "question": "What bonuses do new users get?",
+          "answer": "New users receive 100 [MC] welcome bonus upon registration."
+        },
+        {
+          "question": "How can I earn free [MC]?",
+          "answer": "You can earn [MC] through daily check-ins (10 [MC] base, with bonuses on day 5, 10, and 30) and social sharing (10 [MC] per day)."
+        },
+        {
+          "question": "Can I cancel my subscription?",
+          "answer": "Yes, you can cancel anytime. You will retain benefits until the end of your current billing cycle."
+        },
+        {
+          "question": "What is your refund policy?",
+          "answer": "Monthly subscriptions are non-refundable. Annual subscriptions support prorated refunds based on the number of unactivated full months remaining; activated months are not refundable. Your current active month remains available until the end of its billing cycle. Please contact support."
+        },
+        {
+          "question": "What happens to unused [MC]?",
+          "answer": "Subscription [MC] expires after 30 days. Meow Pack [MC] never expires. When you have both, Subscription [MC] will be consumed first."
+        }
+      ]
+    }
+  }
+}

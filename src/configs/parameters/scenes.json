@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-09",
+  "config_type": "scene",
+  "items": [
+    {
+      "uuid": "scene-snow-mountain-001",
+      "name": "snow_mountain",
+      "key": "snow_mountain",
+      "i18n_name_key": "scenes.snow_mountain.name",
+      "thumbnail_url": "/scenes/snow-mountain.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "scene-forest-001",
+      "name": "forest",
+      "key": "forest",
+      "i18n_name_key": "scenes.forest.name",
+      "thumbnail_url": "/scenes/forest.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "scene-city-001",
+      "name": "city",
+      "key": "city",
+      "i18n_name_key": "scenes.city.name",
+      "thumbnail_url": "/scenes/city.webp",
+      "sort_order": 3,
+      "status": "active"
+    }
+  ]
+}

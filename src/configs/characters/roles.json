@@ -1,0 +1,313 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-13",
+  "config_type": "character_roles",
+  "items": [
+    {
+      "uuid": "role-student",
+      "key": "student",
+      "name": "Student",
+      "i18n_key": "role.student",
+      "prompt_template": "student character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-teacher",
+      "key": "teacher",
+      "name": "Teacher",
+      "i18n_key": "role.teacher",
+      "prompt_template": "teacher character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-king",
+      "key": "king",
+      "name": "King",
+      "i18n_key": "role.king",
+      "prompt_template": "king character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-queen",
+      "key": "queen",
+      "name": "Queen",
+      "i18n_key": "role.queen",
+      "prompt_template": "queen character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-prince",
+      "key": "prince",
+      "name": "Prince",
+      "i18n_key": "role.prince",
+      "prompt_template": "prince character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-princess",
+      "key": "princess",
+      "name": "Princess",
+      "i18n_key": "role.princess",
+      "prompt_template": "princess character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-warrior",
+      "key": "warrior",
+      "name": "Warrior",
+      "i18n_key": "role.warrior",
+      "prompt_template": "warrior character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-mage",
+      "key": "mage",
+      "name": "Mage",
+      "i18n_key": "role.mage",
+      "prompt_template": "mage character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-healer",
+      "key": "healer",
+      "name": "Healer",
+      "i18n_key": "role.healer",
+      "prompt_template": "healer character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-villain",
+      "key": "villain",
+      "name": "Villain",
+      "i18n_key": "role.villain",
+      "prompt_template": "villain character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-hero",
+      "key": "hero",
+      "name": "Hero",
+      "i18n_key": "role.hero",
+      "prompt_template": "hero character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-mentor",
+      "key": "mentor",
+      "name": "Mentor",
+      "i18n_key": "role.mentor",
+      "prompt_template": "mentor character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-leader",
+      "key": "leader",
+      "name": "Leader",
+      "i18n_key": "role.leader",
+      "prompt_template": "leader character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-detective",
+      "key": "detective",
+      "name": "Detective",
+      "i18n_key": "role.detective",
+      "prompt_template": "detective character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-idol",
+      "key": "idol",
+      "name": "Idol",
+      "i18n_key": "role.idol",
+      "prompt_template": "idol character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-scientist",
+      "key": "scientist",
+      "name": "Scientist",
+      "i18n_key": "role.scientist",
+      "prompt_template": "scientist character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-doctor",
+      "key": "doctor",
+      "name": "Doctor",
+      "i18n_key": "role.doctor",
+      "prompt_template": "doctor character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-nurse",
+      "key": "nurse",
+      "name": "Nurse",
+      "i18n_key": "role.nurse",
+      "prompt_template": "nurse character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-thief",
+      "key": "thief",
+      "name": "Thief",
+      "i18n_key": "role.thief",
+      "prompt_template": "thief character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-assassin",
+      "key": "assassin",
+      "name": "Assassin",
+      "i18n_key": "role.assassin",
+      "prompt_template": "assassin character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-merchant",
+      "key": "merchant",
+      "name": "Merchant",
+      "i18n_key": "role.merchant",
+      "prompt_template": "merchant character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-adventurer",
+      "key": "adventurer",
+      "name": "Adventurer",
+      "i18n_key": "role.adventurer",
+      "prompt_template": "adventurer character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-guardian",
+      "key": "guardian",
+      "name": "Guardian",
+      "i18n_key": "role.guardian",
+      "prompt_template": "guardian character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-spy",
+      "key": "spy",
+      "name": "Spy",
+      "i18n_key": "role.spy",
+      "prompt_template": "spy character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-maid",
+      "key": "maid",
+      "name": "Maid",
+      "i18n_key": "role.maid",
+      "prompt_template": "maid character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-butler",
+      "key": "butler",
+      "name": "Butler",
+      "i18n_key": "role.butler",
+      "prompt_template": "butler character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-general",
+      "key": "general",
+      "name": "General",
+      "i18n_key": "role.general",
+      "prompt_template": "general character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-captain",
+      "key": "captain",
+      "name": "Captain",
+      "i18n_key": "role.captain",
+      "prompt_template": "captain character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-artist",
+      "key": "artist",
+      "name": "Artist",
+      "i18n_key": "role.artist",
+      "prompt_template": "artist character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-explorer",
+      "key": "explorer",
+      "name": "Explorer",
+      "i18n_key": "role.explorer",
+      "prompt_template": "explorer character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-mystic",
+      "key": "mystic",
+      "name": "Mystic",
+      "i18n_key": "role.mystic",
+      "prompt_template": "mystic character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-noble",
+      "key": "noble",
+      "name": "Noble",
+      "i18n_key": "role.noble",
+      "prompt_template": "noble character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-craftsman",
+      "key": "craftsman",
+      "name": "Craftsman",
+      "i18n_key": "role.craftsman",
+      "prompt_template": "craftsman character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "role-scholar",
+      "key": "scholar",
+      "name": "Scholar",
+      "i18n_key": "role.scholar",
+      "prompt_template": "scholar character",
+      "thumbnail_url": "",
+      "is_premium": false
+    }
+  ]
+}

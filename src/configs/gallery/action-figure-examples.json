@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "examples": [
+    {
+      "uuid": "example-af-002",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-1-2.webp",
+      "template_id": "desk_model",
+      "model_id": "gpt4o-image",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "alt": "action-figure-template-sample-cute-fairy"
+    },
+    {
+      "uuid": "example-af-001",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-1-1.webp",
+      "template_id": "desk_model",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "alt": "action-figure-template-sample-wolve"
+    },
+    {
+      "uuid": "example-af-005",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-4-1.webp",
+      "template_id": "cabinet-display",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "dual swords",
+      "alt": "action-figure-template-sample-watercolor-beauty"
+    },
+    {
+      "uuid": "example-af-006",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-5-1.webp",
+      "template_id": "lego-display",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "alt": "action-figure-template-sample-lego-cyberpunk-boy"
+    },
+    {
+      "uuid": "example-af-003",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-2-1.webp",
+      "template_id": "toy_pack",
+      "model_id": "gpt4o-image",
+      "reference_image_url": "",
+      "user_prompt": "text on box is `Forest Sage`",
+      "alt": "action-figure-template-sample-foreset-sage"
+    },
+    {
+      "uuid": "example-af-004",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-3-1.webp",
+      "template_id": "classic-standing",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "alt": "action-figure-template-sample-catgirl"
+    },
+    {
+      "uuid": "example-af-007",
+      "r2_path": "gallery/action-figure/action-figure-template-sample-6-1.webp",
+      "template_id": "figure-group-display",
+      "model_id": "gpt4o-image",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "alt": "action-figure-template-sample-giant-robot-vs-alien"
+    }
+  ]
+}

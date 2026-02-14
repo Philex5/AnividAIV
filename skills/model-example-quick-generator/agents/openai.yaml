@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Example Quick Generator"
+  short_description: "Batch-generate model demo image sets fast"
+  default_prompt: "Use $model-example-quick-generator to generate and collect a full model sample image pack into a folder."

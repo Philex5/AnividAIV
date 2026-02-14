@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "AI Anime Generator - Create Anime Art Free! | AnividAI",
+    "description": "Create anime-style images with AI anime generator on AnividAI. Turn text prompts into art. Feature your OC as the main character in every image.",
+    "keywords": ""
+  },
+  "generator_title": "Generater anime artwork Now",
+  "introduce": {
+    "tagline": "AI Anime Generator on AnividAI | Where Ultimate Anime Artwork Is Born",
+    "title": "What is AI Anime Generator",
+    "description": "An AI anime generator is a tool that uses artificial intelligence to automatically create anime-style artwork from simple text prompts. It can generate images, scenes, and illustrations quickly, making anime creation accessible to everyone. AnividAI's AI anime generator goes further by focusing on original characters (OC), empowering you to generate personalized anime art centered around your unique OC."
+  },
+  "credits": "Credits",
+  "images": "images",
+  "generate": "Generate",
+  "generating": "Generating...",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Your Anime Artwork",
+    "description": "Enter description, select style parameters, or click example images below to start generating"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "ratio": "Ratio",
+    "count": "Count",
+    "piece": " image"
+  },
+  "prompt": {
+    "label": "Describe your anime image",
+    "placeholder": "Example: A beautiful girl with long pink hair, wearing a white dress, standing in a cherry blossom garden",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing...",
+    "counter_too_long": "Prompt exceeds the maximum length of {max} characters.",
+    "counter_too_short": "Prompt must be at least {min} characters.",
+    "counter_format": "{current} / {max}"
+  },
+  "parameters": {
+    "character": "Character",
+    "style": "Style",
+    "loading_characters": "Loading characters...",
+    "action": "Action",
+    "scene": "Scene",
+    "outfit": "Outfit",
+    "aspect-ratio": "Aspect Ratio",
+    "batch-size": "Number of Images",
+    "model": "AI Model",
+    "advanced": "Advanced Settings",
+    "guidance-scale": "Guidance Scale",
+    "num-inference-steps": "Inference Steps",
+    "seed": "Seed",
+    "random-seed": "Random Seed",
+    "generate-seed": "Generate New Seed",
+    "select": "Select",
+    "title": "Generation Parameters",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level",
+    "referenceImageNotSupported": "This model does not support reference images",
+    "characterNotSupported": "This model does not support Characters reference",
+    "subscriptionTooltip": "Private visibility is available for subscription members. Upgrade to unlock."
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Your generation task is in the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Images",
+      "description": "AI is creating your anime images. This may take up to 30 seconds per image."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your anime images are ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine the current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Your generation will continue in the background."
+  },
+  "completed-results": {
+    "title": "Your Generated Images",
+    "empty": {
+      "title": "No Generated Images",
+      "description": "You haven't generated any images yet. Try creating your first anime artwork!"
+    },
+    "copy-parameters": "Copy Parameters",
+    "download-all": "Download All",
+    "filters": {
+      "all-styles": "All Styles"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "most-liked": "Most Liked"
+    }
+  },
+  "result-image": {
+    "error": "Failed to load image",
+    "view": "View"
+  },
+  "image_detail": {
+    "title": "Artwork Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "make_public": "Show in Community",
+      "make_private": "Make Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt"
+    },
+    "actions": {
+      "download": "Download Image",
+      "reuse": "Reuse",
+      "download_error": "Failed to download image",
+      "as_reference": "As Reference",
+      "to_video": "To Video"
+    },
+    "meta": {
+      "aspect_ratio": "Aspect Ratio",
+      "style": "Style",
+      "scene": "Scene",
+      "outfit": "Outfit",
+      "seed": "Seed",
+      "created_at": "Created At"
+    },
+    "variants": {
+      "title": "Variants"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Preparing this artwork for reuse...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No artwork selected",
+      "description": "Choose an image from your gallery to view details."
+    },
+    "loading": "Loading artwork details...",
+    "error": "Failed to load artwork details"
+  },
+  "video_detail": {
+    "title": "Video Details",
+    "create_new": "Create New",
+    "share": "Share",
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "make_public": "Show in Community",
+      "make_private": "Make Private"
+    },
+    "oc": {
+      "label": "Related OC",
+      "none": "No OC linked"
+    },
+    "model": {
+      "label": "Model"
+    },
+    "meta": {
+      "duration": "Duration",
+      "resolution": "Resolution",
+      "aspect_ratio": "Aspect Ratio",
+      "created_at": "Created At"
+    },
+    "prompt": {
+      "label": "Prompt",
+      "copy": "Copy Prompt",
+      "copied": "Prompt copied to clipboard",
+      "failed": "Failed to copy prompt"
+    },
+    "actions": {
+      "download": "Download Video",
+      "reuse": "Reuse",
+      "download_error": "Failed to download video"
+    },
+    "quality": {
+      "label": "Quality",
+      "q720p": "720p",
+      "q1080p": "1080p",
+      "qsource": "Source"
+    },
+    "visibility_toast": {
+      "success": "Visibility updated",
+      "error": "Failed to update visibility"
+    },
+    "reuse_status": {
+      "loading": "Preparing this video for reuse...",
+      "error": "Failed to reuse generation parameters"
+    },
+    "empty": {
+      "title": "No video selected",
+      "description": "Choose a video from your gallery to view details."
+    },
+    "loading": "Loading video details...",
+    "error": "Failed to load video details"
+  },
+  "status": {
+    "completed": "Completed",
+    "processing": "Processing",
+    "pending": "Pending",
+    "failed": "Failed",
+    "canceled": "Canceled"
+  },
+  "errors": {
+    "prompt-required": "Please enter a description for your anime character",
+    "insufficient-credits": "You don't have enough credits to generate this many images",
+    "generation-failed": "Failed to start generation. Please try again.",
+    "network-error": "Network error. Please check your connection and try again.",
+    "config-load-failed": "Failed to load configuration",
+    "image-not-found": "Image not found",
+    "no-permission": "You don't have permission to access this image",
+    "load-image-failed": "Failed to load image data",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again."
+  },
+  "auth_required": {
+    "reuse_params": "Please log in to use reference images or reuse generation parameters. Your current settings will be preserved.",
+    "ref_image": "Please log in to use reference images for generation."
+  },
+  "how_to_use": {
+    "title": "Create Your Anime Art in 4 Simple Steps",
+    "subtitle": "Bring your imagination to life with our intuitive AI anime generator. Easily create stunning anime characters and scenes using the latest AI anime generator technology.",
+    "step_1_title": "Describe Your Idea",
+    "step_1_description": "Enter your character description and creative vision. Our AI anime generator and prompt optimizer help you craft the perfect input for the best results from our AI anime generator.",
+    "step_2_title": "Choose Your Character (Optional)",
+    "step_2_description": "Already have an original character (OC) on AnividAI? Select your OC and let our AI anime generator transform it into a unique anime world. Perfect for showcasing your own creations with our anime AI image generator.",
+    "step_3_title": "Choose Model & Set Parameters",
+    "step_3_description": "Pick from a variety of AI models and diverse anime styles. You can also upload reference images, set resolution, adjust visibility, and choose the number of images to generate. Our advanced AI anime image generator ensures you get the perfect anime artwork every time.",
+    "step_4_title": "Share & Download",
+    "step_4_description": "Download your beautiful AI generated anime artwork or share your creations with the community for inspiration. Experience the power of our free AI animate generator and connect with fellow anime fans."
+  },
+  "action_panel": {
+    "download": "Download",
+    "favorite": "Favorite",
+    "edit": "Edit",
+    "share": "Share",
+    "copy_params": "Copy Parameters",
+    "selected_count": "Selected {count} images"
+  },
+  "scenes": {
+    "snow_mountain": {
+      "name": "snow mountain"
+    },
+    "forest": {
+      "name": "forest"
+    },
+    "city": {
+      "name": "city"
+    }
+  },
+  "action": {
+    "running": {
+      "name": "running"
+    },
+    "sitting": {
+      "name": "sitting"
+    },
+    "standing": {
+      "name": "standing"
+    },
+    "jumping": {
+      "name": "jumping"
+    },
+    "dancing": {
+      "name": "dancing"
+    },
+    "fighting": {
+      "name": "fighting"
+    }
+  },
+  "outfits": {
+    "hanfu": {
+      "name": "hanfu"
+    },
+    "qipao": {
+      "name": "qipao"
+    },
+    "jk_uniform": {
+      "name": "jk uniform"
+    }
+  },
+  "ratios": {
+    "square": {
+      "name": "Square (1:1)",
+      "description": "Perfect square format for profile pictures"
+    },
+    "portrait": {
+      "name": "Portrait (2:3)",
+      "description": "Vertical format ideal for character portraits"
+    },
+    "widescreen": {
+      "name": "Widescreen (16:9)",
+      "description": "Wide format perfect for landscapes and wallpapers"
+    }
+  },
+  "gallery": {
+    "ghiblio-girl-001": {
+      "title": "Ghiblio Style Girl",
+      "description": "Girl in kimono under cherry blossoms"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "Aspect Ratio",
+    "selected": "Selected"
+  },
+  "style-presets": {
+    "label": "Style",
+    "no-selection": "No style selected",
+    "max-reached": "Maximum selection reached"
+  },
+  "outfit-presets": {
+    "label": "Outfit",
+    "optional": "(Optional)",
+    "selected": "Selected",
+    "no-selection": "No outfit selected"
+  },
+  "scene-presets": {
+    "label": "Scene",
+    "optional": "(Optional)",
+    "selected": "Selected",
+    "no-selection": "No scene selected"
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format"
+  },
+  "quick-prompt": {
+    "title": "Quick Prompt",
+    "help": "Click tags to add to your prompt",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+  "benefits": {
+    "section_title": "What Makes Our AI Anime Generator Special?",
+    "section_subtitle": "Discover the next generation of anime art creation with advanced AI anime generator, designed for creators and anime fans worldwide.",
+    "character_consistency": {
+      "title": "Consistent Character Generation",
+      "description": "Our AI anime generator supports original characters (OC) created with the OC Maker on AnividAI, ensuring your characters maintain a consistent appearance across multiple images. This makes it easy to build stories and worlds around your unique anime creations."
+    },
+    "ai_powered": {
+      "title": "AI-Powered Prompt Enhancement",
+      "description": "Leverage intelligent prompt optimization with our AI anime generator. Transform simple text descriptions into detailed, professional-quality anime artwork using state-of-the-art neural networks."
+    },
+    "diverse_styles": {
+      "title": "Wide Range of Anime Art Styles",
+      "description": "Select from authentic anime styles including ghibli, american comics, watercolor, and more. Our AI anime generator offers versatile options to match your creative vision."
+    },
+    "no_drawing": {
+      "title": "No Drawing Skills Required",
+      "description": "Easily create stunning anime artwork with our AI anime generator\u2014just use natural language to describe your ideas. Instantly preview your AI generated anime art in real time, making the creative process accessible to everyone."
+    },
+    "batch_processing": {
+      "title": "Efficient Batch Processing",
+      "description": "Generate multiple high-quality anime images at once with our free AI anime generator. Save time and maximize your creative output for projects, portfolios, or social sharing."
+    },
+    "professional_quality": {
+      "title": "Studio-Grade Anime Artwork",
+      "description": "Produce AI generated anime art with professional quality, suitable for commercial use, social media, and personal projects. Our AI anime generator delivers results that meet industry standards."
+    }
+  },
+  "oc_anime_gallery": {
+    "title": "Original Character (OC) Anime Gallery",
+    "description": "Explore how our AI anime generator transforms the original character (OC). ",
+    "character_selector": "Example Original Characters"
+  },
+  "create_oc_quick_link": {
+    "button": "Create Your Own OC"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about our AI anime generator and anime creation process.",
+    "items": [
+      {
+        "question": "What is an AI anime generator and how does it work?",
+        "answer": "An AI anime generator is a tool that uses advanced artificial intelligence to create anime-style images from text prompts. Our AI anime generator lets you describe your original character (OC) or select from platform-created OCs, then generates high-quality anime art, characters, and scenes using state-of-the-art neural networks."
+      },
+      {
+        "question": "Can I use both platform OCs and my own descriptions with your AI anime generator?",
+        "answer": "Yes! Our ai anime art generator allows you to either choose from OCs created and saved on our platform, or describe your own OC in natural language. The AI anime generator will produce consistent, professional anime artwork based on your selection or description."
+      },
+      {
+        "question": "Is your AI anime generator free to use?",
+        "answer": "Yes, our AI anime generator offers free trial credits so you can create anime images and ai generated anime art at no cost."
+      },
+      {
+        "question": "What anime art styles are available in your AI anime generator?",
+        "answer": "Our AI anime generator supports a wide range of anime art styles, including Studio Ghibli, manga, watercolor, classic anime, and digital art. You can select your preferred style to generate unique ai generated anime images."
+      },
+      {
+        "question": "Can I use ai generated anime images for commercial projects?",
+        "answer": "Yes, you can use artwork created with our AI anime generator for commercial purposes, social media, merchandise, and personal projects. You retain full rights to your ai generated anime art."
+      },
+      {
+        "question": "What image formats and resolutions does your AI anime generator support?",
+        "answer": "Our AI anime generator produces high-quality images in various aspect ratios, such as square, portrait, and widescreen. Images are downloadable in web-optimized formats suitable for sharing and printing."
+      },
+      {
+        "question": "Can I edit or customize the ai generated anime images?",
+        "answer": "Yes, you can use your successfully generated images as a reference for AI editing with our ai anime generator."
+      },
+      {
+        "question": "Is there a mobile app for your anime ai generator?",
+        "answer": "Currently, our AI anime generator is available as a web app optimized for mobile browsers. Dedicated mobile apps for iOS and Android are in development to enhance your anime art creation experience."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Create Stunning Anime Artwork with Your Original Character",
+    "description": "Design and generate brilliant anime-style art using your unique OC. Start bringing your original character to life today!",
+    "start_creating": "Start Creating"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "Animate It",
+        "href": "/ai-anime-video-generator?ref_image_url=${image_uuid}"
+      }
+    }
+  }
+}

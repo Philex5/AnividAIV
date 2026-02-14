@@ -1,0 +1,160 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-05",
+  "description": "Example videos for Wan 2.5 model showcase",
+  "modelId": "wan/2.5",
+  "modelName": "Wan 2.5",
+  "examples": [
+    {
+      "uuid": "kling3-ex-003",
+      "r2_path": "gallery/anime_video/kling_3_0/kling3-showcase-2.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase-catgirl dancing ",
+      "aspect_ratio": "16:9",
+      "title": "Creamy Dancing",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "animation of the same blonde cat girl from the reference image dancing in place. \nShe performs a cute idol-style dance, small rhythmic steps, gentle arm swings, light hip movements. \nHer long blonde hair and pleated skirt sway naturally with motion. \nHer expression remains cheerful and consistent throughout. \nFull body shot, static camera, centered composition. \nOutfit and appearance must remain identical to the reference image during the entire video. \nSoft pastel blue and purple gradient background with floating bokeh light particles. \nSmooth animation, high consistency, no outfit changes, no hairstyle changes.",
+        "style": "no_presets",
+        "character": "",
+        "aspect_ratio": "9:16",
+        "duration": 10,
+        "count": 1,
+        "mode": "pro"
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "kling3-ex-002",
+      "r2_path": "gallery/anime_video/kling_3_0/kling3-showcase-3.mp4",
+      "poster_path": "",
+      "alt": "kling 3.0 showcase - Moon Goddess",
+      "aspect_ratio": "16:9",
+      "title": "Moon Goddess",
+      "parameters": {
+        "model_id": "kling-3.0/video",
+        "prompt": "",
+        "style": "no_presets",
+        "character": "",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "mode": "pro",
+        "multi_prompt": [
+          {
+            "prompt": "Wide cinematic aerial shot. \nThe same silver-haired celestial warrior stands at the center of a gigantic floating stone platform above moving clouds. \nThe enormous moon dominates the sky, stars shimmering. \nHer long silver hair and translucent cape flow gently in the wind. \nSoft moonlight illuminates her armor details. \nSlow dramatic camera push-in. \nEpic scale, volumetric lighting, majestic atmosphere.",
+            "duraiton": 4
+          },
+          {
+            "prompt": "Medium full-body shot. \nThe same warrior raises one hand toward the sky. \nBlue cosmic energy begins to gather around her palm, glowing particles spiral upward. \nHer cape flows dynamically, armor reflecting blue light. \nClouds below move slowly. \nThe moonlight and energy light mix together. \nCamera slowly circles around her.\n",
+            "duraiton": 3
+          },
+          {
+            "prompt": "Close-up heroic shot from slightly below. \nThe same silver-haired celestial warrior releases a burst of radiant blue cosmic light upward into the sky. \nHer glowing blue eyes shine intensely. \nWind blows her hair dramatically. \nEnergy light reflects on her armor and face. \nBackground becomes a luminous star explosion effect. \nEpic climax moment, high detail, stable facial features.",
+            "duraiton": 3
+          }
+        ]
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "vid-ex-001",
+      "r2_path": "gallery/anime_video/anime_video_showcase1_hero_coming.mp4",
+      "poster_path": "gallery/anime_video/posters/hero_coming_poster.webp",
+      "alt": "anime video sample 1 hero coming",
+      "aspect_ratio": "landscape",
+      "title": "Hero Comming",
+      "parameters": {
+        "model_id": "sora2",
+        "prompt": "A brave swordsman stands at the edge of a mystical cliff in a fantasy world, overlooking floating islands and glowing magical crystals, wind blowing his cloak, ancient ruins in the background, preparing for an epic adventure.",
+        "style": "anime",
+        "character": "",
+        "motion": "",
+        "aspect_ratio": "landscape",
+        "duration_seconds": 10,
+        "quality": "standard",
+        "count": 1
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "vid-ex-002",
+      "r2_path": "gallery/anime_video/anime_video_showcase2_puffie.mp4",
+      "poster_path": "gallery/anime_video/posters/puffie_dancing_poster.webp",
+      "alt": "anime video sample 2 fairy dancing",
+      "aspect_ratio": "landscape",
+      "title": "Dancing Puffie",
+      "parameters": {
+        "model_id": "sora2",
+        "prompt": "The video begins with Puffie fluttering gently through a magical mushroom forest, sunlight filtering through the trees and casting dappled light on the scene. Puffie giggles and waves at tiny woodland creatures—rabbits, squirrels, and birds—who gather around, drawn by Puffie's joyful energy. Puffie twirls in the air, scattering shimmering fairy dust that makes flowers bloom and mushrooms glow. The camera follows Puffie as she lands on a giant mushroom, opens her acorn-shaped bag, and tosses sparkling seeds that grow into colorful plants. Puffie then leads the animals in a playful dance, laughter echoing through the forest. The video ends with Puffie hugging her friends, her wings glowing softly, and the whole forest bathed in warm, magical light, perfectly capturing her role as a bringer of joy and laughter.",
+        "style": "anime",
+        "character": "",
+        "motion": "orbit",
+        "aspect_ratio": "landscape",
+        "duration_seconds": 10,
+        "quality": "standard",
+        "count": 1
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "vid-ex-003",
+      "r2_path": "gallery/anime_video/anime_video_showcase3_sakura_graduation.mp4",
+      "poster_path": "gallery/anime_video/posters/sakura_graduation_poster.webp",
+      "alt": "anime video sample 3 japan student graduation",
+      "aspect_ratio": "portrait",
+      "title": "Graduation Season",
+      "parameters": {
+        "model_id": "sora2",
+        "prompt": "Cherry blossom petals gently drift through the air, swirling around as the soft spring sunlight filters through the branches. The scene transitions from wide shots of a school courtyard blanketed in pink petals to close-ups of cherry blossoms in full bloom, their delicate petals shimmering in the light. Students in uniform gather under the trees, exchanging graduation letters and sharing heartfelt farewells. The camera pans across the fluttering petals, capturing the emotional atmosphere of the season. Slow-motion shots highlight petals landing on shoulders and school bags, while the background is filled with laughter, gentle breezes, and the distant sound of a school bell. The overall mood is nostalgic and cinematic, evoking the bittersweet beauty of graduation under the cherry blossoms. ",
+        "style": "anime",
+        "character": "",
+        "motion": "",
+        "aspect_ratio": "portrait",
+        "duration_seconds": 10,
+        "quality": "standard",
+        "count": 1
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "vid-ex-004",
+      "r2_path": "gallery/anime_video/anime_video_showcase4_tharion_battle.mp4",
+      "poster_path": "gallery/anime_video/posters/tharion_battle_poster.webp",
+      "alt": "anime video sample 4 chasing demon",
+      "aspect_ratio": "landscape",
+      "title": "Tharion Battle",
+      "parameters": {
+        "model_id": "sora2",
+        "prompt": "Tharion flies swiftly through a dramatic sky filled with swirling clouds and beams of sunlight. Ahead, an evil demon darts between the clouds, leaving behind trails of dark smoke. Tharion chases closely, performing agile turns and dives to keep up. The camera follows their fast-paced pursuit, showing Tharion’s determined face and the demon’s frantic escape. As they race through the sky, flashes of light and shadow highlight the tension. The scene ends with Tharion catching up to the demon, ready for a final confrontation above the clouds.",
+        "style": "cinematic_anime",
+        "character": "",
+        "motion": "push",
+        "aspect_ratio": "landscape",
+        "duration_seconds": 15,
+        "quality": "standard",
+        "count": 1
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "vid-ex-006",
+      "r2_path": "gallery/anime_video/anime_video_showcase6_Aelion_forest_sage.mp4",
+      "poster_path": "gallery/anime_video/posters/aelion_forest_sage_poster.webp",
+      "alt": "anime video sample 6 forest sage",
+      "aspect_ratio": "landscape",
+      "title": "Sage Aelion",
+      "parameters": {
+        "model_id": "kling/video-v2.5",
+        "prompt": "",
+        "style": "ghiblio",
+        "negative_prompt": "",
+        "character": "",
+        "motion": "",
+        "aspect_ratio": "",
+        "duration_seconds": 10,
+        "count": 1
+      },
+      "sort_order": 1
+    }
+  ]
+}

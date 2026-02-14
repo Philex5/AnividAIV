@@ -1,0 +1,34 @@
+# AnividAI API 测试 - 公共配置
+# 此文件定义所有测试共用的环境变量和测试数据
+# 在其他 .http 文件顶部使用 @import common.http 引入
+
+### 环境变量配置
+@baseUrl = http://localhost:3000
+@apiUrl = {{baseUrl}}/api
+
+### 测试数据 - 根据实际情况修改
+# 从数据库查询获取真实 UUID:
+# SELECT uuid FROM users WHERE email = 'your-test-email';
+# SELECT uuid FROM characters WHERE user_uuid = 'your-user-uuid';
+# SELECT uuid FROM generations WHERE user_uuid = 'your-user-uuid' LIMIT 5;
+
+@userUuid = test-user-uuid
+@userId = test-user-id
+@generationUuid = test-generation-uuid
+@characterUuid = test-character-uuid
+@artworkUuid = test-artwork-uuid
+@sessionUuid = test-session-uuid
+@subscriptionId = test-subscription-id
+@costId = test-cost-id
+@imageProxyUrl = https://your-storage-domain/path/to/image.png
+@avatarImageUrl = https://your-storage-domain/path/to/avatar.png
+@authAction = session
+
+### 认证配置（如需要）
+# 在浏览器登录后，复制 session cookie:
+# @sessionToken = your-session-token
+# 然后在请求中添加: Cookie: next-auth.session-token={{sessionToken}}
+
+### 管理/任务 Token（如需要）
+# @adminToken = your-admin-token
+# @cronToken = your-cron-token

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You for Your Subscription - AnividAI</title>
+</head>
+<body style="margin:0; padding:0; background-color:#FFF8E1; font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Noto Sans', sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
+  <div style="display: none; visibility: hidden; opacity: 0; height: 0; overflow: hidden;">
+    Your AnividAI premium is active. Enjoy the limitless fun of building your own OC universe!
+  </div>
+
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%; background-color:#FFF8E1; padding:24px 12px;">
+    <tr>
+      <td align="center">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:640px; background-color:#FEFEFE; border-radius:16px; box-shadow:0 10px 25px rgba(0,0,0,0.06); border:1px solid #E2E8F0; overflow:hidden;">
+          <tr>
+            <td style="height:6px; width:100%; background:linear-gradient(90deg, #FF9500, #FFC107);"></td>
+          </tr>
+          <tr>
+            <td style="text-align:left; padding:16px 16px 0;">
+              <img src="{{storage_domain}}/assets/common/logo_white.webp" alt="AnividAI Logo" style="height:28px; width:auto; max-width:120px; display:block; border-radius:6px;" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:8px 24px 0; text-align:center;">
+              <h1 style="font-size:26px; line-height:1.25; color:#1A1A2E; margin:8px 0 8px 0; font-weight:700;">
+                Thank you, {{user_name}} 🎉
+              </h1>
+              <div style="margin:8px auto 12px; padding:0 24px;">
+                <img src="{{storage_domain}}/assets/email/creamy-sub-thanks.webp" alt="Subscription Thank You Illustration" style="width:100%; max-width:256px; height:auto; max-height:256px; object-fit:contain; border-radius:12px; display:block; margin:0 auto;" />
+              </div>
+              <p style="margin:0 auto; color:#475569; font-size:15px; max-width:520px; line-height:1.65;">
+                Your subscription is now active. Enjoy {{mc_amount}} Meow Coins (MC) to create amazing OC‑centric content with enhanced features and priority support.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:18px 24px 8px;">
+              <div style="background:linear-gradient(135deg, #34D399, #10B981); color:#fff; border-radius:12px; padding:16px 16px; text-align:center; margin:8px 0 12px;">
+                <h3 style="margin:4px 0 6px 0; font-size:18px; font-weight:700;">Subscription confirmed</h3>
+                <div style="opacity:0.95; font-size:14px;">Thank you for supporting AnividAI and our creator community.</div>
+              </div>
+
+              <div style="background:#FFF6D1; border:1px solid #FFE8A3; border-left:4px solid #FFC107; border-radius:12px; padding:14px 16px; margin:16px 0 8px;">
+                <div style="margin:4px 0; display:block;">
+                  <span style="color:#94A3B8; font-size:13px;">Plan</span><br/>
+                  <span style="color:#1A1A2E; font-weight:600;">{{plan_name}}</span>
+                </div>
+                <div style="margin:4px 0; display:block;">
+                  <span style="color:#94A3B8; font-size:13px;">Meow Coins</span><br/>
+                  <span style="color:#1A1A2E; font-weight:600;">{{mc_amount}} MC • {{mc_validity_text}}</span>
+                </div>
+                <div style="margin:4px 0; display:block;">
+                  <span style="color:#94A3B8; font-size:13px;">Start date</span><br/>
+                  <span style="color:#1A1A2E; font-weight:600;">{{start_date}}</span>
+                </div>
+                <div style="margin:4px 0; display:block;">
+                  <span style="color:#94A3B8; font-size:13px;">Next billing</span><br/>
+                  <span style="color:#1A1A2E; font-weight:600;">{{next_billing_date}}</span>
+                </div>
+              </div>
+
+              <div style="background:#F9FAFB; border:1px solid #E2E8F0; border-radius:12px; padding:14px 16px; margin:14px 0 8px;">
+                <h4 style="margin:0 0 6px 0; color:#1A1A2E; font-size:16px;">Member benefits</h4>
+                <ul style="margin:8px 0 0 18px; padding:0; color:#475569; line-height:1.65;">
+                  {{plan_features_html}}
+                </ul>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="text-align:center; padding:18px 24px 8px;">
+              <a href="https://anividai.com/home" style="display:inline-block; background-color:#FF9500; color:#fff !important; text-decoration:none; padding:12px 22px; border-radius:999px; font-weight:700; letter-spacing:0.2px; box-shadow:0 8px 18px rgba(255,149,0,0.35); margin:0;">Start Creating →</a>
+              <span style="display:inline-block; width:10px;"></span>
+              <a href="{{manage_url}}" style="display:inline-block; background-color:#334155; color:#fff !important; text-decoration:none; padding:12px 22px; border-radius:999px; font-weight:700; letter-spacing:0.2px; box-shadow:0 8px 18px rgba(51,65,85,0.25); margin:0;">Manage Subscription</a>
+              <div style="font-size:13px; color:#94A3B8; margin-top:6px;">No credit card changes now • You can manage anytime</div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:10px 24px 8px; font-size:14px; color:#475569; line-height:1.65;">
+              <p style="margin:10px 0 0 0;"><strong>Pro tip:</strong> Use OC Maker first to create consistent characters, then generate images and videos. {{#if is_annual}}Annual subscribers save 20% — thanks for your commitment!{{/if}}</p>
+              <p style="margin:10px 0 0 0;">Questions? Reach us at <a href="mailto:{{support_email}}" style="color:#C07895; text-decoration:none;">{{support_email}}</a>.</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:16px 24px 28px; border-top:1px solid #E2E8F0; text-align:center; font-size:13px; color:#94A3B8; line-height:1.65;">
+              <p style="margin:0 0 6px 0; color:#1A1A2E; font-weight:700;">{{company_name}} — Your AI Studio for Anime Worlds</p>
+              <p style="margin:0 0 6px 0;">Visit us at <a href="{{website_url}}" style="color:#C07895; text-decoration:none;">{{website_url}}</a></p>
+              <p style="margin:0;">&copy; {{current_year}} {{company_name}}. All rights reserved.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

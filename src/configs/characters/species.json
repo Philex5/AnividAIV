@@ -1,0 +1,167 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-30",
+  "config_type": "character_species",
+  "items": [
+    {
+      "uuid": "species-human",
+      "key": "human",
+      "name": "Human",
+      "i18n_key": "species.human",
+      "icon_url": "/assets/species/human.webp",
+      "prompt_template": "human character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-elf",
+      "key": "elf",
+      "name": "Elf",
+      "i18n_key": "species.elf",
+      "icon_url": "/assets/species/elf.webp",
+      "prompt_template": "elf character with pointed ears",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-catperson",
+      "key": "cat_person",
+      "name": "Catfolk",
+      "i18n_key": "species.cat_person",
+      "icon_url": "/assets/species/catfolk.webp",
+      "prompt_template": "character with cat ears and tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-mystic_cat",
+      "key": "mystic_cat",
+      "name": "Mystic Cat",
+      "i18n_key": "species.mystic_cat",
+      "icon_url": "/assets/species/catfolk.webp",
+      "prompt_template": "character with cat ears and tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-wolfperson",
+      "key": "wolf_person",
+      "name": "Wolfkin",
+      "i18n_key": "species.wolf_person",
+      "icon_url": "/assets/species/wolfkin.webp",
+      "prompt_template": "character with wolf ears and tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-dragonperson",
+      "key": "dragon_person",
+      "name": "Dragonborn",
+      "i18n_key": "species.dragon_person",
+      "icon_url": "/assets/species/dragonborn.webp",
+      "prompt_template": "character with dragon horns and tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-angel",
+      "key": "angel",
+      "name": "Angel",
+      "i18n_key": "species.angel",
+      "icon_url": "/assets/species/angel.webp",
+      "prompt_template": "character with angel wings and halo",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-demon",
+      "key": "demon",
+      "name": "Demon",
+      "i18n_key": "species.demon",
+      "icon_url": "/assets/species/demon.webp",
+      "prompt_template": "character with demon horns and tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-mermaid",
+      "key": "mermaid",
+      "name": "Merfolk",
+      "i18n_key": "species.mermaid",
+      "icon_url": "/assets/species/mermaid.webp",
+      "prompt_template": "character with a fish tail",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-fairy",
+      "key": "fairy",
+      "name": "Fairy",
+      "i18n_key": "species.fairy",
+      "icon_url": "/assets/species/fairy.webp",
+      "prompt_template": "character with fairy wings",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-vampire",
+      "key": "vampire",
+      "name": "Vampire",
+      "i18n_key": "species.vampire",
+      "icon_url": "/assets/species/vampire.webp",
+      "prompt_template": "character with vampire fangs",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-robot",
+      "key": "robot",
+      "name": "Robot",
+      "i18n_key": "species.robot",
+      "icon_url": "/assets/species/robot.webp",
+      "prompt_template": "robotic character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-orc",
+      "key": "orc",
+      "name": "Orc",
+      "i18n_key": "species.orc",
+      "icon_url": "/assets/species/orc.webp",
+      "prompt_template": "troll-like orc character with large tusks and wild features",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-undead",
+      "key": "undead",
+      "name": "Undead",
+      "i18n_key": "species.undead",
+      "icon_url": "/assets/species/undead.webp",
+      "prompt_template": "undead character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-drawf",
+      "key": "drawf",
+      "name": "Drawf",
+      "i18n_key": "species.drawf",
+      "icon_url": "/assets/species/dwarf.webp",
+      "prompt_template": "drawf character",
+      "thumbnail_url": "",
+      "is_premium": false
+    },
+    {
+      "uuid": "species-hybrid",
+      "key": "hybrid",
+      "name": "Hybrid",
+      "i18n_key": "species.hybrid",
+      "icon_url": "/assets/species/hybrid.webp",
+      "prompt_template": "hybrid character",
+      "thumbnail_url": "",
+      "is_premium": false
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "metadata": {
+    "title": "Kling 3.0 AI Video Generator | Native Audio & 15s Clips | AnividAI",
+    "description": "Generate cinematic AI videos with Kling 3.0 on AnividAI. Features native audio sync, multi-shot editing (up to 6 cuts), 15-second duration, and superior character consistency.",
+    "keywords": "Kling 3.0, Kling AI Video 3.0, native audio video generator, multi-shot AI video, 15s AI video, character consistency AI, AnividAI Kling"
+  },
+  "Introduce": {
+    "tagline": "Kling 3.0 on AnividAI | The Next Gen of AI Video with Native Audio & Multi-Shot Control",
+    "title": "What is Kling 3.0?",
+    "description": "Kling 3.0 is a revolutionary AI video model that unifies video and audio generation. It supports up to 15-second clips, multi-shot editing with 6 cuts, and native audio synchronization. On AnividAI, creators can produce broadcast-ready content with unparalleled character consistency and cinematic direction."
+  },
+  "benefits": {
+    "title": "Why Create with Kling 3.0 on AnividAI?",
+    "subtitle": "Unlocking professional video production with advanced AI capabilities",
+    "items": [
+      {
+        "title": "Native Audio-Visual Sync",
+        "description": "Generate synchronized dialogue, sound effects, and music directly with your video for an immersive experience.",
+        "icon": "music"
+      },
+      {
+        "title": "Extended 15s Duration",
+        "description": "Create longer, more complete stories with up to 15 seconds of continuous video generation.",
+        "icon": "clock"
+      },
+      {
+        "title": "Multi-Shot Cinematic Control",
+        "description": "Direct up to 6 camera cuts in a single generation, enabling dynamic storytelling and professional editing flows.",
+        "icon": "film"
+      },
+      {
+        "title": "Character Consistency",
+        "description": "Maintain subject identity across shots with advanced image and video references, ensuring seamless narrative flow.",
+        "icon": "user-check"
+      },
+      {
+        "title": "Cinematic Motion",
+        "description": "Achieve film-quality results with precise camera movements including pan, tilt, zoom, and push.",
+        "icon": "video"
+      },
+      {
+        "title": "Flexible Aspect Ratios",
+        "description": "Output in 16:9, 9:16, or 1:1 to fit any social media or broadcast platform perfectly.",
+        "icon": "layout"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Create with Kling 3.0 in 3 Steps",
+    "subtitle": "From concept to cinematic video in minutes",
+    "steps": [
+      {
+        "title": "Describe Scene & Audio",
+        "description": "Detail your visual scene and desired audio atmosphere (dialogue, SFX) in the prompt to guide the AI."
+      },
+      {
+        "title": "Set Duration & Shots",
+        "description": "Choose up to 15s duration and define camera cuts if needed for multi-shot sequences."
+      },
+      {
+        "title": "Generate & Refine",
+        "description": "Create your video with native audio and refine using Standard or Pro modes for the perfect finish."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Kling 3.0 on AnividAI",
+    "items": [
+      {
+        "question": "What's new in Kling 3.0 compared to previous versions?",
+        "answer": "Kling 3.0 introduces native audio generation, extended 15-second duration, and multi-shot capabilities (up to 6 cuts), offering significantly more control and quality than previous iterations."
+      },
+      {
+        "question": "Can I generate audio with my video?",
+        "answer": "Yes! Kling 3.0 supports native audio-visual co-generation, meaning it creates synchronized sound effects and dialogue along with the video."
+      },
+      {
+        "question": "How long can the videos be?",
+        "answer": "You can generate videos up to 15 seconds long, a 50% increase from the previous 10-second limit, allowing for more complex storytelling."
+      },
+      {
+        "question": "What is Multi-Shot Cinematic Control?",
+        "answer": "This feature allows you to specify up to 6 different camera cuts within a single generation, simulating a professionally edited sequence."
+      },
+      {
+        "question": "Does it support character consistency?",
+        "answer": "Absolutely. Kling 3.0 features 'universe-strongest consistency', maintaining subject identity across different shots and scenes using image and video references."
+      },
+      {
+        "question": "What aspect ratios are available?",
+        "answer": "Kling 3.0 supports standard ratios like 16:9 (widescreen), 9:16 (vertical/mobile), and 1:1 (square)."
+      },
+      {
+        "question": "Can I use these videos commercially?",
+        "answer": "Yes, videos generated on AnividAI can be used for commercial purposes, subject to platform policies."
+      },
+      {
+        "question": "How do I get the best results?",
+        "answer": "Be specific in your prompts about both visual and audio elements. Use the reference tools for consistency and experiment with multi-shot settings for complex scenes."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Start Creating with Kling 3.0",
+    "subtitle": "Experience the future of AI video with native audio and cinematic control.",
+    "button_primary": "Create with Kling 3.0"
+  },
+  "generator_title": "Generate Videos with Kling 3.0",
+  "credits": "Credits",
+  "videos": "Videos",
+  "generate": "Generate",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Videos",
+    "description": "Enter a description, select style parameters, or click a sample video below to start generating"
+  },
+  "gallery": {
+    "title": "Video Gallery",
+    "empty": "No examples available",
+    "hint": "Hover to preview, click the card to watch, or use Reuse.",
+    "preview": "Preview video",
+    "reuse": "Reuse",
+    "immersive_title": "Video Preview"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "duration": "Duration",
+    "count": "Count",
+    "piece": "Video"
+  },
+  "prompt": {
+    "label": "Describe Video Scene",
+    "placeholder": "Example: A lone swordswoman walks through neon rain, slow push-in camera, reflective wet streets, dramatic backlight, cinematic mood",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing...",
+    "counter_too_long": "Prompt exceeds the maximum length of {max} characters.",
+    "counter_too_short": "Prompt must be at least {min} characters.",
+    "counter_format": "{current} / {max}"
+  },
+  "parameters": {
+    "title": "Video Parameters",
+    "character": "Character",
+    "style": "Style",
+    "loading_characters": "Loading characters...",
+    "duration": "Duration",
+    "mode": "Mode",
+    "ratio": "Aspect Ratio",
+    "quality": "Quality",
+    "multi_shots": "Multi Shots",
+    "multi_shot_switch_hint": "Create multiple shots of the same video.",
+    "multi_shot_script": "Multi-Shot Script",
+    "add-shot": "Add Shot",
+    "shot-label": "Shot {index}",
+    "single-shot-label": "Prompt",
+    "multi_shot_prompt_placeholder": "Describe this shot...",
+    "multi_shot_total_duration": "Total duration: {current}/{max} seconds",
+    "sound": "Sound",
+    "sound_description": "Enable model-generated sound for this video.",
+    "aspect_ratio": "Aspect Ratio",
+    "watermark": "Watermark",
+    "negative_prompt": "Negative Prompt",
+    "negative_prompt_placeholder": "Words or concepts to avoid in the video",
+    "camera_motion": "Camera Motion (Optional)",
+    "camera_motion_placeholder": "Select camera motion",
+    "reference": "Reference",
+    "reference_placeholder": "Paste image URL (optional)",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level"
+  },
+  "common": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "camera_motions": {
+    "pan": {
+      "name": "Pan"
+    },
+    "tilt": {
+      "name": "Tilt"
+    },
+    "zoom": {
+      "name": "Zoom"
+    },
+    "push": {
+      "name": "Push"
+    },
+    "orbit": {
+      "name": "Orbit"
+    }
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format",
+    "error-auth": "Please log in to upload images",
+    "error-filename": "Invalid file name",
+    "disabled-oc-selected": "Current model supports only one image. OC portrait is already selected, so reference image upload is disabled.",
+    "cleared-by-oc": "Reference image cleared because OC was selected and current model supports only one image.",
+    "trimmed-by-limit": "Some reference images were removed to match current model limits.",
+    "start-end-hint": "Image #1 is Start Frame, Image #2 is End Frame.",
+    "multi-shots-first-frame-only": "Multi-shots is enabled. Only the first frame image will be used.",
+    "start-frame": "Start Frame(optional)",
+    "end-frame": "End Frame(optional)",
+    "start-frame-placeholder": "Upload start frame image.",
+    "end-frame-placeholder": "Upload end frame image.",
+    "end-frame-disabled-multi-shot": "End frame is disabled in multi-shot mode."
+  },
+  "toast": {
+    "task_created": "Task created",
+    "started": "Video generation started!",
+    "completed": "Video generation completed!",
+    "reuse-failed": "Failed to load video parameters"
+  },
+  "errors": {
+    "generation_failed": "Generation failed",
+    "create_failed": "Failed to create task",
+    "not-authenticated": "Please log in to access this video",
+    "no-permission": "You don't have permission to access this video",
+    "not-found": "Video not found",
+    "load-video-failed": "Failed to load video data",
+    "auth-required": "Please log in to access this video",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again.",
+    "reference-image-not-found": "Reference image not found",
+    "invalid-reference-image-uuid": "Invalid reference image. Please select an image manually.",
+    "reference-image-load-error": "Failed to load reference image. Please try again.",
+    "multi-shot-min-segments": "Multi-shot mode requires at least 1 prompt segment.",
+    "multi-shot-duration-exceeded": "Total multi-shot duration must be between 3 and 15 seconds.",
+    "multi-shot-segment-duration-invalid": "Each multi-shot segment duration must be between 3 and 12 seconds.",
+    "multi-shot-start-frame-required": "Multi-shot mode requires a start frame image.",
+    "kling-duration-invalid": "Kling 3.0 duration must be between 3 and 15 seconds.",
+    "start-end-images-required": "Start/End Frame mode requires exactly 2 reference images."
+  },
+  "reuse": {
+    "loading": "Loading video parameters...",
+    "loading_desc": "Preparing the selected video for reuse..."
+  },
+  "generating": {
+    "title": "Generating Video...",
+    "tip": "Creating your video, this may take a few minutes..."
+  },
+  "panel": {
+    "guest": {
+      "title": "Create Videos with AI",
+      "description": "Transform your prompts and characters into stunning videos. Sign in to start creating!"
+    },
+    "user": {
+      "title": "Start Creating Your Video",
+      "description": "Enter a description, select your style and parameters, then click Generate to create your video"
+    }
+  },
+  "buttons": {
+    "create_video": "Create Video",
+    "generating": "Generating...",
+    "sign_in": "Sign In to Create"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Generation task has been added to the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Video",
+      "description": "AI is creating your video. Video generation may take a few minutes."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your video is ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine the current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Generation will continue in the background."
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "remove_watermark": "Watermark removal is available for subscription members. Upgrade to unlock.",
+    "remove_watermark_short": "Upgrade to remove watermark",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  }
+}

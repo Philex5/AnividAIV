@@ -1,0 +1,15 @@
+# 导出 API 测试
+# Export APIs
+# 相关文档: docs/2-implementation/api/export.md
+
+@import common.http
+
+###############################################################################
+# 角色导出 (Character Export)
+###############################################################################
+
+### 导出角色 JSON
+GET {{apiUrl}}/export/character/{{characterUuid}}/json
+
+### 导出角色 Markdown
+GET {{apiUrl}}/export/character/{{characterUuid}}/markdown

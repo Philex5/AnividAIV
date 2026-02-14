@@ -1,0 +1,26 @@
+{
+  "seo": {
+    "title": "AnividAI Product Changelog & Release Notes",
+    "description": "Track AnividAI releases, new features, improvements, and bug fixes across anime image generation, OC tools, video workflows, and community updates."
+  },
+  "title": "Product Changelog",
+  "description": "Track all version updates, new features, improvements, and bug fixes for AnividAI.",
+  "loading": "Loading changelog...",
+  "version": "Version",
+  "empty": "No changelog entries found.",
+  "changeTypes": {
+    "added": "Added",
+    "fixed": "Fixed",
+    "changed": "Changed",
+    "removed": "Removed"
+  },
+  "contentGuide": {
+    "heading": "How to read our release notes",
+    "items": [
+      "Each version groups product updates by change type so you can quickly identify new capabilities.",
+      "Use recent entries to track updates to Anime Generator, Video Generator, and OC workflows.",
+      "Check fixed items to verify whether previously reported issues have been addressed.",
+      "Follow this page regularly to monitor platform stability and feature rollout progress."
+    ]
+  }
+}

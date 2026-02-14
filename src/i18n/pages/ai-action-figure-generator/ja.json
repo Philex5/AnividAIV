@@ -1,0 +1,194 @@
+{
+  "metadata": {
+    "title": "AI Action Figure Generator | カスタム3Dフィギュア作成 | AnividAI",
+    "description": "AnividAIのプロ仕様AI Action Figure Generatorで、写真やOCを驚きの3Dフィギュアに変換。世界最高のツールを使って、数秒でカスタムフィギュアを作成しましょう。",
+    "keywords": ""
+  },
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "ratio": "比率",
+    "count": "数",
+    "piece": "体"
+  },
+  "tool": {
+    "title": "プロ仕様 AI Action Figure Generator",
+    "selectTemplate": "テンプレートを選択",
+    "templateDescription": "作成したいフィギュアのポーズとスタイルを選んでください",
+    "provideReference": "リファレンスを提供",
+    "referenceDescription": "画像をアップロードするか、OCを選択して生成のガイドにします",
+    "uploadImage": "画像をアップロード",
+    "selectOC": "OCを選択",
+    "additionalPrompt": "追加詳細（任意）",
+    "additionalPromptDescription": "生成するフィギュアに特定のディテールを追加します",
+    "additionalPromptPlaceholder": "例：赤いマント、伝説の剣を持たせる、ダイナミックな照明...",
+    "model": "モデル",
+    "batchSize": "バッチサイズ",
+    "publicVisibility": "公開設定",
+    "subscriptionTooltip": "プライベート設定はサブスクリプション会員限定です。アップグレードしてアンロックしてください。",
+    "generate": "フィギュアを生成",
+    "generating": "生成中...",
+    "creditsCost": "（{cost} MC）",
+    "readyTitle": "作成の準備はできましたか？",
+    "readyDescription": "テンプレートを選び、リファレンスを提供してAI Action Figure Generatorを開始しましょう",
+    "generationFailed": "生成に失敗しました",
+    "errorSignIn": "続行するにはサインインが必要です",
+    "errorSelectTemplate": "テンプレートを選択してください",
+    "errorProvideReference": "リファレンス画像を提供するか、キャラクターを選択してください",
+    "errorUploadImage": "リファレンス画像をアップロードしてください",
+    "errorSelectOC": "OCキャラクターを選択してください",
+    "errorSelectModel": "モデルを選択してください",
+    "loginRequiredForUpload": "画像をアップロードするにはサインインが必要です",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "generationStarted": "生成を開始しました！",
+    "generationCompleted": "フィギュアが完成しました！",
+    "loadingReuse": "パラメータを読み込み中...",
+    "loginToReuse": "ログインしてパラメータを再利用",
+    "noPermission": "この画像にアクセスする権限がありません",
+    "imageNotFound": "画像が見つかりません",
+    "reuseSuccess": "準備完了！AI Action Figure Generatorで作成しましょう",
+    "loadFailed": "読み込みに失敗しました",
+    "character-not-found": "キャラクターが見つかりません。手動で選択してください。",
+    "invalid-character-uuid": "無効な参照です。手動で選択してください。",
+    "character-load-error": "読み込みに失敗しました。もう一度お試しください。"
+  },
+  "introduce": {
+    "title": "AI Action Figure Generatorとは？",
+    "description": "AnividAIのプロ仕様AI Action Figure Generatorを使えば、オリジナルキャラクターや写真が、数秒で驚きの3Dフィギュアに生まれ変わります。この強力なツールは、OCやアニメキャラクターを、ダイナミックなポーズとスタジオ照明を備えたプロ品質のコレクタブルフィギュアに変換。キャラクターの個性を完璧に再現し、ポートフォリオやフィギュアのモックアップに最適です。最高のAI Action Figure Generator体験を今すぐ始めましょう。",
+    "tagline": "キャラクターを3Dコレクタブルとして立体化する究極のツール"
+  },
+  "benefits": {
+    "title": "AI Action Figure Generatorが選ばれる理由",
+    "subtitle": "プロ品質のカスタムフィギュアをAI Action Figure Generatorで瞬時に作成",
+    "items": [
+      {
+        "title": "一貫したデザイン再現",
+        "description": "AI Action Figure Generatorは、いかなるポーズでもOCのデザインを忠実に再現。高い一貫性を保証します。",
+        "icon": "template"
+      },
+      {
+        "title": "高品質な3Dレンダリング",
+        "description": "リアルな質感とライティングを体験してください。このAI Action Figure Generatorで生成されるフィギュアは、本物のコレクタブルのような仕上がりです。",
+        "icon": "quality"
+      },
+      {
+        "title": "多彩なテンプレート",
+        "description": "AI Action Figure Generatorには、立ちポーズ、アクション、レゴスタイルなど、豊富なテンプレートが揃っています。",
+        "icon": "style"
+      },
+      {
+        "title": "OCとのスムーズな連携",
+        "description": "OCや写真をアップロードするだけ。高度なAI Action Figure Generator技術により、あなたの創作をフィギュアとして具現化します。",
+        "icon": "character"
+      },
+      {
+        "title": "細部まで自由自在な制御",
+        "description": "アクセサリーやエフェクトなど、細部までカスタマイズ可能。AI Action Figure Generatorで世界に一つだけの作品を作りましょう。",
+        "icon": "customize"
+      },
+      {
+        "title": "超高速なレンダリング",
+        "description": "プロ仕様の生成を60秒以内に完了。AI Action Figure Generatorなら、理想のスタイルを求めて何度でも即座に試せます。",
+        "icon": "speed"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "4ステップでフィギュアを作成",
+    "subtitle": "デザイン経験不要 — AI Action Figure Generatorで3Dフィギュア生成を体験",
+    "step_1_title": "テンプレートを選択",
+    "step_1_description": "AI Action Figure Generatorのテンプレートから、お好みのポーズやスタイルを選びます。",
+    "step_2_title": "リファレンスをアップ",
+    "step_2_description": "画像をアップロードするかOCを選択します。AI Action Figure Generatorはあらゆるアニメスタイルに対応します。",
+    "step_3_title": "詳細をカスタマイズ",
+    "step_3_description": "エフェクトや武器を追加。AI Action Figure Generatorのプロンプトで自分だけのこだわりを伝えましょう。",
+    "step_4_title": "生成＆ダウンロード",
+    "step_4_description": "生成ボタンをクリック！AI Action Figure Generatorで完成した高解像度画像をダウンロードしましょう。",
+    "image": "/imgs/guide/figure-step4.webp"
+  },
+  "faq": {
+    "title": "AI Action Figure Generator FAQ",
+    "subtitle": "よくある質問",
+    "items": [
+      {
+        "question": "AI Action Figure Generatorは無料で使えますか？",
+        "answer": "はい。無料クレジットを利用して、AI Action Figure Generatorでの3Dフィギュア作成をお試しいただけます。"
+      },
+      {
+        "question": "なぜこれが最高のAI Action Figure Generatorなのですか？",
+        "answer": "最新のAIによりキャラクターの一貫性を保ちつつ、スタジオ品質のライティングと質感を提供できるからです。"
+      },
+      {
+        "question": "どのようなテンプレートがありますか？",
+        "answer": "デスクモデル、アクションポーズ、レゴ風など、AI Action Figure Generatorは常に新しいスタイルを追加しています。"
+      },
+      {
+        "question": "自分の写真から作れますか？",
+        "answer": "はい。AI Action Figure Generator技術により、画像をアップロードするだけで瞬時に高品質なフィギュアを作成可能です。"
+      },
+      {
+        "question": "生成にはどのくらい時間がかかりますか？",
+        "answer": "AI Action Figure Generatorは通常30〜60秒で完了します。複数のバリエーションを素早く比較できます。"
+      },
+      {
+        "question": "出力される解像度は？",
+        "answer": "すべての画像は高解像度PNG形式で提供され、ポートフォリオの披露にも最適です。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "今すぐフィギュア作りを始めましょう",
+    "description": "プロ仕様のAI Action Figure Generatorで、キャラクターに命を吹き込みましょう。クリエイターのための究极ツールです。",
+    "start_creating": "無料で作成を開始する"
+  },
+  "image_detail": {
+    "title": "フィギュア詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "OCがリンクされていません"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをコピーしました",
+      "failed": "コピーに失敗しました"
+    },
+    "actions": {
+      "download": "ダウンロード",
+      "reuse": "パラメータを再利用",
+      "download_error": "ダウンロードに失敗しました",
+      "delete": "削除",
+      "delete_confirm": "このフィギュアを削除しますか？",
+      "delete_success": "正常に削除されました",
+      "delete_failed": "削除に失敗しました"
+    },
+    "meta": {
+      "created_at": "作成日",
+      "style": "スタイル"
+    },
+    "visibility_toast": {
+      "success": "更新されました",
+      "error": "更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "読み込み中...",
+      "error": "再利用に失敗しました"
+    },
+    "empty": {
+      "title": "未選択",
+      "description": "詳細を見るにはフィギュアを選択してください。"
+    },
+    "loading": "詳細を読み込み中...",
+    "error": "読み込みに失敗しました"
+  }
+}

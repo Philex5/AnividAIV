@@ -1,0 +1,236 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2025-09-28",
+  "theme_id": "generic",
+  "theme_key": "generic",
+  "route_slug": "generic-oc-maker",
+  "status": "active",
+
+  "metadata": {
+    "name": "Creative Style",
+    "i18n_name_key": "oc_themes.generic.name",
+    "i18n_description_key": "oc_themes.generic.description",
+    "thumbnail_url": "/themes/generic/thumbnail.webp",
+    "cover_image": "/themes/generic/cover.webp",
+    "sort_order": 999,
+    "tags": ["creative", "flexible", "artistic", "original"]
+  },
+
+  "preset_parameters": {
+    "styles": [
+      {
+        "style_id": "anime",
+        "weight": 10,
+        "prompt_enhancement": "anime art style, clean lines, vibrant colors"
+      },
+      {
+        "style_id": "cartoon",
+        "weight": 9,
+        "prompt_enhancement": "cartoon art style, stylized, expressive"
+      },
+      {
+        "style_id": "semi_realistic",
+        "weight": 7,
+        "prompt_enhancement": "semi-realistic art style, detailed, polished"
+      },
+      {
+        "style_id": "chibi",
+        "weight": 6,
+        "prompt_enhancement": "chibi art style, cute, small proportions"
+      }
+    ],
+
+    "default_style": "anime",
+
+    "color_schemes": [
+      {
+        "key": "cool_blue",
+        "primary": "#2196F3",
+        "secondary": "#E3F2FD",
+        "accent": "#FF9800"
+      },
+      {
+        "key": "warm_red",
+        "primary": "#F44336",
+        "secondary": "#FFEBEE",
+        "accent": "#4CAF50"
+      },
+      {
+        "key": "nature_green",
+        "primary": "#4CAF50",
+        "secondary": "#E8F5E8",
+        "accent": "#FF5722"
+      },
+      {
+        "key": "purple_magic",
+        "primary": "#9C27B0",
+        "secondary": "#F3E5F5",
+        "accent": "#FFC107"
+      }
+    ],
+
+    "aspect_ratios": [
+      {
+        "ratio_id": "portrait_classic",
+        "weight": 10
+      },
+      {
+        "ratio_id": "square",
+        "weight": 9
+      },
+      {
+        "ratio_id": "landscape",
+        "weight": 7
+      }
+    ]
+  },
+
+  "ui_customization": {
+    "colors": {
+      "primary": "#2196F3",
+      "secondary": "#FF9800",
+      "accent": "#4CAF50",
+      "background": "#f5f5f5",
+      "text": "#333333",
+      "border": "#dddddd"
+    },
+
+    "typography": {
+      "heading_font": "'Roboto', sans-serif",
+      "body_font": "'Open Sans', sans-serif"
+    },
+
+    "visual_elements": {
+      "background_pattern": "subtle_grid",
+      "hero_character": "generic_silhouette",
+      "decorative_elements": ["sparkles", "creative_tools", "inspiration_lines"],
+      "animation_style": "gentle_float"
+    },
+
+    "layout_preferences": {
+      "form_style": "card_modern",
+      "button_style": "rounded_modern",
+      "input_style": "clean_modern",
+      "card_shadow": "soft_shadow"
+    }
+  },
+
+  "form_presets": {
+    "role_options": [
+        { "key": "student", "i18n_key": "role.student", "weight": 10 },
+        { "key": "teacher", "i18n_key": "role.teacher", "weight": 8 },
+        { "key": "king", "i18n_key": "role.king", "weight": 7 },
+        { "key": "queen", "i18n_key": "role.queen", "weight": 6 },
+        { "key": "prince", "i18n_key": "role.prince", "weight": 5 },
+        { "key": "princess", "i18n_key": "role.princess", "weight": 5 },
+        { "key": "warrior", "i18n_key": "role.warrior", "weight": 9 },
+        { "key": "mage", "i18n_key": "role.mage", "weight": 8 },
+        { "key": "healer", "i18n_key": "role.healer", "weight": 7 },
+        { "key": "villain", "i18n_key": "role.villain", "weight": 8 },
+        { "key": "hero", "i18n_key": "role.hero", "weight": 10 },
+        { "key": "mentor", "i18n_key": "role.mentor", "weight": 6 },
+        { "key": "leader", "i18n_key": "role.leader", "weight": 7 },
+        { "key": "detective", "i18n_key": "role.detective", "weight": 6 },
+        { "key": "idol", "i18n_key": "role.idol", "weight": 7 },
+        { "key": "scientist", "i18n_key": "role.scientist", "weight": 5 },
+        { "key": "doctor", "i18n_key": "role.doctor", "weight": 5 },
+        { "key": "nurse", "i18n_key": "role.nurse", "weight": 4 },
+        { "key": "thief", "i18n_key": "role.thief", "weight": 5 },
+        { "key": "assassin", "i18n_key": "role.assassin", "weight": 6 },
+        { "key": "merchant", "i18n_key": "role.merchant", "weight": 4 },
+        { "key": "adventurer", "i18n_key": "role.adventurer", "weight": 7 },
+        { "key": "guardian", "i18n_key": "role.guardian", "weight": 6 },
+        { "key": "spy", "i18n_key": "role.spy", "weight": 5 },
+        { "key": "maid", "i18n_key": "role.maid", "weight": 5 },
+        { "key": "butler", "i18n_key": "role.butler", "weight": 4 },
+        { "key": "general", "i18n_key": "role.general", "weight": 5 },
+        { "key": "captain", "i18n_key": "role.captain", "weight": 5 }
+      ],
+
+    "personality_tags": [
+      {
+        "category": "core_traits",
+        "tags": [
+          {
+            "key": "creative",
+            "i18n_key": "personality.creative",
+            "weight": 10
+          },
+          {
+            "key": "kind",
+            "i18n_key": "personality.kind",
+            "weight": 9
+          },
+          {
+            "key": "brave",
+            "i18n_key": "personality.brave",
+            "weight": 8
+          },
+          {
+            "key": "curious",
+            "i18n_key": "personality.curious",
+            "weight": 8
+          },
+          {
+            "key": "intelligent",
+            "i18n_key": "personality.intelligent",
+            "weight": 8
+          },
+          {
+            "key": "friendly",
+            "i18n_key": "personality.friendly",
+            "weight": 7
+          }
+        ]
+      }
+    ],
+
+    "outfit_presets": [
+      {
+        "category": "casual",
+        "items": [
+          {
+            "key": "comfortable_clothing",
+            "i18n_key": "outfits.comfortable_clothing",
+            "prompt_enhancement": "comfortable casual clothes, stylish and practical"
+          },
+          {
+            "key": "creative_accessories",
+            "i18n_key": "outfits.creative_accessories",
+            "prompt_enhancement": "artistic accessories that reflect creativity"
+          }
+        ]
+      },
+      {
+        "category": "adventure",
+        "items": [
+          {
+            "key": "explorer_gear",
+            "i18n_key": "outfits.explorer_gear",
+            "prompt_enhancement": "practical travel gear with artistic touches"
+          },
+          {
+            "key": "adventure_accessories",
+            "i18n_key": "outfits.adventure_accessories",
+            "prompt_enhancement": "useful gear for creative adventures"
+          }
+        ]
+      },
+      {
+        "category": "formal",
+        "items": [
+          {
+            "key": "elegant_attire",
+            "i18n_key": "outfits.elegant_attire",
+            "prompt_enhancement": "elegant clothing with unique artistic flair"
+          },
+          {
+            "key": "artistic_accessories",
+            "i18n_key": "outfits.artistic_accessories",
+            "prompt_enhancement": "sophisticated accessories for special occasions"
+          }
+        ]
+      }
+    ]
+  }
+}

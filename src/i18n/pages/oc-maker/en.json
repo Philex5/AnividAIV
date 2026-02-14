@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "title": "OC Maker on AnividAI| Anime Character Creator | Try for Free",
+    "description": "Transform your imagination into living icons with AnividAI's OC Maker. The ultimate character creator for building anime IPs, stories, and immersive worlds.",
+    "keywords": ""
+  },
+  "navigation": {
+    "back_to_home": "Back to Home",
+    "start_creating": "Start OC Maker",
+    "browse_gallery": "Browse OC Gallery"
+  },
+  "hero": {
+    "title": "OC Maker: Give Form to Your Fantasy",
+    "subtitle": "Every legend begins with a soul. Use our professional OC Maker and anime character generator to bring your original characters to life—from their visual essence to their deepest lore.",
+    "description_label": "Enter Your Vision",
+    "description_placeholder": "e.g., A melancholic lunar priestess with silver hair and glowing eyes",
+    "description_helper": "Describe your character's vibe, power, or soul in one sentence for the OC Maker.",
+    "gender_label": "Gender",
+    "art_style_label": "Art Style",
+    "species_label": "Species",
+    "gender_placeholder": "Select gender",
+    "art_style_placeholder": "Select style",
+    "species_placeholder": "Select",
+    "species_custom": "Custom",
+    "species_custom_placeholder": "Input species",
+    "gender_options": {
+      "female": "Female",
+      "male": "Male",
+      "other": "Other"
+    },
+    "generate_button": "Generate",
+    "manual_button": "The Master Smith (Manual OC Maker)",
+    "info_text": "Quick Summon in the OC Maker instantly weaves together a complete character profile with AI. Perfect for instant inspiration.",
+    "auto_generate_label": "Auto-generate profile & avatar (+40 MC)",
+    "auto_generate_helper": "Use the OC Maker AI to build fullbody art and avatar automatically",
+    "quick_options": {
+      "clear": "Clear options",
+      "gender": [
+        {
+          "value": "female",
+          "label": "♀ Female",
+          "icon": "♀"
+        },
+        {
+          "value": "male",
+          "label": "♂ Male",
+          "icon": "♂"
+        },
+        {
+          "value": "other",
+          "label": "⚥ Other",
+          "icon": "⚥"
+        }
+      ],
+      "art_styles": [
+        {
+          "value": "anime",
+          "label": "🎨 Anime",
+          "icon": "🎨"
+        },
+        {
+          "value": "realistic",
+          "label": "🖼 Realistic",
+          "icon": "🖼"
+        },
+        {
+          "value": "pixel_art",
+          "label": "👾 Pixel Art",
+          "icon": "👾"
+        }
+      ],
+      "species": [
+        {
+          "value": "human",
+          "label": "👤 Human",
+          "icon": "👤"
+        },
+        {
+          "value": "elf",
+          "label": "🧝 Elf",
+          "icon": "🧝"
+        },
+        {
+          "value": "robot",
+          "label": "🤖 Robot",
+          "icon": "🤖"
+        }
+      ]
+    },
+    "suggestions": {
+      "label": "OC Maker Idea Sparks",
+      "refresh": "Refresh",
+      "manual_hint": "Have a legend already living in your mind? Use the manual OC Maker.",
+      "pool": [
+        "A cyberpunk hacker girl with neon pink hair",
+        "An elf archer who loves adventure",
+        "A gentle orc healer in a fantasy world",
+        "A mysterious wizard with a dark past",
+        "A brave knight defending the kingdom",
+        "A cheerful robot exploring the universe",
+        "A gothic vampire artist in a neon city",
+        "A samurai warrior seeking redemption"
+      ]
+    },
+    "suggestion_pool": [
+      "A cyberpunk hacker girl with neon pink hair",
+      "An elf archer who loves adventure",
+      "A gentle orc healer in a fantasy world",
+      "A mysterious wizard with a dark past",
+      "A brave knight defending the kingdom",
+      "A cheerful robot exploring the universe",
+      "A gothic vampire artist in a neon city",
+      "A samurai warrior seeking redemption"
+    ],
+    "idea_sparks": {
+      "label": "OC Maker Soul Forge Lab",
+      "description": "Need a head start? Tap one of these curated combos to auto-fill the OC Maker and ignite your character creation creativity.",
+      "refresh": "Shuffle ideas",
+      "apply_label": "Forge This Soul",
+      "examples": [
+        {
+          "id": "neon-fairy-hacker",
+          "title": "Neon Fairy Hacker",
+          "description": "A rebellious guardian who rewrites corrupted code with glowing wings.",
+          "prompt": "A neon-winged fairy hacker with luminescent tattoos who protects underground networks.",
+          "gender": "female",
+          "gender_label": "Female",
+          "art_style": "cyberpunk",
+          "art_style_label": "Cyberpunk anime",
+          "species": "fairy",
+          "species_label": "Fairy",
+          "tags": [
+            "cyberpunk",
+            "protector"
+          ]
+        },
+        {
+          "id": "starlit-ranger",
+          "title": "Starlit Ranger Captain",
+          "description": "An elf tactician who commands constellations on the battlefield.",
+          "prompt": "An elven ranger captain with silver armor inspired by constellations, holding an arcane bow.",
+          "gender": "male",
+          "gender_label": "Male",
+          "art_style": "fantasy_rpg",
+          "art_style_label": "Fantasy RPG",
+          "species": "elf",
+          "species_label": "Elf",
+          "tags": [
+            "fantasy",
+            "leader"
+          ]
+        },
+        {
+          "id": "cosmic-idol-cat",
+          "title": "Cosmic Idol Cat",
+          "description": "A stellar pop idol catfolk with prismatic outfits.",
+          "prompt": "A catfolk idol in a cosmic stage outfit, sparkling tail ribbons and holographic mic.",
+          "gender": "female",
+          "gender_label": "Female",
+          "art_style": "anime",
+          "art_style_label": "Vibrant anime",
+          "species": "cat_person",
+          "species_label": "Catfolk",
+          "tags": [
+            "idol",
+            "music"
+          ]
+        },
+        {
+          "id": "sky-healer",
+          "title": "Watercolor Sky Healer",
+          "description": "An angelic healer who paints clouds into medicine.",
+          "prompt": "A serene angel healer floating among watercolor clouds, cradling glowing remedies.",
+          "gender": "other",
+          "gender_label": "Non-binary",
+          "art_style": "watercolor",
+          "art_style_label": "Watercolor",
+          "species": "angel",
+          "species_label": "Angel",
+          "tags": [
+            "healer",
+            "dreamy"
+          ]
+        },
+        {
+          "id": "stellar-pathfinder",
+          "title": "Stellar Pathfinder",
+          "description": "A calm explorer navigating nebula caravans.",
+          "prompt": "A semi-realistic human spacefarer in layered jackets, carrying star charts and glowing compass.",
+          "gender": "male",
+          "gender_label": "Male",
+          "art_style": "semi_realistic",
+          "art_style_label": "Semi-realistic",
+          "species": "human",
+          "species_label": "Human",
+          "tags": [
+            "sci-fi",
+            "explorer"
+          ]
+        },
+        {
+          "id": "gadget-chibi-bot",
+          "title": "Gadget Chibi Bot",
+          "description": "A pocket-sized robot courier with endless tools.",
+          "prompt": "A chibi robot with interchangeable gadget arms, cheerful LED face, pastel casing.",
+          "gender": "other",
+          "gender_label": "Robot",
+          "art_style": "chibi",
+          "art_style_label": "Chibi",
+          "species": "robot",
+          "species_label": "Robot",
+          "tags": [
+            "cute",
+            "support"
+          ]
+        }
+      ]
+    }
+  },
+  "quick_gen": {
+    "title": "Quick OC Maker",
+    "subtitle": "Describe your character's essence and let the OC Maker manifest the soul.",
+    "placeholder": "Describe your character's essence in one sentence...",
+    "button": {
+      "generate": "Generate",
+      "generating": "Summoning...",
+      "reset": "Reset"
+    },
+    "or": "OR",
+    "result": {
+      "title": "Manifested Character",
+      "name_label": "True Name",
+      "intro_label": "Glimpse of Soul"
+    },
+    "actions": {
+      "use": "Save to Library",
+      "fine_tune": "Soul Carving",
+      "regenerate": "Resummon"
+    },
+    "toast": {
+      "generated": "OC Maker manifested the soul successfully!",
+      "prefilled": "Essence captured. Continue carving details in the OC Maker below.",
+      "manual_mode": "Master Smith OC Maker mode activated",
+      "auth_required": "Please log in to manifest your fantasy with OC Maker"
+    },
+    "errors": {
+      "failed": "OC Maker summoning failed",
+      "insufficient_credits": "You need more MC for the OC Maker. Recharge to continue.",
+      "generation_timeout": "The OC Maker summoning is taking longer than expected. Check your library soon.",
+      "generation_failed": "OC Maker manifestation failed. You can retry in your character library.",
+      "avatar_failed": "OC Maker avatar focus failed. You can retry in the character detail page."
+    },
+    "progress": {
+      "title": "OC Maker: Manifesting Your Fantasy",
+      "subtitle": "Connecting with the ether to bring your OC to life...",
+      "parsing_description": "Weaving the essence...",
+      "creating_character": "Inscribing the soul...",
+      "generating_portrait": "Manifesting visual form...",
+      "setting_avatar": "Focusing the spirit..."
+    }
+  },
+  "Introduce": {
+    "title": "What is the AnividAI OC Maker?",
+    "description": "The AnividAI OC Maker is not just a tool; it's a gateway to your own anime universe. As the ultimate anime character creator, it empowers you to incubate unique character IPs that grow with your stories. Whether you're using our OC Maker to manifest a new hero or preserving a long-standing legend, our platform provides a professional character creator ecosystem to bring OCs to life. Once your character is forged in the OC Maker, they become permanent residents of AnividAI—ready to star in your anime videos, engage in deep AI chats, and even manifest as custom stickers or action figures. It's time to stop just imagining and start using the most powerful character maker available.",
+    "tagline": "AnividAI OC Maker – The Premier Anime Character Generator"
+  },
+  "oc_gallery": {
+    "title": "Hall of Legends: OC Maker Gallery",
+    "subtitle": "Draw inspiration from other manifested souls in our OC Maker community.",
+    "loading": "Connecting to the Hall...",
+    "empty": "No souls found in this realm",
+    "previous": "Back",
+    "next": "Forward",
+    "age": "Age {age}",
+    "species_label": "Species",
+    "style_label": "Art Style",
+    "traits_label": "Essence",
+    "traits_more": "+{count} more",
+    "use_template": "Inherit Legacy",
+    "template_loaded": "Legacy inherited! Now, give it your own form in the OC Maker.",
+    "use_template_tooltip": "Start with this soul as a foundation for your OC Maker session"
+  },
+  "spotlight_gallery": {
+    "title": "OC Maker Spotlight Gallery",
+    "subtitle": "Explore the souls of legends through multi-dimensional archives created with our OC Maker.",
+    "bio_fragment_title": "The Origin / Lore",
+    "skill_arsenal_title": "Skill Arsenal",
+    "skill_arsenal_subtitle": "Techniques",
+    "soul_frequency_title": "Soul Frequency (Stats)",
+    "aura_fragments_title": "Aura Fragments",
+    "access_archives": "Access Archives"
+  },
+  "character_creation": {
+    "title": "Soul Forge: OC Maker",
+    "basic_info": "Core Essence",
+    "name": "True Name",
+    "name_placeholder": "Enter character name",
+    "name_required": "A name is required to bind the soul in the OC Maker",
+    "gender": "Gender",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_other": "Other",
+    "gender_required": "Gender is required",
+    "age": "Maturity / Age",
+    "age_placeholder": "",
+    "species": "Race / Species",
+    "species_placeholder": "Select race",
+    "role_label": "Fate / Role",
+    "role": "Role",
+    "personality_traits": "Personality Traits",
+    "brief_introduction": "Glimpse of Soul (Brief)",
+    "brief_introduction_placeholder": "Summarize your character's vibe...",
+    "brief_introduction_generate": "OC Maker Manifest",
+    "brief_introduction_generating": "Manifesting...",
+    "brief_introduction_hint": "A one-sentence summary of your character's essence in the OC Maker",
+    "background_story": "The Legend (Backstory)",
+    "background_placeholder": "Write the history of your character for the OC Maker...",
+    "outfit_style": "Vestige (Outfit Style)",
+    "outfit_placeholder": "Describe character's outfit style...",
+    "color_scheme": "Aura (Color Scheme)",
+    "color_placeholder": "Select color scheme",
+    "visibility": "Existence Level (Visibility)",
+    "visibility_private": "Private (Inner World)",
+    "visibility_friends": "Friends Only",
+    "visibility_public": "Public (Known Legend)",
+    "allow_fork": "Allow Remix",
+    "creating": "Forging...",
+    "create_character": "Complete OC Maker Forge",
+    "preview": "Preview Form",
+    "edit": "Carve Details"
+  },
+  "character_card": {
+    "view_details": "Enter Lore",
+    "edit": "Recarve",
+    "delete": "Fade into Void",
+    "share": "Spread Legend",
+    "like": "Praise",
+    "unlike": "Withdraw Praise",
+    "views": "Views",
+    "likes": "Praises",
+    "generations": "Manifestations",
+    "forks": "Legacies",
+    "public": "Public",
+    "private": "Private",
+    "theme": "Aura",
+    "unnamed_character": "Unnamed Soul",
+    "visual_features": "Visual Essence",
+    "no_visual_features": "No visual essence set",
+    "attributes": "Core Traits",
+    "no_introduction": "No glimpse written yet",
+    "character_artwork": "Character Manifestation",
+    "no_style": "No Style",
+    "background_story": "The Legend",
+    "no_background": "History yet to be written"
+  },
+  "call_to_action": {
+    "title": "Ready to Try the Best OC Maker?",
+    "description": "Join thousands of world-builders. Manifest your heroes with our anime character creator, save your legends, and start your journey with the ultimate character creator.",
+    "start_creating": "Manifest Your First Soul with OC Maker"
+  },
+  "stats": {
+    "active_users": "World Architects",
+    "characters_created": "OCs Manifested",
+    "online_service": "Ether Connection"
+  },
+  "tabs": {
+    "save": "Bind Soul",
+    "gallery": "OC Maker Gallery",
+    "info": "Lore Settings"
+  },
+  "errors": {
+    "load_characters_failed": "OC Maker failed to connect to the Hall",
+    "create_character_failed": "OC Maker forge failed",
+    "delete_character_failed": "Failed to fade OC",
+    "like_failed": "Praise failed",
+    "unlike_failed": "Withdraw praise failed",
+    "name_and_gender_required": "Name and gender are needed to anchor the soul in the OC Maker",
+    "character_not_found": "Soul not found in the OC Maker archives",
+    "access_denied": "You lack authority to access this OC Maker entry",
+    "delete_confirm": "Are you sure you want to let \"{name}\" fade from the OC Maker?",
+    "delete_failed_retry": "Fading failed, please try again",
+    "link_copied": "OC link bound to clipboard",
+    "check_url_message": "Please check the OC Maker link and try again."
+  },
+  "loading_states": {},
+  "backgrounds": {
+    "freedom_fighter": "Freedom Fighter",
+    "speed_racer": "Speed Racer",
+    "tech_inventor": "Tech Inventor",
+    "guardian_protector": "Guardian Protector",
+    "student_scholar": "Student/Scholar",
+    "artist_creator": "Artist/Creator",
+    "wandering_explorer": "Wandering Explorer",
+    "community_helper": "Community Helper"
+  },
+  "faq": {
+    "title": "OC Maker Archives (FAQ)",
+    "subtitle": "Discover how our anime character creator helps you manifest your vision.",
+    "items": [
+      {
+        "question": "What is the AnividAI OC Maker and how does it work?",
+        "answer": "AnividAI OC Maker is a professional-grade character creator and anime character generator designed for IP incubation. It uses advanced AI to manifest original characters (OCs) based on your descriptions. You can use the 'Quick Summon' OC Maker for instant inspiration or the 'Master Smith' path for deep customization and preserving existing IPs."
+      },
+      {
+        "question": "Can I use the OC Maker for free?",
+        "answer": "Yes! We offer trial MC for every new world-builder. You can manifest your initial characters in the OC Maker at no cost to experience the power of our anime character generator."
+      },
+      {
+        "question": "Can I save my own existing characters in the OC Maker?",
+        "answer": "Absolutely. Use the 'Master Smith' (Manual OC Maker) path to precisely recreate your own existing characters. Once saved in the OC Maker, they become permanent assets in your account, ensuring consistency across all AI-driven stories and videos."
+      },
+      {
+        "question": "How does the OC Maker ensure character consistency?",
+        "answer": "Every character forged in our OC Maker contains a unique 'DNA' or Memory Core. When you use our anime character generator for new images or videos, the AI references these saved traits to maintain visual and personality consistency."
+      },
+      {
+        "question": "Can I use my OC Maker characters for commercial projects?",
+        "answer": "Yes. Characters created with the AnividAI OC Maker belong to you. You can use your character maker outputs for commercial projects like games, comics, and streaming, following our terms of service."
+      },
+      {
+        "question": "What happens after I use the OC Maker to create my OC?",
+        "answer": "Creation in the OC Maker is just the beginning. Your OC becomes the anchor for a rich ecosystem. You can chat with them, feature them in anime videos, create custom merchandise concepts, and build a following in our character creator community."
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "How to Use the OC Maker",
+    "subtitle": "Choose the OC Maker path that fits your creative pulse. Whether chasing a spark or preserving a legend.",
+    "path_a": {
+      "title": "Path A: The Quick OC Maker",
+      "description": "Manifest a complete character soul from a single spark of inspiration in the OC Maker.",
+      "steps": [
+        "Enter a one-sentence essence description in the OC Maker",
+        "Optionally select gender and artistic aura",
+        "Manifest visual form and lore instantly with our anime character generator"
+      ]
+    },
+    "path_b": {
+      "title": "Path B: The Master Smith OC Maker",
+      "description": "The professional choice for world-builders and existing character IPs within the OC Maker.",
+      "steps": [
+        "Enter the manual OC Maker Soul Forge",
+        "Precisely carve appearance and history in the character maker",
+        "Bind to your permanent digital library"
+      ]
+    }
+  },
+  "benefits": {
+    "section_title": "Why Use the AnividAI OC Maker?",
+    "section_subtitle": "Unlock the ultimate anime character creator and a professional AI-driven OC ecosystem.",
+    "professional_quality": {
+      "title": "Forge a Lasting IP with OC Maker",
+      "description": "We go beyond just pixels. Our OC Maker helps you incubate a character IP that grows with your stories, serving as a permanent asset in your digital multiverse."
+    },
+    "diverse_styles": {
+      "title": "Diverse Aesthetic Paths in OC Maker",
+      "description": "Whether you desire classic anime, high-end game CG, or stylized fantasy, our OC Maker forge supports a wide range of artistic directions to match your world's vibe."
+    },
+    "fine_details": {
+      "title": "OC Maker Lore Integration",
+      "description": "Your OC's traits aren't just text. In our OC Maker, they form a Memory Core that influences how they behave in chats and how they appear in AI-generated anime scenes."
+    },
+    "character_ecosystem": {
+      "title": "From OC Maker to Screen",
+      "description": "Instantly export your OC Maker fantasy into premium Gacha cards, visual novels, or high-quality video clips. Your OC is ready for any medium the moment they are manifested."
+    },
+    "efficiency": {
+      "title": "Effortless OC Maker Flow",
+      "description": "Stop struggling with blank pages. Our Quick OC Maker path provides instant inspiration, while the Master Smith path offers the precision needed for professional character creation."
+    },
+    "rich_character_info": {
+      "title": "The Origin of Your OC Maker Legacy",
+      "description": "With detailed character cards, avatars, and in-depth backstories, the OC Maker provides the 'DNA' for an entire universe. This is where your legends truly begin."
+    }
+  },
+  "character_success_dialog": {
+    "title": "OC Maker: Soul Manifested Successfully! 🎉",
+    "share": "Spread the Legend",
+    "create_new": "Manifest Another in OC Maker",
+    "view_character": "Enter Lore Details",
+    "quick_actions": "Ascend Your OC",
+    "generate_image": "Manifest Scene",
+    "generate_video": "Capture Moment (Video)",
+    "oc_apps": "Studio Creative Tools"
+  },
+  "creation_tool": {
+    "title": "OC Maker: Give Form to Your Fantasy",
+    "loading_configurations": "Connecting to the OC Maker forge...",
+    "modes": {
+      "detailed": "Master Smith",
+      "quick": "Generate",
+      "quick_badge": "Spark"
+    },
+    "steps": {
+      "basic_info": "Core Essence",
+      "visual_design": "Visual Form",
+      "background_story": "Legend History"
+    },
+    "buttons": {
+      "next_visual_design": "Next: Carve Visuals",
+      "generate_character_art": "Manifest Visual Form",
+      "generating": "Manifesting...",
+      "generating_character": "Forging Soul in OC Maker...",
+      "generating_avatar": "Focusing Spirit...",
+      "save_character": "Bind to Library",
+      "saving": "Binding...",
+      "creating": "Manifesting in OC Maker...",
+      "add_section": "Add Legend Chapter",
+      "add_custom_attribute": "Add Soul Trait",
+      "try_again": "Re-summon in OC Maker"
+    },
+    "status": {
+      "generating_character": "OC Maker: Manifesting character form...",
+      "generating_avatar": "OC Maker: Focusing character spirit...",
+      "ready_to_generate": "Ready to manifest visually with the OC Maker",
+      "artwork_placeholder": "The soul's form will appear here from the OC Maker"
+    },
+    "errors": {
+      "auto_save_failed": "OC Maker binding failed. The ether is unstable.",
+      "must_save_first": "The soul must be bound in the OC Maker before manifesting visually",
+      "generation_failed": "OC Maker manifestation failed",
+      "no_character_art": "Please manifest visual form in the OC Maker first",
+      "missing_species": "Select a race to anchor the soul in the OC Maker",
+      "missing_profile_image": "Manifest and select a form in the OC Maker before binding",
+      "missing_avatar_image": "Focus a spirit (avatar) in the OC Maker before binding"
+    },
+    "basic_info": {
+      "title": "OC Maker Core Essence",
+      "name_label": "True Name *",
+      "name_placeholder": "Enter character name",
+      "gender_label": "Gender *",
+      "gender_placeholder": "Select",
+      "gender_male": "Male",
+      "gender_female": "Female",
+      "gender_other": "Other",
+      "species_label": "Race / Species",
+      "species_placeholder": "Select",
+      "species_custom": "Unique Realm",
+      "species_custom_placeholder": "Type custom species",
+      "role_label": "Fate / Role",
+      "role_student": "Student",
+      "role_teacher": "Teacher",
+      "role_warrior": "Warrior",
+      "role_mage": "Mage",
+      "role_artist": "Artist",
+      "role_scientist": "Scientist",
+      "role_explorer": "Explorer",
+      "role_guardian": "Guardian",
+      "role_mystic": "Mystic",
+      "role_noble": "Noble",
+      "role_merchant": "Merchant",
+      "role_healer": "Healer",
+      "role_craftsman": "Craftsman",
+      "role_scholar": "Scholar",
+      "role_general": "General",
+      "age_label": "Maturity / Age *",
+      "age_placeholder": "",
+      "body_type_label": "Physical Form",
+      "body_type_placeholder": "Select body type",
+      "personality_traits_title": "OC Maker Soul Vibrations",
+      "personality_traits_subtitle": "Select traits that define the character's core",
+      "custom_personality_tag_placeholder": "Enter custom trait",
+      "visibility_title": "Existence Level",
+      "visibility_label": "Visibility",
+      "visibility_private": "Inner World (Private)",
+      "visibility_public": "Known Legend (Public)",
+      "visibility_hint": "How visible should this soul be to the multiverse?",
+      "allow_remix_label": "Allow Legacies",
+      "allow_remix_hint": "Allow others to fork and remix this OC Maker creation",
+      "extended_attributes_title": "OC Maker Soul Fragments",
+      "extended_attributes_subtitle": "Add unique attributes to anchor your legend",
+      "attribute_key_placeholder": "Trait Name",
+      "attribute_value_placeholder": "Trait Value",
+      "personality_tag_hint": "Select key qualities that define your character's behavior and attitude in the OC Maker.",
+      "extend_attr_hint": "Add extra details to enrich your character's background and abilities in the OC Maker."
+    },
+    "appearance": {
+      "title": "OC Maker Visual Carving",
+      "art_style_label": "Artistic Aura",
+      "body_type_label": "Physical Form",
+      "body_type_placeholder": "Select body type",
+      "hair_style_label": "Hair Texture",
+      "hair_style_placeholder": "Select hair style",
+      "hair_color_label": "Hair Hue",
+      "hair_color_placeholder": "e.g., Black, Brown, Blonde",
+      "eye_color_label": "Eye Gaze",
+      "eye_color_placeholder": "Select eye color",
+      "accessories_label": "Relics & Accessories",
+      "accessories_subtitle": "Select items bound to this soul in the OC Maker",
+      "custom_accessory_placeholder": "Enter relic name",
+      "outfit_style_label": "Vestige Style",
+      "outfit_style_placeholder": "Describe character's outfit...",
+      "appearance_features_label": "Divine Features",
+      "appearance_features_placeholder": "e.g., Red scarf, Golden ring"
+    },
+    "personality": {
+      "brief_introduction_title": "OC Maker Soul Glimpse (Summary) *",
+      "brief_introduction_label": "Glimpse",
+      "brief_introduction_placeholder": "A summary to capture their vibe...",
+      "brief_introduction_hint": "A one-sentence essence of your character in the OC Maker",
+      "ai_generate_tooltip": "Manifest with OC Maker AI",
+      "main_background_title": "Ancestral Legend (Backstory)",
+      "background_label": "The Origin",
+      "background_placeholder": "Tell the history of this soul in the OC Maker...",
+      "story_sections_title": "OC Maker Legend Chapters",
+      "section_title_placeholder": "Chapter Title",
+      "section_content_placeholder": "Chapter Details..."
+    }
+  },
+  "oc_limit": {
+    "title": "OC Maker Threshold",
+    "current": "Bound Souls: {count}/{limit}",
+    "reached": "Threshold Reached",
+    "warning": "You cannot bind more souls in the OC Maker until you expand your domain (upgrade).",
+    "upgrade_prompt": "Expand Your Domain for More OC Maker Slots",
+    "limits_by_plan": {
+      "free": "10 OCs",
+      "basic": "Unlimited OCs",
+      "plus": "Unlimited OCs",
+      "pro": "Unlimited OCs"
+    }
+  },
+  "upgrade_prompts": {
+    "oc_limit_reached": "You've reached your OC Maker binding limit. Upgrade to manifest more!",
+    "oc_limit_warning": "You've bound {count} out of {limit} souls in the OC Maker. Upgrade to increase your limit.",
+    "subscription_required": "Ether Subscription Required for OC Maker"
+  },
+  "membership": {
+    "free": "Traveler",
+    "basic": "Adventurer",
+    "plus": "Lord",
+    "pro": "Creator",
+    "upgrade_now": "Ascend Now"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "Capture Motion",
+        "href": "/ai-video-generation?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "Soul Apps",
+        "listItems": [
+          {
+            "label": "ai action figure forge",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          },
+          {
+            "label": "ai sticker manifestation",
+            "href": "/ai-sticker-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  }
+}

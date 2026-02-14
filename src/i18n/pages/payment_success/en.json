@@ -1,0 +1,20 @@
+{
+  "title": "Thank you for your support!",
+  "orderNumber": "Order Number",
+  "product": "Product",
+  "credits": "Credits",
+  "amount": "Amount",
+  "paymentDate": "Payment Date",
+  "paymentMethod": "Payment Method",
+  "email": "Email",
+  "status": "Status",
+  "statusPaid": "Paid",
+  "backToHome": "Back to Home",
+  "viewAccount": "View Account",
+  "autoRedirect": "Auto redirect in {countdown} seconds",
+  "autoRedirectMessage": "Redirecting to user center automatically. {clickHere} to go directly.",
+  "clickHere": "Click here",
+  "invalidPayment": "Invalid Payment",
+  "orderNotFound": "Order Not Found",
+  "returnToHome": "Return to Home"
+}

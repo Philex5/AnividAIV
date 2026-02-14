@@ -1,0 +1,336 @@
+{
+  "metadata": {
+    "title": "Nano Banana (Gemini 2.5 Flash Image) AIジェネレーター | AnividAI",
+    "description": "GoogleのGemini 2.5 Flash Imageでアニメアートを生成。キャラクターの一貫性、複数画像の融合、そしてクリエイターのための世界の知識を活用しましょう。",
+    "keywords": "Nano Banana, Gemini 2.5 Flash Image, Google AI画像生成, キャラクターの一貫性, 複数画像の融合, アニメアート, AIアートツール"
+  },
+  "Introduce": {
+    "tagline": "AnividAIのGemini 2.5 Flash Image (Nano Banana) | Googleの最も先進的なAI",
+    "title": "Nano Banana (Gemini 2.5 Flash Image) とは？",
+    "description": "Nano Banana（正式名称：Gemini 2.5 Flash Image）は、Googleの最先端AI画像生成・編集モデルです。Geminiの高度な推論能力と世界の知識を組み合わせ、詳細で遊び心のある、リアルまたは幻想的な画像を生成します。主な革新点として、複数の生成を通じたキャラクターの一貫性、複雑な構成のための複数画像フュージョン（融合）、そして自然な創造的洗練を可能にする対話型入力が挙げられます。Google DeepMindによって構築されたこのモデルは、AIによる創造性の大きな進歩を象徴しています。"
+  },
+  "benefits": {
+    "title": "Nano Banana (Gemini 2.5 Flash Image) が選ばれる理由",
+    "subtitle": "クリエイターのための画期的な機能を備えた、Googleの最先端AIを体験してください",
+    "items": [
+      {
+        "title": "キャラクターの一貫性",
+        "description": "複数のプロンプトや生成にわたって、キャラクターやオブジェクトの外見を維持します。同じキャラクターを異なる環境に配置したり、製品を複数の角度から紹介したり、一貫したブランド資産を生成したりできます。",
+        "icon": "users"
+      },
+      {
+        "title": "複数画像の融合",
+        "description": "複数の入力画像を1つの構成に統合します。オブジェクトをシーンに配置したり、配色やテクスチャで部屋のスタイルを変更したり、自然言語のプロンプトで画像を融合させたりできます。",
+        "icon": "layers"
+      },
+      {
+        "title": "世界の知識",
+        "description": "Geminiの高度な推論により、現実世界のロジックに従った画像を生成します。モデルは文脈、関係性、事実情報を理解し、よりインテリジェントな創造を可能にします。",
+        "icon": "globe"
+      },
+      {
+        "title": "対話型入力",
+        "description": "画像を作成する際に日常言語を使用できます。自然な対話と反復的なフィードバックを通じて、モデルが生成する内容を洗練させるために会話を続けることができます。",
+        "icon": "message-square"
+      },
+      {
+        "title": "プロンプトベースの編集",
+        "description": "自然言語を使用して、特定の場所を変換します。背景のぼかし、オブジェクトの削除、ポーズの変更、白黒写真への着色、または簡単なテキストコマンドによる複雑な編集が可能です。",
+        "icon": "wand-2"
+      },
+      {
+        "title": "Google DeepMindによる提供",
+        "description": "高度なAIインフラを備えたGoogle DeepMindによって構築されています。すべての画像には、AI生成コンテンツであることを透明に示すためのSynthIDウォーターマークが含まれています。",
+        "icon": "shield-check"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Gemini 2.5 Flash Imageで生成する3つのステップ",
+    "subtitle": "Googleの最も先進的なAI画像モデルで、あなたの創造的なビジョンを変えましょう",
+    "steps": [
+      {
+        "title": "ビジョンを説明する",
+        "description": "対話的な言葉を使って、希望するアートワークを説明します。Nano Bananaは、深い文脈理解を伴う自然なプロンプトを理解します。"
+      },
+      {
+        "title": "リファレンスを追加（オプション）",
+        "description": "AIをガイドするために、1つまたは複数の参照画像をアップロードします。要素を組み合わせたり、キャラクターの一貫性を維持したりするために、複数画像フュージョンを使用します。"
+      },
+      {
+        "title": "生成して洗練させる",
+        "description": "生成をクリックし、対話的な洗練プロセスを繰り返します。完璧になるまで、自然言語コマンドで特定のエリアを編集します。"
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "subtitle": "Nano Banana (Gemini 2.5 Flash Image) について知っておくべきこと",
+    "items": [
+      {
+        "question": "Nano Banana (Gemini 2.5 Flash Image) とは何ですか？",
+        "answer": "Nano BananaはGemini 2.5 Flash Imageのコードネームで、Googleの最先端AI画像生成・編集モデルです。Google DeepMindによって構築され、Geminiの高度な推論と世界の知識を組み合わせて、これまでにない制御と品質で画像を生成・編集します。"
+      },
+      {
+        "question": "Nano Bananaと他のAI画像ジェネレーターの違いは何ですか？",
+        "answer": "Nano Bananaは主に3つの分野で優れています：(1) 生成をまたぐキャラクターの一貫性、(2) 複雑な構成のための複数画像フュージョン、(3) インテリジェントな創造のための世界の知識の統合。また、自然な創造的洗練のための対話型入力やプロンプトベースのローカル編集もサポートしています。"
+      },
+      {
+        "question": "Nano Bananaの利用料金はいくらですか？",
+        "answer": "Nano BananaはAnividAIのクレジットシステムを使用します。新規ユーザーは開始時に無料クレジットを受け取り、毎日のサインインや作品の共有を通じて追加クレジットを獲得できます。これにより、初期のお試しにクレジットカードを必要とせず、プロフェッショナルなAIアートにアクセスできます。"
+      },
+      {
+        "question": "Nano Bananaはキャラクターの一貫性を維持できますか？",
+        "answer": "はい！キャラクターの一貫性はNano Bananaの際立った機能の1つです。同じキャラクターを異なる環境に配置したり、製品を複数の角度から紹介したり、外見やスタイルを維持しながら複数の生成にわたって一貫したブランド資産を生成したりできます。"
+      },
+      {
+        "question": "Nano Bananaは既存の画像の編集をサポートしていますか？",
+        "answer": "もちろんです。Nano Bananaは、特定の場所を変換するためのプロンプトベースの画像編集をサポートしています。背景のぼかし、オブジェクトの削除、ポーズの変更、白黒写真への着色、または自然言語コマンドを使用した正確なローカル編集が可能です。"
+      },
+      {
+        "question": "マルチ画像フュージョン（複数画像の融合）とは何ですか？",
+        "answer": "マルチ画像フュージョンにより、Nano Bananaは複数の入力画像を理解し、1つの構成にマージ（統合）できます。オブジェクト、シーン、スタイル、テクスチャを組み合わせて、複数のソースからの要素をブレンドした複雑な画像を作成できます。"
+      },
+      {
+        "question": "Nano Bananaを商用プロジェクトに使用できますか？",
+        "answer": "はい、Nano Bananaで作成されたアートワークは、商用目的、ソーシャルメディア、商品、および個人プロジェクトに使用できます。生成された画像の全権利はユーザーに帰属します。すべてのAI生成画像には、コンテンツの識別を透明にするためのSynthIDウォーターマークが含まれています。"
+      },
+      {
+        "question": "Nano Bananaはどのアスペクト比をサポートしていますか？",
+        "answer": "Nano Bananaは、1:1（正方形）、2:3（ポートレート）、3:2（ランドスケープ）、3:4、4:3、4:5, 5:4、16:9、9:16、および21:9（ウルトラワイド）を含む幅広いアスペクト比をサポートしています。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Gemini 2.5 Flash Imageで制作を開始",
+    "subtitle": "Googleの最先端AI画像生成を体験してください。キャラクターの一貫性、複数画像の融合、そして世界の知識を1つの強力なツールで。",
+    "button_primary": "Nano Bananaで制作を開始"
+  },
+  "generator_title": "Nano Bananaで画像を生成",
+  "credits": "クレジット",
+  "images": "画像",
+  "generate": "生成",
+  "generating": "生成中...",
+  "optimize": "最適化",
+  "empty-state": {
+    "title": "画像作成を始めよう",
+    "description": "説明を入力、スタイルパラメータを選択、または下の例をクリックして生成を開始"
+  },
+  "create_oc": "OCを作成",
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "ratio": "比率",
+    "count": "枚数",
+    "piece": "枚"
+  },
+  "prompt": {
+    "label": "画像を説明してください",
+    "placeholder": "例：なだらかな丘と黄金の夕日を持つ穏やかな風景、夜の近代的な都市のスカイライン、またはクリーンな照明で製品を紹介",
+    "optimize": "AIで最適化",
+    "optimizing": "最適化中..."
+  },
+  "parameters": {
+    "character": "キャラクター",
+    "style": "スタイル",
+    "loading_characters": "キャラクターを読み込み中...",
+    "action": "アクション",
+    "scene": "シーン",
+    "outfit": "衣装",
+    "aspect-ratio": "アスペクト比",
+    "batch-size": "生成枚数",
+    "model": "AIモデル",
+    "advanced": "詳細設定",
+    "guidance-scale": "ガイダンススケール",
+    "num-inference-steps": "推論ステップ数",
+    "seed": "シード",
+    "random-seed": "ランダムシード",
+    "generate-seed": "新しいシードを生成",
+    "select": "選択",
+    "title": "生成パラメータ",
+    "visibility": "公開設定",
+    "visibility_description": "生成の可視性レベルを設定",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "subscriptionTooltip": "サブスクリプション会員はプライベート表示を利用できます。アップグレードしてご利用ください。"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "タスクがキューに追加されました",
+      "description": "生成タスクがキューに入りました。しばらくお待ちください..."
+    },
+    "processing": {
+      "title": "画像を生成中",
+      "description": "AIが画像を作成しています。1枚あたり最大30秒かかる場合があります。"
+    },
+    "completed": {
+      "title": "生成完了！",
+      "description": "画像の表示とダウンロードの準備ができました。"
+    },
+    "failed": {
+      "title": "生成失敗",
+      "description": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+    },
+    "canceled": {
+      "title": "生成がキャンセルされました",
+      "description": "生成タスクがキャンセルされました。"
+    },
+    "unknown": {
+      "title": "不明なステータス",
+      "description": "現在のステータスを確認できません。"
+    },
+    "progress": "進捗",
+    "batch-size": "バッチサイズ",
+    "credits-used": "使用クレジット",
+    "time-elapsed": "経過時間",
+    "estimated-remaining": "推定残り時間",
+    "coming-soon": "近日公開",
+    "cancel": "キャンセル",
+    "retry": "再試行",
+    "view-results": "結果を表示",
+    "processing-tip": "このページを閉じても大丈夫です。生成はバックグラウンドで継続されます。"
+  },
+  "completed-results": {
+    "title": "生成された画像",
+    "empty": {
+      "title": "生成された画像がありません",
+      "description": "まだ画像を生成していません。最初の画像を作成してみましょう！"
+    },
+    "copy-parameters": "パラメータをコピー",
+    "download-all": "すべてダウンロード",
+    "filters": {
+      "all-styles": "すべてのスタイル"
+    },
+    "sort": {
+      "newest": "新しい順",
+      "oldest": "古い順",
+      "most-liked": "いいね順"
+    }
+  },
+  "result-image": {
+    "error": "画像の読み込みに失敗しました",
+    "view": "表示"
+  },
+  "image_detail": {
+    "title": "アートワーク詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "OCとの関連なし"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをクリップボードにコピーしました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "画像をダウンロード",
+      "reuse": "再利用",
+      "download_error": "画像のダウンロードに失敗しました",
+      "as_reference": "参照画像として使用"
+    },
+    "meta": {
+      "aspect_ratio": "アスペクト比",
+      "style": "スタイル",
+      "scene": "シーン",
+      "outfit": "衣装",
+      "seed": "シード",
+      "created_at": "作成日時"
+    },
+    "variants": {
+      "title": "バリエーション"
+    },
+    "visibility_toast": {
+      "success": "公開設定を更新しました",
+      "error": "公開設定の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "このアートワークの再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "アートワークが選択されていません",
+      "description": "ギャラリーから画像を選択して詳細を表示してください。"
+    },
+    "loading": "アートワーク詳細を読み込み中...",
+    "error": "アートワーク詳細の読み込みに失敗しました"
+  },
+  "status": {
+    "completed": "完了",
+    "processing": "処理中",
+    "pending": "待機中",
+    "failed": "失敗",
+    "canceled": "キャンセル済み"
+  },
+  "errors": {
+    "prompt-required": "画像の説明を入力してください",
+    "insufficient-credits": "この枚数の画像を生成するクレジットが不足しています",
+    "generation-failed": "生成の開始に失敗しました。もう一度お試しください。",
+    "network-error": "ネットワークエラーが発生しました。接続を確認して再試行してください。",
+    "config-load-failed": "設定の読み込みに失敗しました",
+    "image-not-found": "画像が見つかりません",
+    "no-permission": "この画像にアクセスする権限がありません",
+    "load-image-failed": "画像データの読み込みに失敗しました",
+    "character-not-found": "キャラクターが見つからないか、アクセス権限がありません。手動でキャラクターを選択してください。",
+    "invalid-character-uuid": "無効なキャラクター参照です。手動でキャラクターを選択してください。",
+    "character-load-error": "キャラクターの読み込みに失敗しました。もう一度お試しください。"
+  },
+  "auth_required": {
+    "reuse_params": "参照画像や生成パラメータの再利用にはログインが必要です。現在の設定は保持されます。",
+    "ref_image": "生成に参照画像を使用するにはログインが必要です。"
+  },
+  "ratios": {
+    "square": {
+      "name": "正方形 (1:1)",
+      "description": "プロフィール画像に最適な正方形フォーマット"
+    },
+    "portrait": {
+      "name": "ポートレート (2:3)",
+      "description": "キャラクターポートレートに最適な縦長フォーマット"
+    },
+    "widescreen": {
+      "name": "ワイドスクリーン (16:9)",
+      "description": "風景や壁紙に最適なワイドフォーマット"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "アスペクト比",
+    "selected": "選択済み"
+  },
+  "reference": {
+    "label": "参照",
+    "title": "参照画像",
+    "upload": "画像をアップロード",
+    "drag-drop": "ここに画像をドラッグ＆ドロップ、またはクリックして選択",
+    "supported-formats": "JPG、PNG、WEBP対応（最大10MB）",
+    "remove": "削除",
+    "change": "変更",
+    "processing": "処理中...",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-format": "サポートされていない画像形式です"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "非公開設定はサブスクリプション会員限定です。アップグレードして利用可能にしましょう。",
+    "private_visibility_short": "アップグレードして非公開設定を使用",
+    "subscription_required": "サブスクリプションが必要です"
+  },
+  "membership": {
+    "free": "無料",
+    "basic": "ベーシック",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  }
+}

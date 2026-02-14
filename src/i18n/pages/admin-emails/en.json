@@ -1,0 +1,72 @@
+{
+  "title": "Email Management",
+  "subtitle": "View sent emails and manually send messages",
+  "tabs": {
+    "sent": "Sent Emails",
+    "manual": "Manual Send"
+  },
+  "sent": {
+    "searchPlaceholder": "Search by subject, recipient, or uuid",
+    "statusPlaceholder": "Status",
+    "allStatus": "All Status",
+    "refresh": "Refresh",
+    "noData": "No email logs found",
+    "columns": {
+      "subject": "Subject",
+      "recipient": "Recipient",
+      "campaign": "Campaign",
+      "status": "Status",
+      "sentAt": "Sent At",
+      "action": "Action"
+    },
+    "detail": "View Detail",
+    "syncFromResend": "Sync from Resend",
+    "syncingFromResend": "Syncing...",
+    "syncResultTemplate": "Synced {synced}/{total}, changed {changed}, failed {failed}",
+    "pagination": {
+      "prev": "Previous",
+      "next": "Next",
+      "page": "Page {page} / {totalPages} ({total} total)"
+    }
+  },
+  "manual": {
+    "targetLabel": "Target",
+    "targetAll": "All Users",
+    "targetSpecific": "Specific Emails",
+    "recipientsLabel": "Recipients",
+    "recipientsPlaceholder": "Enter multiple emails separated by comma, space, or newline",
+    "campaignNameLabel": "Campaign Name",
+    "campaignNamePlaceholder": "Optional campaign name",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Email subject",
+    "contentTextLabel": "Email Content",
+    "contentTextPlaceholder": "Enter plain text content. The system will generate themed HTML automatically.",
+    "preview": "Preview",
+    "previewing": "Generating Preview...",
+    "submit": "Send Emails",
+    "sending": "Sending...",
+    "resultTitle": "Result",
+    "resultTemplate": "Total {total}, success {success}, failed {failed}"
+  },
+  "detailDialog": {
+    "title": "Email Detail",
+    "campaign": "Campaign",
+    "recipient": "Recipient",
+    "status": "Status",
+    "resendMessageId": "Resend Message ID",
+    "error": "Error",
+    "sentAt": "Sent At",
+    "html": "HTML",
+    "text": "Text",
+    "metadata": "Metadata"
+  },
+  "messages": {
+    "loading": "Loading...",
+    "loadFailed": "Failed to load data",
+    "sendSuccess": "Email sent",
+    "sendFailed": "Failed to send email",
+    "invalidForm": "Please complete required fields",
+    "syncFailed": "Failed to sync from Resend",
+    "previewFailed": "Failed to generate preview"
+  }
+}

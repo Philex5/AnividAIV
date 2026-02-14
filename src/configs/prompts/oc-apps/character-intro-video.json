@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "slug": "character-intro-video",
+  "kind": "video",
+  "variables": [
+    "character.name",
+    "character.traits",
+    "scene",
+    "camera_motion",
+    "duration"
+  ],
+  "template": "Anime character intro for {{character.name}}. Show traits: {{character.traits}}. Scene: {{scene}}. Camera motion: {{camera_motion}}. Duration: {{duration}} seconds. High-contrast, clean framing, cinematic lighting."
+}
+

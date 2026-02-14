@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-02-10",
+  "items": [
+    {
+      "id": "cyberpunk-hacker",
+      "prompt": "A cyberpunk hacker girl with neon pink hair",
+      "aliases": {
+        "en": "A cyberpunk hacker girl with neon pink hair",
+        "ja": "ネオンピンクの髪のサイバーパンクハッカー少女"
+      },
+      "description": "Neon-clad hacker weaving through megacity firewalls.",
+      "gender": "female",
+      "species": "human",
+      "art_style": "cyberpunk",
+      "extra_aliases": []
+    },
+    {
+      "id": "elf-archer",
+      "prompt": "An elf archer who loves adventure",
+      "aliases": {
+        "en": "An elf archer who loves adventure",
+        "ja": "冒険が大好きなエルフの弓使い"
+      },
+      "description": "Wandering ranger mapping mythical ruins.",
+      "gender": "female",
+      "species": "elf",
+      "art_style": "fantasy_rpg",
+      "extra_aliases": []
+    },
+    {
+      "id": "orc-healer",
+      "prompt": "A gentle orc healer in a fantasy world",
+      "aliases": {
+        "en": "A gentle orc healer in a fantasy world",
+        "ja": "ファンタジー世界の優しいオーク治療師"
+      },
+      "description": "Heals allies with enchanted herbs and warmth.",
+      "gender": "male",
+      "species": "orc",
+      "art_style": "watercolor",
+      "extra_aliases": []
+    },
+    {
+      "id": "mysterious-wizard",
+      "prompt": "A mysterious wizard with a dark past",
+      "aliases": {
+        "en": "A mysterious wizard with a dark past",
+        "ja": "暗い過去を持つ謎の魔法使い"
+      },
+      "description": "Arcane scholar haunted by forbidden spells.",
+      "gender": "other",
+      "species": "human",
+      "art_style": "semi_realistic",
+      "extra_aliases": []
+    },
+    {
+      "id": "brave-knight",
+      "prompt": "A brave knight defending the kingdom",
+      "aliases": {
+        "en": "A brave knight defending the kingdom",
+        "ja": "王国を守る勇敢な騎士"
+      },
+      "description": "Radiant armor, shield of the royal guard.",
+      "gender": "male",
+      "species": "human",
+      "art_style": "anime",
+      "extra_aliases": []
+    },
+    {
+      "id": "robot-explorer",
+      "prompt": "A cheerful robot exploring the universe",
+      "aliases": {
+        "en": "A cheerful robot exploring the universe",
+        "ja": "宇宙を旅する陽気なロボット探検家"
+      },
+      "description": "Modular bot cataloging nebula secrets.",
+      "gender": "other",
+      "species": "robot",
+      "art_style": "chibi",
+      "extra_aliases": []
+    },
+    {
+      "id": "vampire-artist",
+      "prompt": "A gothic vampire artist in a neon city",
+      "aliases": {
+        "en": "A gothic vampire artist in a neon city",
+        "ja": "ネオン都市に住むゴシック吸血鬼アーティスト"
+      },
+      "description": "Immortal painter capturing neon nights.",
+      "gender": "female",
+      "species": "vampire",
+      "art_style": "modern_digital_painting",
+      "extra_aliases": []
+    },
+    {
+      "id": "samurai-redemption",
+      "prompt": "A samurai warrior seeking redemption",
+      "aliases": {
+        "en": "A samurai warrior seeking redemption",
+        "ja": "贖いを求める侍の剣士"
+      },
+      "description": "Ronin tracing forgotten vows.",
+      "gender": "male",
+      "species": "human",
+      "art_style": "ghiblio",
+      "extra_aliases": []
+    }
+  ]
+}

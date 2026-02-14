@@ -1,0 +1,50 @@
+User-agent: *
+
+# Allow public pages
+Allow: /
+
+# Allow OG image endpoint for previews
+Allow: /api/og/
+
+# Block API routes
+Disallow: /api/
+
+# Block admin pages
+Disallow: /admin/
+Disallow: /ja/admin/
+
+# Block auth pages
+Disallow: /auth/
+Disallow: /ja/auth/
+
+# Block user private pages
+Disallow: /home
+Disallow: /user-center
+Disallow: /my-creations
+Disallow: /my-orders
+Disallow: /my-credits
+Disallow: /my-invites
+Disallow: /api-keys
+Disallow: /payment_success/
+Disallow: /ja/home
+Disallow: /ja/user-center
+Disallow: /ja/my-creations
+Disallow: /ja/my-orders
+Disallow: /ja/my-credits
+Disallow: /ja/my-invites
+Disallow: /ja/api-keys
+Disallow: /ja/payment_success/
+
+# Block other private routes
+Disallow: /i/
+Disallow: /ja/i/
+
+# Block technical paths
+Disallow: /_next/
+Disallow: /_vercel/
+
+# Block query search URLs
+Disallow: /*?*q=
+
+# Sitemap
+Sitemap: https://anividai.com/sitemap.xml

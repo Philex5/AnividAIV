@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "slug": "story-writer",
+  "kind": "text",
+  "variables": [
+    "character.name",
+    "character.backstory",
+    "tone",
+    "length"
+  ],
+  "template": "Write a short anime story about {{character.name}}. Use tone: {{tone}}. Include backstory elements: {{character.backstory}}. Keep length around {{length}} words. Output plain English text, no headings."
+}
+

@@ -1,0 +1,31 @@
+{
+  "version": "1.1.0",
+  "lastUpdated": "2026-01-04T00:00:00.000Z",
+  "config_type": "oc_quick_generation",
+  "model": "gpt-4.1",
+  "temperature": 0.7,
+  "max_tokens": 1200,
+  "templates": {
+    "base": {
+      "config_type": "oc_quick_generation_base",
+      "temperature": 0.6,
+      "max_tokens": 900,
+      "system_prompt": "You are a professional anime original character (OC) designer. Output MUST be valid JSON only, no markdown. Focus ONLY on appearance and identity fields. Do NOT include background or personality fields.",
+      "user_prompt_template": "User description: \"{user_description}\"\n\nReturn a single JSON object with this structure:\n{\n  \"name\": string,\n  \"gender\": \"male\"|\"female\"|\"other\",\n  \"age\": number|null,\n  \"role\": string,\n  \"species\": string,\n  \"body_type\": string,\n  \"hair_color\": string,\n  \"hair_style\": string,\n  \"eye_color\": string,\n  \"outfit_style\": string,\n  \"accessories\": string[],\n  \"appearance_features\": string[],\n  \"reasoning\": {\n    \"extracted_features\": string[],\n    \"suggestions\": string[]\n  }\n}\n"
+    },
+    "background": {
+      "config_type": "oc_quick_generation_background",
+      "temperature": 0.7,
+      "max_tokens": 1200,
+      "system_prompt": "You are a professional anime OC storyteller. Output MUST be valid JSON only, no markdown. Focus ONLY on background fields. brief_introduction must be 1 sentence and must not start with the character name.",
+      "user_prompt_template": "User description: \"{user_description}\"\nAppearance JSON: {appearance_json}\n\nReturn a single JSON object with this structure:\n{\n  \"brief_introduction\": string,\n  \"background_story\": string,\n  \"background_segments\": [\n    {\"title\": string, \"content\": string}\n  ]\n}\nRules:\n- background_story should be 2-3 sentences.\n- background_segments should be 2-4 items with concise titles and story beats.\n"
+    },
+    "personality_skills": {
+      "config_type": "oc_quick_generation_personality_skills",
+      "temperature": 0.7,
+      "max_tokens": 1400,
+      "system_prompt": "You are a professional anime OC designer. Output MUST be valid JSON only, no markdown. Focus ONLY on personality and skills fields.",
+      "user_prompt_template": "User description: \"{user_description}\"\nAppearance JSON: {appearance_json}\nBackground JSON: {background_json}\n\nReturn a single JSON object with this structure:\n{\n  \"personality_tags\": string[],\n  \"extended_attributes\": {\"key\": \"value\"},\n  \"greeting\": string[],\n  \"quotes\": string[],\n  \"skills\": {\n    \"stats\": [\n      {\"label\": \"STR\", \"value\": number},\n      {\"label\": \"INT\", \"value\": number},\n      {\"label\": \"AGI\", \"value\": number},\n      {\"label\": \"VIT\", \"value\": number},\n      {\"label\": \"DEX\", \"value\": number},\n      {\"label\": \"LUK\", \"value\": number}\n    ],\n    \"abilities\": [\n      {\"name\": string, \"type\": \"Default\"|\"Magic\"|\"Elemental\"|\"Physical\"|\"Psychic\"|\"Spatial\"|\"Buff\"|\"Summoning\"|\"Shapeshifting\"|\"Technological\"|\"Potion\"|\"Unique\", \"level\": number, \"description\": string, \"icon\": \"Default\"|\"Magic\"|\"Elemental\"|\"Physical\"|\"Psychic\"|\"Spatial\"|\"Buff\"|\"Summoning\"|\"Shapeshifting\"|\"Technological\"|\"Potion\"|\"Unique\"}\n    ]\n  }\n}\nRules:\n- personality_tags should be 3-8 unique items.\n- greeting should be an array of exactly 3 different greeting phrases, each reflecting the character's personality and how they would introduce themselves in a chat.\n- quotes should be 2-3 short lines.\n- stats values are integers from 1 to 10.\n- abilities should be 3-5 items with distinct names.\n- abilities[].type must be one of: Default, Magic, Elemental, Physical, Psychic, Spatial, Buff, Summoning, Shapeshifting, Technological, Potion, Unique.\n- abilities[].icon must match abilities[].type and use the same value.\n- abilities[].level should be an integer from 1 to 5.\n"
+    }
+  }
+}

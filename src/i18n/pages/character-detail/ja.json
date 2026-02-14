@@ -1,0 +1,510 @@
+{
+  "metadata": {
+    "title": "{name} - キャラクター詳細 | AnividAI",
+    "description": "{name} {role} {species}のプロフィール。{brief} AnividAIで性格やストーリー、作品をチェックできます。",
+    "fallback_description": "このキャラクターのプロフィール、性格、ストーリー、作品をAnividAIで確認できます。"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "characters": "キャラクター",
+    "my_ocs": " 我的キャラクター",
+    "create_oc": "キャラクター作成"
+  },
+  "navigation": {
+    "back": "戻る",
+    "you_own_this": "このキャラクターはあなたのものです"
+  },
+  "header": {
+    "world_label": "世界観",
+    "world_empty": "未設定",
+    "quotes_label": "セリフ"
+  },
+  "stats": {
+    "views": "視聴回数",
+    "likes": "いいね",
+    "generations": "生成数",
+    "forks": "フォーク"
+  },
+  "sections": {
+    "personality_traits": "性格と属性",
+    "personality_traits_description": "キャラクターの核心的な行動を定義する特性を選択します。（例：勇敢、親切、知的）",
+    "background_story": "背景ストーリー",
+    "background_story_empty": "背景ストーリーはまだありません。",
+    "appearance_style": "外見とスタイル",
+    "outfit_style": "服装スタイル",
+    "theme_specific_details": "テーマ固有の詳細",
+    "other_views": "その他の表示",
+    "other_views_placeholder": "追加のビューはまだ利用できません。",
+    "attributes_empty": "属性はまだありません。",
+    "extended_attributes": "追加属性",
+    "extended_attributes_description": "詳細を提供するためにカスタムのキーと値のペアを追加します。（例：趣味：ガーデニング、武器：刀）",
+    "character_information": "キャラクター情報"
+  },
+  "info": {
+    "created": "作成日",
+    "updated": "更新日",
+    "forking": "フォーク",
+    "allowed": "許可",
+    "not_allowed": "許可なし",
+    "years_old": "歳",
+    "theme": "テーマ",
+    "created_by": "作成者"
+  },
+  "actions": {
+    "share": "共有",
+    "edit": "編集",
+    "quit_edit": "保存して終了",
+    "like": "いいね",
+    "generate": "生成",
+    "download": "ダウンロード"
+  },
+  "quick_actions": {
+    "title": "クイックアクション",
+    "export_character": "キャラクターデータをエクスポート",
+    "create_based": "これをベースに作成",
+    "share_character": "キャラクターを共有",
+    "more_from_theme": "{theme}の другие作品"
+  },
+  "generation": {
+    "title": "AI生成",
+    "style": "スタイル",
+    "aspect_ratio": "アスペクト比",
+    "quality": "品質",
+    "steps": "ステップ",
+    "guidance": "ガイダンス",
+    "prompt_preview": "プロンプトプレビュー",
+    "generate_images": "画像を生成",
+    "generating": "生成中...",
+    "generated_images": "生成された画像",
+    "cost_per_generation": "生成あたりのコスト",
+    "credits": "クレジット"
+  },
+  "styles": {
+    "anime": "アニメ",
+    "realistic": "リアリスティック",
+    "cartoon": "カートゥーン",
+    "fantasy": "ファンタジー"
+  },
+  "aspect_ratios": {
+    "1:1": "正方形 (1:1)",
+    "4:3": "ポートレート (4:3)",
+    "3:4": "ランドスケープ (3:4)",
+    "16:9": "ワイド (16:9)"
+  },
+  "quality_levels": {
+    "draft": "下書き（高速）",
+    "standard": "標準",
+    "high": "高品質"
+  },
+  "visibility": {
+    "public": "公開",
+    "private": "非公開"
+  },
+  "character_id": "キャラクターID",
+  "creations": {
+    "title": "キャラクター作品",
+    "all": "すべて",
+    "images": "画像",
+    "videos": "動画",
+    "no_creations": "まだ作品がありません",
+    "view_more": "さらに表示"
+  },
+  "gallery": {
+    "breakdown_sheet_label": "ブレイクダウンシート",
+    "breakdown_sheet_hint": "キャラクターの多角的なデザイン、詳細設定、配色を網羅した三面図シートを生成します。",
+    "limit_reached": "You've reached the visual archive limit ({limit}). Remove one to add more.",
+    "primary_badge": "Primary",
+    "primary_badge_tooltip": "この画像はこのOCのメイン立ち絵です。デフォルトで参照されます。右上の設定アイコンから変更できます。",
+    "primary_set_label": "メインに設定",
+    "primary_delete_title": "メイン立ち絵を削除しますか？",
+    "primary_delete_confirm": "この画像はこのOCのメイン立ち絵です。削除すると、生成の参照ではなくなります。別の立ち絵をメインに自動設定します。",
+    "primary_delete_cancel": "キャンセル",
+    "primary_delete_action": "削除",
+    "upload_type_title": "この画像を立ち絵にしますか？",
+    "upload_type_description": "立ち絵はOCのメイン参照に設定できます。通常アップロードはアーカイブにのみ追加されます。",
+    "upload_type_portrait": "立ち絵にする",
+    "upload_type_upload": "通常アップロードのまま",
+    "upload_type_cancel": "キャンセル",
+    "upload_portrait_label": "立ち絵",
+    "upload_label": "ユーザーアップロード"
+  },
+  "recommendations": {
+    "title": "OCおすすめ",
+    "from_same_author": "同じ作者から",
+    "from_same_theme": "同じテーマから",
+    "no_recommendations": "おすすめはありません"
+  },
+  "tags": {
+    "title": "タグ",
+    "placeholder": "タグを追加",
+    "helper": "タグで関連するキャラクターを見つけやすくします。",
+    "helper_owner": "短い小文字の単語か候補から選んでください。",
+    "helper_viewer": "作者が設定したタグです。",
+    "empty_owner": "このOCを説明するタグを最大20個追加できます。",
+    "empty_viewer": "タグはまだありません。",
+    "max": "タグは最大20個まで",
+    "duplicate": "このタグは既に追加されています",
+    "saving": "タグを保存中...",
+    "updated": "タグを更新しました",
+    "error": "タグの更新に失敗しました",
+    "view_more": "関連を表示",
+    "suggestions": "候補",
+    "recommended": "おすすめ",
+    "remove": "タグを削除"
+  },
+  "background_controls": {
+    "title": "キャラクターカードスタイル",
+    "description": "テーマカラーや背景画像を設定して、キャラクターカードの見た目をカスタマイズします。",
+    "theme_tab": "テーマカラー",
+    "background_tab": "カード背景",
+    "color_label": "アクセントカラー",
+    "image_label": "背景をアップロード",
+    "ai_gen_label": "AI背景生成",
+    "image_placeholder": "https://example.com/background.png",
+    "apply_button": "適用",
+    "clear_button": "背景をリセット",
+    "saved": "スタイルを更新しました"
+  },
+  "world_selector": {
+    "placeholder": "世界観を選択",
+    "search": "世界観を検索",
+    "presets": "プリセット世界観",
+    "custom": "自分の世界観",
+    "empty": "該当なし",
+    "none": "未設定",
+    "create": "新しい世界観を作成",
+    "updated": "世界観を更新しました"
+  },
+  "background_story": {
+    "title": "背景ストーリー",
+    "placeholder": "背景ストーリーを書いてください...",
+    "overall_title": "ライフストーリー",
+    "overall_placeholder": "全体背景を書いてください...",
+    "events_title": "主要イベント",
+    "events_empty": "出来事はまだありません。",
+    "add_event": "出来事を追加",
+    "delete_event": "イベントを削除",
+    "event_title": "タイトル",
+    "event_content": "内容"
+  },
+  "event_visual_generation": {
+    "title": "イベントビジュアルを生成",
+    "description": "この重要な出来事のシネマティックなビジュアルを作成します。",
+    "labels": {
+      "model": "モデル",
+      "style": "スタイル",
+      "quantity": "枚数",
+      "resolution": "解像度",
+      "prompt": "ビジュアルの説明",
+      "reference": "参照画像",
+      "status": "ステータス",
+      "results": "生成結果"
+    },
+    "placeholders": {
+      "model": "モデルを選択",
+      "style": "スタイルを選択",
+      "resolution": "解像度を選択",
+      "prompt": "シーンを説明...",
+      "reference": "URLまたはID"
+    },
+    "actions": {
+      "cancel": "キャンセル",
+      "submit": "生成"
+    },
+    "status": {
+      "idle": "準備完了",
+      "submitting": "初期化中...",
+      "polling": "生成中...",
+      "completed": "生成完了",
+      "failed": "生成に失敗しました",
+      "loadingOptions": "読み込み中...",
+      "loadFailed": "設定の読み込みに失敗しました",
+      "emptyResults": "まだ生成結果がありません"
+    },
+    "errors": {
+      "missingPrompt": "ビジュアルを説明してください",
+      "missingModel": "モデルを選択してください",
+      "missingResolution": "解像度を選択してください",
+      "missingEventTitle": "イベントタイトルは必須です",
+      "missingEventContent": "イベント内容は必須です",
+      "requestFailed": "生成タスクの作成に失敗しました",
+      "missingTemplate": "プロンプトテンプレートが必要です",
+      "missingTemplateParams": "テンプレートのパラメータが不足しています"
+    }
+  },
+  "action_bar": {
+    "buttons": {
+      "done": "完了",
+      "save": "保存",
+      "saving": "保存中...",
+      "reset": "リセット",
+      "delete": "削除",
+      "cancel": "キャンセル",
+      "deleting": "削除中...",
+      "confirm_delete": "削除"
+    },
+    "labels": {
+      "basic_info": "基本情報",
+      "visibility": "公開設定",
+      "visibility_public_desc": "誰でもこのキャラクターを見ることができます。",
+      "visibility_private_desc": "あなただけがこのキャラクターを見ることができます。",
+      "visibility_pro_hint": "非公開に設定するにはProプランが必要です。",
+      "remix": "リミックス",
+      "remix_description": "リミックスとは、このキャラクターを使用して画像や動画などの二次創作ができることを意味します。",
+      "export": "エクスポート",
+      "share": "共有",
+      "chat": "チャット",
+      "like": "いいね",
+      "favorite": "お気に入り",
+      "delete": "削除",
+      "name": "名前",
+      "gender": "性別",
+      "species": "種族",
+      "species_custom": "Custom",
+      "species_custom_placeholder": "Input species",
+      "role": "役割",
+      "age": "年齢",
+      "greeting": "あいさつ"
+    },
+    "gender": {
+      "male": "男性",
+      "female": "女性",
+      "other": "その他"
+    },
+    "toast": {
+      "visibility_public": "公開に設定しました",
+      "visibility_private": "非公開に設定しました",
+      "remix_enabled": "リミックスを有効にしました",
+      "remix_disabled": "リミックスを無効にしました",
+      "deleted": "キャラクターを削除しました",
+      "saved": "保存しました"
+    },
+    "errors": {
+      "operation_failed": "操作に失敗しました",
+      "like_failed": "いいねに失敗しました",
+      "favorite_failed": "お気に入りに失敗しました",
+      "visibility_failed": "公開設定の更新に失敗しました",
+      "remix_failed": "リミックス設定の更新に失敗しました",
+      "delete_failed": "キャラクターの削除に失敗しました",
+      "profile_required_for_avatar": "アバター生成には立ち絵画像が必要です",
+      "profile_required_for_breakdown_sheet": "ブレイクダウンシート生成には立ち絵画像が必要です",
+      "breakdown_sheet_prompt_missing": "ブレイクダウンシートのプロンプトが設定されていません",
+      "portrait_prompt_missing": "立ち絵プロンプトが設定されていません",
+      "portrait_prompt_failed": "立ち絵プロンプトの生成に失敗しました",
+      "visibility_sub_required": "公開設定の変更にはProプランが必要です",
+      "name_required": "名前は必須です",
+      "age_invalid": "年齢が不正です"
+    },
+    "aria": {
+      "like": "いいね",
+      "unlike": "いいねを取り消す",
+      "favorite": "お気に入り",
+      "unfavorite": "お気に入りを解除",
+      "remix": "リミックス"
+    },
+    "delete_dialog": {
+      "title": "キャラクターを削除",
+      "description": "「{name}」を削除してもよろしいですか？",
+      "warning": "この操作は取り消せません。"
+    }
+  },
+  "appearance": {
+    "outfit_style": "服装スタイル",
+    "appearance_features": "外貌特征",
+    "accessories": "アクセサリー",
+    "features": "外貌特征",
+    "custom": "カスタム",
+    "custom_body_type_placeholder": "体型を入力",
+    "custom_hair_style_placeholder": "髪型を入力"
+  },
+  "linking": {
+    "buttons": {
+      "makeAnimeArt": {
+        "label": "アニメアート作成",
+        "href": "/ai-anime-generator?character_uuid=${character_uuid}"
+      },
+      "animateIt": {
+        "label": "アニメーション化",
+        "href": "/ai-anime-video-generator?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "スタジオツール",
+        "listItems": [
+          {
+            "label": "アクションフィギュア生成器",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  },
+  "errors": {
+    "not_found": "キャラクターが見つかりません",
+    "access_denied": "アクセスが拒否されました",
+    "access_denied_title": "アクセス不可",
+    "load_failed": "キャラクターの読み込みに失敗しました",
+    "retry": "再試行"
+  },
+  "share_card": {
+    "title": "OCカードプレビュー",
+    "download": "エクスポート",
+    "copy": "リンクをコピー",
+    "copied": "リンクをコピーしました",
+    "copy_error": "リンクのコピーに失敗しました",
+    "download_error": "利用可能な画像がありません",
+    "placeholder": ""
+  },
+  "skills": {
+    "title": "スキル・能力",
+    "stats_title": "ステータスマトリックス",
+    "abilities_title": "戦闘・スキル",
+    "add_skill": "スキルを追加",
+    "add_stat": "ステータスを追加",
+    "empty_skills": "スキルが登録されていません",
+    "level": "レベル",
+    "type": "タイプ",
+    "description": "説明",
+    "edit_skill": "スキルを編集",
+    "delete_skill": "スキルを削除",
+    "stat_name": "ステータス名",
+    "stat_value": "値",
+    "skill_name": "スキル名"
+  },
+  "portrait_generation": {
+    "title": "立絵生成",
+    "description": "全身イラストの外見詳細とスタイルを設定します。",
+    "appearance_details": "外見の詳細",
+    "body_type": "体型",
+    "hair_style": "髪型",
+    "hair_color": "髪色",
+    "eye_color": "目の色",
+    "outfit_style": "服装スタイル",
+    "features": "外見の特徴",
+    "accessories": "アクセサリー",
+    "art_style": "アートスタイル",
+    "extra_info": "追加情報",
+    "extra_info_placeholder": "生成プロンプトに含めたい追加の詳細...",
+    "generate": "生成",
+    "generate_description": "上記の外見設定に基づいて新しい立絵を生成します。",
+    "generating": "生成中...",
+    "regenerate": "再生成",
+    "generate_avatar": "AIでアバター生成",
+    "generate_from_fullbody": "立絵から生成",
+    "update_avatar_label": "アバターも同時に更新",
+    "update_avatar_description": "この立絵でアバターも置き換えます（追加MCが必要です）。",
+    "cost_label": "消費MC",
+    "cost_with_avatar": "30 MC",
+    "cost_without_avatar": "20 MC"
+  },
+  "create_mode": {
+    "title": "OCを作成する",
+    "steps": {
+      "basic_info": "基本情報",
+      "visuals": "ビジュアル",
+      "story": "ストーリー",
+      "personality": "性格",
+      "skills": "スキル"
+    },
+    "buttons": {
+      "previous": "前へ",
+      "next": "次へ",
+      "finish": "完了して表示",
+      "randomize": "ランダムに設定",
+      "ai_expand": "AIで拡張"
+    },
+    "labels": {
+      "avatar_title": "キャラクターアバター",
+      "avatar_empty": "アバターが生成されていません",
+      "avatar_generate": "立ち絵から生成",
+      "avatar_alt": "アバター",
+      "portrait_title": "キャラクター立ち絵",
+      "portrait_empty": "立ち絵が生成されていません",
+      "portrait_placeholder_alt": "立ち絵プレースホルダー",
+      "tip_label": "ヒント:",
+      "one_line_bio": "一行紹介",
+      "background_story": "詳細な背景ストーリー",
+      "add_attribute": "属性を追加"
+    },
+    "titles": {
+      "personality": "性格と属性",
+      "personality_traits": "核心的な性格特性",
+      "extended_attributes": "追加属性",
+      "skills": "スキルと能力"
+    },
+    "hints": {
+      "avatar_requires_portrait": "アバターを作成するには、まず立ち絵を生成してください。",
+      "avatar_tip": "立ち絵をリファレンスとしてアバターを生成することで、キャラクタープロフィールの視覚的な一貫性を保つことができます。",
+      "personality_traits": "キャラクターの核心的な行動や性格タグを定義します。（例：勇敢、親切、冷静）",
+      "extended_attributes": "カスタムのキーと値のペアを追加して、キャラクターの詳細を充実させます。（例：趣味：ガーデニング、武器：刀）"
+    },
+    "placeholders": {
+      "name": "例：ルナ・ムーンストーン",
+      "role_custom": "カスタムの役割を入力...",
+      "age": "例：18",
+      "one_line_bio": "短く魅力的な紹介文を入力してください...",
+      "background_story": "ルナ・ムーンストーンは、隠された谷で皆既月食の夜に生まれました...",
+      "trait": "特性を追加...",
+      "attribute_key": "キー",
+      "attribute_value": "値",
+      "character_fallback_name": "キャラクター",
+      "unnamed_character": "名無しのキャラクター"
+    },
+    "status": {
+      "saving": "保存中..."
+    },
+    "toasts": {
+      "name_required": "続行するには名前が必要です",
+      "save_success": "OCの作成に成功しました！",
+      "save_failed": "保存に失敗しました",
+      "randomize_success": "外見をランダムに設定しました！",
+      "ai_expand_start": "AIによる拡張を開始します...",
+      "ai_expand_success": "AIによるストーリーの拡張が完了しました！",
+      "ai_expand_result": "{species}の世界に生まれた{name}は、{role}としての旅に出ました。{hair_color}の髪と{eye_color}の瞳を持つ彼らは、{brief_introduction}として知られています。"
+    },
+    "overlays": {
+      "switching_world": "世界観を切り替え中..."
+    },
+    "visuals": {
+      "dice_tooltip": "クリックして外見をランダムに設定します"
+    },
+    "story": {
+      "ai_expand_tooltip": "基本情報に基づいてAIでストーリーを拡張します"
+    },
+    "export": {
+      "title": "キャラクターをエクスポート",
+      "export_card": "OCカードをエクスポート",
+      "export_card_desc": "美しいシェア用カードを作成",
+      "export_json": "JSONデータ出力",
+      "export_json_desc": "開発者向け構造化データ",
+      "export_markdown": "Markdown出力",
+      "export_markdown_desc": "編集可能なドキュメント形式",
+      "export_owner_only": "データエクスポートは所有者のみ利用可能です",
+      "export_failed": "Failed to export",
+      "export_success": "Exported successfully!",
+      "export_card_success": "Card generated successfully!",
+      "export_card_failed": "Failed to generate card",
+      "generate_share_card": "シェアカード生成",
+      "generate_card_desc": "キャラクター用の美しいシェアカードをカスタマイズして生成",
+      "template": "テンプレート",
+      "style": "スタイル",
+      "preview": "プレビュー",
+      "card_template": "カードテンプレート",
+      "rarity": "レアリティ",
+      "theme_color": "テーマカラー",
+      "preview_desc": "カードの表示例",
+      "generate_download": "生成してダウンロード",
+      "cancel": "キャンセル",
+      "generating": "生成中...",
+      "tcg_card_style": "TCGカードスタイル",
+      "movie_poster": "ムービーポスター",
+      "business_card": "ビジネスカード",
+      "regular": "ノーマル",
+      "super_rare": "スーパーレア",
+      "ultra_rare": "Ultra Rare",
+      "dark_theme": "ダークテーマ",
+      "light_theme": "ライトテーマ",
+      "cyberpunk": "サイバーパンク",
+      "minimal": "ミニマル"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+- [] FEAT-SEO-FOUNDATION SEO foundation
+  - [] Acceptance: public pages indexable, private routes blocked for en/ja, dynamic sitemap, hreflang, OG/JSON-LD
+  - [] Design: docs/2-implementation/features/feature-seo-foundation.md
+  - [] Tests: tests/test-cases/FEAT-SEO-FOUNDATION-seo-foundation.md
+  - [] Dependencies: none

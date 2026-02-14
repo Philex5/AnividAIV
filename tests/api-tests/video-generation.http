@@ -1,0 +1,41 @@
+# 生成服务 API 测试 - 视频生成
+# Video Generation APIs
+# 相关文档: docs/2-implementation/api/anime-video.md
+
+@import common.http
+
+###############################################################################
+# 视频生成 (Video Generation)
+###############################################################################
+
+### 获取视频生成报价
+POST {{apiUrl}}/anime-video/quote
+Content-Type: application/json
+
+{
+  "model": "kling-1.6-pro",
+  "duration": 5
+}
+
+### 创建视频生成任务
+POST {{apiUrl}}/anime-video/create-task
+Content-Type: application/json
+
+{
+  "prompt": "a cute anime girl dancing",
+  "model": "kling-1.6-pro",
+  "duration": 5,
+  "aspect_ratio": "16:9"
+}
+
+### 优化视频 Prompt
+POST {{apiUrl}}/anime-video/optimize-prompt
+Content-Type: application/json
+
+{
+  "prompt": "dancing girl",
+  "model": "kling-1.6-pro"
+}
+
+### 获取生成视频
+GET {{apiUrl}}/generation/video/{{generationUuid}}

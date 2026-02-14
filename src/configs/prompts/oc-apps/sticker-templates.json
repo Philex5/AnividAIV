@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "templates": [
+    {
+      "id": "pixar_style",
+      "name": "Pixar Style",
+      "description": "Pixar-inspired sticker with 3D cartoon rendering, expressive faces, and a polished, cinematic look.",
+      "i18n_name_key": "sticker_templates.pixar_style.name",
+      "i18n_description_key": "sticker_templates.pixar_style.description",
+      "thumbnail": "/imgs/sticker_templates/pixar-style.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A Pixar-inspired sticker with 3D cartoon rendering, expressive facial features, and a polished, cinematic look. Soft lighting, smooth shading, and a friendly, animated style."
+    },
+    {
+      "id": "oc_nine_grid",
+      "name": "OC Nine Grid",
+      "description": "Generate a single image with 9 sticker expressions arranged in a 3x3 grid layout. Each cell shows the OC with a different emotion.",
+      "i18n_name_key": "sticker_templates.oc_nine_grid.name",
+      "i18n_description_key": "sticker_templates.oc_nine_grid.description",
+      "thumbnail": "/imgs/sticker_templates/nine-grid.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A 3x3 grid layout containing 9 individual sticker cells, each featuring the same character's upper body with long silver hair, black choker, and black gloves. Each sticker shows a different expression or gesture:\nHappy and waving\nAngry and stomping\nSad and crying\nSurprised with open mouth\nShy and blushing\nCool posing\nMaking a heart shape with hands\nThinking with wonder (question mark above head)\nSleepy and yawning (with \"Zzz\")\nEach sticker has a transparent background with clean sticker-style outlines and no solid colors, backgrounds, or circular borders. All 9 stickers are evenly distributed in a perfect 3x3 grid on one image.",
+      "requires_oc_mode": false,
+      "is_nine_grid": true,
+      "fixed_batch_size": 1
+    },
+    {
+      "id": "pixel_art",
+      "name": "Pixel Art",
+      "description": "Retro pixel art sticker in 8-bit or 16-bit style, with a transparent background and a limited color palette.",
+      "i18n_name_key": "sticker_templates.pixel_art.name",
+      "i18n_description_key": "sticker_templates.pixel_art.description",
+      "thumbnail": "/imgs/sticker_templates/pixel-art.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A pixel art sticker in classic 8-bit or 16-bit retro game style. Pixelated rendering, simplified shapes, limited color palette, and sharp pixel edges. Transparent background. Nostalgic and playful aesthetic."
+    },
+    {
+      "id": "watercolor_soft",
+      "name": "Watercolor Soft",
+      "description": "Soft watercolor sticker with gentle color transitions, pastel palette, and artistic hand-painted texture.",
+      "i18n_name_key": "sticker_templates.watercolor_soft.name",
+      "i18n_description_key": "sticker_templates.watercolor_soft.description",
+      "thumbnail": "/imgs/sticker_templates/watercolor_soft.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A soft watercolor sticker with gentle washes, smooth color transitions, and a pastel palette. Soft edges and a dreamy, hand-painted watercolor texture. Light or white background. Artistic and delicate style."
+    },
+    {
+      "id": "pop_art",
+      "name": "Pop Art",
+      "description": "Bold pop art sticker inspired by comic books, featuring vibrant colors, halftone patterns, and strong outlines.",
+      "i18n_name_key": "sticker_templates.pop_art.name",
+      "i18n_description_key": "sticker_templates.pop_art.description",
+      "thumbnail": "/imgs/sticker_templates/pop-art.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A pop art sticker inspired by classic comic books. Features bold, vibrant colors, halftone dot patterns, and thick black outlines. Dynamic, energetic, and eye-catching style."
+    },
+    {
+      "id": "graffiti",
+      "name": "Graffiti",
+      "description": "Urban graffiti sticker with bold spray paint effects, dynamic lines, and street art style.",
+      "i18n_name_key": "sticker_templates.graffiti.name",
+      "i18n_description_key": "sticker_templates.graffiti.description",
+      "thumbnail": "/imgs/sticker_templates/graffiti.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A graffiti-style sticker with bold spray paint effects, dynamic lines, and vibrant street art colors. Urban, edgy, and expressive style with a sense of movement and creativity."
+    },
+    {
+      "id": "chibi",
+      "name": "Chibi",
+      "description": "Cute chibi-style sticker featuring exaggerated, adorable characters and playful, rounded text.",
+      "i18n_name_key": "sticker_templates.chibi.name",
+      "i18n_description_key": "sticker_templates.chibi.description",
+      "thumbnail": "/imgs/sticker_templates/chibi.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A chibi-style sticker with super cute, exaggerated characters and playful, rounded text. Emphasize the chibi-style cuteness of the main text and characters, using bright and soft colors. The overall style should be lighthearted, lively, and full of childlike charm."
+    },
+    {
+      "id": "minimal_line",
+      "name": "Minimal Line Art",
+      "description": "Minimalist line art sticker with clean, simple lines and a flat 2D design. Transparent background, perfect for digital messaging.",
+      "i18n_name_key": "sticker_templates.minimal_line.name",
+      "i18n_description_key": "sticker_templates.minimal_line.description",
+      "thumbnail": "/imgs/sticker_templates/minimal-line.webp",
+      "aspect_ratio": "1:1",
+      "prompt": "A minimalist line art sticker featuring clean, simple lines and a flat 2D appearance. No shading or gradients. Transparent background with solid black lines. Modern, geometric, and simple style."
+    },
+    {
+      "id": "no_preset",
+      "name": "No Preset",
+      "description": "Generate stickers without preset style. The AI will determine the best style based on your input and reference image.",
+      "i18n_name_key": "sticker_templates.no_preset.name",
+      "i18n_description_key": "sticker_templates.no_preset.description",
+      "thumbnail": "",
+      "aspect_ratio": "1:1",
+      "prompt": ""
+    }
+  ]
+}

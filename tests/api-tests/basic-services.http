@@ -1,0 +1,74 @@
+# 基础服务 API 测试
+# Basic Services APIs
+# 相关文档: docs/2-implementation/api/upload.md, download.md, emails.md, feedback.md, docs-search.md
+
+@import common.http
+
+###############################################################################
+# 文件上传 (File Upload)
+###############################################################################
+
+### 上传参考图片
+POST {{apiUrl}}/upload
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="test.png"
+Content-Type: image/png
+
+< ./test-data/test-image.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###############################################################################
+# 文件下载 (File Download)
+###############################################################################
+
+### 下载生成图片
+GET {{apiUrl}}/download/image/{{generationUuid}}
+
+### 下载生成视频
+GET {{apiUrl}}/download/video/{{generationUuid}}
+
+###############################################################################
+# 用户反馈 (Feedback)
+###############################################################################
+
+### 提交用户反馈
+POST {{apiUrl}}/add-feedback
+Content-Type: application/json
+
+{
+  "type": "bug",
+  "message": "Found a bug in the generation page",
+  "page_url": "/ai-anime-generator"
+}
+
+###############################################################################
+# 邮件发送 (Email)
+###############################################################################
+
+### 发送邮件
+POST {{apiUrl}}/emails/send
+Content-Type: application/json
+
+{
+  "to": "test@example.com",
+  "template": "welcome",
+  "data": {
+    "name": "Test User"
+  }
+}
+
+###############################################################################
+# 文档搜索 (Docs Search)
+###############################################################################
+
+### 搜索文档
+GET {{apiUrl}}/docs/search?q=getting+started
+
+###############################################################################
+# 图片代理 (Image Proxy)
+###############################################################################
+
+### 图片代理
+GET {{apiUrl}}/images/proxy?url={{imageProxyUrl}}

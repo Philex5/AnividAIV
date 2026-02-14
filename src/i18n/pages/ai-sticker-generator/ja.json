@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "title": "AIステッカージェネレーター | カスタムアニメステッカー作成 | AnividAI",
+    "description": "プロ仕様のAIステッカージェネレーターで、可愛いアニメステッカーを瞬時に作成。あなたのOCや写真を、Discordやメッセージアプリで使えるカスタムステッカーに変換できます。今すぐ無料で試す!",
+    "keywords": ""
+  },
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "ratio": "比率",
+    "count": "数",
+    "piece": "枚"
+  },
+  "sticker_templates": {
+    "pixar_style": {
+      "name": "ピクサースタイル",
+      "description": "ピクサー風の3D卡通レンダリング、表情豊かな顔、洗練された映画のような見た目。"
+    },
+    "pixel_art": {
+      "name": "ピクセルアート",
+      "description": "8ビットまたは16ビットのレトロゲーム風ピクセルアートステッカー、透明背景、限られたカラーパレット。"
+    },
+    "watercolor_soft": {
+      "name": "水彩風ソフト",
+      "description": "優しい色のグラデーション、パステルカラー、手描き風のテクスチャを持つソフトな水彩ステッカー。"
+    },
+    "pop_art": {
+      "name": "ポップアート",
+      "description": "漫画風のボールドなポップアートステッカー、鮮やかな色彩、ハーフトーンパターン、太い輪郭線。"
+    },
+    "graffiti": {
+      "name": "グラフィティ",
+      "description": "大胆なスプレー塗装効果、動的なライン、ストリートアート風のグラフィティステッカー。"
+    },
+    "chibi": {
+      "name": "ちびキャラ",
+      "description": "可愛らしいちびキャラ風ステッカー、大げさで愛らしいキャラクター、遊び心のある丸みを帯びたスタイル。"
+    },
+    "minimal_line": {
+      "name": "ミニマルラインアート",
+      "description": "クリーンでシンプルなライン、フラットな2Dデザインを持つミニマルラインアートステッカー、透明背景、デジタルメッセージに最適。"
+    },
+    "no_preset": {
+      "name": "プリセットなし",
+      "description": "プリセットスタイルなしでステッカーを生成。AIが入力と参照画像に基づいて最適なスタイルを決定します。"
+    },
+    "oc_nine_grid": {
+      "name": "OC九宮グリッド",
+      "description": "OCキャラクターの9種類の表情を3x3グリッドレイアウトで配置した1枚の画像を生成します。各セルに異なる感情のOCが表示されます。"
+    }
+  },
+  "tool": {
+    "title": "プロ仕様AIステッカージェネレーター",
+    "selectTemplate": "テンプレートを選択",
+    "templateDescription": "作成したいステッカーのスタイルを選びましょう",
+    "provideReference": "リファレンスを提供",
+    "referenceDescription": "画像をアップロードするか、OCを選択して生成のガイドにします",
+    "uploadImage": "画像をアップロード",
+    "selectOC": "OCを選択",
+    "additionalPrompt": "追加詳細（任意）",
+    "additionalPromptDescription": "ステッカーに特定のディテールを追加します",
+    "additionalPromptPlaceholder": "例：虹の背景、帽子をかぶせる、キラキラ...",
+    "model": "モデル",
+    "batchSize": "バッチサイズ",
+    "visibility": "公開設定",
+    "publicVisibility": "公開",
+    "subscriptionTooltip": "プライベート設定はサブスクリプション会員限定です。アップグレードしてアンロックしてください。",
+    "generate": "生成",
+    "generating": "生成中...",
+    "creditsCost": "（{cost} MC）",
+    "readyTitle": "AIステッカージェネレーターを使う準備はできましたか？",
+    "readyDescription": "テンプレートを選び、リファレンスを提供して開始しましょう",
+    "generationFailed": "生成に失敗しました",
+    "errorSignIn": "続行するにはサインインが必要です",
+    "errorSelectTemplate": "ステッカーテンプレートを選択してください",
+    "errorProvideReference": "リファレンス画像を提供するか、キャラクターを選択してください",
+    "errorUploadImage": "リファレンス画像をアップロードしてください",
+    "errorSelectOC": "OCキャラクターを選択してください",
+    "errorSelectModel": "モデルを選択してください",
+    "loginRequiredForUpload": "画像をアップロードするにはサインインが必要です",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "generationStarted": "生成を開始しました！",
+    "generationCompleted": "ステッカーが完成しました！",
+    "loadingReuse": "パラメータを読み込み中...",
+    "loginToReuse": "ログインしてパラメータを再利用",
+    "noPermission": "この画像にアクセスする権限がありません",
+    "imageNotFound": "ステッカーが見つかりません",
+    "reuseSuccess": "パラメータを読み込みました。生成を開始しましょう！",
+    "loadFailed": "パラメータの読み込みに失敗しました",
+    "character-not-found": "キャラクターが見つかりません。手動で選択してください。",
+    "invalid-character-uuid": "無効な参照です。手動で選択してください。",
+    "character-load-error": "読み込みに失敗しました。もう一度お試しください。",
+    "inputMode": {
+      "title": "生成モード",
+      "textOnly": "テキストからステッカー",
+      "textWithReference": "画像からステッカー",
+      "ocCharacter": "OCからステッカー",
+      "nineGrid": "九宮グリッド（OCのみ）",
+      "nineGridDesc": "OCキャラクターから9種類の異なる表情のステッカーをワンクリックで生成。",
+      "textOnlyDesc": "「boom」や「lol」などの文字ステッカーを簡単に作成。",
+      "textWithReferenceDesc": "文字と画像を組み合わせて、詳細なアニメステッカーを生成。",
+      "ocCharacterDesc": "あなたのOCを、DiscordやSNSで使えるスタンプに変換します。",
+      "textOnlyPlaceholder": "テキストを入力（例：'wow', 'boom'）...",
+      "textWithReferencePlaceholder": "表情やアクションを詳しく伝えてください..."
+    },
+    "expression": {
+      "label": "表情",
+      "placeholder": "表情を選択",
+      "customPlaceholder": "表情やアクションを説明...",
+      "options": {
+        "happy_waving": "嬉しそうに手を振る",
+        "angry_stomping": "怒って足踏み",
+        "sad_crying": "悲しく泣く",
+        "proud_victory": "得意げな勝利ポーズ",
+        "shy_covering_face": "恥ずかしくて顔を隠す",
+        "tired_lying_down": "疲れて横になる",
+        "custom": "カスタム表情..."
+      }
+    }
+  },
+  "Introduce": {
+    "title": "最高のAIステッカージェネレーターでOCを可愛いスタンプに",
+    "description": "AnividAIのAIステッカージェネレーターは、オリジナルキャラクターや写真を高品質なアニメステッカーに変身させます。この高度なAIステッカージェネレーターにより、一貫性を保ちながらDiscordやメッセージアプリ用のスタンプを数秒で生成。クリエイターのコレクション拡充や、コミュニティ用のパーソナライズされた絵文字作成に最適です。9つの多彩なスタイルから、あなたのビジョンにぴったりの一枚を作れます。",
+    "tagline": "究極のカスタムアニメAIステッカージェネレーター"
+  },
+  "benefits": {
+    "title": "AnividAIのAIステッカージェネレーターが選ばれる理由",
+    "subtitle": "オンラインで最高品質のアニメステッカー生成を体験",
+    "items": [
+      {
+        "title": "一貫したキャラクター再現",
+        "description": "私たちのAIステッカージェネレーターは、色使いや特徴を正確に維持したまま、あなたのOCをステッカー化します。",
+        "icon": "heart"
+      },
+      {
+        "title": "プロ仕様のクオリティ",
+        "description": "AIステッカージェネレーターにより、クリーンな透明背景と鮮やかな色彩を実現。Discord用スタンプに最適です。",
+        "icon": "star"
+      },
+      {
+        "title": "9つの多彩なスタイル",
+        "description": "ピクサー風、ちびキャラ、ドット絵、九宮グリッドコレクションなど、あなたの好みにぴったり合うスタイルがきっと見つかります。さらに、今後も新しいスタイルが続々登場予定です！"
+      },
+      {
+        "title": "写真からの簡単変換",
+        "description": "写真をアップロードするだけで、AIステッカージェネレーターが美しいカスタムステッカーに変換。アートスキルは不要です。",
+        "icon": "upload"
+      },
+      {
+        "title": "自由なカスタマイズ",
+        "description": "背景や表情を自由にコントロール。AIステッカージェネレーターで、あなただけのユニークな一枚を作りましょう。",
+        "icon": "settings"
+      },
+      {
+        "title": "驚異のスピード生成",
+        "description": "AIステッカージェネレーターなら60秒以内に生成完了。複数のバリエーションを即座に作成し、理想のデザインを見つけられます。",
+        "icon": "zap"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "AIステッカージェネレーターでステッカーを作成する4ステップ",
+    "subtitle": "想像力を形に。手軽に可愛いステッカーを作りましょう",
+    "steps": [
+      {
+        "title": "スタイルを選択",
+        "description": "AIステッカージェネレーターにある9つのユニークなテンプレートからお好みのスタイルを選びます。",
+        "image": "/imgs/guide/sticker-step1.webp"
+      },
+      {
+        "title": "リファレンスをアップ",
+        "description": "写真をAIステッカージェネレーターにアップロードします。AIがデザインを分析し、一貫性のある結果を保証します。",
+        "image": "/imgs/guide/sticker-step2.webp"
+      },
+      {
+        "title": "ディテールを調整",
+        "description": "AIステッカージェネレーターで表情を追加。コミュニティにぴったりのルックになるよう微調整できます。",
+        "image": "/imgs/guide/sticker-step3.webp"
+      },
+      {
+        "title": "生成＆ダウンロード",
+        "description": "AIステッカージェネレーターが、背景透明の高解像度PNGを瞬時に出力します。",
+        "image": "/imgs/guide/sticker-step4.webp"
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "AIステッカージェネレーター よくある質問",
+    "subtitle": "AIステッカージェネレーターについて知っておくべきことすべて",
+    "items": [
+      {
+        "question": "このAIステッカージェネレーターの特徴は何ですか？",
+        "answer": "このAIステッカージェネレーターは、プロ品質の再現性と一貫性に注力しており、元のデザインに忠実なステッカーを生成します。"
+      },
+      {
+        "question": "無料のAIステッカージェネレーターはありますか？",
+        "answer": "はい。クレジットシステムを利用して、無料でAIステッカージェネレーターの作成機能をお試しいただけます。"
+      },
+      {
+        "question": "AIステッカージェネレーターをDiscordで使えますか？",
+        "answer": "もちろんです。AIステッカージェネレーターは背景透明のPNGとして出力されるため、Discordスタンプに最適です。"
+      },
+      {
+        "question": "AIステッカージェネレーターで特徴は維持されますか？",
+        "answer": "はい。私たちのAIステッカージェネレーターは一貫性に特化しており、同じOCとしてステッカー作成が可能です。"
+      },
+      {
+        "question": "AIステッカージェネレーターはどのスタイルに対応していますか？",
+        "answer": "現在、AIステッカージェネレーターはピクサー風、ちびキャラ、ラインアート、ポップアート、グラフィティ、ドット絵、水彩風など9種類をサポートしています。"
+      },
+      {
+        "question": "AIステッカージェネレーターに絵のスキルは必要ですか？",
+        "answer": "不要です。リファレンスを提供するだけで、AIステッカージェネレーターがすべての描画プロセスを代行します。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "最高のAIステッカージェネレーターを体験しませんか？",
+    "subtitle": "数千人のクリエイターと一緒に、AIステッカージェネレーターでカスタムステッカーを作りましょう。",
+    "button_primary": "今すぐ作成する",
+    "button_secondary": "例を見る"
+  },
+  "image_detail": {
+    "download": "ダウンロード",
+    "favorite": "お気に入りに追加",
+    "share": "共有",
+    "like": "いいね",
+    "view_full": "フルサイズで表示"
+  }
+}

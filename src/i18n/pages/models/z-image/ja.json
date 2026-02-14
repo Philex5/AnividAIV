@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "title": "Z-Image AIジェネレーター - AI画像生成 | AnividAI",
+    "description": "アリババによるZ-Imageは、完全なCFGサポートを備えた強力なAI画像ジェネレーターです。無料クレジットを取得してアートワークを作成しましょう。クレジットカードは不要です。",
+    "keywords": "Z-Image, Z-Image ジェネレーター, AI画像生成, 無料AIクレジット, アリババAI, Tongyi-MAI, diffusion transformer, CFGサポート, 高品質AIアート, プロフェッショナルAI生成, Z-Image オンライン"
+  },
+  "Introduce": {
+    "tagline": "AnividAIのZ-Image AIジェネレーター | フルキャパシティの基盤モデル",
+    "title": "Z-Image AIジェネレーターとは",
+    "description": "Z-Imageは、Tongyi-MAI（アリババ）によって開発された強力なAI画像ジェネレーターです。Single-Stream Diffusion Transformerアーキテクチャを採用し、高品質で堅牢な生成の多様性、幅広いスタイルのカバー、そして正確なプロンプト遵守を実現しています。フルキャパシティの非蒸留トランスフォーマーモデルとして、Z-Imageは完全なClassifier-Free Guidance（CFG）とネガティブプロンプトをサポートしており、最高レベルの創造的自由を必要とするプロのクリエイター、研究者、開発者にとって理想的な選択肢です。"
+  },
+  "benefits": {
+    "title": "Z-Image AIジェネレーターが選ばれる理由",
+    "subtitle": "完全な創造的コントロールと最大の汎用性を備えた、プロフェッショナル級のAI画像生成を体験してください",
+    "items": [
+      {
+        "title": "完全なCFGサポート",
+        "description": "非蒸留のベースモデルであるZ-Imageは、完全なClassifier-Free Guidanceをサポートし、複雑なプロンプトエンジニアリングやプロフェッショナルなワークフローに必要な精度を提供します。",
+        "icon": "sliders"
+      },
+      {
+        "title": "高い出力の多様性",
+        "description": "Z-Image AIジェネレーターは、異なるシード値にわたって構図、顔のアイデンティティ、照明において大幅に高い変動性を提供します。多人数シーンも明確でダイナミックに保たれます。",
+        "icon": "shuffle"
+      },
+      {
+        "title": "美的な汎用性",
+        "description": "このAI画像ジェネレーターは、超リアルな写真やシネマティックなデジタルアートから、緻密なアニメや様式化されたイラストまで、膨大なスペクトルの視覚言語をマスターしています。",
+        "icon": "palette"
+      },
+      {
+        "title": "堅牢なネガティブコントロール",
+        "description": "Z-Imageはネガティブプロンプトに対して高い忠実度で反応し、ユーザーがアーティファクト（ノイズ）を確実に抑制し、正確なコントロールのために構図を調整することを可能にします。",
+        "icon": "minus-circle"
+      },
+      {
+        "title": "無料クレジットシステム",
+        "description": "無料のMCクレジットから開始でき、クレジットカードは不要です。毎日のチェックインや作品のソーシャルメディアへの共有を通じて、さらに無料クレジットを獲得できます。",
+        "icon": "gift"
+      },
+      {
+        "title": "柔軟な解像度",
+        "description": "Z-Imageは、512×512から2048×2048までの解像度と、任意のアスペクト比をサポートしています。あらゆるプロジェクトの要件に合わせて、カスタム寸法で画像を生成できます。",
+        "icon": "aspect-ratio"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Z-Image AIジェネレーターでアートを生成する3つの簡単なステップ",
+    "subtitle": "当社のAI画像ジェネレーターで、あなたの創造的なビジョンを素晴らしいアートワークに変えましょう",
+    "steps": [
+      {
+        "title": "ビジョンを説明する",
+        "description": "作成したいアートワークの詳細なテキスト説明を入力します。Z-Imageは、正確な遵守を伴う複雑なプロンプトの理解に優れています。"
+      },
+      {
+        "title": "設定を構成する",
+        "description": "ガイダンススケール（3.0-5.0）や推論ステップ数（28-50）を調整し、ネガティブプロンプトを使用して不要な要素を除外します。このAI画像ジェネレーターで完全な創造的コントロールを。"
+      },
+      {
+        "title": "生成して洗練させる",
+        "description": "Z-Imageをオンラインで使用して画像を生成し、高い多様性を持つバリエーションのために異なるシード値を探索します。反復的なワークフローやプロフェッショナルな創造プロセスに最適です。"
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "よくある質問",
+    "subtitle": "Z-Imageジェネレーターについて知っておくべきこと",
+    "items": [
+      {
+        "question": "Z-Imageジェネレーターとは何ですか？",
+        "answer": "Z-Imageは、Tongyi-MAI（アリババ）によって開発された強力なAI画像ジェネレーターです。Single-Stream Diffusion Transformerアーキテクチャで構築されたこのZ-Imageジェネレーターは、高品質、堅牢な多様性、そして正確なプロンプト遵守を必要とするプロのクリエイター向けに設計された、フルキャパシティの非蒸留モデルです。"
+      },
+      {
+        "question": "無料クレジットシステムはどのように機能しますか？",
+        "answer": "Z-ImageはMCクレジットシステムを使用しています。新規ユーザーは作成を開始するための無料クレジットを受け取ります（クレジットカード不要）。毎日のチェックインや、作品をソーシャルメディアプラットフォームに共有することで、追加の無料クレジットを獲得できます。"
+      },
+      {
+        "question": "Z-ImageとZ-Image-Turboの違いは何ですか？",
+        "answer": "Z-Imageは、CFGサポート、ネガティブプロンプト、高い多様性を備えたフルキャパシティの基盤モデル（28-50ステップ）です。Z-Image-Turboはスピードに最適化された蒸留版（8ステップ）ですが、CFGサポートはありません。Z-Imageは、プロフェッショナルな結果のためにより多くの創造的コントロールと多様性を提供します。"
+      },
+      {
+        "question": "Z-Imageは他のAI画像ジェネレーターとどう違いますか？",
+        "answer": "AI画像ジェネレーターの中でも、Z-Imageは完全なCFGサポート、高い出力の多様性、そして美的な汎用性で際立っています。一部の他のモデルとは異なり、Z-Imageジェネレーターは完全なネガティブプロンプトをサポートし、フォトリアルからアニメまでスタイルを問わず一貫した品質を提供します。"
+      },
+      {
+        "question": "Z-ImageはCFGとネガティブプロンプトをサポートしていますか？",
+        "answer": "はい！非蒸留のベースモデルであるZ-Imageは、完全なClassifier-Free Guidance（CFG）をサポートし、ネガティブプロンプトに対して高い忠実度で反応します。これにより、生成された出力の正確な制御と、不要な要素の抑制が可能になります。"
+      },
+      {
+        "question": "Z-Imageはどの解像度をサポートしていますか？",
+        "answer": "Z-Imageは、合計ピクセルエリアが512×512から2048×2048までの柔軟な解像度と、任意のアスペクト比をサポートしています。正方形、ポートレート、ランドスケープ、または特定のプロジェクトニーズに合わせたカスタム寸法で生成できます。"
+      },
+      {
+        "question": "Z-Imageの推奨パラメータは何ですか？",
+        "answer": "このAI画像ジェネレーターの推奨設定は、解像度 512×512〜2048×2048、ガイダンススケール 3.0〜5.0、推論ステップ数 28〜50 です。これらのパラメータは、品質と創造的コントロールのバランスを最適化します。"
+      },
+      {
+        "question": "Z-Imageはどのようなスタイルを生成できますか？",
+        "answer": "Z-Imageは、超リアルな写真、シネマティックなデジタルアート、緻密なアニメ、様式化されたイラストなど、膨大なスペクトルの視覚スタイルをマスターしています。その美的な汎用性は、多様なクリエイティブプロジェクトに理想的です。"
+      },
+      {
+        "question": "Z-Imageを開発したのは誰ですか？",
+        "answer": "Z-Imageは、マルチモーダルAI生成を専門とする中国の主要なAI研究チームの1つである、Tongyi-MAI（アリババの通義万相チーム）によって開発されました。このモデルは、彼ら独自のSingle-Stream Diffusion Transformerアーキテクチャを使用しています。"
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Z-Image AIジェネレーターで制作を開始",
+    "subtitle": "完全なCFGサポート、高い多様性、そして完全な創造的コントロールを備えたプロフェッショナル級のAI画像生成を体験してください。今すぐ無料クレジットで始めましょう。",
+    "button_primary": "Z-Imageで制作を開始"
+  },
+  "generator_title": "Z-Imageで画像を生成",
+  "credits": "クレジット",
+  "images": "画像",
+  "generate": "生成",
+  "generating": "生成中...",
+  "optimize": "最適化",
+  "empty-state": {
+    "title": "画像作成を始めよう",
+    "description": "説明を入力、スタイルパラメータを選択、または下の例をクリックして生成を開始"
+  },
+  "create_oc": "OCを作成",
+  "controls": {
+    "model": "モデル",
+    "auto": "自動",
+    "ratio": "比率",
+    "count": "枚数",
+    "piece": "枚"
+  },
+  "prompt": {
+    "label": "画像を説明してください",
+    "placeholder": "例：鮮やかな色とドラマチックな照明を持つ素晴らしい風景、夕日下の未来的な都市景観、または柔らかなスタジオ照明を持つエレガントなポートレート",
+    "optimize": "AIで最適化",
+    "optimizing": "最適化中..."
+  },
+  "parameters": {
+    "character": "キャラクター",
+    "style": "スタイル",
+    "loading_characters": "キャラクターを読み込み中...",
+    "action": "アクション",
+    "scene": "シーン",
+    "outfit": "衣装",
+    "aspect-ratio": "アスペクト比",
+    "batch-size": "生成枚数",
+    "model": "AIモデル",
+    "advanced": "詳細設定",
+    "guidance-scale": "ガイダンススケール",
+    "num-inference-steps": "推論ステップ数",
+    "seed": "シード",
+    "random-seed": "ランダムシード",
+    "generate-seed": "新しいシードを生成",
+    "select": "選択",
+    "title": "生成パラメータ",
+    "visibility": "公開設定",
+    "visibility_description": "生成の可視性レベルを設定",
+    "referenceImageNotSupported": "このモデルはリファレンス画像をサポートしていません",
+    "subscriptionTooltip": "サブスクリプション会員はプライベート表示を利用できます。アップグレードしてご利用ください。"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "タスクがキューに追加されました",
+      "description": "生成タスクがキューに入りました。しばらくお待ちください..."
+    },
+    "processing": {
+      "title": "画像を生成中",
+      "description": "AIが画像を作成しています。1枚あたり最大30秒かかる場合があります。"
+    },
+    "completed": {
+      "title": "生成完了！",
+      "description": "画像の表示とダウンロードの準備ができました。"
+    },
+    "failed": {
+      "title": "生成失敗",
+      "description": "申し訳ございません。問題が発生しました。もう一度お試しください。"
+    },
+    "canceled": {
+      "title": "生成がキャンセルされました",
+      "description": "生成タスクがキャンセルされました。"
+    },
+    "unknown": {
+      "title": "不明なステータス",
+      "description": "現在のステータスを確認できません。"
+    },
+    "progress": "進捗",
+    "batch-size": "バッチサイズ",
+    "credits-used": "使用クレジット",
+    "time-elapsed": "経過時間",
+    "estimated-remaining": "推定残り時間",
+    "coming-soon": "近日公開",
+    "cancel": "キャンセル",
+    "retry": "再試行",
+    "view-results": "結果を表示",
+    "processing-tip": "このページを閉じても大丈夫です。生成はバックグラウンドで継続されます。"
+  },
+  "completed-results": {
+    "title": "生成された画像",
+    "empty": {
+      "title": "生成された画像がありません",
+      "description": "まだ画像を生成していません。最初の画像を作成してみましょう！"
+    },
+    "copy-parameters": "パラメータをコピー",
+    "download-all": "すべてダウンロード",
+    "filters": {
+      "all-styles": "すべてのスタイル"
+    },
+    "sort": {
+      "newest": "新しい順",
+      "oldest": "古い順",
+      "most-liked": "いいね順"
+    }
+  },
+  "result-image": {
+    "error": "画像の読み込みに失敗しました",
+    "view": "表示"
+  },
+  "image_detail": {
+    "title": "アートワーク詳細",
+    "create_new": "新規作成",
+    "share": "共有",
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "make_public": "コミュニティに公開する",
+      "make_private": "非コミュニティに公開する"
+    },
+    "oc": {
+      "label": "関連OC",
+      "none": "OCとの関連なし"
+    },
+    "model": {
+      "label": "モデル"
+    },
+    "prompt": {
+      "label": "プロンプト",
+      "copy": "プロンプトをコピー",
+      "copied": "プロンプトをクリップボードにコピーしました",
+      "failed": "プロンプトのコピーに失敗しました"
+    },
+    "actions": {
+      "download": "画像をダウンロード",
+      "reuse": "再利用",
+      "download_error": "画像のダウンロードに失敗しました",
+      "as_reference": "参照画像として使用"
+    },
+    "meta": {
+      "aspect_ratio": "アスペクト比",
+      "style": "スタイル",
+      "scene": "シーン",
+      "outfit": "衣装",
+      "seed": "シード",
+      "created_at": "作成日時"
+    },
+    "variants": {
+      "title": "バリエーション"
+    },
+    "visibility_toast": {
+      "success": "公開設定を更新しました",
+      "error": "公開設定の更新に失敗しました"
+    },
+    "reuse_status": {
+      "loading": "このアートワークの再利用を準備中...",
+      "error": "生成パラメータの再利用に失敗しました"
+    },
+    "empty": {
+      "title": "アートワークが選択されていません",
+      "description": "ギャラリーから画像を選択して詳細を表示してください。"
+    },
+    "loading": "アートワーク詳細を読み込み中...",
+    "error": "アートワーク詳細の読み込みに失敗しました"
+  },
+  "status": {
+    "completed": "完了",
+    "processing": "処理中",
+    "pending": "待機中",
+    "failed": "失敗",
+    "canceled": "キャンセル済み"
+  },
+  "errors": {
+    "prompt-required": "画像の説明を入力してください",
+    "insufficient-credits": "この枚数の画像を生成するクレジットが不足しています",
+    "generation-failed": "生成の開始に失敗しました。もう一度お試しください。",
+    "network-error": "ネットワークエラーが発生しました。接続を確認して再試行してください。",
+    "config-load-failed": "設定の読み込みに失敗しました",
+    "image-not-found": "画像が見つかりません",
+    "no-permission": "この画像にアクセスする権限がありません",
+    "load-image-failed": "画像データの読み込みに失敗しました",
+    "character-not-found": "キャラクターが見つからないか、アクセス権限がありません。手動でキャラクターを選択してください。",
+    "invalid-character-uuid": "無効なキャラクター参照です。手動でキャラクターを選択してください。",
+    "character-load-error": "キャラクターの読み込みに失敗しました。もう一度お試しください。"
+  },
+  "auth_required": {
+    "reuse_params": "参照画像や生成パラメータの再利用にはログインが必要です。現在の設定は保持されます。",
+    "ref_image": "生成に参照画像を使用するにはログインが必要です。"
+  },
+  "ratios": {
+    "square": {
+      "name": "正方形 (1:1)",
+      "description": "プロフィール画像に最適な正方形フォーマット"
+    },
+    "portrait": {
+      "name": "ポートレート (2:3)",
+      "description": "キャラクターポートレートに最適な縦長フォーマット"
+    },
+    "widescreen": {
+      "name": "ワイドスクリーン (16:9)",
+      "description": "風景や壁紙に最適なワイドフォーマット"
+    }
+  },
+  "aspect-ratio-selector": {
+    "label": "アスペクト比",
+    "selected": "選択済み"
+  },
+  "reference": {
+    "label": "参照",
+    "title": "参照画像",
+    "upload": "画像をアップロード",
+    "drag-drop": "ここに画像をドラッグ＆ドロップ、またはクリックして選択",
+    "supported-formats": "JPG、PNG、WEBP対応（最大10MB）",
+    "remove": "削除",
+    "change": "変更",
+    "processing": "処理中...",
+    "error-upload": "アップロードに失敗しました。もう一度お試しください",
+    "error-size": "画像サイズが10MBの制限を超えています",
+    "error-format": "サポートされていない画像形式です"
+  },
+  "upgrade_prompts": {
+    "private_visibility": "非公開設定はサブスクリプション会員限定です。アップグレードして利用可能にしましょう。",
+    "private_visibility_short": "アップグレードして非公開設定を使用",
+    "subscription_required": "サブスクリプションが必要です"
+  },
+  "membership": {
+    "free": "無料",
+    "basic": "ベーシック",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  }
+}

@@ -1,0 +1,55 @@
+# 世界设定 API 测试
+# Worlds APIs
+# 相关文档: docs/1-specs/data-models.md (oc_worlds)
+
+@import common.http
+
+###############################################################################
+# 世界管理 (World Management)
+###############################################################################
+
+@worldUuid = test-world-uuid
+
+### 获取世界列表
+GET {{apiUrl}}/worlds?page=1&limit=20
+
+### 创建世界
+POST {{apiUrl}}/worlds
+Content-Type: application/json
+
+{
+  "name": "Anividia",
+  "description": "A fantasy world where AI and humans coexist",
+  "theme_colors": {
+    "primary": "#ff0000"
+  }
+}
+
+### 获取世界详情
+GET {{apiUrl}}/worlds/{{worldUuid}}
+
+### 更新世界
+PUT {{apiUrl}}/worlds/{{worldUuid}}
+Content-Type: application/json
+
+{
+  "description": "An updated fantasy world"
+}
+
+### 删除世界
+DELETE {{apiUrl}}/worlds/{{worldUuid}}
+
+### 收藏世界
+POST {{apiUrl}}/worlds/{{worldUuid}}/favorite
+
+### 取消收藏世界
+DELETE {{apiUrl}}/worlds/{{worldUuid}}/favorite
+
+### 点赞世界
+POST {{apiUrl}}/worlds/{{worldUuid}}/like
+
+### 取消点赞世界
+DELETE {{apiUrl}}/worlds/{{worldUuid}}/like
+
+### 分享世界
+POST {{apiUrl}}/worlds/{{worldUuid}}/share

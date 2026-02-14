@@ -1,0 +1,66 @@
+{
+  "title": "Home | AnividAI",
+  "sections": {
+    "characters": {
+      "title": "Recenty Characters",
+      "empty": "You have no characters yet",
+      "all_ocs": "All My Characters",
+      "create": "Create your first character"
+    },
+    "tools": {
+      "title": "Creation Tools",
+      "anime": {
+        "title": "Anime Generator",
+        "desc": "Create anime images with AI"
+      },
+      "video": {
+        "title": "Video Generator",
+        "desc": "Generate animated videos"
+      },
+      "storyCreator": {
+        "title": "Story Creator",
+        "desc": "Outline story arcs for your OC",
+        "status": "Coming Soon"
+      },
+      "chats": {
+        "title": "Chat with OCs",
+        "desc": "Character chats",
+        "soon": "Enjoy chatting with your OCs"
+      },
+      "apps": {
+        "title": "Studio Tools",
+        "empty": "No tools available",
+        "comingSoon": {
+          "title": "More Tools",
+          "desc": "More specialized tools coming soon"
+        },
+        "list": {
+          "action_figure": {
+            "title": "Action Figure Generator",
+            "desc": "Create 3D action figures from your OCs"
+          },
+          "sticker": {
+            "title": "Sticker Generator",
+            "desc": "Create fun anime stickers"
+          },
+          "story-writer": {
+            "title": "Story Writer",
+            "desc": "Write character stories with AI"
+          },
+          "character-intro-video": {
+            "title": "Intro Video",
+            "desc": "Make an intro video for your OC"
+          }
+        }
+      }
+    },
+    "community": {
+      "title": "Community Picks",
+      "viewMore": "View more →",
+      "loadFailed": "Failed to load artworks",
+      "empty": "",
+      "itemAlt": "community artwork",
+      "noCover": "Preview unavailable"
+    }
+  }
+}

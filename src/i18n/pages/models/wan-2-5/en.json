@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "title": "Wan 2.5 Video AI | Text-to-Video Generator | AnividAI",
+    "description": "Create stunning videos with Wan 2.5 AI. Transform text or images into professional-quality videos with smooth motion. Free credits available.",
+    "keywords": "Wan 2.5, AI video generator, text to video, image to video, video AI, video creation, AI video maker"
+  },
+  "Introduce": {
+    "tagline": "Wan 2.5 AI Video Generator on AnividAI | Professional Video Creation",
+    "title": "What is Wan 2.5 AI Video Generator",
+    "description": "Wan 2.5 is a state-of-the-art AI video generation model that transforms your ideas into stunning videos. Whether starting from text prompts or reference images, Wan 2.5 delivers smooth, high-quality animations with professional-grade output. Perfect for content creators, marketers, and anyone looking to bring their stories to life through video."
+  },
+  "benefits": {
+    "title": "Why Choose Wan 2.5 AI Video Generator?",
+    "subtitle": "Create professional videos with cutting-edge AI video generation technology",
+    "items": [
+      {
+        "title": "Professional Video Quality",
+        "description": "Wan 2.5 generates high-quality videos with smooth motion and consistent aesthetics. Perfect for professional content creation and social media.",
+        "icon": "video"
+      },
+      {
+        "title": "Dual Input Modes",
+        "description": "Start from text prompts or reference images. Wan 2.5 supports both text-to-video and image-to-video generation for maximum creative flexibility.",
+        "icon": "type"
+      },
+      {
+        "title": "Multiple Duration Options",
+        "description": "Choose between 5-second and 10-second video outputs. Select 720p or 1080p resolution based on your project needs and budget.",
+        "icon": "clock"
+      },
+      {
+        "title": "Flexible Aspect Ratios",
+        "description": "Generate videos in 1:1 (square), 9:16 (vertical), or 16:9 (horizontal) formats. Perfect for various platforms from TikTok to YouTube.",
+        "icon": "aspect-ratio"
+      },
+      {
+        "title": "Image-to-Video Animation",
+        "description": "Transform static images into dynamic videos. Upload your character art or illustrations and watch Wan 2.5 bring them to life with smooth animations.",
+        "icon": "wand-2"
+      },
+      {
+        "title": "Advanced AI Technology",
+        "description": "Powered by cutting-edge video generation AI, Wan 2.5 delivers stable, reliable performance with consistent output quality you can trust.",
+        "icon": "cpu"
+      }
+    ]
+  },
+  "howToUse": {
+    "title": "Generate Videos with Wan 2.5 in 3 Simple Steps",
+    "subtitle": "Transform your stories into stunning videos with AI technology",
+    "steps": [
+      {
+        "title": "Describe Your Video",
+        "description": "Enter a detailed text description of the video you want to create, or upload a reference image to animate. Be specific about motion, scene, and style."
+      },
+      {
+        "title": "Configure Settings",
+        "description": "Select video duration (5s or 10s), resolution (720p or 1080p), and aspect ratio. Higher quality and longer videos cost more credits."
+      },
+      {
+        "title": "Generate & Share",
+        "description": "Click generate and wait for Wan 2.5 to create your video. Download the MP4 file or share directly to social media platforms."
+      }
+    ]
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Everything you need to know about Wan 2.5 AI video generator",
+    "items": [
+      {
+        "question": "What is Wan 2.5 AI video generator?",
+        "answer": "Wan 2.5 is an advanced AI video generation model that creates videos from text prompts or reference images. It produces smooth, high-quality animations suitable for professional content creation."
+      },
+      {
+        "question": "How much does Wan 2.5 cost to use?",
+        "answer": "Wan 2.5 pricing varies based on resolution and duration: 720p 5s costs 300 credits, 720p 10s costs 600 credits, 1080p 5s costs 500 credits, and 1080p 10s costs 1000 credits."
+      },
+      {
+        "question": "Does Wan 2.5 support reference images?",
+        "answer": "Yes, Wan 2.5 supports image-to-video generation. You can upload a static image and Wan 2.5 will transform it into a dynamic video with smooth motion."
+      },
+      {
+        "question": "What video formats does Wan 2.5 support?",
+        "answer": "Wan 2.5 generates MP4 videos in multiple aspect ratios: 1:1 (square), 9:16 (vertical/mobile), and 16:9 (horizontal/widescreen). Duration options include 5 and 10 seconds."
+      },
+      {
+        "question": "How long does Wan 2.5 take to generate videos?",
+        "answer": "Video generation typically takes 1-3 minutes depending on the selected duration and resolution. Longer, higher-resolution videos require more processing time."
+      },
+      {
+        "question": "Can I use Wan 2.5 videos for commercial projects?",
+        "answer": "Yes, videos created with Wan 2.5 can be used for commercial purposes, social media, advertising, and personal projects. You retain full rights to your generated content."
+      },
+      {
+        "question": "What makes Wan 2.5 different from other video models?",
+        "answer": "Wan 2.5 specializes in AI video generation with exceptional quality and smooth motion. Its dual input modes (text and image) combined with flexible output options make it ideal for diverse creative projects."
+      }
+    ]
+  },
+  "call_to_action": {
+    "title": "Start Creating with Wan 2.5 AI Video Generator",
+    "subtitle": "Transform your ideas into professional videos. Perfect for content creators, marketers, and storytellers.",
+    "button_primary": "Start Creating with Wan 2.5"
+  },
+  "generator_title": "Generate Videos with Wan 2.5",
+  "credits": "Credits",
+  "videos": "Videos",
+  "generate": "Generate",
+  "optimize": "Optimize",
+  "empty-state": {
+    "title": "Start Creating Videos",
+    "description": "Enter a description, select style parameters, or click a sample video below to start generating"
+  },
+  "gallery": {
+    "title": "Video Gallery",
+    "empty": "No examples available",
+    "hint": "Hover to preview, click the card to watch, or use Reuse.",
+    "preview": "Preview video",
+    "reuse": "Reuse",
+    "immersive_title": "Video Preview"
+  },
+  "create_oc": "Create OC",
+  "controls": {
+    "model": "Model",
+    "auto": "Auto",
+    "duration": "Duration",
+    "count": "Count",
+    "piece": "Video"
+  },
+  "prompt": {
+    "label": "Describe Video Scene",
+    "placeholder": "e.g.: A person walking through a peaceful forest with sunlight filtering through the trees, waves crashing on a rocky shore, or clouds drifting across a mountain landscape",
+    "optimize": "AI Optimize",
+    "optimizing": "Optimizing..."
+  },
+  "parameters": {
+    "title": "Video Parameters",
+    "duration": "Duration",
+    "ratio": "Aspect Ratio",
+    "quality": "Quality",
+    "aspect_ratio": "Aspect Ratio",
+    "watermark": "Watermark",
+    "negative_prompt": "Negative Prompt",
+    "negative_prompt_placeholder": "Words or concepts to avoid in the video",
+    "camera_motion": "Camera Motion (Optional)",
+    "camera_motion_placeholder": "Select camera motion",
+    "reference": "Reference",
+    "reference_placeholder": "Paste image URL (optional)",
+    "visibility": "Visibility",
+    "visibility_description": "Set generation visibility level"
+  },
+  "common": {
+    "enabled": "Enabled",
+    "disabled": "Disabled"
+  },
+  "camera_motions": {
+    "pan": {
+      "name": "Pan"
+    },
+    "tilt": {
+      "name": "Tilt"
+    },
+    "zoom": {
+      "name": "Zoom"
+    },
+    "push": {
+      "name": "Push"
+    },
+    "orbit": {
+      "name": "Orbit"
+    }
+  },
+  "reference": {
+    "label": "Reference",
+    "title": "Reference Image",
+    "upload": "Upload Image",
+    "drag-drop": "Drag & drop image here or click to select",
+    "supported-formats": "Supports JPG, PNG, WEBP (max 10MB)",
+    "remove": "Remove",
+    "change": "Change",
+    "processing": "Processing...",
+    "error-upload": "Upload failed, please try again",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-format": "Unsupported image format",
+    "error-auth": "Please log in to upload images",
+    "error-filename": "Invalid file name",
+    "disabled-oc-selected": "Current model supports only one image. OC portrait is already selected, so reference image upload is disabled.",
+    "cleared-by-oc": "Reference image cleared because OC was selected and current model supports only one image."
+  },
+  "toast": {
+    "task_created": "Task created",
+    "started": "Video generation started!",
+    "completed": "Video generation completed!",
+    "reuse-failed": "Failed to load video parameters"
+  },
+  "errors": {
+    "generation_failed": "Generation failed",
+    "create_failed": "Failed to create task",
+    "not-authenticated": "Please log in to access this video",
+    "no-permission": "You don't have permission to access this video",
+    "not-found": "Video not found",
+    "load-video-failed": "Failed to load video data",
+    "auth-required": "Please log in to access this video",
+    "character-not-found": "Character not found or you don't have access to it. Please select a character manually.",
+    "invalid-character-uuid": "Invalid character reference. Please select a character manually.",
+    "character-load-error": "Failed to load character. Please try again.",
+    "reference-image-not-found": "Reference image not found",
+    "invalid-reference-image-uuid": "Invalid reference image. Please select an image manually.",
+    "reference-image-load-error": "Failed to load reference image. Please try again."
+  },
+  "reuse": {
+    "loading": "Loading video parameters...",
+    "loading_desc": "Preparing the selected video for reuse..."
+  },
+  "generating": {
+    "title": "Generating Video...",
+    "tip": "Creating your video, this may take a few minutes..."
+  },
+  "panel": {
+    "guest": {
+      "title": "Create Videos with AI",
+      "description": "Transform your prompts and characters into stunning videos. Sign in to start creating!"
+    },
+    "user": {
+      "title": "Start Creating Your Video",
+      "description": "Enter a description, select your style and parameters, then click Generate to create your video"
+    }
+  },
+  "buttons": {
+    "create_video": "Create Video",
+    "generating": "Generating...",
+    "sign_in": "Sign In to Create"
+  },
+  "processing-state": {
+    "pending": {
+      "title": "Task Queued",
+      "description": "Generation task has been added to the queue. Please wait..."
+    },
+    "processing": {
+      "title": "Generating Video",
+      "description": "AI is creating your video. Video generation may take a few minutes."
+    },
+    "completed": {
+      "title": "Generation Complete!",
+      "description": "Your video is ready to view and download."
+    },
+    "failed": {
+      "title": "Generation Failed",
+      "description": "Sorry, something went wrong. Please try again."
+    },
+    "canceled": {
+      "title": "Generation Canceled",
+      "description": "The generation task has been canceled."
+    },
+    "unknown": {
+      "title": "Unknown Status",
+      "description": "Unable to determine the current status."
+    },
+    "progress": "Progress",
+    "batch-size": "Batch Size",
+    "credits-used": "Credits Used",
+    "time-elapsed": "Time Elapsed",
+    "estimated-remaining": "Estimated Remaining",
+    "coming-soon": "Coming Soon",
+    "cancel": "Cancel",
+    "retry": "Retry",
+    "view-results": "View Results",
+    "processing-tip": "You can close this page and come back later. Generation will continue in the background."
+  },
+  "upgrade_prompts": {
+    "private_visibility": "Private visibility is available for subscription members. Upgrade to unlock.",
+    "private_visibility_short": "Upgrade to use private visibility",
+    "remove_watermark": "Watermark removal is available for subscription members. Upgrade to unlock.",
+    "remove_watermark_short": "Upgrade to remove watermark",
+    "subscription_required": "Subscription Required"
+  },
+  "membership": {
+    "free": "Free",
+    "basic": "Basic",
+    "plus": "Plus",
+    "pro": "Pro",
+    "upgrade_now": "Upgrade Now"
+  }
+}

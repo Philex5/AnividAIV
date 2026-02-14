@@ -1,0 +1,20 @@
+{
+  "title": "ご支援ありがとうございます！",
+  "orderNumber": "注文番号",
+  "product": "商品詳細",
+  "credits": "クレジット",
+  "amount": "お支払い金額",
+  "paymentDate": "お支払い日",
+  "paymentMethod": "お支払い方法",
+  "email": "メールアドレス",
+  "status": "ステータス",
+  "statusPaid": "お支払い済み",
+  "backToHome": "ホームに戻る",
+  "viewAccount": "アカウントを見る",
+  "autoRedirect": "{countdown}秒後に自動遷移",
+  "autoRedirectMessage": "ユーザーセンターへ自動遷移します。{clickHere} で直接移動できます。",
+  "clickHere": "こちら",
+  "invalidPayment": "無効なお支払い",
+  "orderNotFound": "注文が見つかりません",
+  "returnToHome": "ホームに戻る"
+}

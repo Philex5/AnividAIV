@@ -1,0 +1,196 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-05",
+  "description": "Example images for Nano Banana model showcase",
+  "modelId": "google/nano-banana",
+  "modelName": "Nano Banana",
+  "examples": [
+    {
+      "uuid": "nb-ex-011",
+      "r2_path": "gallery/anime/nano-banana/realistic.webp",
+      "alt": "nano-banana showcase - realistic",
+      "aspect_ratio": "1:1",
+      "title": "nano-banana showcase - realistic",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A realistic cinematic portrait of a young woman standing alone on a city rooftop at dawn.\nShe has shoulder-length dark brown hair moving slightly in the wind, natural skin texture, no heavy makeup.\nShe wears a dark green bomber jacket, gray t-shirt, black jeans, and worn sneakers.\nThe early morning sky is pale blue with soft orange light near the horizon.\nUrban buildings stretch into the distance.\nNatural lighting, cinematic color grading, shallow depth of field, 35mm film look, high realism, detailed facial features.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "nb-ex-010",
+      "r2_path": "gallery/anime/nano-banana/cat_photos.webp",
+      "alt": "nano-banana showcase - cat_photo",
+      "aspect_ratio": "1:1",
+      "title": "nano-banana showcase - cat_photo",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "A close-up selfie of three cat with different expressions in front of the iconic Eiffel Tower, taken at golden hour with cinematic lighting. The animals are positioned close to the camera with their heads touching, mimicking a selfie pose, showing joyful, surprised, and calm expressions. The background features the full architectural detail of [landmark], softly illuminated, with a warm ambient atmosphere. Shot in a photographic, realistic cartoon style, high detail.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "nb-ex-009",
+      "r2_path": "gallery/anime/nano-banana/macro.webp",
+      "alt": "nano-banana showcase - macro photograph depicting",
+      "aspect_ratio": "auto",
+      "title": "nano-banana showcase - macro photograph depicting",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "Create a hyper-realistic macro photograph depicting a bustling futuristic city miniaturized\nwithin a single dewdrop for the Micro art.A microscopic metropolis teems with impossible life,\nits intricate structures shimmering inside the dewdrop.Luminescent pathways weave between\ncrystalline buildings,reflecting light and hinting at atomic-scale activity.Details to\ninclude:Skyscraper-like structures of solidified light;pollen-sized airships on transparent\nsky-bridges;intricate architectural details;a faint,vibrant energy grid;and a crystalline\ntexture on the dewdrop's surface.The dewdrop rests on a gossamer spider's web strand,stretched\nbetween blurred emerald leaves.Invisible silk threads catch ambient light,framing the\nspherical city.Out-of-focus foliage creates bokeh,emphasizing the minuscule world in a\nfantastical natural setting.Ethereal,highly refractive early morning sunlight passes through\nthe dewdrop,creating dazzling prisms and concentrated beams illuminating the city with wonder\nand discovery.A soft,golden glow suggests warmth.Iridescent blues,greens,purples for city\nstructures,contrasted with warm golden and amber hues from refracted sunlight,plus deep greens\nof blurred leaves.Hints of silver and white.Breathtaking sense of delicate wonder and\nimpossible scale.Hyper-realistic macro photography,intricate detail,refractive light,surreal\nfantasy,impossible perspective,dreamlike,cinematic,ultra HD.Overlay text '@AnividAI'at the bottom.",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "nb-ex-008",
+      "r2_path": "gallery/anime/nano-banana/illustration_scene.webp",
+      "alt": "nano-banana showcase - illustration scene",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - illustration scene",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "poetic nature scene illustration, a distinct retro pilot as the primary subject, sunbreak through cloud layers over reflective water, retain watercolor texture and paper grain nuance, monumental scale, deep spatial layering, cinematic environmental storytelling, dynamic lens perspective, emotionally readable scene intent, consistent edge quality, production-ready quality, clean structure, refined rendering, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 4
+    },
+    {
+      "uuid": "nb-ex-007",
+      "r2_path": "gallery/anime/nano-banana/industry.webp",
+      "alt": "nano-banana showcase - industry",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - industry",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "industrial sci-fi setting concept, a distinct volcanic blacksmith as the primary subject, overhead gantry lights and volumetric dust layers, highlight hard-surface structure and believable mechanics, monumental scale, deep spatial layering, cinematic environmental storytelling, storyboard-style framing, strong visual storytelling, consistent edge quality, high detail, coherent composition, clear focal hierarchy, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "nb-ex-006",
+      "r2_path": "gallery/anime/nano-banana/realistic_portrait.webp",
+      "alt": "nano-banana showcase - realistic portrait",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - realistic portrait",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "realistic portrait benchmark reference, a distinct forest ranger as the primary subject, window-side portrait with soft daylight falloff, focus on realistic skin pores, micro-contrast, and true-to-life lighting, material realism, precise local detail, subtle texture transitions, clear depth layering, clear narrative atmosphere, clean material rendering, high detail, coherent composition, clear focal hierarchy, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "nb-ex-005",
+      "r2_path": "gallery/anime/nano-banana/celestial_guardian.webp",
+      "alt": "nano-banana showcase - celestial guardian",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - celestial guardian",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "a distinct celestial guardian as the primary subject, fragmented horizon where objects overlap unrealistically, avoid random chaos without structure, artistic abstraction, symbolic composition, intentional stylization, storyboard-style framing, clear narrative atmosphere, well-structured focal hierarchy, high detail, coherent composition, clear focal hierarchy, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 3
+    },
+    {
+      "uuid": "nb-ex-004",
+      "r2_path": "gallery/anime/nano-banana/festival_performer.webp",
+      "alt": "nano-banana showcase - festival performer",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - festival performer",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "hero identity card key visual, a distinct festival performer as the primary subject, sunlit interior corner with gentle practical lights, balance emotional readability and elegant line discipline, material realism, precise local detail, subtle texture transitions, storyboard-style framing, strong visual storytelling, balanced detail distribution, strong readability, polished finish, balanced detail density, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "nb-ex-003",
+      "r2_path": "gallery/anime/nano-banana/magic_realm.webp",
+      "alt": "nano-banana showcase - magic realm",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - magic realm",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "magic realm cinematic matte, a distinct signal hacker as the primary subject, grand valley panorama with layered atmospheric depth, sell epic scale through perspective hierarchy, monumental scale, deep spatial layering, cinematic environmental storytelling, dynamic lens perspective, distinct art-direction identity, balanced detail distribution, production-ready quality, clean structure, refined rendering, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 2
+    },
+    {
+      "uuid": "nb-ex-002",
+      "r2_path": "gallery/anime/nano-banana/wuxai_poster.webp",
+      "alt": "nano-banana showcase - wuxia_poster",
+      "aspect_ratio": "5:4",
+      "title": "nano-banana showcase - wuxia_poster",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "traditional wuxia character poster, a distinct desert engineer as the primary subject, riverbank with drifting ink clouds and sparse architecture, emphasize ink diffusion and intentional brush pressure, artistic abstraction, symbolic composition, intentional stylization, storyboard-style framing, emotionally readable scene intent, consistent edge quality, strong readability, polished finish, balanced detail density, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 1
+    },
+    {
+      "uuid": "nb-ex-001",
+      "r2_path": "gallery/anime/nano-banana/storm_chaser.webp",
+      "alt": "nano-banana showcase - storm chaser",
+      "aspect_ratio": "3:4",
+      "title": "nano-banana showcase - storm chase",
+      "parameters": {
+        "model_id": "google/nano-banana",
+        "prompt": "dream logic visual experiment, a distinct storm chaser as the primary subject, multi-plane composition with gravity-defying structures, preserve surreal coherence through intentional focal anchors, artistic abstraction, symbolic composition, intentional stylization, dynamic lens perspective, strong visual storytelling, controlled texture density, production-ready quality, clean structure, refined rendering, no unrelated aesthetics, no repeated identity motifs, no blurry, no low quality, no watermark, no text artifacts, no distorted anatomy, no incorrect proportions, no noisy artifacts",
+        "style": "no_presets",
+        "scene": "",
+        "outfit": "",
+        "character": "",
+        "action": ""
+      },
+      "sort_order": 3
+    }
+  ]
+}

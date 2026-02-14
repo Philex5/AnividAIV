@@ -1,0 +1,674 @@
+{
+  "metadata": {
+    "title": "{name} - Character Details | AnividAI",
+    "description": "{name} {role} {species} character profile. {brief}",
+    "fallback_description": "Explore this character profile, traits, story, and artworks on AnividAI."
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "characters": "Characters",
+    "my_ocs": "My OCs",
+    "create_oc": "Create OC"
+  },
+  "navigation": {
+    "back": "Back",
+    "you_own_this": "You own this character"
+  },
+  "header": {
+    "world_label": "world",
+    "world_empty": "Unassigned",
+    "quotes_label": "Quotes",
+    "avatar_upload_label": "Upload Image",
+    "avatar_gallery_label": "From Gallery",
+    "greeting_placeholder": "brief description."
+  },
+  "stats": {
+    "views": "Views",
+    "likes": "Likes",
+    "generations": "Generations",
+    "forks": "Forks"
+  },
+  "sections": {
+    "personality_traits": "Personality & Attributes",
+    "personality_traits_description": "Select traits that define the character's core behavior. (e.g., Brave, Kind, Intelligent)",
+    "background_story": "Background Story",
+    "background_story_empty": "No background story yet.",
+    "appearance_style": "Appearance & Style",
+    "outfit_style": "Outfit Style",
+    "theme_specific_details": "Theme-Specific Details",
+    "other_views": "Other Views",
+    "other_views_placeholder": "Additional views are not available yet.",
+    "attributes_empty": "No attributes available.",
+    "extended_attributes": "Extended Attributes",
+    "extended_attributes_description": "Add custom key-value pairs to provide more detail. (e.g., Hobby: Gardening, Weapon: Katana)",
+    "character_information": "Character Information"
+  },
+  "info": {
+    "created": "Created",
+    "updated": "Updated",
+    "forking": "Forking",
+    "allowed": "Allowed",
+    "not_allowed": "Not allowed",
+    "years_old": "years old",
+    "theme": "theme",
+    "created_by": "Created By"
+  },
+  "actions": {
+    "share": "Share",
+    "edit": "Edit",
+    "quit_edit": "Save & Quit",
+    "like": "Like",
+    "generate": "Generate",
+    "download": "Download",
+    "delete": "Delete",
+    "save": "Save"
+  },
+  "quick_actions": {
+    "title": "Quick Actions",
+    "export_character": "Export Character Data",
+    "create_based": "Create Based on This",
+    "share_character": "Share Character",
+    "more_from_theme": "More from {theme}"
+  },
+  "generation": {
+    "title": "AI Generation",
+    "style": "Style",
+    "aspect_ratio": "Aspect Ratio",
+    "quality": "Quality",
+    "steps": "Steps",
+    "guidance": "Guidance",
+    "prompt_preview": "Prompt Preview",
+    "generate_images": "Generate Images",
+    "generating": "Generating...",
+    "generated_images": "Generated Images",
+    "selection": {
+      "title": "Select Image",
+      "description": "Choose the best result to use.",
+      "generating_title": "Generating...",
+      "generating_desc": "Please wait while we create your images.",
+      "elapsed": "Time elapsed: {seconds}s",
+      "confirm": "Confirm Selection",
+      "cancel": "Cancel",
+      "timeout": "Generation timed out. Please try again."
+    },
+    "cost_per_generation": "Cost per generation",
+    "credits": "credits"
+  },
+  "styles": {
+    "anime": "Anime",
+    "realistic": "Realistic",
+    "cartoon": "Cartoon",
+    "fantasy": "Fantasy"
+  },
+  "aspect_ratios": {
+    "1:1": "Square (1:1)",
+    "4:3": "Portrait (4:3)",
+    "3:4": "Landscape (3:4)",
+    "16:9": "Wide (16:9)"
+  },
+  "quality_levels": {
+    "draft": "Draft (Fast)",
+    "standard": "Standard",
+    "high": "High Quality"
+  },
+  "visibility": {
+    "public": "Public",
+    "private": "Private"
+  },
+  "character_id": "Character ID",
+  "creations": {
+    "title": "Character Creations",
+    "all": "All",
+    "images": "Images",
+    "videos": "Videos",
+    "no_creations": "No creations yet",
+    "view_more": "View More"
+  },
+  "gallery": {
+    "breakdown_sheet_label": "Breakdown Sheet",
+    "breakdown_sheet_hint": "Comprehensive character design & multi-angle reference sheet with detailed annotations.",
+    "visual_archives_label": "Visual Archives ({current}/{limit})",
+    "rearranging_label": "Rearranging Archives",
+    "add_archive_label": "Add Archive",
+    "add_menu_upload_label": "Upload Image",
+    "add_menu_upload_hint": "Local device",
+    "add_menu_from_artworks_label": "From Artworks",
+    "add_menu_from_artworks_hint": "Your creations",
+    "breakdown_sheet_new_label": "New",
+    "settings_label": "Gallery Settings",
+    "exit_settings_label": "Exit Settings",
+    "untitled_label": "Untitled Archive",
+    "preview_title": "Preview",
+    "preview_description": "Expand visual archive",
+    "new_stream_label": "New Stream",
+    "image_alt": "Character Image",
+    "preview_alt": "Preview",
+    "limit_reached": "You've reached the visual archive limit ({limit}). Remove one to add more.",
+    "primary_badge": "Primary",
+    "primary_badge_tooltip": "This image is the primary portrait of this OC. Artworks will reference it by default. Click the settings icon to change.",
+    "primary_set_label": "Set as primary",
+    "primary_delete_title": "Delete primary portrait?",
+    "primary_delete_confirm": "This image is the primary portrait for this OC. After deletion, artwork generation will no longer reference it. We will set another portrait as primary by default.",
+    "primary_delete_cancel": "Cancel",
+    "primary_delete_action": "Delete",
+    "upload_type_title": "Mark this image as a portrait?",
+    "upload_type_description": "Portraits can be selected as the OC's primary reference. Non-portrait uploads stay in the archive only.",
+    "upload_type_portrait": "Set as portrait",
+    "upload_type_upload": "Keep as upload",
+    "upload_type_cancel": "Cancel",
+    "upload_portrait_label": "Portrait",
+    "upload_label": "User Upload"
+  },
+  "recommendations": {
+    "title": "OC Recommandation",
+    "from_same_author": "From Same Author",
+    "from_same_theme": "From Same Theme",
+    "no_recommendations": "No recommendations available",
+    "errors": {
+      "fetch_failed": "Failed to fetch recommendations"
+    },
+    "defaults": {
+      "name": "Untitled Character",
+      "species": "Unknown",
+      "gender": "unknown",
+      "art_style": "original",
+      "hair_color": "Unknown",
+      "eye_color": "Unknown"
+    }
+  },
+  "tags": {
+    "title": "Tags",
+    "placeholder": "Add a tag",
+    "input_aria": "Add a tag",
+    "helper": "Tags make it easier to discover related characters.",
+    "helper_owner": "Use short lowercase words or pick from suggestions.",
+    "helper_viewer": "Tags added by the creator.",
+    "empty_owner": "Add up to 20 tags to describe this OC.",
+    "empty_viewer": "No tags yet.",
+    "max": "Maximum {max} tags allowed",
+    "duplicate": "Tag already added",
+    "saving": "Saving tags...",
+    "add_error": "Failed to add tag",
+    "updated": "Tags updated",
+    "error": "Failed to update tags",
+    "view_more": "View related",
+    "suggestions": "Suggestions",
+    "recommended": "Recommended",
+    "remove": "Remove {tag}"
+  },
+  "background_controls": {
+    "title": "Character Card Style",
+    "description": "Customize your character card's appearance with theme colors and background images.",
+    "theme_tab": "Theme Color",
+    "background_tab": "Card Background",
+    "color_label": "Accent Color",
+    "image_label": "Upload Background",
+    "ai_gen_label": "AI Background Generation",
+    "image_placeholder": "https://example.com/background.png",
+    "apply_button": "Apply",
+    "clear_button": "Clear Background",
+    "or_generate": "Or Generate",
+    "ai_gen_placeholder": "Describe the background scene you want to generate (e.g., 'A cyberpunk city street at night with neon lights')",
+    "generate_button": "Generate Background",
+    "saved": "Style updated"
+  },
+  "world_selector": {
+    "placeholder": "Select world",
+    "search": "Search worlds",
+    "presets": "Preset Worlds",
+    "custom": "My worlds",
+    "empty": "No results",
+    "description_empty": "No description available",
+    "none": "No world",
+    "create": "Create new world",
+    "updated": "world updated"
+  },
+  "background_story": {
+    "title": "Background Story",
+    "placeholder": "Write background story...",
+    "overall_title": "Life story",
+    "overall_placeholder": "Write overall background...",
+    "events_title": "Major Events",
+    "events_empty": "No events yet.",
+    "add_event": "Add event",
+    "delete_event": "Delete event",
+    "event_title": "Title",
+    "event_content": "Content",
+    "event_title_placeholder": "Enter event title...",
+    "event_content_placeholder": "Describe what happened...",
+    "event_ai_generate": "AI Generate",
+    "event_image_upload": "Upload Image",
+    "event_image_select": "Select from Gallery"
+  },
+  "event_visual_generation": {
+    "title": "Generate Event Visual",
+    "description": "Create a cinematic visual for this major life event.",
+    "labels": {
+      "model": "Model",
+      "style": "Style",
+      "quantity": "Quantity",
+      "resolution": "Resolution",
+      "prompt": "Visual Description",
+      "reference": "Reference Image",
+      "status": "Status",
+      "results": "Generated Visuals"
+    },
+    "placeholders": {
+      "model": "Select model",
+      "style": "Select style",
+      "resolution": "Select resolution",
+      "prompt": "Describe the scene...",
+      "reference": "URL or ID"
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "submit": "Generate"
+    },
+    "status": {
+      "idle": "Ready",
+      "submitting": "Initializing...",
+      "polling": "Generating visual...",
+      "completed": "Generation complete",
+      "failed": "Generation failed",
+      "loadingOptions": "Loading...",
+      "loadFailed": "Failed to load configs",
+      "emptyResults": "No visuals generated yet"
+    },
+    "errors": {
+      "missingPrompt": "Please describe the visual",
+      "missingModel": "Please select a model",
+      "missingResolution": "Please select a resolution",
+      "missingEventTitle": "Event title is required",
+      "missingEventContent": "Event description is required",
+      "requestFailed": "Failed to create generation task",
+      "missingTemplate": "Prompt template is required",
+      "missingTemplateParams": "Missing template parameters"
+    }
+  },
+  "action_bar": {
+    "buttons": {
+      "done": "Done",
+      "save": "Save",
+      "saving": "Saving...",
+      "reset": "Reset",
+      "delete": "Delete",
+      "cancel": "Cancel",
+      "deleting": "Deleting...",
+      "confirm_delete": "Delete"
+    },
+    "labels": {
+      "basic_info": "Basic Info",
+      "visibility": "Visibility",
+      "visibility_public_desc": "Anyone can view this character.",
+      "visibility_private_desc": "Only you can view this character.",
+      "visibility_pro_hint": "Pro plan required to set as private.",
+      "remix": "Remix",
+      "remix_description": "Remix means this character can be used for secondary creations like images and videos.",
+      "export": "Export",
+      "share": "Share",
+      "chat": "Chat",
+      "like": "Like",
+      "favorite": "Favorite",
+      "delete": "Delete",
+      "name": "Name",
+      "gender": "Gender",
+      "species": "Species",
+      "species_custom": "Custom",
+      "species_custom_placeholder": "Input species",
+      "role": "Role",
+      "age": "Age",
+      "greeting": "Greeting"
+    },
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "toast": {
+      "visibility_public": "Visibility set to public",
+      "visibility_private": "Visibility set to private",
+      "remix_enabled": "Remix enabled",
+      "remix_disabled": "Remix disabled",
+      "deleted": "Character deleted",
+      "saved": "Saved"
+    },
+    "errors": {
+      "operation_failed": "Operation failed",
+      "like_failed": "Failed to like character",
+      "favorite_failed": "Failed to favorite character",
+      "visibility_failed": "Failed to update visibility",
+      "remix_failed": "Failed to update remix permission",
+      "delete_failed": "Failed to delete character",
+      "update_failed": "Failed to update character",
+      "update_personality_failed": "Failed to update personality",
+      "update_extended_attributes_failed": "Failed to update extended attributes",
+      "update_skills_failed": "Failed to update skills",
+      "update_avatar_failed": "Failed to update avatar",
+      "load_profile_failed": "Failed to load profile image",
+      "upload_failed": "Upload failed",
+      "save_changes_failed": "Failed to save some changes",
+      "profile_required_for_avatar": "Profile image is required to generate avatar",
+      "profile_required_for_breakdown_sheet": "Profile image is required to generate a breakdown sheet",
+      "breakdown_sheet_prompt_missing": "Breakdown sheet prompt is not configured",
+      "portrait_prompt_missing": "Portrait prompt is not configured",
+      "portrait_prompt_failed": "Failed to build portrait prompt",
+      "visibility_sub_required": "Upgrade to Subscription member to change visibility",
+      "name_required": "Name is required",
+      "age_invalid": "Invalid age value"
+    },
+    "aria": {
+      "like": "Like",
+      "unlike": "Unlike",
+      "favorite": "Favorite",
+      "unfavorite": "Unfavorite",
+      "remix": "Remix"
+    },
+    "delete_dialog": {
+      "title": "Delete character",
+      "description": "Are you sure you want to delete \"{name}\"?",
+      "warning": "This action cannot be undone."
+    }
+  },
+  "appearance": {
+    "outfit_style": "Outfit Style",
+    "appearance_features": "Apperance Features",
+    "accessories": "Accessories",
+    "features": "Appearance Features",
+    "visual_matrix": "Visual Matrix",
+    "metadata_label": "Metadata",
+    "custom": "Custom",
+    "custom_body_type_placeholder": "Enter body type",
+    "custom_hair_style_placeholder": "Enter hair style"
+  },
+  "visuals": {
+    "labels": {
+      "body_type": "Body Type",
+      "hair_style": "Hair Style",
+      "hair_color": "Hair Color",
+      "eye_color": "Eye Color",
+      "outfit_style": "Outfit Style",
+      "special_features": "Special Features",
+      "accessories": "Accessories",
+      "style": "Style",
+      "examples": "Examples",
+      "auto": "Auto",
+      "body_type_auto_balanced": "Auto / Balanced",
+      "hair_style_auto_default": "Auto / Default",
+      "select_color": "Select Color",
+      "select_style": "Select style",
+      "generate": "Generate",
+      "body_suffix": "{value} body",
+      "hair_suffix": "{value} hair",
+      "hair_swatch": "hair",
+      "eye_swatch": "eye"
+    },
+    "descriptions": {
+      "body_type": "The physical build and height of your character.",
+      "hair_style": "The hairstyle and length of your character.",
+      "hair_color": "Primary color of character's hair.",
+      "eye_color": "The color of the character's irises.",
+      "outfit_style": "The typical clothing or armor worn by the character.",
+      "special_features": "Unique physical characteristics.",
+      "accessories": "Items or ornaments worn by the character."
+    },
+    "examples": {
+      "body_type": "Athletic, Petite, Tall, Muscular",
+      "hair_style": "Long Ponytail, Messy Short, Twin Tails",
+      "hair_color": "Crimson Red, Midnight Blue, Silver",
+      "eye_color": "Emerald Green, Golden, Violet",
+      "outfit_style": "Gothic Lolita, Tactical Techwear, Ancient Kimono",
+      "special_features": "Elf Ears, Dragon Horns, Face Scar, Tail",
+      "accessories": "Eyepatch, Headphones, Katana, Magic Staff"
+    },
+    "placeholders": {
+      "body_type": "e.g. Athletic",
+      "hair_style": "e.g. Long Wavy",
+      "hair_color": "e.g. #FF0000 or Red",
+      "eye_color": "e.g. #00FF00 or Green",
+      "outfit_style": "e.g. Cyberpunk Techwear",
+      "feature": "Add feature...",
+      "accessory": "Add accessory..."
+    },
+    "status": {
+      "generating_portrait": "Generating Portrait...",
+      "generating": "Generating...",
+      "no_visuals": "No visual archives found"
+    },
+    "aria": {
+      "color_preview": "{label} color preview"
+    }
+  },
+  "linking": {
+    "buttons": {
+      "makeAnimeArt": {
+        "label": "Make Anime Art",
+        "href": "/ai-anime-generator?character_uuid=${character_uuid}"
+      },
+      "animateIt": {
+        "label": "Animate It",
+        "href": "/ai-anime-video-generator?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "Studio Tools",
+        "listItems": [
+          {
+            "label": "ai action figure generator",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  },
+  "errors": {
+    "not_found": "Character not found",
+    "access_denied": "Access denied",
+    "access_denied_title": "Access denied",
+    "load_failed": "Failed to load character",
+    "retry": "Retry"
+  },
+  "share_card": {
+    "title": "OC Card Preview",
+    "download": "Export",
+    "download_success": "Card exported successfully!",
+    "download_filename": "{name}-legendary-card.png",
+    "copy": "Copy link",
+    "copied": "Link copied",
+    "copy_error": "Failed to copy link",
+    "download_error": "No image available",
+    "placeholder": ""
+  },
+  "skills": {
+    "title": "Skills & Abilities",
+    "stats_title": "Power Matrix",
+    "radar_label": "Stats",
+    "abilities_title": "Combat & Skills",
+    "add_skill": "Add Skill",
+    "add_stat": "Add Stat",
+    "new_stat": "New Stat",
+    "new_ability": "New Ability",
+    "empty_skills": "No skills recorded",
+    "level": "Level",
+    "type": "Type",
+    "description": "Description",
+    "icon": "Icon",
+    "edit_skill": "Edit Skill",
+    "delete_skill": "Delete Skill",
+    "stat_name": "Stat Name",
+    "stat_placeholder": "Stat",
+    "stat_value": "Value",
+    "skill_name": "Skill Name"
+  },
+  "portrait_generation": {
+    "title": "Portrait Generation",
+    "description": "Configure your character's visual details and style for the full-body illustration.",
+    "appearance_details": "Appearance Details",
+    "body_type": "Body Type",
+    "hair_style": "Hair Style",
+    "hair_color": "Hair Color",
+    "eye_color": "Eye Color",
+    "outfit_style": "Outfit Style",
+    "features": "Features",
+    "accessories": "Accessories",
+    "art_style": "Art Style",
+    "extra_info": "Extra Information",
+    "extra_info_placeholder": "Any additional details you want to include in the generation prompt...",
+    "generate": "Generate",
+    "generate_description": "Generate a new portrait based on the appearance features above.",
+    "generating": "Generating...",
+    "regenerate": "Regenerate",
+    "generate_avatar": "AI Generate Avatar",
+    "start_visual_magic": "Start Visual Magic",
+    "generate_from_fullbody": "Generate from Full-body",
+    "generate_from_fullbody_desc": "Use your character portrait as a reference to generate a matching avatar.",
+    "crop_from_fullbody": "Crop from Full-body",
+    "crop_from_fullbody_desc": "Manually select a portion of your portrait as the avatar.",
+    "avatar_update_failed": "Failed to update avatar",
+    "or_label": "Or",
+    "crop_cancel": "Cancel",
+    "crop_save": "Save",
+    "crop_image_alt": "To be cropped",
+    "crop_load_failed": "Failed to load image for cropping",
+    "crop_still_loading": "Image is still loading, please try again",
+    "crop_canvas_failed": "Could not get canvas context",
+    "crop_blob_failed": "Failed to create image blob",
+    "crop_upload_failed": "Upload failed",
+    "crop_upload_uuid_required": "Upload UUID is required",
+    "crop_failed": "Failed to crop image",
+    "avatar_setting_title": "Avatar Settings",
+    "avatar_setting_description": "Choose how you want to set your character's avatar.",
+    "upload_label": "Upload Custom Image",
+    "update_avatar_label": "Also update avatar",
+    "update_avatar_description": "Replace the avatar with this portrait to keep them in sync (costs extra MC).",
+    "cost_label": "Cost",
+    "cost_with_avatar": "30 MC",
+    "cost_without_avatar": "20 MC"
+  },
+  "create_mode": {
+    "title": "Create Your OC",
+    "steps": {
+      "basic_info": "Basic Info",
+      "visuals": "Visuals",
+      "story": "Story",
+      "personality": "Personality",
+      "skills": "Skills"
+    },
+    "buttons": {
+      "previous": "Previous",
+      "next": "Next",
+      "finish": "Finish & View",
+      "randomize": "Randomize Features",
+      "ai_expand": "AI Expand"
+    },
+    "labels": {
+      "avatar_title": "Character Avatar",
+      "avatar_empty": "No avatar generated",
+      "avatar_generate": "Generate from Portrait",
+      "avatar_alt": "Avatar",
+      "portrait_title": "Character Portrait",
+      "portrait_empty": "No portrait generated",
+      "portrait_placeholder_alt": "Portrait Placeholder",
+      "tip_label": "Tip:",
+      "one_line_bio": "One-line Bio",
+      "background_story": "Detailed Background Story",
+      "add_attribute": "Add Attribute"
+    },
+    "titles": {
+      "personality": "Personality & Attributes",
+      "personality_traits": "Core Personality Traits",
+      "extended_attributes": "Extended Attributes",
+      "skills": "Skills & Abilities"
+    },
+    "hints": {
+      "avatar_requires_portrait": "Please generate a portrait first to create an avatar.",
+      "avatar_tip": "Generating an avatar using the portrait as a reference ensures visual consistency across your character's profile.",
+      "personality_traits": "Define the character's core behavior and personality tags. (e.g., Brave, Kind, Cold-hearted)",
+      "extended_attributes": "Add custom key-value pairs to enrich character details. (e.g., Hobby: Gardening, Weapon: Katana)"
+    },
+    "placeholders": {
+      "name": "e.g. Luna Moonstone",
+      "role_custom": "Enter custom role...",
+      "age": "e.g. 18",
+      "one_line_bio": "A short and catchy introduction for your character...",
+      "background_story": "Luna Moonstone was born during a total lunar eclipse in the hidden valley...",
+      "trait": "Add trait...",
+      "attribute_key": "Key",
+      "attribute_value": "Value",
+      "character_fallback_name": "Character",
+      "unnamed_character": "Unnamed Character"
+    },
+    "status": {
+      "saving": "Saving..."
+    },
+    "toasts": {
+      "name_required": "Name is required to proceed",
+      "save_success": "OC Created successfully!",
+      "save_failed": "Failed to save progress",
+      "randomize_success": "Appearance randomized!",
+      "ai_expand_start": "AI expansion starting...",
+      "ai_expand_success": "Story expanded by AI!",
+      "ai_expand_result": "Born in a world of {species}, {name} embarked on a journey as a {role}. With {hair_color} hair and {eye_color} eyes, they are known for their {brief_introduction}."
+    },
+    "overlays": {
+      "switching_world": "Switching world..."
+    },
+    "visuals": {
+      "dice_tooltip": "Click to randomize appearance features"
+    },
+    "story": {
+      "ai_expand_tooltip": "Use AI to expand your character's story based on basic info"
+    },
+    "export": {
+      "title": "Export Character",
+      "export_card": "Export OC Card",
+      "export_card_hint": "Visual ID",
+      "export_card_desc": "Create a beautiful shareable card",
+      "export_json": "Export JSON Data",
+      "export_json_desc": "Structured data for developers",
+      "export_markdown": "Export Markdown",
+      "export_markdown_desc": "Editable documentation format",
+      "export_owner_only": "Data export available to owner only",
+      "export_failed": "Failed to export",
+      "export_success": "Exported successfully!",
+      "filename_fallback": "character",
+      "generating": "Generating...",
+      "owner_only": "Owner Access Only",
+      "file_profile_label": "Profile",
+      "file_profile_ext": "PDF",
+      "file_source_label": "Source",
+      "file_source_ext": "JSON",
+      "file_archive_label": "Archive",
+      "file_archive_ext": "MD",
+      "export_card_success": "Card generated successfully!",
+      "export_card_failed": "Failed to generate card",
+      "generate_share_card": "Generate Share Card",
+      "generate_card_desc": "Customize and generate a beautiful share card for your character",
+      "template": "Template",
+      "style": "Style",
+      "preview": "Preview",
+      "card_template": "Card Template",
+      "rarity": "Rarity",
+      "theme_color": "Theme Color",
+      "preview_desc": "This is how your card will look",
+      "generate_download": "Generate & Download",
+      "cancel": "Cancel",
+      "generating": "Generating...",
+      "tcg_card_style": "TCG Card Style",
+      "movie_poster": "Movie Poster",
+      "business_card": "Business Card",
+      "regular": "Regular",
+      "super_rare": "Super Rare",
+      "ultra_rare": "Ultra Rare",
+      "dark_theme": "Dark Theme",
+      "light_theme": "Light Theme",
+      "cyberpunk": "Cyberpunk",
+      "minimal": "Minimal"
+    }
+  },
+  "reference": {
+    "error-format": "Unsupported image format. Please use JPEG, PNG, or WebP",
+    "error-size": "Image size exceeds 10MB limit",
+    "error-upload": "Upload failed, please try again",
+    "error-auth": "Please log in to upload images",
+    "error-filename": "Invalid file name"
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "OCの世界観と世界構築 | AnividAI",
+    "description": "アニメOCのためのストーリーワールドを作成・探索。キャラクターを整理し、伝承を構築し、架空世界を共有しましょう。",
+    "keywords": "OCの世界観, アニメ世界構築, ストーリーワールド, 架空世界, キャラクター世界, OC設定"
+  },
+  "breadcrumb": {
+    "worlds": "世界"
+  },
+  "create": {
+    "metadata": {
+      "title": "新しい世界を作成 | AnividAI",
+      "description": "新しい世界設定を開始し、その核心となる伝承を構築します。",
+      "keywords": "世界作成, 世界構築ツール, OCワールド"
+    },
+    "title": "新しい現実を創造する",
+    "subtitle": "キャラクターが集うユニークな設定をデザインしましょう。ハイファンタジーからネオン輝くサイバーパンクまで、可能性は無限大です。",
+    "placeholder": "世界創造ツールはあなたのビジョンのために準備されています。",
+    "helper": "基本から始めて、後で伝承を広げましょう。",
+    "form": {
+      "labels": {
+        "name": "世界名*",
+        "genre": "世界ジャンル*",
+        "custom_genre": "カスタムジャンル",
+        "tags": "選択されたタグ",
+        "custom_tag": "タグを追加",
+        "recommended_tags": "推奨タグ",
+        "description": "世界の説明*",
+        "climate": "気候",
+        "tech_magic_system": "技術と魔法",
+        "theme_color": "テーマカラー",
+        "allow_join": "他のユーザーのOC追加を許可"
+      },
+      "placeholders": {
+        "name": "例：ネオ東京、エリジウム...",
+        "custom_genre": "例：ローファンタジー",
+        "description": "この世界の物語や詳細を語ってください...",
+        "climate": "例：熱帯",
+        "tech_magic_system": "例：サイバーパンク",
+        "custom_tag": "例：魔法学園",
+        "custom_species": "カスタム種族名..."
+      },
+      "options": {
+        "climate": {
+          "temperate_four_seasons": "四季のある温帯",
+          "tropical_rainforest": "熱帯雨林",
+          "arctic_tundra": "北極ツンドラ",
+          "desert": "砂漠",
+          "oceanic": "海洋",
+          "underground": "地下",
+          "urban_tropical": "都市型熱帯",
+          "custom": "カスタム"
+        },
+        "tech_magic_system": {
+          "medieval_magic": "中世魔法",
+          "high_tech": "ハイテク",
+          "cyberpunk": "サイバーパンク",
+          "steampunk": "スチームパンク",
+          "low_fantasy": "ローファンタジー",
+          "high_fantasy": "ハイファンタジー",
+          "sci_fi": "SF",
+          "post_apocalyptic": "ポストアポカリプス",
+          "mythological": "神話",
+          "modern_mixed": "現代ミックス"
+        }
+      },
+      "sections": {
+        "inhabitants": {
+          "title": "住民",
+          "subtitle": "あなたの世界の支配的な種族を定義します。"
+        },
+        "extra_details": {
+          "title": "追加詳細",
+          "subtitle": "世界にカスタムプロパティを追加します。"
+        },
+        "cover": {
+          "title": "世界カバー",
+          "subtitle": "美しい背景で舞台を設定します。"
+        }
+      },
+      "buttons": {
+        "add_field": "フィールドを追加",
+        "upload": "アップロード",
+        "uploading": "アップロード中...",
+        "ai_generate": "AI生成",
+        "change_image": "画像を変更",
+        "discard": "破棄",
+        "publish": "保存",
+        "publishing": "保存中..."
+      },
+      "empty": {
+        "species": "種族はまだ選択されていません。",
+        "extra_details": "通貨、宗教、法律などのカスタムフィールドを使用してください。"
+      },
+      "helpers": {
+        "cover_ratio": "推奨比率 16:9",
+        "cover_alt": "世界カバー",
+        "allow_join_enabled": "参加可能",
+        "allow_join_enabled_hint": "他のクリエイターが自分のOCをこの世界観に紐づけできます。",
+        "allow_join_disabled": "オーナーのみ",
+        "allow_join_disabled_hint": "OCの紐づけはあなたのみ可能です。"
+      },
+      "fields": {
+        "extra": {
+          "key": "プロパティ",
+          "value": "値"
+        }
+      },
+      "ocs": {
+        "title": "Related OCs",
+        "subtitle": "Show the OCs that belong to this world.",
+        "empty": "No OCs linked yet.",
+        "add_button": "Add OC",
+        "dialog_title": "Select OCs",
+        "dialog_subtitle": "Choose the characters that should live in this world.",
+        "search_placeholder": "Search your OCs...",
+        "loading": "Loading OCs...",
+        "empty_options": "No OCs match your search.",
+        "linked_hint": "Linked to another world",
+        "done": "Done"
+      }
+    },
+    "errors": {
+      "world_limit_reached": "現在のプランの世界作成制限に達しました。もっと作成するにはアップグレードしてください。",
+      "visibility_sub_required": "非公開設定にはサブスクリプションが必要です。",
+      "create_failed": "世界の作成に失敗しました。",
+      "upload_failed": "アップロードに失敗しました。",
+      "invalid_cover_url": "Cover image URL is invalid.",
+      "form_invalid": "Please check the form fields and try again.",
+      "cover_generation_failed": "Failed to generate world cover.",
+      "cover_generation_missing_fields": "Please provide a world name before generating.",
+      "cover_generation_unavailable": "Image generation model is not available.",
+      "oc_update_failed": "Failed to update related OCs."
+    },
+    "toast": {
+      "success": "世界が正常に作成されました。"
+    },
+    "visibility": {
+      "label": "公開設定",
+      "public": "公開",
+      "private": "非公開",
+      "public_hint": "コミュニティの全員に公開されます。",
+      "private_hint": "あなただけが見ることができます。",
+      "upgrade_required": "非公開設定を解除するにはアップグレードしてください。"
+    },
+    "generation_modal": {
+      "title": "世界の背景を生成",
+      "description": "あなたの世界のための素晴らしいビジュアルを作成します。",
+      "labels": {
+        "model": "モデル",
+        "style": "スタイル",
+        "quantity": "数量",
+        "resolution": "解像度",
+        "prompt": "シーンの説明",
+        "reference": "参照画像",
+        "status": "ステータス",
+        "results": "生成されたビジュアル"
+      },
+      "placeholders": {
+        "model": "モデルを選択",
+        "style": "スタイルを選択",
+        "resolution": "解像度を選択",
+        "prompt": "シーンを説明してください...",
+        "reference": "URLまたはID"
+      },
+      "actions": {
+        "cancel": "キャンセル",
+        "submit": "生成"
+      },
+      "status": {
+        "idle": "準備完了",
+        "submitting": "初期化中...",
+        "polling": "ビジュアルを生成中...",
+        "completed": "生成完了",
+        "failed": "生成失敗",
+        "loadingOptions": "読み込み中...",
+        "loadFailed": "設定の読み込みに失敗しました",
+        "emptyResults": "ビジュアルはまだ生成されていません"
+      },
+      "errors": {
+        "missingPrompt": "ビジュアルを説明してください",
+        "missingModel": "モデルを選択してください",
+        "missingResolution": "解像度を選択してください",
+        "requestFailed": "生成タスクの作成に失敗しました"
+      }
+    },
+    "prompt": {
+      "world_name": "世界名: {name}。",
+      "climate": "気候: {climate}。",
+      "tech_magic_system": "技術と魔法: {system}。",
+      "inhabitants": "住民: {species}。"
+    },
+    "world_selector": {
+      "placeholder": "世界を選択",
+      "search": "世界を検索...",
+      "none": "ユニバーサル / 世界なし",
+      "presets": "公式プリセット",
+      "custom": "マイワールド",
+      "empty": "世界が見つかりません"
+    }
+  },
+  "edit": {
+    "metadata": {
+      "title": "世界を編集 | AnividAI",
+      "description": "世界の設定と伝承を更新します。",
+      "keywords": "世界編集, 世界設定, OCワールド"
+    },
+    "title": "世界を洗練させる",
+    "subtitle": "世界の伝承、ビジュアル、設定を調整します。",
+    "errors": {
+      "update_failed": "世界の更新に失敗しました。",
+      "preset_forbidden": "プリセットの世界は変更できません。",
+      "invalid_cover_url": "Cover image URL is invalid.",
+      "form_invalid": "Please check the form fields and try again.",
+      "cover_generation_failed": "Failed to generate world cover.",
+      "cover_generation_missing_fields": "Please provide a world name before generating.",
+      "cover_generation_unavailable": "Image generation model is not available.",
+      "oc_update_failed": "Failed to update related OCs."
+    },
+    "toast": {
+      "success": "世界が正常に更新されました。"
+    }
+  },
+  "detail": {
+    "metadata": {
+      "title": "世界を探索 | AnividAI",
+      "description": "このユニークな設定の伝承とキャラクターを発見してください。",
+      "keywords": "世界詳細, 伝承, キャラクターリスト"
+    },
+    "title": "世界概要",
+    "subtitle": "このユニークな設定の深層に飛び込みましょう。",
+    "note": "伝承を探索し、環境を視覚化し、この世界に住むキャラクターたちに出会いましょう。",
+    "uuidLabel": "世界UUID",
+    "cta": "自分の世界を作成する",
+    "private_badge": "非公開",
+    "created_by": "作成者",
+    "unknown_creator": "不明",
+    "section_title": "世界の伝承",
+    "characters_title": "キャラクター",
+    "characters_empty": "キャラクターはまだいません",
+    "community_title": "コミュニティ・ディスカッション",
+    "info": {
+      "labels": {
+        "genre": "ジャンル",
+        "species": "主な種族",
+        "climate": "気候 / 環境",
+        "tech": "技術 / 魔法",
+        "regions": "地域"
+      },
+      "fallbacks": {
+        "genre": "一般",
+        "species": "多様な種族",
+        "climate": "普遍的",
+        "tech": "バランス重視",
+        "regions": "未発見"
+      }
+    }
+  },
+  "list": {
+    "title": "OCの世界観を探索",
+    "subtitle": "アニメOCの世界構築ハブ",
+    "create": "OCの世界観を作成",
+    "empty_title": "OCの世界観がまだありません",
+    "empty_description": "あなたのOCのためのストーリーワールドを最初に作りましょう。",
+    "empty_cta": "OCの世界観を作成"
+  },
+  "card": {
+    "description_fallback": "この世界の説明はありません。",
+    "creator_label": "作成者",
+    "creator_fallback": "コミュニティ",
+    "preset_label": "公式",
+    "delete_title": "世界を削除",
+    "delete_description": "この世界を削除してもよろしいですか？この操作は取り消せません。",
+    "delete_cancel": "キャンセル",
+    "delete_confirm": "削除"
+  },
+  "actions": {
+    "labels": {
+      "like": "いいね",
+      "favorite": "お気に入り",
+      "comment": "コメント",
+      "share": "共有"
+    },
+    "errors": {
+      "like_failed": "いいねに失敗しました",
+      "favorite_failed": "お気に入りに失敗しました",
+      "share_failed": "共有に失敗しました",
+      "operation_failed": "操作に失敗しました"
+    }
+  }
+}

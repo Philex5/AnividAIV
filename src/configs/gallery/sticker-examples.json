@@ -1,0 +1,68 @@
+{
+  "version": "1.0.0",
+  "examples": [
+    {
+      "uuid": "sticker-example-1",
+      "r2_path": "gallery/sticker/sticker-showcase-1.webp",
+      "template_id": "graffiti",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "Boom",
+      "mode": "text_with_reference",
+      "alt": "Graffiti Style Sticker"
+    },
+    {
+      "uuid": "sticker-example-2",
+      "r2_path": "gallery/sticker/sticker-showcase-2.webp",
+      "template_id": "no_preset",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "sakura",
+      "mode": "oc_character",
+      "expressions": "happy_waving",
+      "alt": "Minimal Line Art Sticker"
+    },
+    {
+      "uuid": "sticker-example-3",
+      "r2_path": "gallery/sticker/sticker-showcase-3.webp",
+      "template_id": "pixel_art",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "A pixelated wizard character with a pointy hat, casting a fireball spell, with animated flames and sparkles",
+      "mode": "text_with_reference",
+      "alt": "pixel art Style Sticker"
+    },
+    {
+      "uuid": "sticker-example-4",
+      "r2_path": "gallery/sticker/sticker-showcase-4.webp",
+      "template_id": "pop_art",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "A comic-style explosion with bright yellow and red bursts, surrounded by halftone patterns.",
+      "mode": "text_with_reference",
+      "alt": "POP art Style Sticker"
+    },
+    {
+      "uuid": "sticker-example-5",
+      "r2_path": "gallery/sticker/sticker-showcase-5.webp",
+      "template_id": "chibi",
+      "model_id": "gpt4o-image",
+      "reference_image_url": "",
+      "user_prompt": "Hmph!",
+      "expressions": "with puffed cheeks, crossed arms, and an annoyed pout",
+      "mode": "oc_character",
+      "alt": "chibi Style Sticker"
+    },
+    {
+      "uuid": "sticker-example-6",
+      "r2_path": "gallery/sticker/sticker-showcase-6.webp",
+      "template_id": "oc_nine_grid",
+      "model_id": "google/nano-banana",
+      "reference_image_url": "",
+      "user_prompt": "",
+      "expressions": "",
+      "mode": "oc_character",
+      "alt": "OC nine-grid Sticker"
+    }
+  ]
+}

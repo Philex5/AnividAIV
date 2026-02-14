@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "slug": "sticker",
+  "kind": "image",
+  "variables": [
+    "character.name",
+    "character.traits",
+    "style",
+    "background"
+  ],
+  "template": "Create a clean-cut anime sticker of {{character.name}} in {{style}} style. Emphasize key traits: {{character.traits}}. Flat background: {{background}}. High contrast outline, die-cut safe margins, no watermark.",
+  "description": "Basic configuration for sticker generation templates",
+  "note": "Detailed templates are now in sticker-templates.json"
+}
+

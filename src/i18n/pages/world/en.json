@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "title": "OC Worlds & Worldbuilding | AnividAI",
+    "description": "Create and explore story worlds for anime OCs. Organize characters, build lore, and share fictional settings.",
+    "keywords": "oc worlds, anime worldbuilding, story world, fictional world, character world, oc setting"
+  },
+  "breadcrumb": {
+    "worlds": "Worlds"
+  },
+  "create": {
+    "metadata": {
+      "title": "Create a New World | AnividAI",
+      "description": "Start a new world setting and build its core lore.",
+      "keywords": "create world, world building tool, oc world"
+    },
+    "title": "Forge a New Reality",
+    "subtitle": "Design a unique setting that brings your characters together. From high fantasy to neon-lit cyberpunk, the possibilities are infinite.",
+    "placeholder": "World creation tools are ready for your vision.",
+    "helper": "Start with the basics, expand the lore later.",
+    "form": {
+      "labels": {
+        "name": "World Name*",
+        "genre": "World Genre*",
+        "custom_genre": "Custom Genre",
+        "tags": "Selected Tags",
+        "custom_tag": "Add Tag",
+        "recommended_tags": "Suggested Tags",
+        "description": "World Description*",
+        "climate": "Climate",
+        "tech_magic_system": "Technology & Magic",
+        "theme_color": "Theme Color",
+        "allow_join": "Allow others to add their OCs"
+      },
+      "placeholders": {
+        "name": "e.g. Neo-Tokyo, Elysium...",
+        "custom_genre": "e.g. Urban Fantasy",
+        "description": "Tell the story and details of this world...",
+        "climate": "e.g. Tropical",
+        "tech_magic_system": "e.g. Cyberpunk",
+        "custom_tag": "e.g. Magic Academy",
+        "custom_species": "Custom species name..."
+      },
+      "options": {
+        "climate": {
+          "temperate_four_seasons": "Temperate Four Seasons",
+          "tropical_rainforest": "Tropical Rainforest",
+          "arctic_tundra": "Arctic Tundra",
+          "desert": "Desert",
+          "oceanic": "Oceanic",
+          "underground": "Underground",
+          "urban_tropical": "Urban Tropical",
+          "custom": "Custom"
+        },
+        "tech_magic_system": {
+          "medieval_magic": "Medieval Magic",
+          "high_tech": "High Tech",
+          "cyberpunk": "Cyberpunk",
+          "steampunk": "Steampunk",
+          "low_fantasy": "Low Fantasy",
+          "high_fantasy": "High Fantasy",
+          "sci_fi": "Sci-Fi",
+          "post_apocalyptic": "Post-Apocalyptic",
+          "mythological": "Mythological",
+          "modern_mixed": "Modern Mixed"
+        }
+      },
+      "sections": {
+        "inhabitants": {
+          "title": "Inhabitants",
+          "subtitle": "Define the dominant species in your world."
+        },
+        "extra_details": {
+          "title": "Extra Details",
+          "subtitle": "Add custom properties to your world."
+        },
+        "cover": {
+          "title": "World Cover",
+          "subtitle": "Set the stage with a beautiful background."
+        }
+      },
+      "buttons": {
+        "add_field": "Add Field",
+        "upload": "Upload",
+        "uploading": "Uploading...",
+        "ai_generate": "AI Generate",
+        "change_image": "Change Image",
+        "discard": "Discard",
+        "publish": "Save",
+        "publishing": "Saving..."
+      },
+      "empty": {
+        "species": "No species selected yet.",
+        "extra_details": "Use custom fields for currency, religion, laws, etc."
+      },
+      "helpers": {
+        "cover_ratio": "Recommended ratio 16:9",
+        "cover_alt": "World cover",
+        "allow_join_enabled": "Joinable",
+        "allow_join_enabled_hint": "Other creators can link their OCs to this world.",
+        "allow_join_disabled": "Owner only",
+        "allow_join_disabled_hint": "Only you can link OCs to this world."
+      },
+      "fields": {
+        "extra": {
+          "key": "Property",
+          "value": "Value"
+        }
+      },
+      "ocs": {
+        "title": "Related OCs",
+        "subtitle": "Show the OCs that belong to this world.",
+        "empty": "No OCs linked yet.",
+        "add_button": "Add OC",
+        "dialog_title": "Select OCs",
+        "dialog_subtitle": "Choose the characters that should live in this world.",
+        "search_placeholder": "Search your OCs...",
+        "loading": "Loading OCs...",
+        "empty_options": "No OCs match your search.",
+        "linked_hint": "Linked to another world",
+        "done": "Done"
+      }
+    },
+    "errors": {
+      "world_limit_reached": "World limit reached for your current plan. Upgrade to create more worlds.",
+      "visibility_sub_required": "Private visibility requires a subscription.",
+      "create_failed": "Failed to create world.",
+      "upload_failed": "Upload failed.",
+      "invalid_cover_url": "Cover image URL is invalid.",
+      "form_invalid": "Please check the form fields and try again.",
+      "cover_generation_failed": "Failed to generate world cover.",
+      "cover_generation_missing_fields": "Please provide a world name before generating.",
+      "cover_generation_unavailable": "Image generation model is not available.",
+      "oc_update_failed": "Failed to update related OCs."
+    },
+    "toast": {
+      "success": "World created successfully."
+    },
+    "visibility": {
+      "label": "Visibility",
+      "public": "Public",
+      "private": "Private",
+      "public_hint": "Visible to everyone in the community.",
+      "private_hint": "Visible only to you.",
+      "upgrade_required": "Upgrade to unlock private visibility."
+    },
+    "generation_modal": {
+      "title": "Generate World Background",
+      "description": "Create a stunning visual for your world.",
+      "labels": {
+        "model": "Model",
+        "style": "Style",
+        "quantity": "Quantity",
+        "resolution": "Resolution",
+        "prompt": "Scene Description",
+        "reference": "Reference Image",
+        "status": "Status",
+        "results": "Generated Visuals"
+      },
+      "placeholders": {
+        "model": "Select model",
+        "style": "Select style",
+        "resolution": "Select resolution",
+        "prompt": "Describe the scene...",
+        "reference": "URL or ID"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "submit": "Generate"
+      },
+      "status": {
+        "idle": "Ready",
+        "submitting": "Initializing...",
+        "polling": "Generating visual...",
+        "completed": "Generation complete",
+        "failed": "Generation failed",
+        "loadingOptions": "Loading...",
+        "loadFailed": "Failed to load configs",
+        "emptyResults": "No visuals generated yet"
+      },
+      "errors": {
+        "missingPrompt": "Please describe the visual",
+        "missingModel": "Please select a model",
+        "missingResolution": "Please select a resolution",
+        "requestFailed": "Failed to create generation task"
+      }
+    },
+    "prompt": {
+      "world_name": "World name: {name}.",
+      "climate": "Climate: {climate}.",
+      "tech_magic_system": "Technology and magic: {system}.",
+      "inhabitants": "Inhabitants: {species}."
+    },
+    "world_selector": {
+      "placeholder": "Select a World",
+      "search": "Search worlds...",
+      "none": "Universal / No World",
+      "presets": "Official Presets",
+      "custom": "My Worlds",
+      "empty": "No worlds found"
+    }
+  },
+  "edit": {
+    "metadata": {
+      "title": "Edit World | AnividAI",
+      "description": "Update your world settings and lore.",
+      "keywords": "edit world, world settings, oc world"
+    },
+    "title": "Refine Your World",
+    "subtitle": "Adjust the lore, visuals, and configuration of your world.",
+    "errors": {
+      "update_failed": "Failed to update world.",
+      "preset_forbidden": "Preset worlds cannot be modified.",
+      "invalid_cover_url": "Cover image URL is invalid.",
+      "form_invalid": "Please check the form fields and try again.",
+      "cover_generation_failed": "Failed to generate world cover.",
+      "cover_generation_missing_fields": "Please provide a world name before generating.",
+      "cover_generation_unavailable": "Image generation model is not available.",
+      "oc_update_failed": "Failed to update related OCs."
+    },
+    "toast": {
+      "success": "World updated successfully."
+    }
+  },
+  "detail": {
+    "metadata": {
+      "title": "Explore World | AnividAI",
+      "description": "Discover the lore and characters of this unique setting.",
+      "keywords": "world detail, lore, character list"
+    },
+    "title": "World Overview",
+    "subtitle": "Dive into the depths of this unique setting.",
+    "note": "Explore the lore, visualize the environment, and meet the characters who inhabit this world.",
+    "uuidLabel": "World UUID",
+    "cta": "Create Your Own World",
+    "private_badge": "Private",
+    "created_by": "Created by",
+    "unknown_creator": "Unknown",
+    "section_title": "World Lore",
+    "characters_title": "Characters",
+    "characters_empty": "No characters yet",
+    "community_title": "Community Discussions",
+    "info": {
+      "labels": {
+        "genre": "Genre",
+        "species": "Common Species",
+        "climate": "Climate / Env",
+        "tech": "Tech / Magic",
+        "regions": "Regions"
+      },
+      "fallbacks": {
+        "genre": "Generic",
+        "species": "Diverse species",
+        "climate": "Universal",
+        "tech": "Balanced",
+        "regions": "Undiscovered"
+      }
+    }
+  },
+  "list": {
+    "title": "Explore OC Worlds",
+    "subtitle": "Anime OC worldbuilding hub",
+    "create": "Create OC World",
+    "empty_title": "No OC worlds yet",
+    "empty_description": "Be the first to build a story world for your OCs.",
+    "empty_cta": "Create OC World"
+  },
+  "card": {
+    "description_fallback": "No description provided for this world.",
+    "creator_label": "Creator",
+    "creator_fallback": "Community",
+    "preset_label": "Official",
+    "delete_title": "Delete World",
+    "delete_description": "Are you sure you want to delete this world? This action cannot be undone.",
+    "delete_cancel": "Cancel",
+    "delete_confirm": "Delete"
+  },
+  "actions": {
+    "labels": {
+      "like": "Like",
+      "favorite": "Favorite",
+      "comment": "Comments",
+      "share": "Share"
+    },
+    "errors": {
+      "like_failed": "Failed to like world",
+      "favorite_failed": "Failed to favorite world",
+      "share_failed": "Failed to share world",
+      "operation_failed": "Operation failed"
+    }
+  }
+}

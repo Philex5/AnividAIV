@@ -1,0 +1,41 @@
+{
+  "title": "Cookie Preferences",
+  "description": "We use cookies to enhance your browsing experience, serve personalized content, and analyze our traffic. Please choose which types of cookies you want to allow.",
+  "acceptAll": "Accept All",
+  "rejectAll": "Reject All",
+  "managePreferences": "Manage Cookie Preferences",
+  "showDetails": "Show Details",
+  "hideDetails": "Hide Details",
+  "cancel": "Cancel",
+  "save": "Save",
+  "necessary": {
+    "title": "Necessary Cookies",
+    "description": "Required for basic site functionality",
+    "details": "These cookies are essential for the website and its features to work properly. They cannot be disabled. Including session management, login authentication, and security protection.",
+    "feature1": "Authentication and session management",
+    "feature2": "Security and fraud prevention",
+    "feature3": "Remembering your preferences"
+  },
+  "analytics": {
+    "title": "Analytics Cookies",
+    "description": "Help us understand how you use our site",
+    "details": "Used to track page views and user behavior, helping us optimize website experience. These cookies collect and report information anonymously.",
+    "toggle": "Toggle analytics cookies",
+    "googleDetails": "Tracks page views, user behavior, and site usage statistics to help us improve the user experience.",
+    "clarityDetails": "Provides heat maps and session recordings to help us understand user behavior and improve website usability.",
+    "plausibleDetails": "Privacy-friendly analytics that tracks website usage without collecting personal data."
+  },
+  "settingsTitle": "Cookie Settings",
+  "settingsDescription": "Manage your cookie preferences and learn how we use cookies on our website.",
+  "infoTitle": "About Our Cookie Policy",
+  "infoDescription": "Your privacy matters to us. You can change your cookie preferences at any time by visiting this page. We will not send your cookie preferences to our servers or any third parties.",
+  "privacyLinksTitle": "Learn More",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "saveChanges": "Save Changes",
+  "resetPreferences": "Reset to Default",
+  "resetConfirm": "Are you sure you want to reset your cookie preferences?",
+  "withdrawConsentTitle": "Withdraw Consent",
+  "withdrawConsentDescription": "After withdrawing consent, relevant cookies will be immediately deleted and analytics scripts will stop loading.",
+  "lastUpdated": "Last updated"
+}

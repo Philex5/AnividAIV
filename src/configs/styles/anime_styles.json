@@ -1,0 +1,172 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-09-29",
+  "config_type": "anime_style",
+  "items": [
+    {
+      "uuid": "anime",
+      "name": "Anime",
+      "key": "anime",
+      "i18n_name_key": "anime_styles.anime.name",
+      "i18n_description_key": "anime_styles.anime.description",
+      "prompt_value": "anime style, clean and smooth lineart, large expressive eyes, small nose and mouth, vibrant and harmonious colors, soft shading, stylized hair with detailed highlights, dynamic and appealing poses, simplified yet attractive backgrounds, youthful and energetic character design, high quality illustration",
+      "thumbnail_url": "/imgs/anime_styles/anime.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "ghiblio",
+      "name": "Ghiblio",
+      "key": "ghiblio",
+      "i18n_name_key": "anime_styles.ghiblio.name",
+      "i18n_description_key": "anime_styles.ghiblio.description",
+      "prompt_value": "ghiblio style, inspired by Studio Ghiblio films, soft and painterly backgrounds, lush nature and whimsical scenery, warm and earthy color palette, gentle and expressive character faces, subtle and natural lighting, magical and nostalgic atmosphere, hand-drawn look, detailed and immersive environments, storybook illustration quality",
+      "thumbnail_url": "/imgs/anime_styles/ghiblio.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "cinematic_anime",
+      "name": "Cinematic Anime",
+      "key": "cinematic_anime",
+      "i18n_name_key": "anime_styles.cinematic_anime.name",
+      "i18n_description_key": "anime_styles.cinematic_anime.description",
+      "prompt_value": "cinematic anime illustration, highly detailed backgrounds, dramatic lighting, vibrant and saturated colors, soft and emotional atmosphere, gentle character features, dreamy and nostalgic mood, photo-realistic rendering, magical realism",
+      "thumbnail_url": "/imgs/anime_styles/cinematic_anime.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "american_comics",
+      "name": "American Comics",
+      "key": "american_comics",
+      "i18n_name_key": "anime_styles.american_comics.name",
+      "i18n_description_key": "anime_styles.american_comics.description",
+      "prompt_value": "american comic style, bold and dynamic linework, strong black ink outlines, vivid and saturated colors, dramatic shading, muscular and exaggerated anatomy, energetic action poses, high contrast, graphic novel aesthetics, detailed backgrounds, cinematic composition",
+      "thumbnail_url": "/imgs/anime_styles/american_comics.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "pixel_retro",
+      "name": "Pixel Retro",
+      "key": "pixel_retro",
+      "i18n_name_key": "anime_styles.pixel_retro.name",
+      "i18n_description_key": "anime_styles.pixel_retro.description",
+      "prompt_value": "pixel art style, retro video game graphics, crisp and sharp pixel edges, highly defined pixel blocks, clean outlines, detailed 16x16 or 32x32 pixel sprites, vibrant and distinct colors, dynamic action pose, expressive character animation, well-defined pixel grid, classic arcade game look, no blur, no smudging, no score, no lives, no UI overlay, no excessive simplification, nostalgic and vintage atmosphere, minimal but clear shading, distinct background elements",
+      "thumbnail_url": "/imgs/anime_styles/pixel_retro.webp",
+      "sort_order": 6,
+      "status": "active"
+    },
+    {
+      "uuid": "chibi",
+      "name": "Chibi",
+      "key": "chibi",
+      "i18n_name_key": "anime_styles.chibi.name",
+      "i18n_description_key": "anime_styles.chibi.description",
+      "prompt_value": "chibi style, super deformed characters, extremely large heads, very small bodies, exaggerated cute and playful facial expressions, bright pastel colors, thick outlines, minimal and simple backgrounds, adorable and cartoonish proportions, high contrast, soft shading",
+      "thumbnail_url": "/imgs/anime_styles/chibi.webp",
+      "sort_order": 6,
+      "status": "active"
+    },
+    {
+      "uuid": "watercolor",
+      "name": "WaterColor",
+      "key": "watercolor",
+      "i18n_name_key": "anime_styles.watercolor.name",
+      "i18n_description_key": "anime_styles.watercolor.description",
+      "prompt_value": "watercolor anime style, soft and blended pastel colors, gentle and flowing brush strokes, dreamy and airy atmosphere, subtle gradients, delicate outlines, light and transparent textures, hand-painted look, natural and organic backgrounds, ethereal feeling",
+      "thumbnail_url": "/imgs/anime_styles/watercolor.webp",
+      "sort_order": 1,
+      "status": "active"
+    },
+    {
+      "uuid": "cyberpunk",
+      "name": "Cyberpunk",
+      "key": "cyberpunk",
+      "i18n_name_key": "anime_styles.cyberpunk.name",
+      "i18n_description_key": "anime_styles.cyberpunk.description",
+      "prompt_value": "cyberpunk anime style, neon lighting, futuristic cityscape backgrounds, glowing tech accessories, vibrant and saturated colors, high contrast, metallic and reflective surfaces, urban night scenes, holographic effects, edgy and modern character design, sci-fi atmosphere",
+      "thumbnail_url": "/imgs/anime_styles/cyberpunk.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "kawaii_anime",
+      "name": "Kawaii Anime",
+      "key": "kawaii_anime",
+      "i18n_name_key": "anime_styles.kawaii_anime.name",
+      "i18n_description_key": "anime_styles.kawaii_anime.description",
+      "prompt_value": "kawaii anime style, cute girl wearing animal-eared hoodie, pastel colors, soft shading, expressive eyes, playful and cozy indoor setting, adorable bunny companion, stylized hair, gentle and warm atmosphere, clean lineart, youthful character design",
+      "thumbnail_url": "/imgs/anime_styles/kawaii_anime.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "waifu_kimono_sakura",
+      "name": "Waifu Kimono Sakura",
+      "key": "waifu_kimono_sakura",
+      "i18n_name_key": "anime_styles.waifu_kimono_sakura.name",
+      "i18n_description_key": "anime_styles.waifu_kimono_sakura.description",
+      "prompt_value": "waifu anime style, beautiful girl in traditional Japanese kimono, sitting under cherry blossom trees, intricate braided hairstyle with sakura flowers, soft pink tones, elegant and peaceful outdoor setting, delicate lineart, harmonious colors, serene and graceful mood",
+      "thumbnail_url": "/imgs/anime_styles/waifu_kimono_sakura.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "fantasy_lolita",
+      "name": "Fantasy Lolita",
+      "key": "fantasy_lolita",
+      "i18n_name_key": "anime_styles.fantasy_lolita.name",
+      "i18n_description_key": "anime_styles.fantasy_lolita.description",
+      "prompt_value": "fantasy anime style, girl in elaborate white and blue lolita dress, surrounded by magical glowing elements, ethereal atmosphere, intricate frills and ribbons, dreamy background, soft and mystical lighting, whimsical and elegant character design, high detail illustration",
+      "thumbnail_url": "/imgs/anime_styles/fantasy_lolita.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "mecha_anime",
+      "name": "Mecha Anime",
+      "key": "mecha_anime",
+      "i18n_name_key": "anime_styles.mecha_anime.name",
+      "i18n_description_key": "anime_styles.mecha_anime.description",
+      "prompt_value": "mecha anime style, detailed giant robots, futuristic technology, metallic textures, dynamic action poses, dramatic lighting, sci-fi backgrounds, bold and sharp lineart, vibrant and contrasting colors, high-tech atmosphere",
+      "thumbnail_url": "/imgs/anime_styles/mecha_anime.webp",
+      "sort_order": 3,
+      "status": "active"
+    },
+    {
+      "uuid": "shoujo_sparkle",
+      "name": "Shoujo Sparkle",
+      "key": "shoujo_sparkle",
+      "i18n_name_key": "anime_styles.shoujo_sparkle.name",
+      "i18n_description_key": "anime_styles.shoujo_sparkle.description",
+      "prompt_value": "shoujo anime style, sparkling eyes, delicate and flowing hair, pastel and bright colors, floral and starry backgrounds, soft gradients, elegant and fashionable outfits, emotional and expressive poses, dreamy and romantic atmosphere",
+      "thumbnail_url": "/imgs/anime_styles/shoujo_sparkle.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "dark_gothic",
+      "name": "Dark Gothic",
+      "key": "dark_gothic",
+      "i18n_name_key": "anime_styles.dark_gothic.name",
+      "i18n_description_key": "anime_styles.dark_gothic.description",
+      "prompt_value": "gothic anime style, dark and moody colors, elaborate gothic dresses, lace and frills, crosses and roses, mysterious and dramatic lighting, ornate backgrounds, melancholic and elegant character design, fantasy gothic atmosphere",
+      "thumbnail_url": "/imgs/anime_styles/dark_gothic.webp",
+      "sort_order": 2,
+      "status": "active"
+    },
+    {
+      "uuid": "retro_90s_anime",
+      "name": "Retro 90s Anime",
+      "key": "retro_90s_anime",
+      "i18n_name_key": "anime_styles.retro_90s_anime.name",
+      "i18n_description_key": "anime_styles.retro_90s_anime.description",
+      "prompt_value": "retro 90s anime style, bold outlines, saturated colors, simple and nostalgic backgrounds, expressive and exaggerated facial features, vintage character design, grainy texture, classic anime aesthetics, energetic and fun mood",
+      "thumbnail_url": "/imgs/anime_styles/retro_90s_anime.webp",
+      "sort_order": 3,
+      "status": "active"
+    }
+  ]
+}

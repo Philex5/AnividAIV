@@ -1,0 +1,1169 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-13",
+  "models": [
+    {
+      "name": "nano-banana",
+      "i18n_name_key": "models.nano_banana.name",
+      "i18n_description_key": "models.nano_banana.description",
+      "provider": "kie-ai",
+      "model_id": "google/nano-banana",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "auto",
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "credits_per_generation": 30,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": true,
+      "thumbnail_url": "/imgs/models/banana.svg",
+      "model_type": "img2img",
+      "config": {
+        "prompt_max_length": 20000,
+        "prompt_min_length": 10,
+        "output_format": "png",
+        "image_size": [
+          "auto",
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "4:5",
+          "5:4",
+          "16:9",
+          "9:16",
+          "21:9"
+        ],
+        "supports_reference_image": true,
+        "auto_switch_mode": true,
+        "unified_text2img_img2img": true,
+        "reference_mode": {
+          "model_id": "google/nano-banana-edit",
+          "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask"
+        }
+      },
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        }
+      ]
+    },
+    {
+      "name": "GPT-Image-1",
+      "i18n_name_key": "models.gpt-image-1.name",
+      "i18n_description_key": "models.gpt-image-1.description",
+      "provider": "kie-ai",
+      "model_id": "gpt4o-image",
+      "api_endpoint": "https://api.kie.ai/api/v1/gpt4o-image/generate",
+      "max_counts": 4,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2"
+      ],
+      "credits_per_generation": 30,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/openai.svg",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 2000,
+        "prompt_min_length": 10,
+        "nVariants": 1,
+        "isEnhance": false,
+        "uploadCn": false,
+        "enableFallback": false,
+        "fallbackModel": "FLUX_MAX"
+      }
+    },
+    {
+      "name": "Z-Image",
+      "i18n_name_key": "models.z_image.name",
+      "i18n_description_key": "models.z_image.description",
+      "provider": "kie-ai",
+      "model_id": "z-image",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "4:3",
+        "3:4",
+        "16:9",
+        "9:16"
+      ],
+      "credits_per_generation": 10,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/wan.png",
+      "model_type": "text2img",
+      "config": {
+        "prompt_max_length": 2000,
+        "prompt_min_length": 10,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "4:3",
+          "3:4",
+          "16:9",
+          "9:16"
+        ],
+        "default_size": "1:1",
+        "supports_reference_image": false
+      }
+    },
+    {
+      "name": "Seedream 4.0",
+      "i18n_name_key": "models.seedream_4_0.name",
+      "i18n_description_key": "models.seedream_4_0.description",
+      "provider": "kie-ai",
+      "model_id": "bytedance/seedream-v4-edit",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "credits_per_generation": 35,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/seedream_4.webp",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        },
+        {
+          "text": "4K",
+          "bgColor": "#DCFCE7",
+          "textColor": "#15803D",
+          "borderColor": "#86EFAC"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 2000,
+        "prompt_min_length": 10,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "9:16",
+          "16:9",
+          "21:9"
+        ],
+        "image_resolution": [
+          "1K",
+          "2K",
+          "4K"
+        ],
+        "default_resolution": "2K",
+        "max_images": 10,
+        "supports_reference_image": true,
+        "reference_mode": {
+          "model_id": "bytedance/seedream-v4-edit",
+          "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask"
+        }
+      }
+    },
+    {
+      "name": "Flux 2 Pro",
+      "i18n_name_key": "models.flux_2_pro.name",
+      "i18n_description_key": "models.flux_2_pro.description",
+      "provider": "kie-ai",
+      "model_id": "flux-2/pro-text-to-image",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9"
+      ],
+      "credits_per_generation": 50,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/flux.svg",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 5000,
+        "prompt_min_length": 3,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "9:16",
+          "16:9"
+        ],
+        "image_resolution": [
+          "1K",
+          "2K"
+        ],
+        "default_resolution": "1K",
+        "max_images": 8,
+        "resolution_credits": {
+          "1K": 50,
+          "2K": 70
+        },
+        "supports_reference_image": true,
+        "auto_switch_mode": false,
+        "unified_text2img_img2img": false,
+        "reference_mode": {
+          "model_id": "flux-2/pro-image-to-image",
+          "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask"
+        }
+      }
+    },
+    {
+      "name": "Sora-2",
+      "i18n_name_key": "models.sora2.name",
+      "i18n_description_key": "models.sora2.description",
+      "provider": "kie-ai",
+      "model_id": "sora-2",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "landscape",
+        "portrait"
+      ],
+      "credits_per_generation": 100,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/sora.svg",
+      "model_type": "text2video",
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video",
+        "multi_image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "aspect_ratio",
+            "i18n_label_key": "parameters.aspect_ratio",
+            "type": "select",
+            "options": [
+              "landscape",
+              "portrait"
+            ],
+            "default": "landscape"
+          },
+          {
+            "key": "duration",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "10",
+              "15"
+            ],
+            "default": "10",
+            "unit": "s"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 10000,
+        "prompt_min_length": 10,
+        "model_types": {
+          "text_to_video": "sora-2-text-to-video-stable",
+          "image_to_video": "sora-2-image-to-video-stable"
+        },
+        "credits_mapping": {
+          "10": 100,
+          "15": 140
+        },
+        "durationRange": [
+          10,
+          15
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 3,
+          "image_field": "image_urls",
+          "oc_reference_priority": "combine",
+          "supports_oc_and_reference": true,
+          "multi_image_enabled": true
+        }
+      }
+    },
+    {
+      "name": "Hailuo 2.3",
+      "i18n_name_key": "models.hailuo_2_3.name",
+      "i18n_description_key": "models.hailuo_2_3.description",
+      "provider": "kie-ai",
+      "model_id": "hailuo/2-3-image-to-video-standard",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "credits_per_generation": 125,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/hailuo.svg",
+      "model_type": "text2video",
+      "supported_tasks": [
+        "image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "duration_seconds",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "6",
+              "10"
+            ],
+            "default": "6",
+            "unit": "s",
+            "constraints": [
+              {
+                "dependsOn": "resolution",
+                "when": "1080p",
+                "availableOptions": [
+                  "6"
+                ],
+                "autoAdjust": "6"
+              }
+            ]
+          },
+          {
+            "key": "resolution",
+            "i18n_label_key": "parameters.resolution",
+            "type": "select",
+            "options": [
+              "768p",
+              "1080p"
+            ],
+            "default": "768p",
+            "constraints": [
+              {
+                "dependsOn": "duration_seconds",
+                "when": "10",
+                "availableOptions": [
+                  "768p"
+                ],
+                "autoAdjust": "768p"
+              }
+            ]
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 5000,
+        "prompt_min_length": 10,
+        "durationRange": [
+          6,
+          10
+        ],
+        "resolutions": [
+          "768p",
+          "1080p"
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 1,
+          "image_field": "image_url",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": false,
+          "image_required": true
+        },
+        "credits_mapping": {
+          "6": {
+            "768p": 125,
+            "1080p": 200
+          },
+          "10": {
+            "768p": 200
+          }
+        }
+      }
+    },
+    {
+      "name": "Wan 2.5",
+      "i18n_name_key": "models.wan_2_5.name",
+      "i18n_description_key": "models.wan_2_5.description",
+      "provider": "kie-ai",
+      "model_id": "wan/2.5",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "credits_per_generation": 200,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "thumbnail_url": "/imgs/models/wan.png",
+      "model_type": "text2video",
+      "badges": [
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "duration_seconds",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "5",
+              "10"
+            ],
+            "default": "5",
+            "unit": "s"
+          },
+          {
+            "key": "quality",
+            "i18n_label_key": "parameters.qualityai-model",
+            "type": "select",
+            "options": [
+              "standard",
+              "high"
+            ],
+            "default": "standard"
+          },
+          {
+            "key": "aspect_ratio",
+            "i18n_label_key": "parameters.aspect_ratio",
+            "type": "select",
+            "options": [
+              "1:1",
+              "9:16",
+              "16:9"
+            ],
+            "default": "16:9"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 800,
+        "prompt_min_length": 10,
+        "durationRange": [
+          5,
+          10
+        ],
+        "resolutions": [
+          "720p",
+          "1080p"
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 1,
+          "image_field": "image_url",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": false
+        },
+        "credits_mapping": {
+          "720p_5": 200,
+          "720p_10": 400,
+          "1080p_5": 350,
+          "1080p_10": 700
+        }
+      }
+    },
+    {
+      "name": "Seedream 4.5",
+      "i18n_name_key": "models.seedream_4_5.name",
+      "i18n_description_key": "models.seedream_4_5.description",
+      "provider": "kie-ai",
+      "model_id": "seedream/4.5",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9",
+        "21:9"
+      ],
+      "credits_per_generation": 65,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/seedream_4.webp",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        },
+        {
+          "text": "4K",
+          "bgColor": "#DCFCE7",
+          "textColor": "#15803D",
+          "borderColor": "#86EFAC"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 2000,
+        "prompt_min_length": 10,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "9:16",
+          "16:9",
+          "21:9"
+        ],
+        "quality_options": [
+          "basic",
+          "high"
+        ],
+        "default_quality": "basic",
+        "max_images": 14,
+        "supports_reference_image": true,
+        "reference_mode": {
+          "model_id": "seedream/4.5-edit",
+          "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask"
+        }
+      }
+    },
+    {
+      "name": "nano-banana Pro",
+      "i18n_name_key": "models.nano_banana_pro.name",
+      "i18n_description_key": "models.nano_banana_pro.description",
+      "provider": "kie-ai",
+      "model_id": "nano-banana-pro",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "4:5",
+        "5:4",
+        "16:9",
+        "9:16",
+        "21:9"
+      ],
+      "credits_per_generation": 60,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/banana-pro.webp",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        },
+        {
+          "text": "4K",
+          "bgColor": "#DCFCE7",
+          "textColor": "#15803D",
+          "borderColor": "#86EFAC"
+        },
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 20000,
+        "prompt_min_length": 10,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "4:5",
+          "5:4",
+          "16:9",
+          "9:16",
+          "21:9"
+        ],
+        "image_resolution": [
+          "1k",
+          "2k",
+          "4k"
+        ],
+        "default_resolution": "2k",
+        "supports_reference_image": true,
+        "auto_switch_mode": false,
+        "unified_text2img_img2img": true
+      }
+    },
+    {
+      "name": "Flux 2 Flex",
+      "i18n_name_key": "models.flux_2_flex.name",
+      "i18n_description_key": "models.flux_2_flex.description",
+      "provider": "kie-ai",
+      "model_id": "flux-2/flex-text-to-image",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "3:4",
+        "4:3",
+        "9:16",
+        "16:9"
+      ],
+      "credits_per_generation": 140,
+      "max_generations_per_minute": 5,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/flux.svg",
+      "model_type": "img2img",
+      "badges": [
+        {
+          "text": "2K",
+          "bgColor": "#DBEAFE",
+          "textColor": "#1D4ED8",
+          "borderColor": "#93C5FD"
+        },
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "config": {
+        "prompt_max_length": 5000,
+        "prompt_min_length": 3,
+        "output_format": "png",
+        "image_size": [
+          "1:1",
+          "2:3",
+          "3:2",
+          "3:4",
+          "4:3",
+          "9:16",
+          "16:9"
+        ],
+        "image_resolution": [
+          "1K",
+          "2K"
+        ],
+        "default_resolution": "1K",
+        "max_images": 8,
+        "resolution_credits": {
+          "1K": 70,
+          "2K": 120
+        },
+        "supports_reference_image": true,
+        "auto_switch_mode": false,
+        "unified_text2img_img2img": false,
+        "reference_mode": {
+          "model_id": "flux-2/flex-image-to-image",
+          "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask"
+        }
+      }
+    },
+    {
+      "name": "Kling-Video",
+      "i18n_name_key": "models.kling_video.name",
+      "i18n_description_key": "models.kling_video.description",
+      "provider": "kling",
+      "model_id": "kling/video-v2.5",
+      "api_endpoint": "https://api.kie.ai/api/v1/kling/video/createTask",
+      "max_counts": 1,
+      "credits_per_generation": 210,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": true,
+      "thumbnail_url": "/imgs/models/kling.svg",
+      "model_type": "text2video",
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "duration",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "5",
+              "10"
+            ],
+            "default": "5",
+            "unit": "s"
+          },
+          {
+            "key": "negative_prompt",
+            "i18n_label_key": "parameters.negative_prompt",
+            "type": "text",
+            "default": "",
+            "placeholder_key": "parameters.negative_prompt_placeholder"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 2500,
+        "prompt_min_length": 10,
+        "durationRange": [
+          3,
+          10
+        ],
+        "resolutions": [
+          "720p",
+          "1080p"
+        ],
+        "motions": [
+          "pan",
+          "tilt",
+          "push",
+          "pull",
+          "rotate",
+          "shake"
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 1,
+          "image_field": "image_url",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": false
+        }
+      }
+    },
+    {
+      "name": "Hailuo 2.3 Pro",
+      "i18n_name_key": "models.hailuo_2_3_pro.name",
+      "i18n_description_key": "models.hailuo_2_3_pro.description",
+      "provider": "kie-ai",
+      "model_id": "hailuo/2-3-image-to-video-pro",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "credits_per_generation": 200,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/hailuo.svg",
+      "model_type": "text2video",
+      "supported_tasks": [
+        "image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "duration_seconds",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "6",
+              "10"
+            ],
+            "default": "6",
+            "unit": "s",
+            "constraints": [
+              {
+                "dependsOn": "resolution",
+                "when": "1080p",
+                "availableOptions": [
+                  "6"
+                ],
+                "autoAdjust": "6"
+              }
+            ]
+          },
+          {
+            "key": "resolution",
+            "i18n_label_key": "parameters.resolution",
+            "type": "select",
+            "options": [
+              "768p",
+              "1080p"
+            ],
+            "default": "768p",
+            "constraints": [
+              {
+                "dependsOn": "duration_seconds",
+                "when": "10",
+                "availableOptions": [
+                  "768p"
+                ],
+                "autoAdjust": "768p"
+              }
+            ]
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 5000,
+        "prompt_min_length": 10,
+        "durationRange": [
+          6,
+          10
+        ],
+        "resolutions": [
+          "768p",
+          "1080p"
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 1,
+          "image_field": "image_url",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": false,
+          "image_required": true
+        },
+        "credits_mapping": {
+          "6": {
+            "768p": 200,
+            "1080p": 350
+          },
+          "10": {
+            "768p": 400
+          }
+        }
+      }
+    },
+    {
+      "name": "Sora-2 Pro",
+      "i18n_name_key": "models.sora2_pro.name",
+      "i18n_description_key": "models.sora2_pro.description",
+      "provider": "kie-ai",
+      "model_id": "sora-2-pro",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "landscape",
+        "portrait"
+      ],
+      "credits_per_generation": 375,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/sora.svg",
+      "model_type": "text2video",
+      "badges": [
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video",
+        "multi_image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "aspect_ratio",
+            "i18n_label_key": "parameters.aspect_ratio",
+            "type": "select",
+            "options": [
+              "landscape",
+              "portrait"
+            ],
+            "default": "landscape"
+          },
+          {
+            "key": "duration",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "10",
+              "15"
+            ],
+            "default": "10",
+            "unit": "s"
+          },
+          {
+            "key": "quality",
+            "i18n_label_key": "parameters.qualityai-model",
+            "type": "select",
+            "options": [
+              "standard",
+              "high"
+            ],
+            "default": "standard"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 10000,
+        "prompt_min_length": 10,
+        "model_types": {
+          "text_to_video": "sora-2-pro-text-to-video",
+          "image_to_video": "sora-2-pro-image-to-video"
+        },
+        "credits_mapping": {
+          "10_standard": 375,
+          "15_standard": 675,
+          "10_high": 825,
+          "15_high": 1575
+        },
+        "durationRange": [
+          10,
+          15
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 3,
+          "image_field": "image_urls",
+          "oc_reference_priority": "combine",
+          "supports_oc_and_reference": true,
+          "multi_image_enabled": true
+        }
+      }
+    },
+    {
+      "name": "Veo 3.1 Fast",
+      "i18n_name_key": "models.veo_3_1_fast.name",
+      "i18n_description_key": "models.veo_3_1_fast.description",
+      "provider": "kie-ai",
+      "model_id": "veo3_fast",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "supported_ratios": [
+        "1:1",
+        "9:16",
+        "16:9"
+      ],
+      "credits_per_generation": 300,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/deepmind-color.svg",
+      "model_type": "text2video",
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "aspect_ratio",
+            "i18n_label_key": "parameters.aspect_ratio",
+            "type": "select",
+            "options": [
+              "1:1",
+              "9:16",
+              "16:9"
+            ],
+            "default": "16:9"
+          },
+          {
+            "key": "watermark",
+            "i18n_label_key": "parameters.watermark",
+            "type": "text",
+            "default": "",
+            "placeholder_key": "parameters.watermark_placeholder"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 800,
+        "prompt_min_length": 10,
+        "durationRange": [
+          5
+        ],
+        "output_format": "mp4",
+        "image_params": {
+          "max_images": 1,
+          "image_field": "imageUrls",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": false
+        },
+        "generation_types": {
+          "text_to_video": "TEXT_2_VIDEO",
+          "image_to_video": "FIRST_AND_LAST_FRAMES_2_VIDEO"
+        },
+        "aspect_ratio_mapping": {
+          "1:1": "Auto",
+          "9:16": "9:16",
+          "16:9": "16:9"
+        }
+      }
+    },
+    {
+      "name": "Kling 3.0",
+      "i18n_name_key": "models.kling_3_0_video.name",
+      "i18n_description_key": "models.kling_3_0_video.description",
+      "provider": "kie-ai",
+      "model_id": "kling-3.0/video",
+      "api_endpoint": "https://api.kie.ai/api/v1/jobs/createTask",
+      "max_counts": 1,
+      "credits_per_generation": 300,
+      "max_generations_per_minute": 10,
+      "status": "active",
+      "is_default": false,
+      "is_premium": true,
+      "thumbnail_url": "/imgs/models/kling.svg",
+      "model_type": "text2video",
+      "badges": [
+        {
+          "text": "-50%",
+          "bgColor": "#FFE4E6",
+          "textColor": "#BE123C",
+          "borderColor": "#FDA4AF"
+        }
+      ],
+      "supported_tasks": [
+        "text_to_video",
+        "image_to_video"
+      ],
+      "supported_ratios": [
+        "1:1",
+        "9:16",
+        "16:9"
+      ],
+      "ui_config": {
+        "params": [
+          {
+            "key": "duration_seconds",
+            "i18n_label_key": "parameters.duration",
+            "type": "select",
+            "options": [
+              "3",
+              "5",
+              "10",
+              "15"
+            ],
+            "default": "5",
+            "unit": "s"
+          },
+          {
+            "key": "mode",
+            "i18n_label_key": "parameters.mode",
+            "type": "select",
+            "options": [
+              "std",
+              "pro"
+            ],
+            "default": "std"
+          },
+          {
+            "key": "multi_shots",
+            "i18n_label_key": "parameters.multi_shots",
+            "type": "toggle",
+            "default": false
+          },
+          {
+            "key": "sound",
+            "i18n_label_key": "parameters.sound",
+            "type": "toggle",
+            "default": false
+          },
+          {
+            "key": "aspect_ratio",
+            "i18n_label_key": "parameters.aspect_ratio",
+            "type": "select",
+            "options": [
+              "1:1",
+              "9:16",
+              "16:9"
+            ],
+            "default": "1:1"
+          }
+        ]
+      },
+      "config": {
+        "prompt_max_length": 2500,
+        "prompt_min_length": 10,
+        "modes": [
+          "std",
+          "pro"
+        ],
+        "output_format": "mp4",
+        "credits_mapping": {
+          "billing_type": "per_second",
+          "mc_per_second": {
+            "std": {
+              "no_audio": 60,
+              "with_audio": 90
+            },
+            "pro": {
+              "no_audio": 85,
+              "with_audio": 120
+            }
+          }
+        },
+        "image_params": {
+          "max_images": 2,
+          "image_field": "image_urls",
+          "oc_reference_priority": "oc_first",
+          "supports_oc_and_reference": true,
+          "image_required": false
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+# 生成服务 API 测试 - OC Maker
+# OC Maker APIs
+# 相关文档: docs/2-implementation/api/oc-maker.md
+
+@import common.http
+
+###############################################################################
+# OC Maker 配置 (OC Maker Config)
+###############################################################################
+
+### 获取 OC Maker 配置
+GET {{apiUrl}}/oc-maker/config
+
+### 验证 OC 配置
+POST {{apiUrl}}/oc-maker/config
+Content-Type: application/json
+
+{
+  "name": "Test Character",
+  "species": "human",
+  "gender": "female"
+}
+
+### 检查 OC 创建限额
+GET {{apiUrl}}/oc-maker/check-limit
+
+###############################################################################
+# OC 角色管理 (OC Character Management)
+###############################################################################
+
+### 获取用户 OC 列表
+GET {{apiUrl}}/oc-maker/characters?page=1&limit=20
+
+### 创建新 OC
+POST {{apiUrl}}/oc-maker/characters
+Content-Type: application/json
+
+{
+  "name": "Luna",
+  "species": "cat",
+  "gender": "female",
+  "age": "young_adult",
+  "personality": ["cheerful", "energetic"],
+  "appearance": {
+    "hair_color": "blue",
+    "eye_color": "green"
+  },
+  "background_story": "A cheerful cat girl who loves adventures"
+}
+
+### 获取 OC 详情
+GET {{apiUrl}}/oc-maker/characters/{{characterUuid}}
+
+### 更新 OC
+PUT {{apiUrl}}/oc-maker/characters/{{characterUuid}}
+Content-Type: application/json
+
+{
+  "personality": ["cheerful", "energetic", "brave"]
+}
+
+### 删除 OC
+DELETE {{apiUrl}}/oc-maker/characters/{{characterUuid}}
+
+###############################################################################
+# OC 生成 (OC Generation)
+###############################################################################
+
+### 灵魂显现 (快速生成)
+POST {{apiUrl}}/oc-maker/quick-generate
+Content-Type: application/json
+
+{
+  "description": "A silver haired knight with golden eyes",
+  "gender": "female",
+  "art_style": "anime",
+  "species": "human",
+  "auto_generate_image": true
+}
+
+### 生成 OC 头像
+POST {{apiUrl}}/oc-maker/characters/generate-avatar
+Content-Type: application/json
+
+{
+  "character_uuid": "{{characterUuid}}",
+  "style": "anime"
+}
+
+### 更新 OC 头像
+POST {{apiUrl}}/oc-maker/characters/{{characterUuid}}/avatar
+Content-Type: application/json
+
+{
+  "image_url": "{{avatarImageUrl}}",
+  "type": "upload"
+}
+
+### 生成 OC 图片
+POST {{apiUrl}}/oc-maker/characters/generate-image
+Content-Type: application/json
+
+{
+  "character_uuid": "{{characterUuid}}",
+  "prompt": "standing in a garden",
+  "style": "anime"
+}
+
+###############################################################################
+# 公开 OC (Public OC)
+###############################################################################
+
+### 获取公开 OC 列表
+GET {{apiUrl}}/oc-maker/public/characters?page=1&limit=20
+
+###############################################################################
+# 标签 (Tags)
+###############################################################################
+
+### 获取预置标签
+GET {{apiUrl}}/tags/presets

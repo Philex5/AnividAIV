@@ -1,0 +1,81 @@
+# 生成服务 API 测试 - 动漫图片生成
+# Anime Image Generation APIs
+# 相关文档: docs/2-implementation/api/anime-generation.md, generation.md
+
+@import common.http
+
+###############################################################################
+# 动漫图片生成 (Anime Image Generation)
+###############################################################################
+
+### 创建动漫图片生成任务
+POST {{apiUrl}}/anime-generation/create-task
+Content-Type: application/json
+
+{
+  "prompt": "a cute anime girl with blue hair",
+  "style": "anime",
+  "aspect_ratio": "1:1",
+  "model": "nano-banana-1.0"
+}
+
+### 获取生成历史
+GET {{apiUrl}}/anime-generation/history?page=1&limit=20
+
+### 优化 Prompt
+POST {{apiUrl}}/anime-generation/optimize-prompt
+Content-Type: application/json
+
+{
+  "prompt": "cute girl",
+  "style": "anime"
+}
+
+### LLM 提取层构建提示词
+POST {{apiUrl}}/anime-generation/build-extract-prompt
+Content-Type: application/json
+
+{
+  "template_key": "world-cover",
+  "template_params": {
+    "world_name": "Aetheria",
+    "world_genre": "fantasy",
+    "world_description": "Floating islands and ancient ruins bathed in golden light",
+    "scene_hint": "dawn skyline"
+  },
+  "use_llm_build": true
+}
+
+###############################################################################
+# 生成任务通用 API (Generation Common)
+###############################################################################
+
+### 查询生成任务状态
+GET {{apiUrl}}/generation/status/{{generationUuid}}
+
+### 获取生成图片
+GET {{apiUrl}}/generation/image/{{generationUuid}}
+
+### 解析生成图片资源
+GET {{apiUrl}}/generation/image-resolve/{{generationUuid}}
+
+### KieAI Webhook 回调（模拟测试）
+POST {{apiUrl}}/generation/webhook
+Content-Type: application/json
+
+{
+  "task_id": "test-task-id",
+  "status": "success",
+  "result": {
+    "image_url": "https://example.com/image.png"
+  }
+}
+
+### 处理生成失败
+POST {{apiUrl}}/generation/handle-failure
+Content-Type: application/json
+
+{
+  "generation_uuid": "{{generationUuid}}",
+  "error": "Generation timeout"
+}

@@ -1,0 +1,64 @@
+{
+  "title": "キャラクター",
+  "subtitle": "コミュニティによって作成されたオリジナルキャラクターを発見しましょう。",
+  "search": {
+    "placeholder": "キャラクターまたはクリエイターを検索",
+    "button": "検索",
+    "clear": "クリア"
+  },
+  "sort": {
+    "latest": "最新",
+    "trending": "トレンド",
+    "top": "トップ"
+  },
+  "filters": {
+    "title": "フィルター",
+    "style": "スタイル",
+    "species": "種族",
+    "gender": "性別",
+    "role": "役割",
+    "world": "世界",
+    "gender_all": "すべて",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "gender_other": "その他",
+    "clear": "すべてクリア"
+  },
+  "states": {
+    "loading": "キャラクターを読み込み中...",
+    "loadingMore": "さらにキャラクターを読み込み中...",
+    "noResults": "キャラクターが見つかりませんでした",
+    "loadFailed": "キャラクターの読み込みに失敗しました",
+    "retry": "再試行"
+  },
+  "aria": {
+    "sort": "キャラクターを並べ替え",
+    "filters": "キャラクターをフィルター",
+    "search": "キャラクターを検索",
+    "viewDetail": "キャラクターの詳細を表示",
+    "like": "キャラクターをいいね",
+    "favorite": "キャラクターをお気に入り"
+  },
+  "toasts": {
+    "loadFailed": "キャラクターの読み込みに失敗しました",
+    "loadMoreFailed": "さらにキャラクターの読み込みに失敗しました",
+    "likeFailed": "いいねの更新に失敗しました",
+    "favoriteFailed": "お気に入りの更新に失敗しました"
+  },
+  "card": {
+    "by": "作成",
+    "likes": "いいね",
+    "views": "閲覧"
+  },
+  "breadcrumb": {
+    "home": "ホーム",
+    "characters": "すべてのキャラクター"
+  },
+  "actions": {
+    "like": "いいね",
+    "fav": "お気に入り",
+    "share": "共有",
+    "download": "ダウンロード",
+    "more": "その他"
+  }
+}

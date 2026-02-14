@@ -1,0 +1,6 @@
+{
+  "archive_threshold_days": 30,
+  "hot_messages_per_session": 100,
+  "enable_compression": true,
+  "compression_level": 6
+}

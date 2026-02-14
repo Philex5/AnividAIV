@@ -1,0 +1,412 @@
+{
+  "metadata": {
+    "title": "アニメキャラクタージェネレーターと創作者 | 無料トライアル | AnividAI",
+    "description": "AnividAIのアニメキャラクタージェネレーターで唯一のキャラクターをデザイン・カスタマイズ。パーソナライズされたアニメキャラクターを使用して画像、動画、その他のコンテンツを創作しましょう",
+    "keywords": "アニメキャラクタージェネレーター, アニメキャラクター作成, キャラクターメーカー, AIアニメキャラ"
+  },
+  "navigation": {
+    "back_to_home": "ホームに戻る",
+    "start_creating": "創作を始める",
+    "browse_gallery": "ギャラリーを見る"
+  },
+  "Introduce": {
+    "title": "アニメキャラクタージェネレーターとは何か？",
+    "description": "アニメキャラクタージェネレーターは、ストーリーテリング、ゲーム、漫画、アニメーション、デジタルアートに使用する独自のキャラクターの創作・設計・カスタマイズに特化した専門的なツールです。AnividAIプラットフォームにおいて、アニメキャラクタージェネレーターは、ユーザーが独自のキャラクターを構築し、幅広いAI駆動アプリケーションを解放する中核機能です。AnividAIのアニメキャラクタージェネレーターでは、あなた自身のキャラクターの生成とパーソナライズだけでなく、チャットで対話でき、アニメ画像・動画生成でメインキャラクターとして使用可能で、アクションフィギュアジェネレーターやステッカージェネレーターなどの創作ツールも探索可能です。あなたの創作を中心に、プロフェッショナルで柔軟かつ革新的なキャラクター作成エコシステムを体験してください。",
+    "tagline": "AnividAIのアニメキャラクタージェネレーター – 至高のキャラクター作成ツール",
+    "image": {
+      "src": "showcases/landingpage-features/feature-ocs-maker.webp",
+      "alt": "AnividAIのアニメキャラクタージェネレーターを使用して創作されたキャラクターのカード"
+    }
+  },
+  "oc_gallery": {
+    "title": "インスピレーションキャラクターギャラリー",
+    "subtitle": "",
+    "loading": "キャラクターを読み込み中...",
+    "empty": "キャラクターが見つかりません",
+    "previous": "前へ",
+    "next": "次へ",
+    "age": "年齢 {age}",
+    "species_label": "種族",
+    "style_label": "アートスタイル",
+    "traits_label": "主要特性",
+    "traits_more": "+{count} その他",
+    "use_template": "テンプレートとして使用",
+    "template_loaded": "テンプレートが読み込まれました！カスタマイズしてあなたのバージョンを生成してください。",
+    "use_template_tooltip": "このキャラクターをベースとして開始"
+  },
+  "character_creation": {
+    "title": "アニメキャラクター創作者",
+    "theme_title": "{theme} キャラクター創作者",
+    "basic_info": "基本情報",
+    "name": "キャラクター名",
+    "name_placeholder": "キャラクター名を入力してください",
+    "name_required": "名前は必須です",
+    "gender": "性別",
+    "gender_male": "男性",
+    "gender_female": "女性",
+    "gender_other": "その他",
+    "gender_required": "性別は必須です",
+    "age": "年齢",
+    "age_placeholder": "",
+    "species": "種族",
+    "species_placeholder": "種族を選択",
+    "role_label": "役割",
+    "role": "役割",
+    "personality_traits": "性格特性",
+    "brief_introduction": "簡単な紹介",
+    "brief_introduction_placeholder": "キャラクターの簡単な紹介を入力してください...",
+    "brief_introduction_generate": "AIで生成",
+    "brief_introduction_generating": "生成中...",
+    "brief_introduction_hint": "キャラクターの1文まとめ",
+    "background_story": "背景ストーリー",
+    "background_placeholder": "キャラクターの背景ストーリーを説明してください...",
+    "outfit_style": "衣装スタイル",
+    "outfit_placeholder": "キャラクターの衣装スタイルを説明してください...",
+    "color_scheme": "カラースキーム",
+    "color_placeholder": "カラースキームを選択",
+    "visibility": "可視性",
+    "visibility_private": "非公開のみ",
+    "visibility_friends": "フレンドに公開",
+    "visibility_public": "公開",
+    "allow_fork": "リミックスを許可",
+    "creating": "創作中...",
+    "create_character": "キャラクターを作成",
+    "preview": "プレビュー",
+    "edit": "編集"
+  },
+  "character_card": {
+    "view_details": "詳細を見る",
+    "edit": "編集",
+    "delete": "削除",
+    "share": "共有",
+    "like": "いいね",
+    "unlike": "いいね取消",
+    "views": "視聴",
+    "likes": "いいね",
+    "generations": "生成",
+    "forks": "フォーク",
+    "public": "公開",
+    "private": "非公開",
+    "theme": "テーマ",
+    "unnamed_character": "名無しのキャラクター",
+    "visual_features": "視覚特徴",
+    "no_visual_features": "視覚特徴が設定されていません",
+    "attributes": "属性",
+    "no_introduction": "まだ紹介が書かれいません",
+    "character_artwork": "キャラクターアートワーク",
+    "no_style": "スタイルなし",
+    "background_story": "背景ストーリー",
+    "no_background": "まだ背景ストーリーが書かれません"
+  },
+  "call_to_action": {
+    "title": "AnividAIであなた自身のアニメキャラクターをデザインする準備はできましたか？",
+    "description": "世界のクリエイターと共に、あなたのキャラクターアイデアを現実にしましょう。私たちのアニメキャラクタージェネレーターでジャーニーを始め、キャラクターベースの幅広いアプリケーションを探索してください。",
+    "start_creating": "無料トライアルで今すぐ試す"
+  },
+  "stats": {
+    "active_users": "アクティブユーザー",
+    "characters_created": "創作されたキャラクター",
+    "theme_templates": "テーマテンプレート",
+    "online_service": "オンラインサービス"
+  },
+  "tabs": {
+    "save": "キャラクターを保存",
+    "gallery": "キャラクターギャラリー",
+    "info": "テーマ情報"
+  },
+  "errors": {
+    "load_themes_failed": "テーマの読み込みに失敗しました",
+    "load_characters_failed": "キャラクターの読み込みに失敗しました",
+    "create_character_failed": "キャラクターの作成に失敗しました",
+    "delete_character_failed": "キャラクターの削除に失敗しました",
+    "like_failed": "いいねに失敗しました",
+    "unlike_failed": "いいね取消に失敗しました",
+    "name_and_gender_required": "キャラクター名と性別を入力してください",
+    "character_not_found": "キャラクターが見つかりません",
+    "access_denied": "アクセスが拒否されました",
+    "delete_confirm": "キャラクター「{name}」を削除してもよろしいですか？",
+    "delete_failed_retry": "削除に失敗しました。もう一度お試しください。",
+    "link_copied": "リンクがクリップボードにコピーされました",
+    "check_url_message": "URLを確認して再試行してください。"
+  },
+  "loading_states": {
+    "loading_themes": "テーマを読み込み中...",
+    "loading_theme_data": "テーマデータを読み込み中...",
+    "no_themes": "利用可能なテーマがありません"
+  },
+  "backgrounds": {
+    "freedom_fighter": "自由戦士",
+    "speed_racer": "スピードレーサー",
+    "tech_inventor": "技術発明家",
+    "guardian_protector": "守護者",
+    "student_scholar": "学生・学者",
+    "artist_creator": "アーティスト・創作者",
+    "wandering_explorer": "放浪の探検家",
+    "community_helper": "地域ボランティア"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "subtitle": "アニメキャラクタージェネレーターの機能と使用方法について回答します",
+    "items": [
+      {
+        "question": "アニメキャラクタージェネレーターとは何ですか、またどのように動作しますか？",
+        "answer": "アニメキャラクタージェネレーターは、独自のキャラクターの創作・設計・カスタマイズに特化したツールです。高度なAIを使用して、入力に基づいてキャラクター情報、肖像画、背景ストーリーを生成し、キャラクター作成を迅速かつ専門的に行えるよう支援します。"
+      },
+      {
+        "question": "アニメキャラクタージェネレーターを無料で使えますか？",
+        "answer": "AnividAIは、キャラクター創作者の無料機能を提供し、試用版を体験できます。コア機能は無料で試すことができ、高度な機能や拡張された使用にはクレジットまたはサブスクリプションが必要になる場合があります。"
+      },
+      {
+        "question": "キャラクター作成に利用可能なスタイルはありますか？",
+        "answer": "当ジェネレーターは、写実的、宮崎駿風、グルメアニメ、古典アニメ、ちびなど幅広いスタイルをサポートしています。あなたの創作ビジョンに合わせてキャラクターの外観をカスタマイズできます。"
+      },
+      {
+        "question": "私のキャラクターでAnividAI上にどのような創作アプリケーションを探求できますか？",
+        "answer": "AnividAIのアニメキャラクタージェネレーターは、豊かなキャラクターエコシステムをサポートしています。キャラクターを使用してアニメ画像と動画を生成し、チャットを行い、アクションフィギュアを作成し、ステッカーを生成できます。プラットフォームにより、創作を複数のアート形式とインタラクティブな経験に拡張できます。"
+      },
+      {
+        "question": "ジェネレーターを使用してどのようにキャラクターカードとポートレートを生成しますか？",
+        "answer": "あなたのキャラクターの基本情報と外観詳細を入力し、クリックして生成してください。アニメキャラクタージェネレーターは、プロフェッショナルなキャラクターカードと詳細なポートレートを瞬時に作成します。"
+      },
+      {
+        "question": "私のキャラクターに経歴や背景故事を追加できますか？",
+        "answer": "はい。当ツールでは、経歴と複数のパートの背景故事を追加でき、主要な出来事やマイルストーンが含まれています。この機能により、あなたの創作のための豊かな物語を構築できます。"
+      },
+      {
+        "question": "私のキャラクターをダウンロードまたは共有することはできますか？",
+        "answer": "もちろんです。キャラクターのカードとポートレートをダウンロードしたり、友人にコミュニティで、または創作プラットフォームで直接共有したりできます。"
+      },
+      {
+        "question": "作成したキャラクターを商用プロジェクトに使用できますか？",
+        "answer": "はい。AnividAIのアニメキャラクタージェネレーターで作成されたキャラクターは、個人的および商用的目的に使用できます。著作権のある宇宙を使用する場合は、テーマ固有のライセンスを確認してください。"
+      },
+      {
+        "question": "ジェネレーターはどのようにキャラクターの一貫性を保証しますか？",
+        "answer": "当ツールはAIを使用して、すべてのキャラクター生成の外観、性格特性、詳細の一貫性を維持し、キャラクターが元の設計と一致することを保証します。"
+      },
+      {
+        "question": "作成できるキャラクターの数に制限はありますか？",
+        "answer": "作成できるキャラクターの数に厳格な制限はありません。ただし、使用にはクレジット残高またはアカウント保存容量の制限が適用される場合があります。キャラクターを管理し、必要に応じて古いものを削除できます。"
+      },
+      {
+        "question": "アニメキャラクタージェネレーターでどのように始めればよいですか？",
+        "answer": "AnividAIに登録し、アニメキャラクタージェネレーターにアクセスし、ステップバイステップのプロセスに従ってキャラクターを創作、カスタマイズ、共有してください。誰にでも簡単にキャラクター作成ができるよう設計されています。"
+      }
+    ]
+  },
+  "how_to_use": {
+    "title": "アニメキャラクタージェネレーターのステップバイステップガイド",
+    "subtitle": "高度なジェネレーターであなたの唯一のアニメキャラクターを簡単かつ効率的に設計・カスタマイズしてください。",
+    "step_1_title": "キャラクターの基本情報を入力",
+    "step_1_description": "名前、性別、種族、年齢、性格特性など、キャラクターの必需な詳細の入力から始めてください。ジェネレーターは、ストーリーテリング、ゲーム、漫画、アニメーションに適したキャラクターの基礎築きを支援します。",
+    "step_2_title": "外観を定義してキャラクターカードを生成",
+    "step_2_description": "体型、髪色、目色、独特的外観特性、アクセサリーなど、身体的特徴を指定してください。ワンクリックで、アニメキャラクタージェネレーターは、プロフェッショナルなキャラクター情報カードと詳細なポートレートを生成します。",
+    "step_3_title": "経歴と背景故事を追加",
+    "step_3_description": "経歴と複数のパートの背景故事を追加してキャラクターを強化してください。キャラクターのジャーニーにおける主要な出来事とマイルストーンを記録してください。当ツールは、分節されたストーリー作成をサポートし、すべての重要な詳細を記録することを可能にします。",
+    "step_4_title": "キャラクターをダウンロード・共有",
+    "step_4_description": "キャラクターカードとポートレートを容易にダウンロードまたは共有してください。無料オプションにより、あなたのキャラクターを友人にコミュニティで、または創作プラットフォーム全体で簡単に展示できます。"
+  },
+  "benefits": {
+    "section_title": "AnividAI上のアニメキャラクタージェネレーターの力を発見",
+    "section_subtitle": "専門的なAI駆動ツールと豊かなエコシステムで高度なキャラクター創作を解放",
+    "professional_quality": {
+      "title": "プロ品質の結果",
+      "description": "業界をリードするキャラクター生成を体験してください。AnividAIは、ゲーム、漫画、アニメーション、デジタル藝術に適した、高品質で詳細なキャラクターをお届けします。高度な創作者は、キャラクターが専門基準を満たすことを保証します。"
+    },
+    "diverse_styles": {
+      "title": "多様な芸術スタイル",
+      "description": "写実的、宮崎駿風、グルメアニメ、古典アニメ、ちびなど幅広いスタイルでキャラクターを作成してください。当ジェネレーターにより、キャラクターの外観を探索・カスタマイズできます。"
+    },
+    "fine_details": {
+      "title": "並外れた詳細と精度",
+      "description": "強力なAIモデルは、アクセサリーや核心的外観から独特的なキャラクター特性まで、生成されるすべてのキャラクターが正確な詳細を持つことを保証します。ジェネレーターは、キャラクターの特徴が忠実に表現されることを保証します。"
+    },
+    "character_ecosystem": {
+      "title": "キャラクター中心の創作エコシステム",
+      "description": "創作に基づいて画像、動画、複数の芸術形式を生成し、個人的なキャラクター宇宙を築いてください。AnividAIは、アクションフィギュアジェネレーターやステッカージェネレーターなど、革新的なアプリケーションの探索を可能にします。"
+    },
+    "efficiency": {
+      "title": "効率的でユーザー友好的な創作",
+      "description": "直感的なジェネレーターで時間と労力を節約してください。簡単な説明を提供するだけで、AIキャラクター創作者は、数分で素晴らしい高品質のキャラクターを生成します。"
+    },
+    "rich_character_info": {
+      "title": "包括的なキャラクター情報",
+      "description": "詳細なキャラクターカード、アバター、全身イラスト、深入りした背景故事でキャラクターを展示してください。当ツールは、あなたの創作力を完全に表現することを可能にします。"
+    }
+  },
+  "character_success_dialog": {
+    "title": "キャラクター創作成功！ 🎉",
+    "share": "共有",
+    "create_new": "新作成",
+    "view_character": "クリックして詳細を見る",
+    "quick_actions": "クイックアクション",
+    "generate_image": "画像生成",
+    "generate_video": "動画生成",
+    "oc_apps": "キャラクターアプリ"
+  },
+  "creation_tool": {
+    "title": "AI アニメキャラクタージェネレーター & 創作者",
+    "loading_configurations": "設定を読み込み中...",
+    "steps": {
+      "basic_info": "基本情報",
+      "visual_design": "視覚設計",
+      "background_story": "背景ストーリー"
+    },
+    "buttons": {
+      "next_visual_design": "次へ：視覚設計",
+      "generate_character_art": "キャラクターアートを生成",
+      "generating": "生成中...",
+      "generating_character": "キャラクターを生成中...",
+      "generating_avatar": "アバターを生成中...",
+      "save_character": "キャラクターを保存",
+      "saving": "保存中...",
+      "creating": "創作中...",
+      "add_section": "セクションを追加",
+      "add_custom_attribute": "カスタム属性を追加",
+      "try_again": "再試行"
+    },
+    "status": {
+      "generating_character": "キャラクターアートワークを生成中...",
+      "generating_avatar": "キャラクターアバターを生成中...",
+      "ready_to_generate": "画像生成の準備ができています",
+      "artwork_placeholder": "キャラクターアートワークがここに表示されます"
+    },
+    "errors": {
+      "auto_save_failed": "キャラクターの保存に失敗しました。もう一度お試しください。",
+      "must_save_first": "画像を生成する前にキャラクターを保存する必要があります",
+      "generation_failed": "生成に失敗しました",
+      "no_character_art": "最初にキャラクターアートワークを生成してください",
+      "missing_species": "このキャラクターの種族を選択してください",
+      "missing_profile_image": "保存する前にプロフィール画像を生成・選択してください",
+      "missing_avatar_image": "保存する前にアバター画像を生成してください"
+    },
+    "basic_info": {
+      "title": "基本情報",
+      "name_label": "名 *",
+      "name_placeholder": "キャラクター名を入力",
+      "gender_label": "性別 *",
+      "gender_placeholder": "選択",
+      "gender_male": "男性",
+      "gender_female": "女性",
+      "gender_other": "その他",
+      "species_label": "種族",
+      "species_placeholder": "選択",
+      "species_custom": "カスタム",
+      "species_custom_placeholder": "カスタム種族を入力",
+      "role_label": "役割",
+      "role_student": "学生",
+      "role_teacher": "教師",
+      "role_warrior": "戦士",
+      "role_mage": "魔法使い",
+      "role_artist": "アーティスト",
+      "role_scientist": "科学者",
+      "role_explorer": "探検家",
+      "role_guardian": "守護者",
+      "role_mystic": "神秘主義者",
+      "role_noble": "貴族",
+      "role_merchant": "商人",
+      "role_healer": "治療師",
+      "role_craftsman": "職人",
+      "role_scholar": "学者",
+      "role_general": "一般",
+      "age_label": "年齢 *",
+      "age_placeholder": "",
+      "body_type_label": "体型",
+      "body_type_placeholder": "体型を選択",
+      "personality_traits_title": "性格特性",
+      "personality_traits_subtitle": "あなたのキャラクターを説明するタグを選択",
+      "custom_personality_tag_placeholder": "特性名を入力",
+      "visibility_title": "可視性と許可",
+      "visibility_label": "可視性",
+      "visibility_private": "非公開",
+      "visibility_public": "公開",
+      "visibility_hint": "キャラクターの可視性レベルを設定",
+      "allow_remix_label": "他者のリミックスを許可",
+      "allow_remix_hint": "他者がこのキャラクターをフォークすることを許可",
+      "extended_attributes_title": "拡張属性",
+      "extended_attributes_subtitle": "あなたのキャラクターにカスタム属性を追加",
+      "attribute_key_placeholder": "属性名",
+      "attribute_value_placeholder": "属性値",
+      "personality_tag_hint": "あなたのキャラクターの行動と態度を定義する主要な資質を選択してください。",
+      "extend_attr_hint": "あなたのキャラクターの背景と能力を富化するための追加の詳細を追加してください。"
+    },
+    "appearance": {
+      "title": "外観設計",
+      "art_style_label": "アートスタイル",
+      "body_type_label": "体型",
+      "body_type_placeholder": "体型を選択",
+      "hair_style_label": "髪型",
+      "hair_style_placeholder": "髪型を選択",
+      "hair_color_label": "髪色",
+      "hair_color_placeholder": "例：黒、茶色、金色",
+      "eye_color_label": "目の色",
+      "eye_color_placeholder": "目の色を選択",
+      "accessories_label": "アクセサリー",
+      "accessories_subtitle": "あなたのキャラクターのアクセサリーを選択",
+      "custom_accessory_placeholder": "アクセサリー名を入力",
+      "outfit_style_label": "衣装スタイル",
+      "outfit_style_placeholder": "キャラクターの衣装を説明...",
+      "appearance_features_label": "外観特徴",
+      "appearance_features_placeholder": "例：赤いスカーフ、金の指輪"
+    },
+    "personality": {
+      "brief_introduction_title": "簡単な紹介 *",
+      "brief_introduction_label": "サマリー",
+      "brief_introduction_placeholder": "あなたのキャラクターの簡単な紹介を入力してください...",
+      "brief_introduction_hint": "あなたのキャラクターの1文サマリー",
+      "ai_generate_tooltip": "AIで生成（近日登場）",
+      "main_background_title": "主要背景ストーリー",
+      "background_label": "キャラクター背景",
+      "background_placeholder": "あなたのキャラクターの物語を伝えてください...",
+      "story_sections_title": "ストーリーセクション",
+      "section_title_placeholder": "セクションタイトル",
+      "section_content_placeholder": "セクション内容..."
+    }
+  },
+  "oc_limit": {
+    "title": "キャラクター制限",
+    "current": "あなたのキャラクター：{count}/{limit}",
+    "reached": "制限に達しました",
+    "warning": "プランをアップグレードするか既存のキャラクターを削除するまで、作成できません。",
+    "upgrade_prompt": "より多くのアニメキャラクター創作のためにアップグレード",
+    "limits_by_plan": {
+      "free": "3 キャラクター",
+      "basic": "10 キャラクター",
+      "plus": "30 キャラクター",
+      "pro": "50 キャラクター"
+    }
+  },
+  "upgrade_prompts": {
+    "oc_limit_reached": "キャラクター制限に達しました。更多を作成するためにアップグレードしてください！",
+    "oc_limit_warning": "あなたは{limit}個中{count}個のキャラクターを作成しました。制限を増やすためにアップグレードしてください。",
+    "subscription_required": "サブスクリプションが必要"
+  },
+  "membership": {
+    "free": "無料",
+    "basic": "基本",
+    "plus": "プラス",
+    "pro": "プロ",
+    "upgrade_now": "今すぐアップグレード"
+  },
+  "linking": {
+    "buttons": {
+      "animateIt": {
+        "label": "アニメーション化",
+        "href": "/ai-video-generation?character_uuid=${character_uuid}"
+      },
+      "ocApps": {
+        "label": "キャラクターアプリ",
+        "listItems": [
+          {
+            "label": "AI アクションフィギュア ジェネレーター",
+            "href": "/ai-action-figure-generator?character_uuid=${character_uuid}"
+          },
+          {
+            "label": "AI ステッカー ジェネレーター",
+            "href": "/ai-sticker-generator?character_uuid=${character_uuid}"
+          }
+        ]
+      }
+    }
+  }
+}

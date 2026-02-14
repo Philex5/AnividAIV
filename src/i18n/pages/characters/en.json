@@ -1,0 +1,64 @@
+{
+  "title": "Characters",
+  "subtitle": "Discover original characters created by the community.",
+  "search": {
+    "placeholder": "Search characters or creators",
+    "button": "Search",
+    "clear": "Clear search"
+  },
+  "sort": {
+    "latest": "Latest",
+    "trending": "Trending",
+    "top": "Top"
+  },
+  "filters": {
+    "title": "Filters",
+    "style": "Style",
+    "species": "Species",
+    "gender": "Gender",
+    "role": "Role",
+    "world": "World",
+    "gender_all": "All",
+    "gender_male": "Male",
+    "gender_female": "Female",
+    "gender_other": "Other",
+    "clear": "Clear All"
+  },
+  "states": {
+    "loading": "Loading characters...",
+    "loadingMore": "Loading more characters...",
+    "noResults": "No characters found",
+    "loadFailed": "Failed to load characters",
+    "retry": "Retry"
+  },
+  "aria": {
+    "sort": "Sort characters",
+    "filters": "Filter characters",
+    "search": "Search characters",
+    "viewDetail": "View character details",
+    "like": "Like character",
+    "favorite": "Favorite character"
+  },
+  "toasts": {
+    "loadFailed": "Failed to load characters",
+    "loadMoreFailed": "Failed to load more characters",
+    "likeFailed": "Failed to update like",
+    "favoriteFailed": "Failed to update favorite"
+  },
+  "card": {
+    "by": "by",
+    "likes": "Likes",
+    "views": "Views"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "characters": "All Characters"
+  },
+  "actions": {
+    "like": "Like",
+    "fav": "Favorite",
+    "share": "Share",
+    "download": "Download",
+    "more": "More"
+  }
+}

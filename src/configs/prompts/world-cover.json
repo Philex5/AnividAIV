@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-02",
+  "config_type": "world_cover",
+  "llm_build": {
+    "model": "gpt-4.1",
+    "temperature": 0.6,
+    "max_tokens": 800,
+    "required_fields": [
+      "world_description",
+      "world_genre",
+      "world_name",
+      "world_theme_colors",
+      "world_tech_magic",
+      "world_species"
+    ],
+    "system_prompt": "You are an expert prompt writer for anime-style world cover illustrations. Produce a vivid scene description focused on environment, atmosphere, scale, and visual motifs. Avoid character descriptions and avoid lists. Output a single paragraph in English without quotes.",
+    "user_prompt_template": "World Name: {world_name}\nGenre: {world_genre}\nDescription: {world_description}\nTags: {world_tags}\nSpecies: {world_species}\nClimate: {world_climate}\nRegions: {world_regions}\nTech/Magic: {world_tech_magic}\nTheme Colors: {world_theme_colors}\nFactions: {world_factions}\nHistory: {world_history}\nExtra: {world_extra}\nScene Hint: {scene_hint}\n\nWrite the final world cover prompt:"
+  },
+  "output_rules": {
+    "max_length": 2000,
+    "sanitize_prompt": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "version": "2026-01-11",
+  "updated_at": "2026-01-11T00:00:00.000Z",
+  "categories": [
+    {
+      "id": "genre",
+      "title": "Genre & Setting",
+      "tags": [
+        "cyberpunk",
+        "fantasy",
+        "sci_fi",
+        "post_apocalyptic",
+        "modern",
+        "steampunk",
+        "urban",
+        "medieval",
+        "space",
+        "mythic"
+      ]
+    },
+    {
+      "id": "role",
+      "title": "Role & Profession",
+      "tags": [
+        "warrior",
+        "mage",
+        "healer",
+        "assassin",
+        "engineer",
+        "pilot",
+        "guardian",
+        "detective",
+        "mercenary",
+        "idol"
+      ]
+    },
+    {
+      "id": "tone",
+      "title": "Tone & Personality",
+      "tags": [
+        "rebellious",
+        "mysterious",
+        "heroic",
+        "stoic",
+        "playful",
+        "gentle",
+        "chaotic",
+        "strategist",
+        "tsundere",
+        "melancholic"
+      ]
+    },
+    {
+      "id": "visual",
+      "title": "Visual Motifs",
+      "tags": [
+        "neon",
+        "mecha",
+        "streetwear",
+        "royal",
+        "armored",
+        "enchanted",
+        "glitch",
+        "hologram",
+        "retro",
+        "biotech"
+      ]
+    }
+  ],
+  "popular": [
+    {
+      "tag": "cyberpunk",
+      "label": "Cyberpunk",
+      "aliases": [
+        "cyber_punk"
+      ],
+      "category": "genre"
+    },
+    {
+      "tag": "fantasy",
+      "label": "Fantasy",
+      "category": "genre"
+    },
+    {
+      "tag": "neon",
+      "label": "Neon",
+      "category": "visual"
+    },
+    {
+      "tag": "mecha",
+      "label": "Mecha",
+      "category": "visual"
+    },
+    {
+      "tag": "guardian",
+      "label": "Guardian",
+      "category": "role"
+    },
+    {
+      "tag": "tsundere",
+      "label": "Tsundere",
+      "category": "tone"
+    }
+  ]
+}

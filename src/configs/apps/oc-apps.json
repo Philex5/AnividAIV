@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "apps": [
+    {
+      "slug": "ai-action-figure-generator",
+      "name": "action_figure",
+      "kind": "image",
+      "i18n_name_key": "features.ai_action_figure_generator.title",
+      "i18n_desc_key": "features.ai_action_figure_generator.description",
+      "image": "/assets/creamy/creation_tool_icon/action_figure.webp",
+      "badge": "hot",
+      "sort_order": 60,
+      "prompt_file": "src/configs/prompts/oc-apps/action-figure-templates.json",
+      "default_model": "image-default",
+      "billing_multiplier": 1,
+      "seo_keywords": [
+        "ai action figure generator",
+        "anime figure",
+        "collectible design",
+        "action figure maker"
+      ]
+    },
+    {
+      "slug": "ai-sticker-generator",
+      "name": "sticker",
+      "kind": "image",
+      "i18n_name_key": "features.ai_sticker_generator.title",
+      "i18n_desc_key": "features.ai_sticker_generator.description",
+      "image": "/assets/creamy/creation_tool_icon/sticker.png",
+      "badge": "new",
+      "sort_order": 50,
+      "prompt_file": "src/configs/prompts/oc-apps/sticker-templates.json",
+      "default_model": "image-default",
+      "billing_multiplier": 1,
+      "seo_keywords": [
+        "ai sticker generator",
+        "anime sticker",
+        "cute stickers",
+        "kawaii sticker maker"
+      ]
+    }
+  ]
+}
